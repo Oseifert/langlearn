@@ -1,0 +1,3099 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-22T22:53:30.333510+00:00",
+  "decks": [
+    {
+      "id": "hw_20260722_225213",
+      "title": "Jobs and Workplace Vocabulary",
+      "source": "Company  Workplace.txt",
+      "summary": "This homework covers common workplace and profession vocabulary in Mandarin. Students will learn how to talk about companies, offices, and various jobs. The lesson also introduces the measure word 'jia' for companies and stores, and a useful sentence for asking about someone's occupation.",
+      "createdAt": "2026-07-22T22:52:13.084241+00:00",
+      "cards": [
+        {
+          "id": "c_9b0f11a34419",
+          "front": "gōngsī",
+          "pinyin": "gōngsī",
+          "meaning": "company",
+          "example": "wǒ zài yì jiā gōngsī gōngzuò",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "gōng",
+            "sī"
+          ]
+        },
+        {
+          "id": "c_84b9251a2cb1",
+          "front": "jiā",
+          "pinyin": "jiā",
+          "meaning": "measure word for companies, stores, restaurants",
+          "example": "yì jiā gōngsī",
+          "notes": "Used when counting businesses or establishments",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_fec49f213751",
+          "front": "bàngōngshì",
+          "pinyin": "bàngōngshì",
+          "meaning": "office",
+          "example": "wǒ de bàngōngshì hěn dà",
+          "notes": "",
+          "tones": [
+            4,
+            1,
+            4
+          ],
+          "syllables": [
+            "bàng",
+            "ōng",
+            "shì"
+          ]
+        },
+        {
+          "id": "c_bcb9243b2b1c",
+          "front": "shēngyìrén",
+          "pinyin": "shēngyìrén",
+          "meaning": "businessperson",
+          "example": "tā shì shēngyìrén",
+          "notes": "",
+          "tones": [
+            1,
+            4,
+            2
+          ],
+          "syllables": [
+            "shēng",
+            "yì",
+            "rén"
+          ]
+        },
+        {
+          "id": "c_c7168511e446",
+          "front": "lǜshī",
+          "pinyin": "lǜshī",
+          "meaning": "lawyer",
+          "example": "wǒ bàba shì lǜshī",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "lǜ",
+            "shī"
+          ]
+        },
+        {
+          "id": "c_3ff0a76aa086",
+          "front": "jiàoshòu",
+          "pinyin": "jiàoshòu",
+          "meaning": "professor",
+          "example": "tā shì dàxué jiàoshòu",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jiào",
+            "shòu"
+          ]
+        },
+        {
+          "id": "c_effe8bd1425e",
+          "front": "yīshēng",
+          "pinyin": "yīshēng",
+          "meaning": "doctor",
+          "example": "wǒ māma shì yīshēng",
+          "notes": "General term for doctor",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "yī",
+            "shēng"
+          ]
+        },
+        {
+          "id": "c_f84bebda13a4",
+          "front": "zhōngyī",
+          "pinyin": "zhōngyī",
+          "meaning": "traditional Chinese medicine doctor",
+          "example": "wǒ xiǎng kàn zhōngyī",
+          "notes": "Very common in Taiwan",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "zhōng",
+            "yī"
+          ]
+        },
+        {
+          "id": "c_1f6550f98950",
+          "front": "xīyī",
+          "pinyin": "xīyī",
+          "meaning": "Western doctor",
+          "example": "tā shì xīyī",
+          "notes": "Refers to Western/modern medicine",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "xī",
+            "yī"
+          ]
+        },
+        {
+          "id": "c_43fb79c00224",
+          "front": "hùshi",
+          "pinyin": "hùshi",
+          "meaning": "nurse",
+          "example": "nà ge hùshi hěn hǎo",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "hù",
+            "shi"
+          ]
+        },
+        {
+          "id": "c_395180cb85a8",
+          "front": "yìshùjiā",
+          "pinyin": "yìshùjiā",
+          "meaning": "artist",
+          "example": "tā shì yìshùjiā",
+          "notes": "",
+          "tones": [
+            4,
+            4,
+            1
+          ],
+          "syllables": [
+            "yì",
+            "shù",
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_d9ea4447ba5b",
+          "front": "zuòjiā",
+          "pinyin": "zuòjiā",
+          "meaning": "author; writer",
+          "example": "wǒ xiǎng dāng zuòjiā",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "zuò",
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_6445b7fa59d8",
+          "front": "yīnyuèjiā",
+          "pinyin": "yīnyuèjiā",
+          "meaning": "musician",
+          "example": "tā shì yīnyuèjiā",
+          "notes": "",
+          "tones": [
+            1,
+            5,
+            4,
+            1
+          ],
+          "syllables": [
+            "yīn",
+            "yu",
+            "è",
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_883c1feb47c7",
+          "front": "sījī",
+          "pinyin": "sījī",
+          "meaning": "driver",
+          "example": "sījī kāi chē hěn kuài",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "sī",
+            "jī"
+          ]
+        },
+        {
+          "id": "c_4c059a579ed4",
+          "front": "yǎnyuán",
+          "pinyin": "yǎnyuán",
+          "meaning": "actor; actress",
+          "example": "tā shì yǎnyuán",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "yǎn",
+            "yuán"
+          ]
+        },
+        {
+          "id": "c_2e5746f27bcf",
+          "front": "yùndòngyuán",
+          "pinyin": "yùndòngyuán",
+          "meaning": "athlete",
+          "example": "wǒ gēge shì yùndòngyuán",
+          "notes": "",
+          "tones": [
+            4,
+            4,
+            2
+          ],
+          "syllables": [
+            "yùn",
+            "dòng",
+            "yuán"
+          ]
+        },
+        {
+          "id": "c_da52aa4753b8",
+          "front": "fúwùyuán",
+          "pinyin": "fúwùyuán",
+          "meaning": "waiter; waitress; server",
+          "example": "fúwùyuán, qǐng guòlái",
+          "notes": "Used to call a server in a restaurant",
+          "tones": [
+            2,
+            4,
+            2
+          ],
+          "syllables": [
+            "fú",
+            "wù",
+            "yuán"
+          ]
+        },
+        {
+          "id": "c_b87a8de15226",
+          "front": "nóngmín",
+          "pinyin": "nóngmín",
+          "meaning": "farmer",
+          "example": "wǒ yéye shì nóngmín",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "nóng",
+            "mín"
+          ]
+        },
+        {
+          "id": "c_d2cd96779e22",
+          "front": "kuàijìshī",
+          "pinyin": "kuàijìshī",
+          "meaning": "accountant",
+          "example": "tā shì kuàijìshī",
+          "notes": "",
+          "tones": [
+            4,
+            4,
+            1
+          ],
+          "syllables": [
+            "kuài",
+            "jì",
+            "shī"
+          ]
+        },
+        {
+          "id": "c_56b4eca15cc2",
+          "front": "gōngzuò",
+          "pinyin": "gōngzuò",
+          "meaning": "work; job",
+          "example": "nǐ zuò shénme gōngzuò?",
+          "notes": "Can be used as noun or verb",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "gōng",
+            "zuò"
+          ]
+        },
+        {
+          "id": "c_cbca66cddcf2",
+          "front": "zuò",
+          "pinyin": "zuò",
+          "meaning": "to do",
+          "example": "nǐ zuò shénme?",
+          "notes": "Used here to mean 'do' in the context of work",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zuò"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260720_193508",
+      "title": "Asking for Directions",
+      "source": "Directions.txt",
+      "summary": "This homework covers essential vocabulary and phrases for asking and giving directions in Mandarin. Students will learn how to say left, right, straight, and how to politely ask for directions to a place. Useful everyday phrases like getting on/off transportation and saying goodbye are also included.",
+      "createdAt": "2026-07-20T19:35:08.866518+00:00",
+      "cards": [
+        {
+          "id": "c_51d0b910c3c2",
+          "front": "wǎng",
+          "pinyin": "wǎng",
+          "meaning": "toward",
+          "example": "wǎng zuǒ guǎi",
+          "notes": "Used before a direction to indicate 'toward that direction'",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "wǎng"
+          ]
+        },
+        {
+          "id": "c_a5931c2386dc",
+          "front": "zuǒ",
+          "pinyin": "zuǒ",
+          "meaning": "left",
+          "example": "wǎng zuǒ guǎi",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "zuǒ"
+          ]
+        },
+        {
+          "id": "c_c2c3214f575b",
+          "front": "zuǒ guǎi",
+          "pinyin": "zuǒ guǎi",
+          "meaning": "turn left",
+          "example": "qǐng zuǒ guǎi",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "zuǒ",
+            "guǎi"
+          ]
+        },
+        {
+          "id": "c_5a2f508804b9",
+          "front": "wǎng zuǒ guǎi",
+          "pinyin": "wǎng zuǒ guǎi",
+          "meaning": "turn to the left",
+          "example": "qǐng wǎng zuǒ guǎi",
+          "notes": "More complete/polite way to say turn left",
+          "tones": [
+            3,
+            3,
+            3
+          ],
+          "syllables": [
+            "wǎng",
+            "zuǒ",
+            "guǎi"
+          ]
+        },
+        {
+          "id": "c_0df0eefb8e79",
+          "front": "yòu",
+          "pinyin": "yòu",
+          "meaning": "right",
+          "example": "wǎng yòu guǎi",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "yòu"
+          ]
+        },
+        {
+          "id": "c_05f40b773ca9",
+          "front": "yòu guǎi",
+          "pinyin": "yòu guǎi",
+          "meaning": "turn right",
+          "example": "qǐng yòu guǎi",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "yòu",
+            "guǎi"
+          ]
+        },
+        {
+          "id": "c_f7ce305dc158",
+          "front": "wǎng yòu guǎi",
+          "pinyin": "wǎng yòu guǎi",
+          "meaning": "turn to the right",
+          "example": "qǐng wǎng yòu guǎi",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            3
+          ],
+          "syllables": [
+            "wǎng",
+            "yòu",
+            "guǎi"
+          ]
+        },
+        {
+          "id": "c_1afd33548168",
+          "front": "zhí",
+          "pinyin": "zhí",
+          "meaning": "straight",
+          "example": "zhí zǒu",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "zhí"
+          ]
+        },
+        {
+          "id": "c_41fdfe323c7e",
+          "front": "zhí zǒu",
+          "pinyin": "zhí zǒu",
+          "meaning": "go straight",
+          "example": "qǐng zhí zǒu",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "zhí",
+            "zǒu"
+          ]
+        },
+        {
+          "id": "c_617af7b145c8",
+          "front": "fùjìn",
+          "pinyin": "fùjìn",
+          "meaning": "nearby; vicinity",
+          "example": "xuéxiào de fùjìn",
+          "notes": "Often used with 'de' to mean 'near something'",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "fù",
+            "jìn"
+          ]
+        },
+        {
+          "id": "c_31862952db62",
+          "front": "shàngchē",
+          "pinyin": "shàngchē",
+          "meaning": "get on (a bus, train, plane, etc.)",
+          "example": "qǐng shàngchē",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shàng",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_8c18f561bc3e",
+          "front": "xiàchē",
+          "pinyin": "xiàchē",
+          "meaning": "get off (a bus, train, plane, etc.)",
+          "example": "wǒ yào xiàchē",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "xià",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_90e2332fa7b9",
+          "front": "qǐngwèn",
+          "pinyin": "qǐngwèn",
+          "meaning": "excuse me (polite way to ask a question)",
+          "example": "qǐngwèn, dào chēzhàn zěnme zǒu?",
+          "notes": "Very useful phrase to start any question to a stranger",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "qǐng",
+            "wèn"
+          ]
+        },
+        {
+          "id": "c_a9b6acc363f6",
+          "front": "dào",
+          "pinyin": "dào",
+          "meaning": "to arrive at; to (a place)",
+          "example": "dào xuéxiào zěnme zǒu?",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "dào"
+          ]
+        },
+        {
+          "id": "c_bd661c7627da",
+          "front": "zěnme",
+          "pinyin": "zěnme",
+          "meaning": "how",
+          "example": "zěnme zǒu?",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "zěn",
+            "me"
+          ]
+        },
+        {
+          "id": "c_356633f41f64",
+          "front": "zǒu",
+          "pinyin": "zǒu",
+          "meaning": "to walk; to go",
+          "example": "zhí zǒu",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "zǒu"
+          ]
+        },
+        {
+          "id": "c_490937bef663",
+          "front": "tài hǎo le",
+          "pinyin": "tài hǎo le",
+          "meaning": "That's great!",
+          "example": "tài hǎo le! xièxie nǐ!",
+          "notes": "Common expression of happiness or relief",
+          "tones": [
+            4,
+            3,
+            5
+          ],
+          "syllables": [
+            "tài",
+            "hǎo",
+            "le"
+          ]
+        },
+        {
+          "id": "c_93427943b780",
+          "front": "hǎohǎor",
+          "pinyin": "hǎohǎor",
+          "meaning": "well; properly",
+          "example": "hǎohǎor shuō",
+          "notes": "Reduplicated form for emphasis",
+          "tones": [
+            3,
+            3,
+            5
+          ],
+          "syllables": [
+            "hǎo",
+            "hǎo",
+            "r"
+          ]
+        },
+        {
+          "id": "c_25fcde6c35e3",
+          "front": "gàosu",
+          "pinyin": "gàosu",
+          "meaning": "to tell; to inform",
+          "example": "qǐng gàosu wǒ",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "gào",
+            "su"
+          ]
+        },
+        {
+          "id": "c_9e8f2d5c2033",
+          "front": "mànzǒu",
+          "pinyin": "mànzǒu",
+          "meaning": "Take care! / Goodbye!",
+          "example": "mànzǒu! zàijiàn!",
+          "notes": "Literally 'walk slowly'; a friendly way to say goodbye",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "màn",
+            "zǒu"
+          ]
+        },
+        {
+          "id": "c_190230f3be52",
+          "front": "dìfang",
+          "pinyin": "dìfang",
+          "meaning": "place",
+          "example": "zhège dìfang hěn hǎo",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "dì",
+            "fang"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260716_212622",
+      "title": "Transportation and Daily Commuting",
+      "source": "TutorUpload.txt",
+      "summary": "This homework covers vocabulary and grammar related to transportation and daily commuting. The student will learn how to talk about different modes of transport (bus, train, subway, taxi, bike, motorcycle, boat, plane), describe commuting experiences, and express opinions about convenience and comfort. The material also practices time expressions and comparing experiences in different cities.",
+      "createdAt": "2026-07-16T21:26:22.564881+00:00",
+      "cards": [
+        {
+          "id": "c_d7a402c50e5b",
+          "front": "zuò",
+          "pinyin": "zuò",
+          "meaning": "to take/ride (a vehicle)",
+          "example": "wǒ měitiān zuò gōnggòng qìchē",
+          "notes": "used for buses, trains, taxis, planes, boats",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zuò"
+          ]
+        },
+        {
+          "id": "c_2b29c11c003e",
+          "front": "gōnggòng qìchē",
+          "pinyin": "gōnggòng qìchē",
+          "meaning": "public bus",
+          "example": "zuò gōnggòng qìchē qù gōngzuò",
+          "notes": "",
+          "tones": [
+            1,
+            4,
+            4,
+            1
+          ],
+          "syllables": [
+            "gōng",
+            "gòng",
+            "qì",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_ea019d7f429d",
+          "front": "kāichē",
+          "pinyin": "kāichē",
+          "meaning": "to drive a car",
+          "example": "wǒ měitiān kāichē yí ge xiǎoshí",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "kāi",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_b47e2ae2a508",
+          "front": "huǒchē",
+          "pinyin": "huǒchē",
+          "meaning": "train",
+          "example": "wǒ lèi de shíhou huì zuò huǒchē",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "huǒ",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_493efcb668ad",
+          "front": "dìtiě",
+          "pinyin": "dìtiě",
+          "meaning": "subway/metro",
+          "example": "měitiān dōu zuò dìtiě qù shàngbān",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "dì",
+            "tiě"
+          ]
+        },
+        {
+          "id": "c_19c9faea0f70",
+          "front": "chūzūchē",
+          "pinyin": "chūzūchē",
+          "meaning": "taxi",
+          "example": "wǒmen huì zuò chūzūchē huíjiā",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            1
+          ],
+          "syllables": [
+            "chū",
+            "zū",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_6ff3f7bd6730",
+          "front": "zìxíngchē",
+          "pinyin": "zìxíngchē",
+          "meaning": "bicycle",
+          "example": "qí zìxíngchē guòqù",
+          "notes": "",
+          "tones": [
+            4,
+            2,
+            1
+          ],
+          "syllables": [
+            "zì",
+            "xíng",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_9d084a1b2a9a",
+          "front": "mótuōchē",
+          "pinyin": "mótuōchē",
+          "meaning": "motorcycle/scooter",
+          "example": "qí mótuōchē qù gōngzuò",
+          "notes": "very common in Taiwan",
+          "tones": [
+            2,
+            1,
+            1
+          ],
+          "syllables": [
+            "mó",
+            "tuō",
+            "chē"
+          ]
+        },
+        {
+          "id": "c_7482fe61a3a2",
+          "front": "chuán",
+          "pinyin": "chuán",
+          "meaning": "boat/ship",
+          "example": "zuò chuán cóng Táiwān dào Xiānggǎng",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "chuán"
+          ]
+        },
+        {
+          "id": "c_441b1008f9d3",
+          "front": "fēijī",
+          "pinyin": "fēijī",
+          "meaning": "airplane",
+          "example": "wǒ bú tài xǐhuan zuò fēijī",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "fēi",
+            "jī"
+          ]
+        },
+        {
+          "id": "c_8951dac4bbd9",
+          "front": "qí",
+          "pinyin": "qí",
+          "meaning": "to ride (bike/motorcycle)",
+          "example": "qí mótuōchē hěn fāngbiàn",
+          "notes": "used for things you straddle",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "qí"
+          ]
+        },
+        {
+          "id": "c_e65e5408b635",
+          "front": "zǒulù",
+          "pinyin": "zǒulù",
+          "meaning": "to walk",
+          "example": "yě huì zǒulù huòshì qí zìxíngchē",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "zǒu",
+            "lù"
+          ]
+        },
+        {
+          "id": "c_2734af819949",
+          "front": "fāngbiàn",
+          "pinyin": "fāngbiàn",
+          "meaning": "convenient",
+          "example": "zuò gōnggòng qìchē hěn fāngbiàn",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "fāng",
+            "biàn"
+          ]
+        },
+        {
+          "id": "c_a3514c0230c5",
+          "front": "máfan",
+          "pinyin": "máfan",
+          "meaning": "troublesome/inconvenient",
+          "example": "yào kāichē yǒu yìdiǎnr máfan",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "má",
+            "fan"
+          ]
+        },
+        {
+          "id": "c_80737c342448",
+          "front": "shūfu",
+          "pinyin": "shūfu",
+          "meaning": "comfortable",
+          "example": "zuò chuán yòu ānjìng yòu shūfu",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "shū",
+            "fu"
+          ]
+        },
+        {
+          "id": "c_9e503cee3ac6",
+          "front": "wēixiǎn",
+          "pinyin": "wēixiǎn",
+          "meaning": "dangerous",
+          "example": "yǒu yìdiǎnr wēixiǎn",
+          "notes": "",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "wēi",
+            "xiǎn"
+          ]
+        },
+        {
+          "id": "c_156294832c76",
+          "front": "ānjìng",
+          "pinyin": "ānjìng",
+          "meaning": "quiet",
+          "example": "zuò chuán yòu ānjìng yòu shūfu",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "ān",
+            "jìng"
+          ]
+        },
+        {
+          "id": "c_cf24c92879b6",
+          "front": "wúliáo",
+          "pinyin": "wúliáo",
+          "meaning": "boring",
+          "example": "bú huì juéde hěn wúliáo",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "wú",
+            "liáo"
+          ]
+        },
+        {
+          "id": "c_1a8f658702ce",
+          "front": "lèi",
+          "pinyin": "lèi",
+          "meaning": "tired",
+          "example": "wǒ lèi de shíhou huì zuò huǒchē",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "lèi"
+          ]
+        },
+        {
+          "id": "c_7a4eca357098",
+          "front": "ǒu'ěr",
+          "pinyin": "ǒu'ěr",
+          "meaning": "occasionally",
+          "example": "ǒu'ěr wǒ lèi de shíhou huì zuò huǒchē",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            3
+          ],
+          "syllables": [
+            "ǒu",
+            "'",
+            "ěr"
+          ]
+        },
+        {
+          "id": "c_862b1aa3cca9",
+          "front": "měitiān",
+          "pinyin": "měitiān",
+          "meaning": "every day",
+          "example": "měitiān zuò gōnggòng qìchē qù gōngzuò",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "měi",
+            "tiān"
+          ]
+        },
+        {
+          "id": "c_39f4fc9bed2e",
+          "front": "chángcháng",
+          "pinyin": "chángcháng",
+          "meaning": "often",
+          "example": "yě chángcháng zuò chūzūchē",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "cháng",
+            "cháng"
+          ]
+        },
+        {
+          "id": "c_9217b46826e2",
+          "front": "píngcháng",
+          "pinyin": "píngcháng",
+          "meaning": "usually/normally",
+          "example": "píngcháng yīnwèi rén hěn duō",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "píng",
+            "cháng"
+          ]
+        },
+        {
+          "id": "c_69098ec9f527",
+          "front": "wèizi",
+          "pinyin": "wèizi",
+          "meaning": "seat",
+          "example": "méiyǒu wèizi",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "wèi",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_cc513a5cc3ac",
+          "front": "zuòxià",
+          "pinyin": "zuòxià",
+          "meaning": "to sit down",
+          "example": "rúguǒ yǒu wèizi wǒ huì zuòxià",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "zuò",
+            "xià"
+          ]
+        },
+        {
+          "id": "c_422189a9653f",
+          "front": "huíjiā",
+          "pinyin": "huíjiā",
+          "meaning": "to go home",
+          "example": "zuò chūzūchē huíjiā",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "huí",
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_3e02a2d7d548",
+          "front": "shàngbān",
+          "pinyin": "shàngbān",
+          "meaning": "to go to work",
+          "example": "zuò dìtiě qù shàngbān",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shàng",
+            "bān"
+          ]
+        },
+        {
+          "id": "c_bcb2a49a8c5e",
+          "front": "jiāowài",
+          "pinyin": "jiāowài",
+          "meaning": "suburbs/outskirts",
+          "example": "wǒ zhù zài Jiùjīnshān de jiāowài",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "jiāo",
+            "wài"
+          ]
+        },
+        {
+          "id": "c_b9fae4516021",
+          "front": "guì",
+          "pinyin": "guì",
+          "meaning": "expensive",
+          "example": "Jiùjīnshān de chūzūchē bǐ Niǔyuē guì",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guì"
+          ]
+        },
+        {
+          "id": "c_c7cedd37e408",
+          "front": "hǎowánr",
+          "pinyin": "hǎowánr",
+          "meaning": "fun",
+          "example": "qí mótuōchē hěn hǎowánr",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            5
+          ],
+          "syllables": [
+            "hǎo",
+            "wán",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260623_173144",
+      "title": "Shopping & Phone Calls - Chit Chat Chinese Ch. 11 Continued",
+      "source": "Chit Chat Chinese Ch. 11-CONT.pdf",
+      "summary": "This homework covers shopping vocabulary and dialogues (buying clothes, asking prices, trying things on), making phone calls and plans in Mandarin, the V-yi-V pattern for 'giving something a try,' and using 'zai' to express ongoing actions (-ing). Cultural notes on colors in Chinese culture are also included.",
+      "createdAt": "2026-06-23T17:31:44.397032+00:00",
+      "cards": [
+        {
+          "id": "c_21671e46c829",
+          "front": "mǎi",
+          "pinyin": "mǎi",
+          "meaning": "to buy",
+          "example": "wǒ xiǎng mǎi yī jiàn chènshān",
+          "notes": "3rd tone; don't confuse with mài (to sell)",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "mǎi"
+          ]
+        },
+        {
+          "id": "c_440af2507a19",
+          "front": "mài",
+          "pinyin": "mài",
+          "meaning": "to sell",
+          "example": "zhèi jiā shāngdiàn mài bù mài wàitào?",
+          "notes": "4th tone; same sound as mǎi but different tone",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "mài"
+          ]
+        },
+        {
+          "id": "c_f4952b5ceb1e",
+          "front": "tài",
+          "pinyin": "tài",
+          "meaning": "too (much), extremely",
+          "example": "tài guì le",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "tài"
+          ]
+        },
+        {
+          "id": "c_6895df6c1452",
+          "front": "guì",
+          "pinyin": "guì",
+          "meaning": "expensive",
+          "example": "zhèi jiàn tài guì le",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guì"
+          ]
+        },
+        {
+          "id": "c_40653b3b145a",
+          "front": "piányi",
+          "pinyin": "piányi",
+          "meaning": "cheap, inexpensive",
+          "example": "zhèi jiàn zhēn piányi",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "pián",
+            "yi"
+          ]
+        },
+        {
+          "id": "c_1563fba3a447",
+          "front": "shāngdiàn",
+          "pinyin": "shāngdiàn",
+          "meaning": "store, shop",
+          "example": "yī jiā shāngdiàn",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shāng",
+            "diàn"
+          ]
+        },
+        {
+          "id": "c_66d339ad28df",
+          "front": "jiā",
+          "pinyin": "jiā",
+          "meaning": "measure word for stores, restaurants & businesses",
+          "example": "zhèi jiā shāngdiàn",
+          "notes": "same character as family/home",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "jiā"
+          ]
+        },
+        {
+          "id": "c_7cf6c3f5e921",
+          "front": "guàng",
+          "pinyin": "guàng",
+          "meaning": "to stroll",
+          "example": "guàng yī guàng",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guàng"
+          ]
+        },
+        {
+          "id": "c_02aed20519f6",
+          "front": "guàngjiē",
+          "pinyin": "guàngjiē",
+          "meaning": "to window-shop",
+          "example": "wǒ xiǎng qù guàngjiē",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "guàng",
+            "jiē"
+          ]
+        },
+        {
+          "id": "c_270ea180fc1b",
+          "front": "huānyíng guānglín",
+          "pinyin": "huānyíng guānglín",
+          "meaning": "welcome (said when entering a store)",
+          "example": "huānyíng guānglín!",
+          "notes": "said by staff when you enter a business",
+          "tones": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "syllables": [
+            "huān",
+            "yíng",
+            "guāng",
+            "lín"
+          ]
+        },
+        {
+          "id": "c_e7a0d5df785e",
+          "front": "búcuò",
+          "pinyin": "búcuò",
+          "meaning": "not bad, pretty good",
+          "example": "zhèi jiàn búcuò",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "bú",
+            "cuò"
+          ]
+        },
+        {
+          "id": "c_7660a548f4b1",
+          "front": "hái kěyǐ",
+          "pinyin": "hái kěyǐ",
+          "meaning": "it's OK, it's alright, it's fine",
+          "example": "nà hái kěyǐ",
+          "notes": "implies something is acceptable but not ideal",
+          "tones": [
+            2,
+            3,
+            3
+          ],
+          "syllables": [
+            "hái",
+            "kě",
+            "yǐ"
+          ]
+        },
+        {
+          "id": "c_ddbfedf44861",
+          "front": "liúxíng",
+          "pinyin": "liúxíng",
+          "meaning": "popular, fashionable",
+          "example": "zhèi tiáo hēisè de kùzi hěn liúxíng",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "liú",
+            "xíng"
+          ]
+        },
+        {
+          "id": "c_18222f00d23b",
+          "front": "nín",
+          "pinyin": "nín",
+          "meaning": "you (formal/polite)",
+          "example": "nín xǐhuan ma?",
+          "notes": "used in business, to elders, doctors, bosses",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "nín"
+          ]
+        },
+        {
+          "id": "c_94ea7f082ad9",
+          "front": "shì yī shì",
+          "pinyin": "shì yī shì",
+          "meaning": "give it a try, try it on",
+          "example": "nín kěyǐ shì yī shì zhèi jiàn",
+          "notes": "V-yi-V pattern",
+          "tones": [
+            4,
+            1,
+            4
+          ],
+          "syllables": [
+            "shì",
+            "yī",
+            "shì"
+          ]
+        },
+        {
+          "id": "c_6deeb95faa34",
+          "front": "jìnqù",
+          "pinyin": "jìnqù",
+          "meaning": "to go in, enter",
+          "example": "wǒmen jìnqù guàng yī guàng",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jìn",
+            "qù"
+          ]
+        },
+        {
+          "id": "c_3c67ad79652c",
+          "front": "kànkan",
+          "pinyin": "kànkan",
+          "meaning": "have a look",
+          "example": "chuānshàng kànkan zěnmeyàng",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "kàn",
+            "kan"
+          ]
+        },
+        {
+          "id": "c_85101666fff7",
+          "front": "dǎ diànhuà gěi",
+          "pinyin": "dǎ diànhuà gěi",
+          "meaning": "to give somebody a call",
+          "example": "wǒ dǎ diànhuà gěi nǐ",
+          "notes": "literally: hit + telephone + give",
+          "tones": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "syllables": [
+            "dǎ",
+            "diàn",
+            "huà",
+            "gěi"
+          ]
+        },
+        {
+          "id": "c_53f035737c46",
+          "front": "wéi",
+          "pinyin": "wéi",
+          "meaning": "hello (on telephone)",
+          "example": "wéi? Jiěrú zài ma?",
+          "notes": "used only for phone greetings",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "wéi"
+          ]
+        },
+        {
+          "id": "c_4dbf42551ec0",
+          "front": "zài ma?",
+          "pinyin": "zài ma?",
+          "meaning": "is (someone) there?",
+          "example": "Jiěrú zài ma?",
+          "notes": "used when calling for someone on the phone",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "zài",
+            "ma"
+          ]
+        },
+        {
+          "id": "c_8c647f1c482a",
+          "front": "qǐng děng yīxià",
+          "pinyin": "qǐng děng yīxià",
+          "meaning": "please wait a moment",
+          "example": "qǐng děng yīxià, nǐ de diànhuà",
+          "notes": "",
+          "tones": [
+            3,
+            3,
+            1,
+            4
+          ],
+          "syllables": [
+            "qǐng",
+            "děng",
+            "yī",
+            "xià"
+          ]
+        },
+        {
+          "id": "c_4a2d339f104f",
+          "front": "jiànmiàn",
+          "pinyin": "jiànmiàn",
+          "meaning": "to meet (up)",
+          "example": "wǒmen jǐ diǎn jiànmiàn?",
+          "notes": "literally: see + face",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jiàn",
+            "miàn"
+          ]
+        },
+        {
+          "id": "c_cac74d0b6133",
+          "front": "jiē",
+          "pinyin": "jiē",
+          "meaning": "to pick someone up (at a place)",
+          "example": "wǒ qù jiē nǐ",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "jiē"
+          ]
+        },
+        {
+          "id": "c_a8d4070eb471",
+          "front": "kěyǐ",
+          "pinyin": "kěyǐ",
+          "meaning": "able, that's OK, that's fine",
+          "example": "kěyǐ, méiyǒu wèntí",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "kě",
+            "yǐ"
+          ]
+        },
+        {
+          "id": "c_b3270275e6fd",
+          "front": "xíng",
+          "pinyin": "xíng",
+          "meaning": "possible, can work",
+          "example": "xíng bù xíng?",
+          "notes": "bù xíng = not possible",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "xíng"
+          ]
+        },
+        {
+          "id": "c_1f03b8800f8e",
+          "front": "jièqián",
+          "pinyin": "jièqián",
+          "meaning": "borrow money / lend money",
+          "example": "wǒ kěyǐ jiè nǐ qián",
+          "notes": "same word for both borrowing and lending",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "jiè",
+            "qián"
+          ]
+        },
+        {
+          "id": "c_4b6054b0f5ca",
+          "front": "tài xièxie nǐ le",
+          "pinyin": "tài xièxie nǐ le",
+          "meaning": "thanks so much",
+          "example": "tài xièxie nǐ le!",
+          "notes": "",
+          "tones": [
+            4,
+            4,
+            5,
+            3,
+            5
+          ],
+          "syllables": [
+            "tài",
+            "xiè",
+            "xie",
+            "nǐ",
+            "le"
+          ]
+        },
+        {
+          "id": "c_9701af09db46",
+          "front": "bùyòng kèqi",
+          "pinyin": "bùyòng kèqi",
+          "meaning": "you're very welcome",
+          "example": "bùyòng kèqi!",
+          "notes": "literally: no need for politeness",
+          "tones": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "syllables": [
+            "bù",
+            "yòng",
+            "kè",
+            "qi"
+          ]
+        },
+        {
+          "id": "c_c615bc340166",
+          "front": "biéde",
+          "pinyin": "biéde",
+          "meaning": "other",
+          "example": "wǒmen qù biéde shāngdiàn",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "bié",
+            "de"
+          ]
+        },
+        {
+          "id": "c_0b32711988d6",
+          "front": "wàitào",
+          "pinyin": "wàitào",
+          "meaning": "overcoat",
+          "example": "wǒ xiǎng mǎi yī jiàn wàitào",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "wài",
+            "tào"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260616_032922",
+      "title": "Colors, Clothes, Money & Modifiers",
+      "source": "Chit Chat - Lesson 11.pdf",
+      "summary": "This homework covers color vocabulary, clothing items with their measure words, how to say prices in Mandarin, the use of 'de' as a descriptive particle between adjectives and nouns, and the modifier pattern 'adj. + yidian' meaning 'a bit more.'",
+      "createdAt": "2026-06-16T03:29:22.101660+00:00",
+      "cards": [
+        {
+          "id": "c_89d006f75ac2",
+          "front": "yánsè",
+          "pinyin": "yánsè",
+          "meaning": "color",
+          "example": "zhè shì shénme yánsè?",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yán",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_fd6d2282f1c6",
+          "front": "báisè",
+          "pinyin": "báisè",
+          "meaning": "white",
+          "example": "báisè de chènshān",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "bái",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_deaeabcdf272",
+          "front": "hēisè",
+          "pinyin": "hēisè",
+          "meaning": "black",
+          "example": "hēisè de kùzi",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "hēi",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_152e2f103fa4",
+          "front": "hóngsè",
+          "pinyin": "hóngsè",
+          "meaning": "red",
+          "example": "hóngsè de chènshān",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "hóng",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_fa944b64e4be",
+          "front": "fěnhóngsè",
+          "pinyin": "fěnhóngsè",
+          "meaning": "pink",
+          "example": "fěnhóngsè de qúnzi",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            4
+          ],
+          "syllables": [
+            "fěn",
+            "hóng",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_56cfa168eff8",
+          "front": "chéngsè",
+          "pinyin": "chéngsè",
+          "meaning": "orange",
+          "example": "chéngsè de wàitào",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "chéng",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_810e0bdd03af",
+          "front": "lánsè",
+          "pinyin": "lánsè",
+          "meaning": "blue",
+          "example": "lánsè de xiézi",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "lán",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_7fa58cb5daeb",
+          "front": "zǐsè",
+          "pinyin": "zǐsè",
+          "meaning": "purple",
+          "example": "zǐsè de jiākè",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "zǐ",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_ac344aae697a",
+          "front": "kāfēisè",
+          "pinyin": "kāfēisè",
+          "meaning": "brown (coffee color)",
+          "example": "kāfēisè de kùzi",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            4
+          ],
+          "syllables": [
+            "kā",
+            "fēi",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_a9d892d489bd",
+          "front": "huīsè",
+          "pinyin": "huīsè",
+          "meaning": "gray",
+          "example": "huīsè de mào zi",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "huī",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_c92b0c05951f",
+          "front": "huángsè",
+          "pinyin": "huángsè",
+          "meaning": "yellow",
+          "example": "huángsè de chènshān",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "huáng",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_98d4af8d364b",
+          "front": "lǜsè",
+          "pinyin": "lǜsè",
+          "meaning": "green",
+          "example": "lǜsè de jiākè",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "lǜ",
+            "sè"
+          ]
+        },
+        {
+          "id": "c_6e43f997b38c",
+          "front": "yīfu",
+          "pinyin": "yīfu",
+          "meaning": "clothes",
+          "example": "chuān yīfu",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "yī",
+            "fu"
+          ]
+        },
+        {
+          "id": "c_4a9d175f1c75",
+          "front": "chuān",
+          "pinyin": "chuān",
+          "meaning": "to wear (clothes)",
+          "example": "chuān yīfu",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "chuān"
+          ]
+        },
+        {
+          "id": "c_21b6fdc7e5b1",
+          "front": "chuānshàng",
+          "pinyin": "chuānshàng",
+          "meaning": "to put on (a piece of clothing)",
+          "example": "chuānshàng wàitào",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "chuān",
+            "shàng"
+          ]
+        },
+        {
+          "id": "c_f5b97432c6c1",
+          "front": "dài",
+          "pinyin": "dài",
+          "meaning": "to wear (caps, gloves, glasses)",
+          "example": "dài màozi",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "dài"
+          ]
+        },
+        {
+          "id": "c_ff6f4dc8a887",
+          "front": "tuōxià",
+          "pinyin": "tuōxià",
+          "meaning": "to take off (clothing)",
+          "example": "tuōxià xiézi",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tuō",
+            "xià"
+          ]
+        },
+        {
+          "id": "c_0c78d11aa3ca",
+          "front": "chènshān",
+          "pinyin": "chènshān",
+          "meaning": "shirt",
+          "example": "hóngsè de chènshān",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "chèn",
+            "shān"
+          ]
+        },
+        {
+          "id": "c_268ccf619a5a",
+          "front": "qúnzi",
+          "pinyin": "qúnzi",
+          "meaning": "skirt",
+          "example": "zhèi jiàn qúnzi duōshao qián?",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "qún",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_aa88fe622c67",
+          "front": "wàitào",
+          "pinyin": "wàitào",
+          "meaning": "overcoat",
+          "example": "chuānshàng wàitào",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "wài",
+            "tào"
+          ]
+        },
+        {
+          "id": "c_b82314895f98",
+          "front": "kùzi",
+          "pinyin": "kùzi",
+          "meaning": "pants",
+          "example": "hēisè de kùzi",
+          "notes": "measure word: tiáo",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "kù",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_0b23613ab69a",
+          "front": "xiézi",
+          "pinyin": "xiézi",
+          "meaning": "shoes",
+          "example": "lánsè de xiézi",
+          "notes": "measure word: shuāng",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "xié",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_fb7582728f06",
+          "front": "màozi",
+          "pinyin": "màozi",
+          "meaning": "hat",
+          "example": "dài màozi",
+          "notes": "measure word: dǐng",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "mào",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_4cf94a31b1f5",
+          "front": "wàzi",
+          "pinyin": "wàzi",
+          "meaning": "socks",
+          "example": "báisè de wàzi",
+          "notes": "measure word: shuāng",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "wà",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_2ec4791ecb24",
+          "front": "jiākè",
+          "pinyin": "jiākè",
+          "meaning": "jacket",
+          "example": "lǜsè de jiākè",
+          "notes": "measure word: jiàn",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "jiā",
+            "kè"
+          ]
+        },
+        {
+          "id": "c_9cafafcf52fa",
+          "front": "shǒutào",
+          "pinyin": "shǒutào",
+          "meaning": "gloves",
+          "example": "dài shǒutào",
+          "notes": "measure word: shuāng",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "shǒu",
+            "tào"
+          ]
+        },
+        {
+          "id": "c_d12e6fea9d56",
+          "front": "nèikù",
+          "pinyin": "nèikù",
+          "meaning": "underwear",
+          "example": "nèikù",
+          "notes": "measure word: tiáo",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "nèi",
+            "kù"
+          ]
+        },
+        {
+          "id": "c_761b1e9b59e0",
+          "front": "duōshao qián",
+          "pinyin": "duōshao qián",
+          "meaning": "how much money / how much is it",
+          "example": "zhèi jiàn qúnzi duōshao qián?",
+          "notes": "literally: many-few money",
+          "tones": [
+            1,
+            5,
+            2
+          ],
+          "syllables": [
+            "duō",
+            "shao",
+            "qián"
+          ]
+        },
+        {
+          "id": "c_89ed63d1aa18",
+          "front": "kuài",
+          "pinyin": "kuài",
+          "meaning": "a dollar (colloquial)",
+          "example": "èrshíwǔ kuài wǔ máo",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "kuài"
+          ]
+        },
+        {
+          "id": "c_0e214f3f53f7",
+          "front": "máo",
+          "pinyin": "máo",
+          "meaning": "a dime (1/10 of a kuai)",
+          "example": "wǔ máo",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "máo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260606_031759",
+      "title": "Restaurant Dining and Useful Expressions",
+      "source": "Chit Chat - Lesson 10.pdf",
+      "summary": "This lesson covers useful everyday expressions (like 'anything is fine,' 'let's go,' 'please sit down'), restaurant vocabulary (food, drinks, ordering), measure words for food and beverages, and practice dialogues about going out to eat at a Chinese restaurant.",
+      "createdAt": "2026-06-06T03:17:59.803071+00:00",
+      "cards": [
+        {
+          "id": "c_0d52bc37dcdd",
+          "front": "dōu",
+          "pinyin": "dōu",
+          "meaning": "all, entirely",
+          "example": "dōu xǐhuān = like them all",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "dōu"
+          ]
+        },
+        {
+          "id": "c_94c5182d0321",
+          "front": "kěyǐ",
+          "pinyin": "kěyǐ",
+          "meaning": "able to, that's OK",
+          "example": "dōu kěyǐ = anything is fine, either one is fine",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "kě",
+            "yǐ"
+          ]
+        },
+        {
+          "id": "c_f3968e836b3f",
+          "front": "wúsuǒwèi",
+          "pinyin": "wúsuǒwèi",
+          "meaning": "it doesn't matter (to me), I don't care",
+          "example": "wǒ yě wúsuǒwèi = I don't care either",
+          "notes": "",
+          "tones": [
+            2,
+            3,
+            4
+          ],
+          "syllables": [
+            "wú",
+            "suǒ",
+            "wèi"
+          ]
+        },
+        {
+          "id": "c_6d8354ed4dab",
+          "front": "suíbiàn",
+          "pinyin": "suíbiàn",
+          "meaning": "it's up to you, whatever you like",
+          "example": "suíbiàn = it's up to you",
+          "notes": "literally 'follow convenience'",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "suí",
+            "biàn"
+          ]
+        },
+        {
+          "id": "c_06b5f087c4bb",
+          "front": "nìngkě",
+          "pinyin": "nìngkě",
+          "meaning": "would rather",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "nìng",
+            "kě"
+          ]
+        },
+        {
+          "id": "c_29116fc8274b",
+          "front": "nàme",
+          "pinyin": "nàme",
+          "meaning": "in that case, then",
+          "example": "nàme, wǒmen qù chīfàn ba = in that case, let's go eat",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "nà",
+            "me"
+          ]
+        },
+        {
+          "id": "c_db5b57ab165f",
+          "front": "zǒu ba",
+          "pinyin": "zǒu ba",
+          "meaning": "let's go",
+          "example": "wǒmen zǒu ba = let's go",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "zǒu",
+            "ba"
+          ]
+        },
+        {
+          "id": "c_deb4d5839c73",
+          "front": "qǐng zuò",
+          "pinyin": "qǐng zuò",
+          "meaning": "please have a seat",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "qǐng",
+            "zuò"
+          ]
+        },
+        {
+          "id": "c_9d692e8e5a75",
+          "front": "qǐng lái",
+          "pinyin": "qǐng lái",
+          "meaning": "please come / please bring...",
+          "example": "qǐng lái càidān = please bring a menu",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "qǐng",
+            "lái"
+          ]
+        },
+        {
+          "id": "c_5022e6c625a3",
+          "front": "bùyòng",
+          "pinyin": "bùyòng",
+          "meaning": "that's not necessary, no need",
+          "example": "bùyòng kèqi = no need to be so polite",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "bù",
+            "yòng"
+          ]
+        },
+        {
+          "id": "c_784e55dc5265",
+          "front": "fànguǎn",
+          "pinyin": "fànguǎn",
+          "meaning": "restaurant",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "fàng",
+            "uǎn"
+          ]
+        },
+        {
+          "id": "c_d8992ec65600",
+          "front": "wèi",
+          "pinyin": "wèi",
+          "meaning": "polite measure word for people",
+          "example": "nǐmen jǐ wèi? = how many of you are there?",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "wèi"
+          ]
+        },
+        {
+          "id": "c_1f5116baeb74",
+          "front": "kāimén",
+          "pinyin": "kāimén",
+          "meaning": "open (for establishments)",
+          "example": "",
+          "notes": "literally 'open door'",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "kāi",
+            "mén"
+          ]
+        },
+        {
+          "id": "c_9558116a3907",
+          "front": "guānmén",
+          "pinyin": "guānmén",
+          "meaning": "close (for establishments)",
+          "example": "tāmen jǐ diǎn guānmén? = what time do they close?",
+          "notes": "literally 'close door'",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "guān",
+            "mén"
+          ]
+        },
+        {
+          "id": "c_e1434680fe3d",
+          "front": "cài",
+          "pinyin": "cài",
+          "meaning": "dish, food",
+          "example": "Zhōngguó cài = Chinese food",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "cài"
+          ]
+        },
+        {
+          "id": "c_9bbd279d2aea",
+          "front": "diǎncài",
+          "pinyin": "diǎncài",
+          "meaning": "to order food",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "diǎn",
+            "cài"
+          ]
+        },
+        {
+          "id": "c_9b8877030f10",
+          "front": "càidān",
+          "pinyin": "càidān",
+          "meaning": "menu",
+          "example": "qǐng lái càidān = please bring a menu",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "cài",
+            "dān"
+          ]
+        },
+        {
+          "id": "c_baf6ce02acc7",
+          "front": "mǎidān",
+          "pinyin": "mǎidān",
+          "meaning": "the bill (in a restaurant)",
+          "example": "xiǎojiě, mǎidān = miss, the bill please",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "mǎi",
+            "dān"
+          ]
+        },
+        {
+          "id": "c_c05f39616683",
+          "front": "yǐnliào",
+          "pinyin": "yǐnliào",
+          "meaning": "beverage(s)",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "yǐn",
+            "liào"
+          ]
+        },
+        {
+          "id": "c_de5dc5825e2e",
+          "front": "chá",
+          "pinyin": "chá",
+          "meaning": "tea",
+          "example": "liǎng bēi chá = two cups of tea",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "chá"
+          ]
+        },
+        {
+          "id": "c_88cef65f97b3",
+          "front": "píjiǔ",
+          "pinyin": "píjiǔ",
+          "meaning": "beer",
+          "example": "qǐng lái yì píng píjiǔ = please bring a bottle of beer",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "pí",
+            "jiǔ"
+          ]
+        },
+        {
+          "id": "c_71fe636f3ff4",
+          "front": "niúròu",
+          "pinyin": "niúròu",
+          "meaning": "beef",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "niú",
+            "ròu"
+          ]
+        },
+        {
+          "id": "c_ff786cd0091f",
+          "front": "zhūròu",
+          "pinyin": "zhūròu",
+          "meaning": "pork",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "zhū",
+            "ròu"
+          ]
+        },
+        {
+          "id": "c_135c6b8d86eb",
+          "front": "jīròu",
+          "pinyin": "jīròu",
+          "meaning": "chicken (meat)",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "jī",
+            "ròu"
+          ]
+        },
+        {
+          "id": "c_ddf3e2e03e4b",
+          "front": "jiǎozi",
+          "pinyin": "jiǎozi",
+          "meaning": "dumpling(s)",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "jiǎo",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_32628a4222d7",
+          "front": "chǎomiàn",
+          "pinyin": "chǎomiàn",
+          "meaning": "chow mein, fried noodles",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "chǎo",
+            "miàn"
+          ]
+        },
+        {
+          "id": "c_d9ab5025c2ee",
+          "front": "chǎofàn",
+          "pinyin": "chǎofàn",
+          "meaning": "fried rice",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "chǎo",
+            "fàn"
+          ]
+        },
+        {
+          "id": "c_060f4e72afb5",
+          "front": "tāng",
+          "pinyin": "tāng",
+          "meaning": "soup",
+          "example": "suānlàtāng = hot and sour soup",
+          "notes": "Chinese say 'hē tāng' (drink soup), not 'eat soup'",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tāng"
+          ]
+        },
+        {
+          "id": "c_26a2bf8bd60c",
+          "front": "kuàizi",
+          "pinyin": "kuàizi",
+          "meaning": "chopsticks",
+          "example": "yòng kuàizi = to use chopsticks",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "kuài",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_6706425ecd97",
+          "front": "gānbēi",
+          "pinyin": "gānbēi",
+          "meaning": "bottoms up, cheers",
+          "example": "wǒmen lái gānbēi ba = let's cheers",
+          "notes": "sometimes literally means empty your glass",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "gān",
+            "bēi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hw_20260519_051812",
+      "title": "Introductions and Nationalities",
+      "source": "Homework 1.pdf",
+      "summary": "This homework covers how to introduce yourself, ask someone's name and surname, and ask/state nationalities. It includes formal and informal greetings, yes/no questions with 'ma', question words like 'shenme', 'na', and 'shei', and the abbreviated question particle 'ne'.",
+      "createdAt": "2026-05-19T05:18:12.478750+00:00",
+      "cards": [
+        {
+          "id": "c_cb1078543c9f",
+          "front": "nín",
+          "pinyin": "nín",
+          "meaning": "you (formal/polite)",
+          "example": "nin hao!",
+          "notes": "Used when addressing elders or in formal situations",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "nín"
+          ]
+        },
+        {
+          "id": "c_7550f0b0980a",
+          "front": "guì xìng",
+          "pinyin": "guì xìng",
+          "meaning": "May I ask your last name?",
+          "example": "nin gui xing?",
+          "notes": "Polite way to ask someone's surname",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "guì",
+            "xìng"
+          ]
+        },
+        {
+          "id": "c_618fcc99bad1",
+          "front": "xìng",
+          "pinyin": "xìng",
+          "meaning": "surname / to be surnamed",
+          "example": "wo xing Wang",
+          "notes": "Used as both a verb and noun",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "xìng"
+          ]
+        },
+        {
+          "id": "c_474b9a0c88cd",
+          "front": "Lǐ",
+          "pinyin": "Lǐ",
+          "meaning": "a common Chinese surname (Li)",
+          "example": "wo xing Li",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "Lǐ"
+          ]
+        },
+        {
+          "id": "c_4781f98386c3",
+          "front": "Wáng",
+          "pinyin": "Wáng",
+          "meaning": "a common Chinese surname (Wang)",
+          "example": "wo xing Wang",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "Wáng"
+          ]
+        },
+        {
+          "id": "c_a7b9a1b53d78",
+          "front": "xiān sheng",
+          "pinyin": "xiān sheng",
+          "meaning": "Mr. / Sir / husband",
+          "example": "Li xian sheng hao!",
+          "notes": "Can also mean 'husband' in everyday speech",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "xiān",
+            "sheng"
+          ]
+        },
+        {
+          "id": "c_711d96334644",
+          "front": "wǒ",
+          "pinyin": "wǒ",
+          "meaning": "I / me",
+          "example": "wo xing Li",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "wǒ"
+          ]
+        },
+        {
+          "id": "c_c8f59cbef643",
+          "front": "jiào",
+          "pinyin": "jiào",
+          "meaning": "to be called (by name)",
+          "example": "ta jiao Da wei",
+          "notes": "Used for full name or given name",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "jiào"
+          ]
+        },
+        {
+          "id": "c_c05aaeda67f4",
+          "front": "hǎo",
+          "pinyin": "hǎo",
+          "meaning": "good / well",
+          "example": "lao shi hao!",
+          "notes": "Used in greetings",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "hǎo"
+          ]
+        },
+        {
+          "id": "c_9821c0cc53f6",
+          "front": "shì",
+          "pinyin": "shì",
+          "meaning": "to be (am, are, is)",
+          "example": "ta shi shei?",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "shì"
+          ]
+        },
+        {
+          "id": "c_c4c020fd196a",
+          "front": "Měi guó rén",
+          "pinyin": "Měi guó rén",
+          "meaning": "American (person)",
+          "example": "wo shi Mei guo ren",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            2
+          ],
+          "syllables": [
+            "Měi",
+            "guó",
+            "rén"
+          ]
+        },
+        {
+          "id": "c_ed29650ae0f4",
+          "front": "Měi guó",
+          "pinyin": "Měi guó",
+          "meaning": "U.S.A. / America",
+          "example": "ta shi Mei guo ren",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "Měi",
+            "guó"
+          ]
+        },
+        {
+          "id": "c_41e92a52b5bb",
+          "front": "guó",
+          "pinyin": "guó",
+          "meaning": "country / nation",
+          "example": "ni shi na guo ren?",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "guó"
+          ]
+        },
+        {
+          "id": "c_f6d555d8d3bd",
+          "front": "rén",
+          "pinyin": "rén",
+          "meaning": "person / people",
+          "example": "ta shi Tai wan ren",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "rén"
+          ]
+        },
+        {
+          "id": "c_acfa810c5f33",
+          "front": "ma",
+          "pinyin": "ma",
+          "meaning": "question particle (yes/no questions)",
+          "example": "ni shi Li xian sheng ma?",
+          "notes": "Added at end of statement to make it a yes/no question",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "ma"
+          ]
+        },
+        {
+          "id": "c_93bbb09624cc",
+          "front": "bù",
+          "pinyin": "bù",
+          "meaning": "not",
+          "example": "ta bu xing Wang",
+          "notes": "Changes to 2nd tone before another 4th tone: bu shi becomes bu(2) shi",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "bù"
+          ]
+        },
+        {
+          "id": "c_6635611cf3c4",
+          "front": "Yīng guó",
+          "pinyin": "Yīng guó",
+          "meaning": "England / Britain",
+          "example": "ta bu shi Ying guo ren",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "Yīng",
+            "guó"
+          ]
+        },
+        {
+          "id": "c_969df8e5e287",
+          "front": "nǐ",
+          "pinyin": "nǐ",
+          "meaning": "you (informal)",
+          "example": "ni shi Li Ai mei ma?",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "nǐ"
+          ]
+        },
+        {
+          "id": "c_c7835b083f0b",
+          "front": "shén me",
+          "pinyin": "shén me",
+          "meaning": "what",
+          "example": "ta xing shen me?",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "shén",
+            "me"
+          ]
+        },
+        {
+          "id": "c_3a02e03c0c50",
+          "front": "míng zi",
+          "pinyin": "míng zi",
+          "meaning": "name / given name",
+          "example": "ni jiao shen me ming zi?",
+          "notes": "Can refer to full name or first name",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "míng",
+            "zi"
+          ]
+        },
+        {
+          "id": "c_40ce9f11caa8",
+          "front": "nǎ",
+          "pinyin": "nǎ",
+          "meaning": "which",
+          "example": "ta shi na guo ren?",
+          "notes": "Sometimes pronounced 'nei'",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "nǎ"
+          ]
+        },
+        {
+          "id": "c_8c75cb299ced",
+          "front": "ne",
+          "pinyin": "ne",
+          "meaning": "question particle (how about...?)",
+          "example": "wo xing Wang, ni ne?",
+          "notes": "Used for follow-up questions",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "ne"
+          ]
+        },
+        {
+          "id": "c_5611185a3db5",
+          "front": "Tái wān",
+          "pinyin": "Tái wān",
+          "meaning": "Taiwan",
+          "example": "wo shi Tai wan ren",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "Tái",
+            "wān"
+          ]
+        },
+        {
+          "id": "c_e5181cd0eb24",
+          "front": "tā (male)",
+          "pinyin": "tā (male)",
+          "meaning": "he / him",
+          "example": "ta bu jiao Da wei",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tā"
+          ]
+        },
+        {
+          "id": "c_a75a8caea2ea",
+          "front": "Zhōng guó",
+          "pinyin": "Zhōng guó",
+          "meaning": "China",
+          "example": "ta shi Zhong guo ren",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "Zhōng",
+            "guó"
+          ]
+        },
+        {
+          "id": "c_d7f7e0655c66",
+          "front": "tā (female)",
+          "pinyin": "tā (female)",
+          "meaning": "she / her",
+          "example": "ta jiao Zhen ni",
+          "notes": "Sounds the same as 'he' in spoken Mandarin",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tā"
+          ]
+        },
+        {
+          "id": "c_d22703c147d4",
+          "front": "shéi",
+          "pinyin": "shéi",
+          "meaning": "who / whom",
+          "example": "shei shi Wang xian sheng?",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "shéi"
+          ]
+        },
+        {
+          "id": "c_21e794cc4b30",
+          "front": "huá rén",
+          "pinyin": "huá rén",
+          "meaning": "ethnic Chinese / overseas Chinese",
+          "example": "ta shi hua ren ma?",
+          "notes": "Refers to people of Chinese descent living abroad",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "huá",
+            "rén"
+          ]
+        },
+        {
+          "id": "c_6570e637267b",
+          "front": "lǎo shī",
+          "pinyin": "lǎo shī",
+          "meaning": "teacher",
+          "example": "lao shi hao!",
+          "notes": "Common greeting for teachers",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "lǎo",
+            "shī"
+          ]
+        }
+      ]
+    }
+  ]
+}
