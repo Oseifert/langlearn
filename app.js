@@ -259,11 +259,12 @@ async function render() {
   if (view === 'home') return renderHome(root);
   if (view === 'deck') return renderDeck(root, params.deckId);
   if (view === 'practice') return renderPractice(root, params);
+  if (view === 'mixed') return renderMixedReview(root, params);
   if (view === 'tones') return renderToneDrill(root, params);
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v11 · due-only sessions';
+const BUILD = 'v13 · mixed review-all';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -284,9 +285,9 @@ async function renderHome(root) {
 
   // Review everything card
   const totals = deckStats(all);
-  const reviewCard = el('div', { class: 'deck review-all', onclick: () => app.go('practice', { mode: 'all', dir: 'zh2en' }) },
+  const reviewCard = el('div', { class: 'deck review-all', onclick: () => app.go('mixed', {}) },
     el('h3', {}, '🔁 Review Everything'),
-    el('div', { class: 'sub' }, 'Cross-deck, weighted toward what you haven’t mastered'),
+    el('div', { class: 'sub' }, 'All modes mixed — every due item (中→EN, EN→中, tones) across every deck'),
     el('div', { class: 'bar' }, el('i', { style: `width:${totals.total ? Math.round(100 * totals.mastered / totals.total) : 0}%` })),
     el('div', { class: 'stats' },
       el('span', { class: 'pill' }, `${totals.total} cards`),
@@ -526,6 +527,155 @@ async function renderToneDrill(root, params) {
     }
 
     render();
+  }
+}
+
+// ---- Mixed review: every due (card, mode) across ALL decks, interleaved ----
+async function renderMixedReview(root, params) {
+  $('#title').textContent = 'Review All · mixed';
+  const cards = await DB.allCards();
+  cards.forEach(ensureStates);
+  // Build one queue entry per DUE (card, mode) pair. modesFor() returns the
+  // modes applicable to a card (tone only when it has tone data).
+  let items = [];
+  for (const c of cards) {
+    for (const mode of modesFor(c)) {
+      if (stateForMode(c, mode).due <= now()) items.push({ c, mode });
+    }
+  }
+  // Nothing due: fall back to the least-solid unmastered items so the user can
+  // keep practicing, still mixed across modes. Cap it so it isn't overwhelming.
+  if (!items.length) {
+    const pool = [];
+    for (const c of cards) for (const mode of modesFor(c)) {
+      if (!isMastered(stateForMode(c, mode))) pool.push({ c, mode });
+    }
+    pool.sort((a, b) => (stateForMode(a.c, a.mode).ease) - (stateForMode(b.c, b.mode).ease));
+    items = pool.slice(0, 30);
+  }
+  const queue = shuffle(items);
+  if (!queue.length) { root.append(doneScreen('Nothing to review 🎉', {})); return; }
+
+  let i = 0, good = 0, again = 0;
+  const stage = el('div', { class: 'stage' });
+  root.append(stage);
+  draw();
+
+  function advance(wasGood, requeueItem) {
+    if (wasGood) good++; else { again++; if (requeueItem) queue.push(requeueItem); }
+    i++; draw();
+  }
+
+  function draw() {
+    if (i >= queue.length) {
+      stage.replaceWith(doneScreen('Review complete! 🎊', { Reviewed: queue.length, Good: good, Again: again }));
+      return;
+    }
+    const item = queue[i];
+    stage.innerHTML = '';
+    if (item.mode === 'tone') drawToneItem(item);
+    else drawMeaningItem(item);
+  }
+
+  // ---- meaning card (zh2en / en2zh) ----
+  function drawMeaningItem(item) {
+    const { c, mode } = item;
+    const dir = mode; // 'zh2en' | 'en2zh'
+    const dirLabel = dir === 'en2zh' ? 'EN→中' : '中→EN';
+    let revealed = false;
+    render();
+    function render() {
+      stage.innerHTML = '';
+      stage.append(el('div', { class: 'progress-row' },
+        el('span', {}, `${i + 1} / ${queue.length}`),
+        el('span', {}, `${dirLabel} · next ${fmtDue(stateForMode(c, dir).due)}`)));
+      const card = el('div', { class: 'card', onclick: reveal });
+      if (!revealed) {
+        card.append(dir === 'en2zh'
+          ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
+          : el('div', { class: 'front' }, c.front));
+        card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
+        stage.append(card);
+      } else {
+        if (dir === 'en2zh') {
+          card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
+          card.append(el('div', { class: 'divider' }));
+          card.append(el('div', { class: 'front' }, c.front));
+        } else {
+          card.append(el('div', { class: 'front' }, c.front));
+          card.append(el('div', { class: 'divider' }));
+          card.append(el('div', { class: 'meaning' }, c.meaning));
+        }
+        if (c.example) card.append(el('div', { class: 'example' }, c.example));
+        if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
+        stage.append(card);
+        const grade = el('div', { class: 'grade grade2' });
+        grade.append(el('button', { class: 'again', onclick: () => grade0(0) }, el('span', {}, '✗ Didn’t know')));
+        grade.append(el('button', { class: 'easy', onclick: () => grade0(3) }, el('span', {}, '✓ Knew it')));
+        stage.append(grade);
+      }
+    }
+    function reveal() { if (!revealed) { revealed = true; render(); } }
+    async function grade0(g) {
+      if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
+      else c.zhEnState = schedule(c.zhEnState, g);
+      await DB.putCard(c);
+      advance(g > 0, g === 0 ? item : null);
+    }
+  }
+
+  // ---- tone item (reuses the tone-drill interaction) ----
+  function drawToneItem(item) {
+    const { c } = item;
+    const syls = (c.syllables && c.syllables.length ? c.syllables : (c.pinyin.includes(' ') ? c.pinyin.split(/\s+/) : [c.pinyin]));
+    const answers = c.tones.slice();
+    const bare = syls.map(stripToneMarks);
+    const picks = new Array(syls.length).fill(null);
+    let activeSyl = 0, locked = false;
+    render();
+    function render() {
+      stage.innerHTML = '';
+      stage.append(el('div', { class: 'progress-row' }, el('span', {}, `${i + 1} / ${queue.length}`), el('span', {}, `🎵 ${c.meaning}`)));
+      const wrap = el('div', { class: 'card', style: 'min-height:26vh' });
+      wrap.append(el('div', { class: 'drill-word' }, bare.join('')));
+      wrap.append(el('div', { class: 'syllable-tones' }, ...bare.map((s, k) => {
+        const chosen = picks[k];
+        const cls = 'syl' + (k === activeSyl && !locked ? ' target' : '');
+        const style = k === activeSyl && !locked ? 'outline:2px solid var(--accent)' : '';
+        const label = chosen ? `${s}${'₁₂₃₄₅'[chosen-1]||''}` : s;
+        const node = el('span', { class: cls, style }, label);
+        if (locked) node.classList.add(picks[k] === answers[k] ? 'ok' : 'bad');
+        return node;
+      })));
+      wrap.append(el('div', { class: 'drill-q' }, locked ? '' : `Tone for syllable ${activeSyl + 1} of ${syls.length}: “${bare[activeSyl]}”`));
+      stage.append(wrap);
+      if (!locked) {
+        const choices = el('div', { class: 'tone-choices' });
+        for (let t = 1; t <= 5; t++) {
+          choices.append(el('button', { 'data-t': t, onclick: () => choose(t) },
+            el('span', {}, t === 5 ? '·' : String(t)), el('span', { class: 'lbl' }, TONE_NAMES[t].split(' ')[1] || 'neutral')));
+        }
+        stage.append(choices);
+      }
+    }
+    function choose(t) {
+      picks[activeSyl] = t;
+      if (activeSyl < syls.length - 1) { activeSyl++; render(); }
+      else finish();
+    }
+    async function finish() {
+      locked = true;
+      const allCorrect = picks.every((p, k) => p === answers[k]);
+      c.toneState = schedule(c.toneState, allCorrect ? 2 : 0);
+      await DB.putCard(c);
+      render();
+      const q = stage.querySelector('.drill-q');
+      if (q) q.textContent = allCorrect ? '✓ correct' : 'answer: ' + syls.join(' ');
+      const next = el('div', { class: 'grade grade1' },
+        el('button', { class: 'easy', onclick: () => advance(allCorrect, allCorrect ? null : item) },
+          el('span', {}, i + 1 >= queue.length ? 'Finish' : 'Next →')));
+      stage.append(next);
+    }
   }
 }
 
