@@ -264,7 +264,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v13 · mixed review-all';
+const BUILD = 'v14 · due-only fix + no-zoom';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -330,11 +330,17 @@ async function renderDeck(root, deckId) {
   const mZhEn = modeMastery(cards, 'zh2en');
   const mEnZh = modeMastery(cards, 'en2zh');
   const mTone = modeMastery(cards, 'tone');
-  const badge = (m) => m.applicable && m.mastered >= m.applicable ? ' ✅' : ` · ${m.done}/${m.applicable}`;
-  const dueTag = (mode) => { const d = modeDue(cards, mode); return d ? ` (${d} due)` : ''; };
-  actions.append(el('button', { class: 'btn primary', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, `Practice 中→EN${dueTag('zh2en')}${badge(mZhEn)}`));
-  actions.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, `Practice EN→中${dueTag('en2zh')}${badge(mEnZh)}`));
-  const toneBtn = el('button', { class: 'btn', onclick: () => app.go('tones', { deckId }) }, `🎵 Tone drills${mTone.applicable ? dueTag('tone') + badge(mTone) : ' · 0'}`);
+  // Clear per-mode label: show due count (what a session will quiz) and
+  // mastered/total. ✅ when the whole mode is mastered.
+  const label = (base, mode, m) => {
+    if (m.applicable && m.mastered >= m.applicable) return `${base} ✅`;
+    const d = modeDue(cards, mode);
+    const duePart = d ? `${d} due` : 'none due';
+    return `${base} · ${duePart} · ${m.mastered}/${m.applicable} mastered`;
+  };
+  actions.append(el('button', { class: 'btn primary', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, label('Practice 中→EN', 'zh2en', mZhEn)));
+  actions.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, label('Practice EN→中', 'en2zh', mEnZh)));
+  const toneBtn = el('button', { class: 'btn', onclick: () => app.go('tones', { deckId }) }, mTone.applicable ? label('🎵 Tone drills', 'tone', mTone) : '🎵 Tone drills · n/a');
   if (!toneCards.length) toneBtn.disabled = true;
   actions.append(toneBtn);
   actions.append(el('button', { class: 'btn ghost', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en', cram: true }) }, 'Cram all cards'));
@@ -353,22 +359,23 @@ async function renderDeck(root, deckId) {
 }
 
 // ---- Build a practice queue ----
+// Returns { queue, dueCount, aheadUsed } so the UI can tell the difference
+// between "reviewing due cards" and "getting ahead (nothing was due)".
 async function buildQueue({ mode, deckId, cram, dir }) {
   const smode = dir === 'en2zh' ? 'en2zh' : 'zh2en';
   let cards = mode === 'all' ? await DB.allCards() : await DB.cardsFor(deckId);
   cards.forEach(ensureStates);
-  if (cram) return shuffle(cards);
-  let due = cards.filter(c => stateForMode(c, smode).due <= now());
+  if (cram) return { queue: shuffle(cards), dueCount: cards.length, aheadUsed: false };
+  const due = cards.filter(c => stateForMode(c, smode).due <= now());
   // If cards are due in this mode, practice EXACTLY those — never pad the
   // session with not-due cards (that was the "click 2 due, get all 27" bug).
-  if (due.length) return shuffle(due);
-  if (!due.length) {
-    // nothing due in this mode: pull the least-solid unmastered cards to keep practicing
-    due = cards.filter(c => !isMastered(stateForMode(c, smode))).sort((a, b) => stateForMode(a, smode).ease - stateForMode(b, smode).ease).slice(0, 20);
-    if (!due.length) due = shuffle(cards).slice(0, 15);
-  }
-  // Randomize the practice order every session (no fixed sequence).
-  return shuffle(due);
+  if (due.length) return { queue: shuffle(due), dueCount: due.length, aheadUsed: false };
+  // Nothing due in this mode. Do NOT dump the whole deck. Offer a small
+  // "get ahead" batch of the least-solid not-yet-mastered cards, capped low.
+  const ahead = cards.filter(c => !isMastered(stateForMode(c, smode)))
+    .sort((a, b) => stateForMode(a, smode).ease - stateForMode(b, smode).ease)
+    .slice(0, 10);
+  return { queue: shuffle(ahead), dueCount: 0, aheadUsed: true };
 }
 function modeScore(c, mode) { const s = stateForMode(c, mode); return s.reps * s.ease; }
 function shuffle(a) { return YC.shuffle(a); }
@@ -378,8 +385,14 @@ async function renderPractice(root, params) {
   const dir = params.dir === 'en2zh' ? 'en2zh' : 'zh2en';
   const dirLabel = dir === 'en2zh' ? 'EN→中' : '中→EN';
   $('#title').textContent = (params.mode === 'all' ? 'Review All' : 'Practice') + ' · ' + dirLabel;
-  const queue = await buildQueue(params);
+  const { queue, aheadUsed } = await buildQueue(params);
   if (!queue.length) { root.append(doneScreen('Nothing to practice 🎉', {})); return; }
+  // If nothing was due and we're in "get ahead" mode, tell the user up front so
+  // they know these cards weren't actually due yet.
+  if (aheadUsed) {
+    root.append(el('div', { class: 'hint', style: 'text-align:center;color:var(--accent)' },
+      `Nothing due right now — practicing ${queue.length} card${queue.length > 1 ? 's' : ''} to get ahead.`));
+  }
   let i = 0, revealed = false, correct = 0, again = 0;
 
   const stage = el('div', { class: 'stage' });
