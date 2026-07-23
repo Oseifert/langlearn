@@ -264,7 +264,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v14 · due-only fix + no-zoom';
+const BUILD = 'v15 · tone caught-up + auto-update';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -330,13 +330,12 @@ async function renderDeck(root, deckId) {
   const mZhEn = modeMastery(cards, 'zh2en');
   const mEnZh = modeMastery(cards, 'en2zh');
   const mTone = modeMastery(cards, 'tone');
-  // Clear per-mode label: show due count (what a session will quiz) and
-  // mastered/total. ✅ when the whole mode is mastered.
+  // Simple, honest per-mode label: how many are due (what a session quizzes),
+  // ✅ when the whole mode is mastered, "caught up" when nothing's due right now.
   const label = (base, mode, m) => {
-    if (m.applicable && m.mastered >= m.applicable) return `${base} ✅`;
+    if (m.applicable && m.mastered >= m.applicable) return `${base} · ✅ mastered`;
     const d = modeDue(cards, mode);
-    const duePart = d ? `${d} due` : 'none due';
-    return `${base} · ${duePart} · ${m.mastered}/${m.applicable} mastered`;
+    return d ? `${base} · ${d} due` : `${base} · caught up`;
   };
   actions.append(el('button', { class: 'btn primary', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, label('Practice 中→EN', 'zh2en', mZhEn)));
   actions.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, label('Practice EN→中', 'en2zh', mEnZh)));
@@ -458,18 +457,35 @@ async function renderToneDrill(root, params) {
   let cards = params.deckId ? await DB.cardsFor(params.deckId) : await DB.allCards();
   cards.forEach(ensureStates);
   cards = cards.filter(cardHasTones);
-  // If tone cards are due, drill EXACTLY those; else weight toward weak
-  // tone mastery and cap the catch-up session so it never dumps the whole deck.
+  // Consistent with meaning practice: if tone cards are due, drill EXACTLY
+  // those. If none are due, do NOT dump the deck — offer a small "get ahead"
+  // batch of the least-solid cards, capped low, and flag it for the UI.
   const dueTone = cards.filter(c => stateForMode(c, 'tone').due <= now());
+  // If nothing is due, show a "caught up" screen with an opt-in button to
+  // practice ahead — don't force a grind. (Unless ?ahead=1 was requested.)
+  if (!dueTone.length && !params.ahead) {
+    if (!cards.length) { root.append(doneScreen('No tone cards here', {})); return; }
+    const wrap = el('div', { class: 'done-screen' },
+      el('div', { class: 'big' }, '✅'),
+      el('h2', {}, 'All caught up on tones!'),
+      el('div', { class: 'hint', style: 'margin:.4rem 0 1rem' }, 'Nothing due right now. New reviews will surface here when they’re due.'),
+      el('button', { class: 'btn', onclick: () => app.go('tones', { deckId: params.deckId, ahead: 1 }) }, 'Practice ahead anyway'),
+      el('button', { class: 'btn primary', onclick: () => app.back() }, 'Done'));
+    root.append(wrap); return;
+  }
   let pool;
   if (dueTone.length) {
     pool = dueTone;
   } else {
     cards.sort((a, b) => (a.toneState.reps * a.toneState.ease) - (b.toneState.reps * b.toneState.ease));
-    pool = cards.slice(0, 25);
+    pool = cards.slice(0, 10);
   }
   const queue = shuffle(pool);
   if (!queue.length) { root.append(doneScreen('No tone cards here', {})); return; }
+  if (!dueTone.length) {
+    root.append(el('div', { class: 'hint', style: 'text-align:center;color:var(--accent)' },
+      `Nothing due right now — practicing ${queue.length} tone card${queue.length > 1 ? 's' : ''} to get ahead.`));
+  }
   let i = 0, hits = 0, misses = 0;
   const stage = el('div', { class: 'stage' });
   root.append(stage);
@@ -737,13 +753,23 @@ $('#backBtn').addEventListener('click', () => app.back());
   if ('serviceWorker' in navigator) {
     try {
       const reg = await navigator.serviceWorker.register('sw.js');
-      reg.update();
-      // if a new SW is waiting, activate it and reload once
-      if (reg.waiting) reg.waiting.postMessage('skipWaiting');
       let refreshed = false;
       navigator.serviceWorker.addEventListener('controllerchange', () => {
         if (refreshed) return; refreshed = true; location.reload();
       });
+      // Activate an already-waiting SW immediately.
+      if (reg.waiting) reg.waiting.postMessage('skipWaiting');
+      // And any SW that finishes installing after this load.
+      reg.addEventListener('updatefound', () => {
+        const sw = reg.installing;
+        if (!sw) return;
+        sw.addEventListener('statechange', () => {
+          if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+            sw.postMessage('skipWaiting');
+          }
+        });
+      });
+      reg.update();
     } catch (e) { /* ok offline */ }
   }
 })();
