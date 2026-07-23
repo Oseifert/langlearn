@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T22:40:41.648187+00:00",
+  "generatedAt": "2026-07-23T23:57:13.029686+00:00",
   "decks": [
     {
       "id": "hw_20260722_225213",
@@ -14,6 +14,7 @@
           "front": "gōngsī",
           "pinyin": "gōngsī",
           "meaning": "company",
+          "emoji": "🏢",
           "example": "wǒ zài yì jiā gōngsī gōngzuò",
           "notes": "",
           "tones": [
@@ -30,6 +31,7 @@
           "front": "jiā",
           "pinyin": "jiā",
           "meaning": "measure word for companies, stores, restaurants",
+          "emoji": "",
           "example": "yì jiā gōngsī",
           "notes": "Used when counting businesses or establishments",
           "tones": [
@@ -44,6 +46,7 @@
           "front": "bàngōngshì",
           "pinyin": "bàngōngshì",
           "meaning": "office",
+          "emoji": "🏢",
           "example": "wǒ de bàngōngshì hěn dà",
           "notes": "",
           "tones": [
@@ -62,6 +65,7 @@
           "front": "shēngyìrén",
           "pinyin": "shēngyìrén",
           "meaning": "businessperson",
+          "emoji": "",
           "example": "tā shì shēngyìrén",
           "notes": "",
           "tones": [
@@ -80,6 +84,7 @@
           "front": "lǜshī",
           "pinyin": "lǜshī",
           "meaning": "lawyer",
+          "emoji": "⚖️",
           "example": "wǒ bàba shì lǜshī",
           "notes": "",
           "tones": [
@@ -96,6 +101,7 @@
           "front": "jiàoshòu",
           "pinyin": "jiàoshòu",
           "meaning": "professor",
+          "emoji": "👩‍🏫",
           "example": "tā shì dàxué jiàoshòu",
           "notes": "",
           "tones": [
@@ -112,6 +118,7 @@
           "front": "yīshēng",
           "pinyin": "yīshēng",
           "meaning": "doctor",
+          "emoji": "🩺",
           "example": "wǒ māma shì yīshēng",
           "notes": "General term for doctor",
           "tones": [
@@ -128,6 +135,7 @@
           "front": "zhōngyī",
           "pinyin": "zhōngyī",
           "meaning": "traditional Chinese medicine doctor",
+          "emoji": "",
           "example": "wǒ xiǎng kàn zhōngyī",
           "notes": "Very common in Taiwan",
           "tones": [
@@ -144,6 +152,7 @@
           "front": "xīyī",
           "pinyin": "xīyī",
           "meaning": "Western doctor",
+          "emoji": "",
           "example": "tā shì xīyī",
           "notes": "Refers to Western/modern medicine",
           "tones": [
@@ -160,6 +169,7 @@
           "front": "hùshi",
           "pinyin": "hùshi",
           "meaning": "nurse",
+          "emoji": "👩‍⚕️",
           "example": "nà ge hùshi hěn hǎo",
           "notes": "",
           "tones": [
@@ -176,6 +186,7 @@
           "front": "yìshùjiā",
           "pinyin": "yìshùjiā",
           "meaning": "artist",
+          "emoji": "🎨",
           "example": "tā shì yìshùjiā",
           "notes": "",
           "tones": [
@@ -194,6 +205,7 @@
           "front": "zuòjiā",
           "pinyin": "zuòjiā",
           "meaning": "author; writer",
+          "emoji": "✍️",
           "example": "wǒ xiǎng dāng zuòjiā",
           "notes": "",
           "tones": [
@@ -210,6 +222,7 @@
           "front": "yīnyuèjiā",
           "pinyin": "yīnyuèjiā",
           "meaning": "musician",
+          "emoji": "🎵",
           "example": "tā shì yīnyuèjiā",
           "notes": "",
           "tones": [
@@ -230,6 +243,7 @@
           "front": "sījī",
           "pinyin": "sījī",
           "meaning": "driver",
+          "emoji": "🚗",
           "example": "sījī kāi chē hěn kuài",
           "notes": "",
           "tones": [
@@ -246,6 +260,7 @@
           "front": "yǎnyuán",
           "pinyin": "yǎnyuán",
           "meaning": "actor; actress",
+          "emoji": "🎭",
           "example": "tā shì yǎnyuán",
           "notes": "",
           "tones": [
@@ -262,6 +277,7 @@
           "front": "yùndòngyuán",
           "pinyin": "yùndòngyuán",
           "meaning": "athlete",
+          "emoji": "🏃",
           "example": "wǒ gēge shì yùndòngyuán",
           "notes": "",
           "tones": [
@@ -280,6 +296,7 @@
           "front": "fúwùyuán",
           "pinyin": "fúwùyuán",
           "meaning": "waiter; waitress; server",
+          "emoji": "",
           "example": "fúwùyuán, qǐng guòlái",
           "notes": "Used to call a server in a restaurant",
           "tones": [
@@ -298,6 +315,7 @@
           "front": "nóngmín",
           "pinyin": "nóngmín",
           "meaning": "farmer",
+          "emoji": "👨‍🌾",
           "example": "wǒ yéye shì nóngmín",
           "notes": "",
           "tones": [
@@ -314,6 +332,7 @@
           "front": "kuàijìshī",
           "pinyin": "kuàijìshī",
           "meaning": "accountant",
+          "emoji": "🧮",
           "example": "tā shì kuàijìshī",
           "notes": "",
           "tones": [
@@ -332,6 +351,7 @@
           "front": "gōngzuò",
           "pinyin": "gōngzuò",
           "meaning": "work; job",
+          "emoji": "",
           "example": "nǐ zuò shénme gōngzuò?",
           "notes": "Can be used as noun or verb",
           "tones": [
@@ -348,6 +368,7 @@
           "front": "zuò",
           "pinyin": "zuò",
           "meaning": "to do",
+          "emoji": "",
           "example": "nǐ zuò shénme?",
           "notes": "Used here to mean 'do' in the context of work",
           "tones": [
@@ -371,6 +392,7 @@
           "front": "wǎng",
           "pinyin": "wǎng",
           "meaning": "toward",
+          "emoji": "",
           "example": "wǎng zuǒ guǎi",
           "notes": "Used before a direction to indicate 'toward that direction'",
           "tones": [
@@ -385,6 +407,7 @@
           "front": "zuǒ",
           "pinyin": "zuǒ",
           "meaning": "left",
+          "emoji": "⬅️",
           "example": "wǎng zuǒ guǎi",
           "notes": "",
           "tones": [
@@ -399,6 +422,7 @@
           "front": "zuǒ guǎi",
           "pinyin": "zuǒ guǎi",
           "meaning": "turn left",
+          "emoji": "⬅️",
           "example": "qǐng zuǒ guǎi",
           "notes": "",
           "tones": [
@@ -415,6 +439,7 @@
           "front": "wǎng zuǒ guǎi",
           "pinyin": "wǎng zuǒ guǎi",
           "meaning": "turn to the left",
+          "emoji": "",
           "example": "qǐng wǎng zuǒ guǎi",
           "notes": "More complete/polite way to say turn left",
           "tones": [
@@ -433,6 +458,7 @@
           "front": "yòu",
           "pinyin": "yòu",
           "meaning": "right",
+          "emoji": "➡️",
           "example": "wǎng yòu guǎi",
           "notes": "",
           "tones": [
@@ -447,6 +473,7 @@
           "front": "yòu guǎi",
           "pinyin": "yòu guǎi",
           "meaning": "turn right",
+          "emoji": "➡️",
           "example": "qǐng yòu guǎi",
           "notes": "",
           "tones": [
@@ -463,6 +490,7 @@
           "front": "wǎng yòu guǎi",
           "pinyin": "wǎng yòu guǎi",
           "meaning": "turn to the right",
+          "emoji": "",
           "example": "qǐng wǎng yòu guǎi",
           "notes": "",
           "tones": [
@@ -481,6 +509,7 @@
           "front": "zhí",
           "pinyin": "zhí",
           "meaning": "straight",
+          "emoji": "",
           "example": "zhí zǒu",
           "notes": "",
           "tones": [
@@ -495,6 +524,7 @@
           "front": "zhí zǒu",
           "pinyin": "zhí zǒu",
           "meaning": "go straight",
+          "emoji": "",
           "example": "qǐng zhí zǒu",
           "notes": "",
           "tones": [
@@ -511,6 +541,7 @@
           "front": "fùjìn",
           "pinyin": "fùjìn",
           "meaning": "nearby; vicinity",
+          "emoji": "",
           "example": "xuéxiào de fùjìn",
           "notes": "Often used with 'de' to mean 'near something'",
           "tones": [
@@ -527,6 +558,7 @@
           "front": "shàngchē",
           "pinyin": "shàngchē",
           "meaning": "get on (a bus, train, plane, etc.)",
+          "emoji": "",
           "example": "qǐng shàngchē",
           "notes": "",
           "tones": [
@@ -543,6 +575,7 @@
           "front": "xiàchē",
           "pinyin": "xiàchē",
           "meaning": "get off (a bus, train, plane, etc.)",
+          "emoji": "",
           "example": "wǒ yào xiàchē",
           "notes": "",
           "tones": [
@@ -559,6 +592,7 @@
           "front": "qǐngwèn",
           "pinyin": "qǐngwèn",
           "meaning": "excuse me (polite way to ask a question)",
+          "emoji": "",
           "example": "qǐngwèn, dào chēzhàn zěnme zǒu?",
           "notes": "Very useful phrase to start any question to a stranger",
           "tones": [
@@ -575,6 +609,7 @@
           "front": "dào",
           "pinyin": "dào",
           "meaning": "to arrive at; to (a place)",
+          "emoji": "",
           "example": "dào xuéxiào zěnme zǒu?",
           "notes": "",
           "tones": [
@@ -589,6 +624,7 @@
           "front": "zěnme",
           "pinyin": "zěnme",
           "meaning": "how",
+          "emoji": "",
           "example": "zěnme zǒu?",
           "notes": "",
           "tones": [
@@ -605,6 +641,7 @@
           "front": "zǒu",
           "pinyin": "zǒu",
           "meaning": "to walk; to go",
+          "emoji": "",
           "example": "zhí zǒu",
           "notes": "",
           "tones": [
@@ -619,6 +656,7 @@
           "front": "tài hǎo le",
           "pinyin": "tài hǎo le",
           "meaning": "That's great!",
+          "emoji": "",
           "example": "tài hǎo le! xièxie nǐ!",
           "notes": "Common expression of happiness or relief",
           "tones": [
@@ -637,6 +675,7 @@
           "front": "hǎohǎor",
           "pinyin": "hǎohǎor",
           "meaning": "well; properly",
+          "emoji": "",
           "example": "hǎohǎor shuō",
           "notes": "Reduplicated form for emphasis",
           "tones": [
@@ -655,6 +694,7 @@
           "front": "gàosu",
           "pinyin": "gàosu",
           "meaning": "to tell; to inform",
+          "emoji": "",
           "example": "qǐng gàosu wǒ",
           "notes": "",
           "tones": [
@@ -671,6 +711,7 @@
           "front": "mànzǒu",
           "pinyin": "mànzǒu",
           "meaning": "Take care! / Goodbye!",
+          "emoji": "",
           "example": "mànzǒu! zàijiàn!",
           "notes": "Literally 'walk slowly'; a friendly way to say goodbye",
           "tones": [
@@ -687,6 +728,7 @@
           "front": "dìfang",
           "pinyin": "dìfang",
           "meaning": "place",
+          "emoji": "",
           "example": "zhège dìfang hěn hǎo",
           "notes": "",
           "tones": [
@@ -712,6 +754,7 @@
           "front": "zuò",
           "pinyin": "zuò",
           "meaning": "to take/ride (a vehicle)",
+          "emoji": "",
           "example": "wǒ měitiān zuò gōnggòng qìchē",
           "notes": "used for buses, trains, taxis, planes, boats",
           "tones": [
@@ -726,6 +769,7 @@
           "front": "gōnggòng qìchē",
           "pinyin": "gōnggòng qìchē",
           "meaning": "public bus",
+          "emoji": "🚌",
           "example": "zuò gōnggòng qìchē qù gōngzuò",
           "notes": "",
           "tones": [
@@ -746,6 +790,7 @@
           "front": "kāichē",
           "pinyin": "kāichē",
           "meaning": "to drive a car",
+          "emoji": "",
           "example": "wǒ měitiān kāichē yí ge xiǎoshí",
           "notes": "",
           "tones": [
@@ -762,6 +807,7 @@
           "front": "huǒchē",
           "pinyin": "huǒchē",
           "meaning": "train",
+          "emoji": "🚆",
           "example": "wǒ lèi de shíhou huì zuò huǒchē",
           "notes": "",
           "tones": [
@@ -778,6 +824,7 @@
           "front": "dìtiě",
           "pinyin": "dìtiě",
           "meaning": "subway/metro",
+          "emoji": "🚇",
           "example": "měitiān dōu zuò dìtiě qù shàngbān",
           "notes": "",
           "tones": [
@@ -794,6 +841,7 @@
           "front": "chūzūchē",
           "pinyin": "chūzūchē",
           "meaning": "taxi",
+          "emoji": "🚕",
           "example": "wǒmen huì zuò chūzūchē huíjiā",
           "notes": "",
           "tones": [
@@ -812,6 +860,7 @@
           "front": "zìxíngchē",
           "pinyin": "zìxíngchē",
           "meaning": "bicycle",
+          "emoji": "🚲",
           "example": "qí zìxíngchē guòqù",
           "notes": "",
           "tones": [
@@ -830,6 +879,7 @@
           "front": "mótuōchē",
           "pinyin": "mótuōchē",
           "meaning": "motorcycle/scooter",
+          "emoji": "🏍️",
           "example": "qí mótuōchē qù gōngzuò",
           "notes": "very common in Taiwan",
           "tones": [
@@ -848,6 +898,7 @@
           "front": "chuán",
           "pinyin": "chuán",
           "meaning": "boat/ship",
+          "emoji": "🚢",
           "example": "zuò chuán cóng Táiwān dào Xiānggǎng",
           "notes": "",
           "tones": [
@@ -862,6 +913,7 @@
           "front": "fēijī",
           "pinyin": "fēijī",
           "meaning": "airplane",
+          "emoji": "✈️",
           "example": "wǒ bú tài xǐhuan zuò fēijī",
           "notes": "",
           "tones": [
@@ -878,6 +930,7 @@
           "front": "qí",
           "pinyin": "qí",
           "meaning": "to ride (bike/motorcycle)",
+          "emoji": "",
           "example": "qí mótuōchē hěn fāngbiàn",
           "notes": "used for things you straddle",
           "tones": [
@@ -892,6 +945,7 @@
           "front": "zǒulù",
           "pinyin": "zǒulù",
           "meaning": "to walk",
+          "emoji": "",
           "example": "yě huì zǒulù huòshì qí zìxíngchē",
           "notes": "",
           "tones": [
@@ -908,6 +962,7 @@
           "front": "fāngbiàn",
           "pinyin": "fāngbiàn",
           "meaning": "convenient",
+          "emoji": "",
           "example": "zuò gōnggòng qìchē hěn fāngbiàn",
           "notes": "",
           "tones": [
@@ -924,6 +979,7 @@
           "front": "máfan",
           "pinyin": "máfan",
           "meaning": "troublesome/inconvenient",
+          "emoji": "",
           "example": "yào kāichē yǒu yìdiǎnr máfan",
           "notes": "",
           "tones": [
@@ -940,6 +996,7 @@
           "front": "shūfu",
           "pinyin": "shūfu",
           "meaning": "comfortable",
+          "emoji": "",
           "example": "zuò chuán yòu ānjìng yòu shūfu",
           "notes": "",
           "tones": [
@@ -956,6 +1013,7 @@
           "front": "wēixiǎn",
           "pinyin": "wēixiǎn",
           "meaning": "dangerous",
+          "emoji": "",
           "example": "yǒu yìdiǎnr wēixiǎn",
           "notes": "",
           "tones": [
@@ -972,6 +1030,7 @@
           "front": "ānjìng",
           "pinyin": "ānjìng",
           "meaning": "quiet",
+          "emoji": "",
           "example": "zuò chuán yòu ānjìng yòu shūfu",
           "notes": "",
           "tones": [
@@ -988,6 +1047,7 @@
           "front": "wúliáo",
           "pinyin": "wúliáo",
           "meaning": "boring",
+          "emoji": "",
           "example": "bú huì juéde hěn wúliáo",
           "notes": "",
           "tones": [
@@ -1004,6 +1064,7 @@
           "front": "lèi",
           "pinyin": "lèi",
           "meaning": "tired",
+          "emoji": "",
           "example": "wǒ lèi de shíhou huì zuò huǒchē",
           "notes": "",
           "tones": [
@@ -1018,6 +1079,7 @@
           "front": "ǒu'ěr",
           "pinyin": "ǒu'ěr",
           "meaning": "occasionally",
+          "emoji": "",
           "example": "ǒu'ěr wǒ lèi de shíhou huì zuò huǒchē",
           "notes": "",
           "tones": [
@@ -1036,6 +1098,7 @@
           "front": "měitiān",
           "pinyin": "měitiān",
           "meaning": "every day",
+          "emoji": "",
           "example": "měitiān zuò gōnggòng qìchē qù gōngzuò",
           "notes": "",
           "tones": [
@@ -1052,6 +1115,7 @@
           "front": "chángcháng",
           "pinyin": "chángcháng",
           "meaning": "often",
+          "emoji": "",
           "example": "yě chángcháng zuò chūzūchē",
           "notes": "",
           "tones": [
@@ -1068,6 +1132,7 @@
           "front": "píngcháng",
           "pinyin": "píngcháng",
           "meaning": "usually/normally",
+          "emoji": "",
           "example": "píngcháng yīnwèi rén hěn duō",
           "notes": "",
           "tones": [
@@ -1084,6 +1149,7 @@
           "front": "wèizi",
           "pinyin": "wèizi",
           "meaning": "seat",
+          "emoji": "",
           "example": "méiyǒu wèizi",
           "notes": "",
           "tones": [
@@ -1100,6 +1166,7 @@
           "front": "zuòxià",
           "pinyin": "zuòxià",
           "meaning": "to sit down",
+          "emoji": "",
           "example": "rúguǒ yǒu wèizi wǒ huì zuòxià",
           "notes": "",
           "tones": [
@@ -1116,6 +1183,7 @@
           "front": "huíjiā",
           "pinyin": "huíjiā",
           "meaning": "to go home",
+          "emoji": "",
           "example": "zuò chūzūchē huíjiā",
           "notes": "",
           "tones": [
@@ -1132,6 +1200,7 @@
           "front": "shàngbān",
           "pinyin": "shàngbān",
           "meaning": "to go to work",
+          "emoji": "",
           "example": "zuò dìtiě qù shàngbān",
           "notes": "",
           "tones": [
@@ -1148,6 +1217,7 @@
           "front": "jiāowài",
           "pinyin": "jiāowài",
           "meaning": "suburbs/outskirts",
+          "emoji": "",
           "example": "wǒ zhù zài Jiùjīnshān de jiāowài",
           "notes": "",
           "tones": [
@@ -1164,6 +1234,7 @@
           "front": "guì",
           "pinyin": "guì",
           "meaning": "expensive",
+          "emoji": "",
           "example": "Jiùjīnshān de chūzūchē bǐ Niǔyuē guì",
           "notes": "",
           "tones": [
@@ -1178,6 +1249,7 @@
           "front": "hǎowánr",
           "pinyin": "hǎowánr",
           "meaning": "fun",
+          "emoji": "",
           "example": "qí mótuōchē hěn hǎowánr",
           "notes": "",
           "tones": [
@@ -1205,6 +1277,7 @@
           "front": "mǎi",
           "pinyin": "mǎi",
           "meaning": "to buy",
+          "emoji": "",
           "example": "wǒ xiǎng mǎi yī jiàn chènshān",
           "notes": "3rd tone; don't confuse with mài (to sell)",
           "tones": [
@@ -1219,6 +1292,7 @@
           "front": "mài",
           "pinyin": "mài",
           "meaning": "to sell",
+          "emoji": "",
           "example": "zhèi jiā shāngdiàn mài bù mài wàitào?",
           "notes": "4th tone; same sound as mǎi but different tone",
           "tones": [
@@ -1233,6 +1307,7 @@
           "front": "tài",
           "pinyin": "tài",
           "meaning": "too (much), extremely",
+          "emoji": "",
           "example": "tài guì le",
           "notes": "",
           "tones": [
@@ -1247,6 +1322,7 @@
           "front": "guì",
           "pinyin": "guì",
           "meaning": "expensive",
+          "emoji": "",
           "example": "zhèi jiàn tài guì le",
           "notes": "",
           "tones": [
@@ -1261,6 +1337,7 @@
           "front": "piányi",
           "pinyin": "piányi",
           "meaning": "cheap, inexpensive",
+          "emoji": "",
           "example": "zhèi jiàn zhēn piányi",
           "notes": "",
           "tones": [
@@ -1277,6 +1354,7 @@
           "front": "shāngdiàn",
           "pinyin": "shāngdiàn",
           "meaning": "store, shop",
+          "emoji": "",
           "example": "yī jiā shāngdiàn",
           "notes": "",
           "tones": [
@@ -1293,6 +1371,7 @@
           "front": "jiā",
           "pinyin": "jiā",
           "meaning": "measure word for stores, restaurants & businesses",
+          "emoji": "",
           "example": "zhèi jiā shāngdiàn",
           "notes": "same character as family/home",
           "tones": [
@@ -1307,6 +1386,7 @@
           "front": "guàng",
           "pinyin": "guàng",
           "meaning": "to stroll",
+          "emoji": "",
           "example": "guàng yī guàng",
           "notes": "",
           "tones": [
@@ -1321,6 +1401,7 @@
           "front": "guàngjiē",
           "pinyin": "guàngjiē",
           "meaning": "to window-shop",
+          "emoji": "",
           "example": "wǒ xiǎng qù guàngjiē",
           "notes": "",
           "tones": [
@@ -1337,6 +1418,7 @@
           "front": "huānyíng guānglín",
           "pinyin": "huānyíng guānglín",
           "meaning": "welcome (said when entering a store)",
+          "emoji": "",
           "example": "huānyíng guānglín!",
           "notes": "said by staff when you enter a business",
           "tones": [
@@ -1357,6 +1439,7 @@
           "front": "búcuò",
           "pinyin": "búcuò",
           "meaning": "not bad, pretty good",
+          "emoji": "",
           "example": "zhèi jiàn búcuò",
           "notes": "",
           "tones": [
@@ -1373,6 +1456,7 @@
           "front": "hái kěyǐ",
           "pinyin": "hái kěyǐ",
           "meaning": "it's OK, it's alright, it's fine",
+          "emoji": "",
           "example": "nà hái kěyǐ",
           "notes": "implies something is acceptable but not ideal",
           "tones": [
@@ -1391,6 +1475,7 @@
           "front": "liúxíng",
           "pinyin": "liúxíng",
           "meaning": "popular, fashionable",
+          "emoji": "",
           "example": "zhèi tiáo hēisè de kùzi hěn liúxíng",
           "notes": "",
           "tones": [
@@ -1407,6 +1492,7 @@
           "front": "nín",
           "pinyin": "nín",
           "meaning": "you (formal/polite)",
+          "emoji": "",
           "example": "nín xǐhuan ma?",
           "notes": "used in business, to elders, doctors, bosses",
           "tones": [
@@ -1421,6 +1507,7 @@
           "front": "shì yī shì",
           "pinyin": "shì yī shì",
           "meaning": "give it a try, try it on",
+          "emoji": "",
           "example": "nín kěyǐ shì yī shì zhèi jiàn",
           "notes": "V-yi-V pattern",
           "tones": [
@@ -1439,6 +1526,7 @@
           "front": "jìnqù",
           "pinyin": "jìnqù",
           "meaning": "to go in, enter",
+          "emoji": "",
           "example": "wǒmen jìnqù guàng yī guàng",
           "notes": "",
           "tones": [
@@ -1455,6 +1543,7 @@
           "front": "kànkan",
           "pinyin": "kànkan",
           "meaning": "have a look",
+          "emoji": "",
           "example": "chuānshàng kànkan zěnmeyàng",
           "notes": "",
           "tones": [
@@ -1471,6 +1560,7 @@
           "front": "dǎ diànhuà gěi",
           "pinyin": "dǎ diànhuà gěi",
           "meaning": "to give somebody a call",
+          "emoji": "",
           "example": "wǒ dǎ diànhuà gěi nǐ",
           "notes": "literally: hit + telephone + give",
           "tones": [
@@ -1491,6 +1581,7 @@
           "front": "wéi",
           "pinyin": "wéi",
           "meaning": "hello (on telephone)",
+          "emoji": "",
           "example": "wéi? Jiěrú zài ma?",
           "notes": "used only for phone greetings",
           "tones": [
@@ -1505,6 +1596,7 @@
           "front": "zài ma?",
           "pinyin": "zài ma?",
           "meaning": "is (someone) there?",
+          "emoji": "",
           "example": "Jiěrú zài ma?",
           "notes": "used when calling for someone on the phone",
           "tones": [
@@ -1521,6 +1613,7 @@
           "front": "qǐng děng yīxià",
           "pinyin": "qǐng děng yīxià",
           "meaning": "please wait a moment",
+          "emoji": "",
           "example": "qǐng děng yīxià, nǐ de diànhuà",
           "notes": "",
           "tones": [
@@ -1541,6 +1634,7 @@
           "front": "jiànmiàn",
           "pinyin": "jiànmiàn",
           "meaning": "to meet (up)",
+          "emoji": "",
           "example": "wǒmen jǐ diǎn jiànmiàn?",
           "notes": "literally: see + face",
           "tones": [
@@ -1557,6 +1651,7 @@
           "front": "jiē",
           "pinyin": "jiē",
           "meaning": "to pick someone up (at a place)",
+          "emoji": "",
           "example": "wǒ qù jiē nǐ",
           "notes": "",
           "tones": [
@@ -1571,6 +1666,7 @@
           "front": "kěyǐ",
           "pinyin": "kěyǐ",
           "meaning": "able, that's OK, that's fine",
+          "emoji": "",
           "example": "kěyǐ, méiyǒu wèntí",
           "notes": "",
           "tones": [
@@ -1587,6 +1683,7 @@
           "front": "xíng",
           "pinyin": "xíng",
           "meaning": "possible, can work",
+          "emoji": "",
           "example": "xíng bù xíng?",
           "notes": "bù xíng = not possible",
           "tones": [
@@ -1601,6 +1698,7 @@
           "front": "jièqián",
           "pinyin": "jièqián",
           "meaning": "borrow money / lend money",
+          "emoji": "",
           "example": "wǒ kěyǐ jiè nǐ qián",
           "notes": "same word for both borrowing and lending",
           "tones": [
@@ -1617,6 +1715,7 @@
           "front": "tài xièxie nǐ le",
           "pinyin": "tài xièxie nǐ le",
           "meaning": "thanks so much",
+          "emoji": "",
           "example": "tài xièxie nǐ le!",
           "notes": "",
           "tones": [
@@ -1639,6 +1738,7 @@
           "front": "bùyòng kèqi",
           "pinyin": "bùyòng kèqi",
           "meaning": "you're very welcome",
+          "emoji": "",
           "example": "bùyòng kèqi!",
           "notes": "literally: no need for politeness",
           "tones": [
@@ -1659,6 +1759,7 @@
           "front": "biéde",
           "pinyin": "biéde",
           "meaning": "other",
+          "emoji": "",
           "example": "wǒmen qù biéde shāngdiàn",
           "notes": "",
           "tones": [
@@ -1675,6 +1776,7 @@
           "front": "wàitào",
           "pinyin": "wàitào",
           "meaning": "overcoat",
+          "emoji": "🧥",
           "example": "wǒ xiǎng mǎi yī jiàn wàitào",
           "notes": "",
           "tones": [
@@ -1700,6 +1802,7 @@
           "front": "yánsè",
           "pinyin": "yánsè",
           "meaning": "color",
+          "emoji": "",
           "example": "zhè shì shénme yánsè?",
           "notes": "",
           "tones": [
@@ -1716,6 +1819,7 @@
           "front": "báisè",
           "pinyin": "báisè",
           "meaning": "white",
+          "emoji": "⚪",
           "example": "báisè de chènshān",
           "notes": "",
           "tones": [
@@ -1732,6 +1836,7 @@
           "front": "hēisè",
           "pinyin": "hēisè",
           "meaning": "black",
+          "emoji": "⚫",
           "example": "hēisè de kùzi",
           "notes": "",
           "tones": [
@@ -1748,6 +1853,7 @@
           "front": "hóngsè",
           "pinyin": "hóngsè",
           "meaning": "red",
+          "emoji": "🔴",
           "example": "hóngsè de chènshān",
           "notes": "",
           "tones": [
@@ -1764,6 +1870,7 @@
           "front": "fěnhóngsè",
           "pinyin": "fěnhóngsè",
           "meaning": "pink",
+          "emoji": "🎀",
           "example": "fěnhóngsè de qúnzi",
           "notes": "",
           "tones": [
@@ -1782,6 +1889,7 @@
           "front": "chéngsè",
           "pinyin": "chéngsè",
           "meaning": "orange",
+          "emoji": "🟠",
           "example": "chéngsè de wàitào",
           "notes": "",
           "tones": [
@@ -1798,6 +1906,7 @@
           "front": "lánsè",
           "pinyin": "lánsè",
           "meaning": "blue",
+          "emoji": "🔵",
           "example": "lánsè de xiézi",
           "notes": "",
           "tones": [
@@ -1814,6 +1923,7 @@
           "front": "zǐsè",
           "pinyin": "zǐsè",
           "meaning": "purple",
+          "emoji": "🟣",
           "example": "zǐsè de jiākè",
           "notes": "",
           "tones": [
@@ -1830,6 +1940,7 @@
           "front": "kāfēisè",
           "pinyin": "kāfēisè",
           "meaning": "brown (coffee color)",
+          "emoji": "🟤",
           "example": "kāfēisè de kùzi",
           "notes": "",
           "tones": [
@@ -1848,6 +1959,7 @@
           "front": "huīsè",
           "pinyin": "huīsè",
           "meaning": "gray",
+          "emoji": "",
           "example": "huīsè de mào zi",
           "notes": "",
           "tones": [
@@ -1864,6 +1976,7 @@
           "front": "huángsè",
           "pinyin": "huángsè",
           "meaning": "yellow",
+          "emoji": "🟡",
           "example": "huángsè de chènshān",
           "notes": "",
           "tones": [
@@ -1880,6 +1993,7 @@
           "front": "lǜsè",
           "pinyin": "lǜsè",
           "meaning": "green",
+          "emoji": "🟢",
           "example": "lǜsè de jiākè",
           "notes": "",
           "tones": [
@@ -1896,6 +2010,7 @@
           "front": "yīfu",
           "pinyin": "yīfu",
           "meaning": "clothes",
+          "emoji": "👕",
           "example": "chuān yīfu",
           "notes": "",
           "tones": [
@@ -1912,6 +2027,7 @@
           "front": "chuān",
           "pinyin": "chuān",
           "meaning": "to wear (clothes)",
+          "emoji": "",
           "example": "chuān yīfu",
           "notes": "",
           "tones": [
@@ -1926,6 +2042,7 @@
           "front": "chuānshàng",
           "pinyin": "chuānshàng",
           "meaning": "to put on (a piece of clothing)",
+          "emoji": "",
           "example": "chuānshàng wàitào",
           "notes": "",
           "tones": [
@@ -1942,6 +2059,7 @@
           "front": "dài",
           "pinyin": "dài",
           "meaning": "to wear (caps, gloves, glasses)",
+          "emoji": "",
           "example": "dài màozi",
           "notes": "",
           "tones": [
@@ -1956,6 +2074,7 @@
           "front": "tuōxià",
           "pinyin": "tuōxià",
           "meaning": "to take off (clothing)",
+          "emoji": "",
           "example": "tuōxià xiézi",
           "notes": "",
           "tones": [
@@ -1972,6 +2091,7 @@
           "front": "chènshān",
           "pinyin": "chènshān",
           "meaning": "shirt",
+          "emoji": "",
           "example": "hóngsè de chènshān",
           "notes": "",
           "tones": [
@@ -1988,6 +2108,7 @@
           "front": "qúnzi",
           "pinyin": "qúnzi",
           "meaning": "skirt",
+          "emoji": "",
           "example": "zhèi jiàn qúnzi duōshao qián?",
           "notes": "",
           "tones": [
@@ -2004,6 +2125,7 @@
           "front": "wàitào",
           "pinyin": "wàitào",
           "meaning": "overcoat",
+          "emoji": "🧥",
           "example": "chuānshàng wàitào",
           "notes": "",
           "tones": [
@@ -2020,6 +2142,7 @@
           "front": "kùzi",
           "pinyin": "kùzi",
           "meaning": "pants",
+          "emoji": "👖",
           "example": "hēisè de kùzi",
           "notes": "measure word: tiáo",
           "tones": [
@@ -2036,6 +2159,7 @@
           "front": "xiézi",
           "pinyin": "xiézi",
           "meaning": "shoes",
+          "emoji": "",
           "example": "lánsè de xiézi",
           "notes": "measure word: shuāng",
           "tones": [
@@ -2052,6 +2176,7 @@
           "front": "màozi",
           "pinyin": "màozi",
           "meaning": "hat",
+          "emoji": "🎩",
           "example": "dài màozi",
           "notes": "measure word: dǐng",
           "tones": [
@@ -2068,6 +2193,7 @@
           "front": "wàzi",
           "pinyin": "wàzi",
           "meaning": "socks",
+          "emoji": "",
           "example": "báisè de wàzi",
           "notes": "measure word: shuāng",
           "tones": [
@@ -2084,6 +2210,7 @@
           "front": "jiākè",
           "pinyin": "jiākè",
           "meaning": "jacket",
+          "emoji": "🧥",
           "example": "lǜsè de jiākè",
           "notes": "measure word: jiàn",
           "tones": [
@@ -2100,6 +2227,7 @@
           "front": "shǒutào",
           "pinyin": "shǒutào",
           "meaning": "gloves",
+          "emoji": "🧤",
           "example": "dài shǒutào",
           "notes": "measure word: shuāng",
           "tones": [
@@ -2116,6 +2244,7 @@
           "front": "nèikù",
           "pinyin": "nèikù",
           "meaning": "underwear",
+          "emoji": "",
           "example": "nèikù",
           "notes": "measure word: tiáo",
           "tones": [
@@ -2132,6 +2261,7 @@
           "front": "duōshao qián",
           "pinyin": "duōshao qián",
           "meaning": "how much money / how much is it",
+          "emoji": "",
           "example": "zhèi jiàn qúnzi duōshao qián?",
           "notes": "literally: many-few money",
           "tones": [
@@ -2150,6 +2280,7 @@
           "front": "kuài",
           "pinyin": "kuài",
           "meaning": "a dollar (colloquial)",
+          "emoji": "",
           "example": "èrshíwǔ kuài wǔ máo",
           "notes": "",
           "tones": [
@@ -2164,6 +2295,7 @@
           "front": "máo",
           "pinyin": "máo",
           "meaning": "a dime (1/10 of a kuai)",
+          "emoji": "",
           "example": "wǔ máo",
           "notes": "",
           "tones": [
@@ -2187,6 +2319,7 @@
           "front": "dōu",
           "pinyin": "dōu",
           "meaning": "all, entirely",
+          "emoji": "",
           "example": "dōu xǐhuān = like them all",
           "notes": "",
           "tones": [
@@ -2201,6 +2334,7 @@
           "front": "kěyǐ",
           "pinyin": "kěyǐ",
           "meaning": "able to, that's OK",
+          "emoji": "",
           "example": "dōu kěyǐ = anything is fine, either one is fine",
           "notes": "",
           "tones": [
@@ -2217,6 +2351,7 @@
           "front": "wúsuǒwèi",
           "pinyin": "wúsuǒwèi",
           "meaning": "it doesn't matter (to me), I don't care",
+          "emoji": "",
           "example": "wǒ yě wúsuǒwèi = I don't care either",
           "notes": "",
           "tones": [
@@ -2235,6 +2370,7 @@
           "front": "suíbiàn",
           "pinyin": "suíbiàn",
           "meaning": "it's up to you, whatever you like",
+          "emoji": "",
           "example": "suíbiàn = it's up to you",
           "notes": "literally 'follow convenience'",
           "tones": [
@@ -2251,6 +2387,7 @@
           "front": "nìngkě",
           "pinyin": "nìngkě",
           "meaning": "would rather",
+          "emoji": "",
           "example": "",
           "notes": "",
           "tones": [
@@ -2267,6 +2404,7 @@
           "front": "nàme",
           "pinyin": "nàme",
           "meaning": "in that case, then",
+          "emoji": "",
           "example": "nàme, wǒmen qù chīfàn ba = in that case, let's go eat",
           "notes": "",
           "tones": [
@@ -2283,6 +2421,7 @@
           "front": "zǒu ba",
           "pinyin": "zǒu ba",
           "meaning": "let's go",
+          "emoji": "",
           "example": "wǒmen zǒu ba = let's go",
           "notes": "",
           "tones": [
@@ -2299,6 +2438,7 @@
           "front": "qǐng zuò",
           "pinyin": "qǐng zuò",
           "meaning": "please have a seat",
+          "emoji": "",
           "example": "",
           "notes": "",
           "tones": [
@@ -2315,6 +2455,7 @@
           "front": "qǐng lái",
           "pinyin": "qǐng lái",
           "meaning": "please come / please bring...",
+          "emoji": "",
           "example": "qǐng lái càidān = please bring a menu",
           "notes": "",
           "tones": [
@@ -2331,6 +2472,7 @@
           "front": "bùyòng",
           "pinyin": "bùyòng",
           "meaning": "that's not necessary, no need",
+          "emoji": "",
           "example": "bùyòng kèqi = no need to be so polite",
           "notes": "",
           "tones": [
@@ -2347,6 +2489,7 @@
           "front": "fànguǎn",
           "pinyin": "fànguǎn",
           "meaning": "restaurant",
+          "emoji": "🍽️",
           "example": "",
           "notes": "",
           "tones": [
@@ -2363,6 +2506,7 @@
           "front": "wèi",
           "pinyin": "wèi",
           "meaning": "polite measure word for people",
+          "emoji": "",
           "example": "nǐmen jǐ wèi? = how many of you are there?",
           "notes": "",
           "tones": [
@@ -2377,6 +2521,7 @@
           "front": "kāimén",
           "pinyin": "kāimén",
           "meaning": "open (for establishments)",
+          "emoji": "",
           "example": "",
           "notes": "literally 'open door'",
           "tones": [
@@ -2393,6 +2538,7 @@
           "front": "guānmén",
           "pinyin": "guānmén",
           "meaning": "close (for establishments)",
+          "emoji": "",
           "example": "tāmen jǐ diǎn guānmén? = what time do they close?",
           "notes": "literally 'close door'",
           "tones": [
@@ -2409,6 +2555,7 @@
           "front": "cài",
           "pinyin": "cài",
           "meaning": "dish, food",
+          "emoji": "",
           "example": "Zhōngguó cài = Chinese food",
           "notes": "",
           "tones": [
@@ -2423,6 +2570,7 @@
           "front": "diǎncài",
           "pinyin": "diǎncài",
           "meaning": "to order food",
+          "emoji": "",
           "example": "",
           "notes": "",
           "tones": [
@@ -2439,6 +2587,7 @@
           "front": "càidān",
           "pinyin": "càidān",
           "meaning": "menu",
+          "emoji": "📋",
           "example": "qǐng lái càidān = please bring a menu",
           "notes": "",
           "tones": [
@@ -2455,6 +2604,7 @@
           "front": "mǎidān",
           "pinyin": "mǎidān",
           "meaning": "the bill (in a restaurant)",
+          "emoji": "",
           "example": "xiǎojiě, mǎidān = miss, the bill please",
           "notes": "",
           "tones": [
@@ -2471,6 +2621,7 @@
           "front": "yǐnliào",
           "pinyin": "yǐnliào",
           "meaning": "beverage(s)",
+          "emoji": "",
           "example": "",
           "notes": "",
           "tones": [
@@ -2487,6 +2638,7 @@
           "front": "chá",
           "pinyin": "chá",
           "meaning": "tea",
+          "emoji": "🍵",
           "example": "liǎng bēi chá = two cups of tea",
           "notes": "",
           "tones": [
@@ -2501,6 +2653,7 @@
           "front": "píjiǔ",
           "pinyin": "píjiǔ",
           "meaning": "beer",
+          "emoji": "🍺",
           "example": "qǐng lái yì píng píjiǔ = please bring a bottle of beer",
           "notes": "",
           "tones": [
@@ -2517,6 +2670,7 @@
           "front": "niúròu",
           "pinyin": "niúròu",
           "meaning": "beef",
+          "emoji": "🥩",
           "example": "",
           "notes": "",
           "tones": [
@@ -2533,6 +2687,7 @@
           "front": "zhūròu",
           "pinyin": "zhūròu",
           "meaning": "pork",
+          "emoji": "🥓",
           "example": "",
           "notes": "",
           "tones": [
@@ -2549,6 +2704,7 @@
           "front": "jīròu",
           "pinyin": "jīròu",
           "meaning": "chicken (meat)",
+          "emoji": "🍗",
           "example": "",
           "notes": "",
           "tones": [
@@ -2565,6 +2721,7 @@
           "front": "jiǎozi",
           "pinyin": "jiǎozi",
           "meaning": "dumpling(s)",
+          "emoji": "🥟",
           "example": "",
           "notes": "",
           "tones": [
@@ -2581,6 +2738,7 @@
           "front": "chǎomiàn",
           "pinyin": "chǎomiàn",
           "meaning": "chow mein, fried noodles",
+          "emoji": "🍜",
           "example": "",
           "notes": "",
           "tones": [
@@ -2597,6 +2755,7 @@
           "front": "chǎofàn",
           "pinyin": "chǎofàn",
           "meaning": "fried rice",
+          "emoji": "🍚",
           "example": "",
           "notes": "",
           "tones": [
@@ -2613,6 +2772,7 @@
           "front": "tāng",
           "pinyin": "tāng",
           "meaning": "soup",
+          "emoji": "",
           "example": "suānlàtāng = hot and sour soup",
           "notes": "Chinese say 'hē tāng' (drink soup), not 'eat soup'",
           "tones": [
@@ -2627,6 +2787,7 @@
           "front": "kuàizi",
           "pinyin": "kuàizi",
           "meaning": "chopsticks",
+          "emoji": "🥢",
           "example": "yòng kuàizi = to use chopsticks",
           "notes": "",
           "tones": [
@@ -2643,6 +2804,7 @@
           "front": "gānbēi",
           "pinyin": "gānbēi",
           "meaning": "bottoms up, cheers",
+          "emoji": "",
           "example": "wǒmen lái gānbēi ba = let's cheers",
           "notes": "sometimes literally means empty your glass",
           "tones": [
@@ -2668,6 +2830,7 @@
           "front": "nín",
           "pinyin": "nín",
           "meaning": "you (formal/polite)",
+          "emoji": "",
           "example": "nin hao!",
           "notes": "Used when addressing elders or in formal situations",
           "tones": [
@@ -2682,6 +2845,7 @@
           "front": "guì xìng",
           "pinyin": "guì xìng",
           "meaning": "May I ask your last name?",
+          "emoji": "",
           "example": "nin gui xing?",
           "notes": "Polite way to ask someone's surname",
           "tones": [
@@ -2698,6 +2862,7 @@
           "front": "xìng",
           "pinyin": "xìng",
           "meaning": "surname / to be surnamed",
+          "emoji": "",
           "example": "wo xing Wang",
           "notes": "Used as both a verb and noun",
           "tones": [
@@ -2712,6 +2877,7 @@
           "front": "Lǐ",
           "pinyin": "Lǐ",
           "meaning": "a common Chinese surname (Li)",
+          "emoji": "",
           "example": "wo xing Li",
           "notes": "",
           "tones": [
@@ -2726,6 +2892,7 @@
           "front": "Wáng",
           "pinyin": "Wáng",
           "meaning": "a common Chinese surname (Wang)",
+          "emoji": "",
           "example": "wo xing Wang",
           "notes": "",
           "tones": [
@@ -2740,6 +2907,7 @@
           "front": "xiān sheng",
           "pinyin": "xiān sheng",
           "meaning": "Mr. / Sir / husband",
+          "emoji": "",
           "example": "Li xian sheng hao!",
           "notes": "Can also mean 'husband' in everyday speech",
           "tones": [
@@ -2756,6 +2924,7 @@
           "front": "wǒ",
           "pinyin": "wǒ",
           "meaning": "I / me",
+          "emoji": "",
           "example": "wo xing Li",
           "notes": "",
           "tones": [
@@ -2770,6 +2939,7 @@
           "front": "jiào",
           "pinyin": "jiào",
           "meaning": "to be called (by name)",
+          "emoji": "",
           "example": "ta jiao Da wei",
           "notes": "Used for full name or given name",
           "tones": [
@@ -2784,6 +2954,7 @@
           "front": "hǎo",
           "pinyin": "hǎo",
           "meaning": "good / well",
+          "emoji": "",
           "example": "lao shi hao!",
           "notes": "Used in greetings",
           "tones": [
@@ -2798,6 +2969,7 @@
           "front": "shì",
           "pinyin": "shì",
           "meaning": "to be (am, are, is)",
+          "emoji": "",
           "example": "ta shi shei?",
           "notes": "",
           "tones": [
@@ -2812,6 +2984,7 @@
           "front": "Měi guó rén",
           "pinyin": "Měi guó rén",
           "meaning": "American (person)",
+          "emoji": "",
           "example": "wo shi Mei guo ren",
           "notes": "",
           "tones": [
@@ -2830,6 +3003,7 @@
           "front": "Měi guó",
           "pinyin": "Měi guó",
           "meaning": "U.S.A. / America",
+          "emoji": "🇺🇸",
           "example": "ta shi Mei guo ren",
           "notes": "",
           "tones": [
@@ -2846,6 +3020,7 @@
           "front": "guó",
           "pinyin": "guó",
           "meaning": "country / nation",
+          "emoji": "",
           "example": "ni shi na guo ren?",
           "notes": "",
           "tones": [
@@ -2860,6 +3035,7 @@
           "front": "rén",
           "pinyin": "rén",
           "meaning": "person / people",
+          "emoji": "",
           "example": "ta shi Tai wan ren",
           "notes": "",
           "tones": [
@@ -2874,6 +3050,7 @@
           "front": "ma",
           "pinyin": "ma",
           "meaning": "question particle (yes/no questions)",
+          "emoji": "",
           "example": "ni shi Li xian sheng ma?",
           "notes": "Added at end of statement to make it a yes/no question",
           "tones": [
@@ -2888,6 +3065,7 @@
           "front": "bù",
           "pinyin": "bù",
           "meaning": "not",
+          "emoji": "",
           "example": "ta bu xing Wang",
           "notes": "Changes to 2nd tone before another 4th tone: bu shi becomes bu(2) shi",
           "tones": [
@@ -2902,6 +3080,7 @@
           "front": "Yīng guó",
           "pinyin": "Yīng guó",
           "meaning": "England / Britain",
+          "emoji": "🇬🇧",
           "example": "ta bu shi Ying guo ren",
           "notes": "",
           "tones": [
@@ -2918,6 +3097,7 @@
           "front": "nǐ",
           "pinyin": "nǐ",
           "meaning": "you (informal)",
+          "emoji": "",
           "example": "ni shi Li Ai mei ma?",
           "notes": "",
           "tones": [
@@ -2932,6 +3112,7 @@
           "front": "shén me",
           "pinyin": "shén me",
           "meaning": "what",
+          "emoji": "",
           "example": "ta xing shen me?",
           "notes": "",
           "tones": [
@@ -2948,6 +3129,7 @@
           "front": "míng zi",
           "pinyin": "míng zi",
           "meaning": "name / given name",
+          "emoji": "",
           "example": "ni jiao shen me ming zi?",
           "notes": "Can refer to full name or first name",
           "tones": [
@@ -2964,6 +3146,7 @@
           "front": "nǎ",
           "pinyin": "nǎ",
           "meaning": "which",
+          "emoji": "",
           "example": "ta shi na guo ren?",
           "notes": "Sometimes pronounced 'nei'",
           "tones": [
@@ -2978,6 +3161,7 @@
           "front": "ne",
           "pinyin": "ne",
           "meaning": "question particle (how about...?)",
+          "emoji": "",
           "example": "wo xing Wang, ni ne?",
           "notes": "Used for follow-up questions",
           "tones": [
@@ -2992,6 +3176,7 @@
           "front": "Tái wān",
           "pinyin": "Tái wān",
           "meaning": "Taiwan",
+          "emoji": "🇹🇼",
           "example": "wo shi Tai wan ren",
           "notes": "",
           "tones": [
@@ -3008,6 +3193,7 @@
           "front": "tā (male)",
           "pinyin": "tā (male)",
           "meaning": "he / him",
+          "emoji": "",
           "example": "ta bu jiao Da wei",
           "notes": "",
           "tones": [
@@ -3022,6 +3208,7 @@
           "front": "Zhōng guó",
           "pinyin": "Zhōng guó",
           "meaning": "China",
+          "emoji": "🇨🇳",
           "example": "ta shi Zhong guo ren",
           "notes": "",
           "tones": [
@@ -3038,6 +3225,7 @@
           "front": "tā (female)",
           "pinyin": "tā (female)",
           "meaning": "she / her",
+          "emoji": "",
           "example": "ta jiao Zhen ni",
           "notes": "Sounds the same as 'he' in spoken Mandarin",
           "tones": [
@@ -3052,6 +3240,7 @@
           "front": "shéi",
           "pinyin": "shéi",
           "meaning": "who / whom",
+          "emoji": "",
           "example": "shei shi Wang xian sheng?",
           "notes": "",
           "tones": [
@@ -3066,6 +3255,7 @@
           "front": "huá rén",
           "pinyin": "huá rén",
           "meaning": "ethnic Chinese / overseas Chinese",
+          "emoji": "",
           "example": "ta shi hua ren ma?",
           "notes": "Refers to people of Chinese descent living abroad",
           "tones": [
@@ -3082,6 +3272,7 @@
           "front": "lǎo shī",
           "pinyin": "lǎo shī",
           "meaning": "teacher",
+          "emoji": "👩‍🏫",
           "example": "lao shi hao!",
           "notes": "Common greeting for teachers",
           "tones": [

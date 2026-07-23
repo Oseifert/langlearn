@@ -100,6 +100,7 @@ function makeCardRecord(raw, deckId) {
     front: raw.front || raw.pinyin || raw.meaning || '?',
     pinyin: raw.pinyin || '',
     meaning: raw.meaning || '',
+    emoji: raw.emoji || '',
     example: raw.example || '',
     notes: raw.notes || '',
     tones: Array.isArray(raw.tones) ? raw.tones : deriveTones(raw.pinyin || ''),
@@ -227,10 +228,16 @@ function deckStats(cards) {
 // per-mode progress count for a set of cards (delegates to core.js).
 function modeMastery(cards, mode) { return YC.modeMastery(cards, mode, now); }
 // how many cards are due RIGHT NOW in a specific mode (matches what a
-// single-mode Practice session will actually quiz).
+// single-mode session will actually quiz). Skips cards where the mode does
+// not apply (e.g. tone mode on a toneless card) so the count matches the
+// drill's own cardHasTones filter.
 function modeDue(cards, mode) {
   let n = 0;
-  for (const c of cards) { ensureStates(c); if (stateForMode(c, mode).due <= now()) n++; }
+  for (const c of cards) {
+    ensureStates(c);
+    if (mode === 'tone' && !YC.cardHasTones(c)) continue;
+    if (stateForMode(c, mode).due <= now()) n++;
+  }
   return n;
 }
 
@@ -264,7 +271,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v15 · tone caught-up + auto-update';
+const BUILD = 'v16 · due-count fix + emojis';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -352,7 +359,7 @@ async function renderDeck(root, deckId) {
     ensureStates(c);
     root.append(el('div', { class: 'deck', style: 'cursor:default;padding:.7rem 1rem' },
       el('div', { style: 'display:flex;justify-content:space-between;gap:1rem;align-items:baseline' },
-        el('strong', {}, (fullyMastered(c) ? '✅ ' : '') + c.front),
+        el('strong', {}, (fullyMastered(c) ? '✅ ' : '') + frontText(c)),
         el('span', { class: 'sub', style: 'margin:0' }, c.meaning))));
   }
 }
@@ -378,6 +385,9 @@ async function buildQueue({ mode, deckId, cram, dir }) {
 }
 function modeScore(c, mode) { const s = stateForMode(c, mode); return s.reps * s.ease; }
 function shuffle(a) { return YC.shuffle(a); }
+// Chinese/pinyin front, with a trailing emoji when the word has an obvious
+// concrete fit (memory aid). Emoji comes from the seed (build_seed.py).
+function frontText(c) { return c.emoji ? `${c.front} ${c.emoji}` : c.front; }
 
 // ---- Practice (meaning flashcards) ----
 async function renderPractice(root, params) {
@@ -410,7 +420,7 @@ async function renderPractice(root, params) {
     if (dir === 'en2zh') {
       card.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));
     } else {
-      card.append(el('div', { class: 'front' }, c.front));
+      card.append(el('div', { class: 'front' }, frontText(c)));
     }
     card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
     stage.append(card);
@@ -424,9 +434,9 @@ async function renderPractice(root, params) {
     if (dir === 'en2zh') {
       card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
       card.append(el('div', { class: 'divider' }));
-      card.append(el('div', { class: 'front' }, c.front));
+      card.append(el('div', { class: 'front' }, frontText(c)));
     } else {
-      card.append(el('div', { class: 'front' }, c.front));
+      card.append(el('div', { class: 'front' }, frontText(c)));
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'meaning' }, c.meaning));
     }
@@ -622,16 +632,16 @@ async function renderMixedReview(root, params) {
       if (!revealed) {
         card.append(dir === 'en2zh'
           ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
-          : el('div', { class: 'front' }, c.front));
+          : el('div', { class: 'front' }, frontText(c)));
         card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
         stage.append(card);
       } else {
         if (dir === 'en2zh') {
           card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
           card.append(el('div', { class: 'divider' }));
-          card.append(el('div', { class: 'front' }, c.front));
+          card.append(el('div', { class: 'front' }, frontText(c)));
         } else {
-          card.append(el('div', { class: 'front' }, c.front));
+          card.append(el('div', { class: 'front' }, frontText(c)));
           card.append(el('div', { class: 'divider' }));
           card.append(el('div', { class: 'meaning' }, c.meaning));
         }
