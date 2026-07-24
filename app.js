@@ -271,7 +271,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v17 · emoji on cards only';
+const BUILD = 'v18 · emoji on reveal only';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -420,7 +420,8 @@ async function renderPractice(root, params) {
     if (dir === 'en2zh') {
       card.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));
     } else {
-      card.append(el('div', { class: 'front' }, frontText(c)));
+      // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
+      card.append(el('div', { class: 'front' }, c.front));
     }
     card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
     stage.append(card);
@@ -632,7 +633,7 @@ async function renderMixedReview(root, params) {
       if (!revealed) {
         card.append(dir === 'en2zh'
           ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
-          : el('div', { class: 'front' }, frontText(c)));
+          : el('div', { class: 'front' }, c.front)); // face-down 中→EN: no emoji (would spoil answer)
         card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
         stage.append(card);
       } else {
