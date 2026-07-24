@@ -81,6 +81,23 @@
     return { done, mastered, applicable };
   }
 
+  // Mode-aware deck stats: counts each card once PER applicable mode
+  // (zh2en, en2zh, and tone only when the card has tones). So a 30-card deck
+  // where every mode is outstanding totals 90 review-items; clearing one whole
+  // mode drops due by 30. Matches the (card,mode) unit used by Review-Everything.
+  function deckStatsModes(cards, nowFn) {
+    let total = 0, due = 0, mastered = 0;
+    for (const c of cards) {
+      for (const mode of modesFor(c)) {
+        total++;
+        const s = stateForMode(c, mode);
+        if (s.due <= (nowFn ? nowFn() : Date.now())) due++;
+        if (isMastered(s)) mastered++;
+      }
+    }
+    return { total, due, mastered };
+  }
+
   // ---------- pinyin -> tones / syllables (greedy segmentation) ----------
   const _INITIALS = ['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s','y','w',''];
   const _FINALS = ['a','o','e','ai','ei','ao','ou','an','en','ang','eng','ong','er','i','ia','ie','iao','iu','ian','in','iang','ing','iong','u','ua','uo','uai','ui','uan','un','uang','ueng','v','ve','van','vn'];
@@ -139,7 +156,7 @@
     stripToneMarks,
     newState, schedule,
     isMastered, isProgressed, cardHasTones,
-    stateForMode, modesFor, fullyMastered, modeMastery,
+    stateForMode, modesFor, fullyMastered, modeMastery, deckStatsModes,
     deriveTones, deriveSyllables,
     shuffle,
   };

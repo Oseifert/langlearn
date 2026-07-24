@@ -215,15 +215,15 @@ function modesFor(c) { return YC.modesFor(c); }
 function fullyMastered(c) { return YC.fullyMastered(c); }
 
 // ---------- deck stats ----------
+// Mode-aware: total/due/mastered count each card once per applicable mode
+// (中→EN, EN→中, and tone when the card has tones). A 30-card deck with all
+// modes outstanding shows 90; clearing one mode drops due to 60. This matches
+// how Review-Everything enumerates (card, mode) pairs.
 function deckStats(cards) {
-  let due = 0, mastered = 0;
-  for (const c of cards) {
-    ensureStates(c);
-    const dueNow = modesFor(c).some(mode => stateForMode(c, mode).due <= now());
-    if (dueNow) due++;
-    if (fullyMastered(c)) mastered++;
-  }
-  return { total: cards.length, due, mastered };
+  for (const c of cards) ensureStates(c);
+  const s = YC.deckStatsModes(cards, now);
+  s.cards = cards.length; // real word count (mode-total lives in s.total)
+  return s;
 }
 // per-mode progress count for a set of cards (delegates to core.js).
 function modeMastery(cards, mode) { return YC.modeMastery(cards, mode, now); }
@@ -271,7 +271,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v18 · emoji on reveal only';
+const BUILD = 'v19 · mode-aware due counts';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -297,8 +297,8 @@ async function renderHome(root) {
     el('div', { class: 'sub' }, 'All modes mixed — every due item (中→EN, EN→中, tones) across every deck'),
     el('div', { class: 'bar' }, el('i', { style: `width:${totals.total ? Math.round(100 * totals.mastered / totals.total) : 0}%` })),
     el('div', { class: 'stats' },
-      el('span', { class: 'pill' }, `${totals.total} cards`),
-      el('span', { class: 'pill due' }, `${totals.due} due`),
+      el('span', { class: 'pill' }, `${totals.cards} words`),
+      el('span', { class: 'pill due' }, `${totals.due} / ${totals.total} due`),
       el('span', { class: 'pill mastered' }, `${totals.mastered} mastered`)));
   root.append(reviewCard);
   root.append(el('div', { class: 'hint' }, 'Or pick a single upload to focus on:'));
@@ -312,8 +312,8 @@ async function renderHome(root) {
       el('div', { class: 'sub' }, d.source || ''),
       el('div', { class: 'bar' }, el('i', { style: `width:${pct}%` })),
       el('div', { class: 'stats' },
-        el('span', { class: 'pill' }, `${s.total} cards`),
-        el('span', { class: 'pill due' }, `${s.due} due`),
+        el('span', { class: 'pill' }, `${s.cards} words`),
+        el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
         el('span', { class: 'pill mastered' }, `${s.mastered} mastered`))));
   }
   root.append(el('div', { class: 'hint', style: 'text-align:center;opacity:.5;margin-top:1.5rem' }, `build ${BUILD}`));
@@ -329,8 +329,8 @@ async function renderDeck(root, deckId) {
 
   if (deck.summary) root.append(el('div', { class: 'hint' }, deck.summary));
   root.append(el('div', { class: 'stats', style: 'margin:.4rem 0 0' },
-    el('span', { class: 'pill' }, `${s.total} cards`),
-    el('span', { class: 'pill due' }, `${s.due} due`),
+    el('span', { class: 'pill' }, `${s.cards} words`),
+    el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
     el('span', { class: 'pill mastered' }, `${s.mastered} mastered`)));
 
   const actions = el('div', { class: 'actions' });
