@@ -271,7 +271,7 @@ async function render() {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v16 · due-count fix + emojis';
+const BUILD = 'v17 · emoji on cards only';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -359,7 +359,7 @@ async function renderDeck(root, deckId) {
     ensureStates(c);
     root.append(el('div', { class: 'deck', style: 'cursor:default;padding:.7rem 1rem' },
       el('div', { style: 'display:flex;justify-content:space-between;gap:1rem;align-items:baseline' },
-        el('strong', {}, (fullyMastered(c) ? '✅ ' : '') + frontText(c)),
+        el('strong', {}, (fullyMastered(c) ? '✅ ' : '') + c.front),
         el('span', { class: 'sub', style: 'margin:0' }, c.meaning))));
   }
 }
