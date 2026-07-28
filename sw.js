@@ -1,10 +1,11 @@
 /* 语卡 service worker — network-first for app code so updates land immediately */
-const CACHE = 'yuka-v19';
+const CACHE = 'yuka-v20';
 const ASSETS = [
   './',
   './index.html',
   './styles.css',
   './core.js',
+  './sync.js',
   './app.js',
   './manifest.webmanifest',
   './seed.json',

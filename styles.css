@@ -146,3 +146,10 @@ body{
 .stat-box{background:var(--panel);border:1px solid var(--line);border-radius:.9rem;padding:.9rem}
 .stat-box .n{font-size:1.6rem;font-weight:700}
 .stat-box .l{font-size:.75rem;color:var(--muted)}
+
+/* --- Settings / backup view (v20) --- */
+.settings{display:flex;flex-direction:column;gap:.6rem;padding:.5rem 0}
+.settings input[type=password]{width:100%;box-sizing:border-box;padding:.75rem .9rem;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:inherit;font-size:1rem}
+.sync-status{padding:.7rem .9rem;border-radius:12px;background:rgba(255,255,255,.05);font-size:.95rem}
+.settings-actions{display:flex;gap:.5rem}
+.settings-actions .btn{flex:1}

@@ -268,10 +268,56 @@ async function render() {
   if (view === 'practice') return renderPractice(root, params);
   if (view === 'mixed') return renderMixedReview(root, params);
   if (view === 'tones') return renderToneDrill(root, params);
+  if (view === 'settings') return renderSettings(root);
+}
+
+// ---- Settings / Backup ----
+async function renderSettings(root) {
+  $('#title').textContent = 'Backup';
+  const hasTok = await YukaSync.hasToken();
+  const last = await YukaSync.lastBackup();
+  const lastStr = last ? new Date(last).toLocaleString() : 'never';
+
+  const wrap = el('div', { class: 'settings' });
+  wrap.append(el('p', { class: 'hint' },
+    'Your progress backs up automatically to your private GitHub repo so it survives phone wipes, reinstalls, and new devices.'));
+
+  const status = el('div', { class: 'sync-status' },
+    hasTok ? `✅ Backup on · last: ${lastStr}` : '⚠️ Not set up yet — paste your token below.');
+  wrap.append(status);
+
+  const input = el('input', { type: 'password', id: 'tokenInput', placeholder: 'GitHub token (ghp_… or github_pat_…)', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
+  input.value = hasTok ? '••••••••••••' : '';
+  wrap.append(el('label', { class: 'hint' }, 'Token (stored only on this device, never in the repo):'), input);
+
+  const saveBtn = el('button', { class: 'btn primary', onclick: async () => {
+    const v = input.value.trim();
+    if (!v || v.startsWith('•')) { toast('Paste a token first'); return; }
+    saveBtn.disabled = true; saveBtn.textContent = 'Checking…';
+    const ok = await YukaSync.testToken(v);
+    if (!ok) { toast('Token rejected by GitHub'); saveBtn.disabled = false; saveBtn.textContent = 'Save token'; return; }
+    await YukaSync.setToken(v);
+    toast('Token saved — backing up…');
+    await YukaSync.backupNow();
+    render();
+  } }, 'Save token');
+  wrap.append(saveBtn);
+
+  if (hasTok) {
+    const row = el('div', { class: 'settings-actions' });
+    row.append(el('button', { class: 'btn', onclick: async () => { toast('Backing up…'); const r = await YukaSync.backupNow(); toast(r.ok ? 'Backed up ✅' : 'Backup failed'); render(); } }, 'Back up now'));
+    row.append(el('button', { class: 'btn', onclick: async () => { toast('Restoring…'); const r = await YukaSync.restoreNow(); toast(r.ok ? `Restored (${r.merged||0} updated)` : 'Restore failed'); render(); } }, 'Restore now'));
+    wrap.append(row);
+    const clr = el('button', { class: 'btn ghost', onclick: async () => { await YukaSync.setToken(''); toast('Token removed from this device'); render(); } }, 'Remove token from this device');
+    wrap.append(clr);
+  }
+  wrap.append(el('p', { class: 'hint', style: 'opacity:.5;margin-top:1rem' },
+    'Progress is merged newest-first across devices, so backing up never erases newer progress made elsewhere.'));
+  root.append(wrap);
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v19 · mode-aware due counts';
+const BUILD = 'v20 · GitHub progress backup';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -383,6 +429,14 @@ async function buildQueue({ mode, deckId, cram, dir }) {
     .slice(0, 10);
   return { queue: shuffle(ahead), dueCount: 0, aheadUsed: true };
 }
+// Persist a just-graded card: stamp updatedAt (for cross-device merge) and
+// trigger a debounced GitHub backup if a token is configured.
+async function saveGraded(c) {
+  c.updatedAt = now();
+  await DB.putCard(c);
+  if (window.YukaSync) YukaSync.scheduleBackup();
+}
+
 function modeScore(c, mode) { const s = stateForMode(c, mode); return s.reps * s.ease; }
 function shuffle(a) { return YC.shuffle(a); }
 // Chinese/pinyin front, with a trailing emoji when the word has an obvious
@@ -456,7 +510,7 @@ async function renderPractice(root, params) {
     const c = queue[i];
     if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
     else c.zhEnState = schedule(c.zhEnState, g);
-    await DB.putCard(c);
+    await saveGraded(c);
     if (g === 0) { again++; queue.push(c); } else correct++;
     i++; draw();
   }
@@ -553,7 +607,7 @@ async function renderToneDrill(root, params) {
       const allCorrect = picks.every((p, k) => p === answers[k]);
       if (allCorrect) hits++; else misses++;
       c.toneState = schedule(c.toneState, allCorrect ? 2 : 0);
-      await DB.putCard(c);
+      await saveGraded(c);
       if (!allCorrect) queue.push(c);
       render();
       // show the correct answer and wait for the user to tap Next so they have
@@ -659,7 +713,7 @@ async function renderMixedReview(root, params) {
     async function grade0(g) {
       if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
       else c.zhEnState = schedule(c.zhEnState, g);
-      await DB.putCard(c);
+      await saveGraded(c);
       advance(g > 0, g === 0 ? item : null);
     }
   }
@@ -707,7 +761,7 @@ async function renderMixedReview(root, params) {
       locked = true;
       const allCorrect = picks.every((p, k) => p === answers[k]);
       c.toneState = schedule(c.toneState, allCorrect ? 2 : 0);
-      await DB.putCard(c);
+      await saveGraded(c);
       render();
       const q = stage.querySelector('.drill-q');
       if (q) q.textContent = allCorrect ? '✓ correct' : 'answer: ' + syls.join(' ');
@@ -732,6 +786,7 @@ function doneScreen(title, stats) {
 }
 
 // ---------- upload handling ----------
+$('#settingsBtn').addEventListener('click', () => app.go('settings', {}));
 $('#uploadBtn').addEventListener('click', () => $('#fileInput').click());
 $('#fileInput').addEventListener('change', async (e) => {
   const files = [...e.target.files];
@@ -759,6 +814,11 @@ $('#backBtn').addEventListener('click', () => app.back());
 (async function boot() {
   try { await ensureSeeded(); } catch (e) { console.error(e); }
   try { await migrateCards(); } catch (e) { console.error(e); }
+  // Pull latest progress from GitHub (if this device has a token) before render,
+  // so a fresh install / new device restores prior progress automatically.
+  try {
+    if (window.YukaSync && await YukaSync.hasToken()) await YukaSync.restoreNow();
+  } catch (e) { console.error('restore on boot failed', e); }
   app.stack = [{ view: 'home' }];
   await render();
   if ('serviceWorker' in navigator) {
