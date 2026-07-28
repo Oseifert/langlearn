@@ -163,3 +163,6 @@ body{
 .audio-btn svg{display:block}
 .audio-btn:hover{background:rgba(255,255,255,.12)}
 .audio-btn:active{transform:scale(.9)}
+/* Vocab-list mastery markers */
+.mastered-check{color:#22c55e;flex:none;display:block}
+.mode-badge{flex:none;font-size:.72rem;font-weight:600;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:.08rem .4rem;line-height:1.3}

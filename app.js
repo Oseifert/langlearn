@@ -331,7 +331,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v22 · icon + autoplay toggle';
+const BUILD = 'v23 · mastery check + progress badge';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -400,7 +400,7 @@ async function renderDeck(root, deckId) {
   // Simple, honest per-mode label: how many are due (what a session quizzes),
   // ✅ when the whole mode is mastered, "caught up" when nothing's due right now.
   const label = (base, mode, m) => {
-    if (m.applicable && m.mastered >= m.applicable) return `${base} · ✅ mastered`;
+    if (m.applicable && m.mastered >= m.applicable) return `${base} · ✓ mastered`;
     const d = modeDue(cards, mode);
     return d ? `${base} · ${d} due` : `${base} · caught up`;
   };
@@ -411,15 +411,27 @@ async function renderDeck(root, deckId) {
   actions.append(toneBtn);
   actions.append(el('button', { class: 'btn ghost', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en', cram: true }) }, 'Cram all cards'));
   root.append(actions);
-  root.append(el('div', { class: 'hint' }, 'Master a word in all three modes to truly master it — ✅ marks a mode complete.'));
+  root.append(el('div', { class: 'hint' }, 'Master a word in all its modes to fully master it — a green ✓ marks a fully mastered word; “n/N” shows how many modes are done so far.'));
 
   // card list preview
   root.append(el('div', { class: 'hint' }, 'Cards in this deck:'));
   for (const c of cards) {
     ensureStates(c);
+    const full = fullyMastered(c);
+    const done = modesMasteredCount(c);
+    const tot = modesTotal(c);
+    // Status marker: green SVG check when fully mastered; otherwise a subtle
+    // "n/N modes" badge once at least one mode is mastered so progress shows.
+    let marker;
+    if (full) marker = checkSvg('mastered-check');
+    else if (done > 0) marker = el('span', { class: 'mode-badge' }, `${done}/${tot}`);
+    else marker = null;
+    const frontRow = el('div', { style: 'display:flex;align-items:center;gap:.45rem' });
+    if (marker) frontRow.append(marker);
+    frontRow.append(el('strong', {}, c.front));
     root.append(el('div', { class: 'deck', style: 'cursor:default;padding:.7rem 1rem' },
-      el('div', { style: 'display:flex;justify-content:space-between;gap:1rem;align-items:baseline' },
-        el('strong', {}, (fullyMastered(c) ? '✅ ' : '') + c.front),
+      el('div', { style: 'display:flex;justify-content:space-between;gap:1rem;align-items:center' },
+        frontRow,
         el('span', { class: 'sub', style: 'margin:0' }, c.meaning))));
   }
 }
@@ -507,6 +519,35 @@ function audioBtn(c) {
   return el('button', { class: 'audio-btn', 'aria-label': 'Play pronunciation',
     onclick: (e) => playCardAudio(c, e) }, speakerSvg());
 }
+
+// Clean inline checkmark SVG (replaces the ✅ emoji in the vocab list).
+function checkSvg(cls) {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', '18');
+  svg.setAttribute('height', '18');
+  svg.setAttribute('aria-hidden', 'true');
+  if (cls) svg.setAttribute('class', cls);
+  const circle = document.createElementNS(NS, 'circle');
+  circle.setAttribute('cx', '12'); circle.setAttribute('cy', '12'); circle.setAttribute('r', '11');
+  circle.setAttribute('fill', 'currentColor');
+  const tick = document.createElementNS(NS, 'path');
+  tick.setAttribute('d', 'M7 12.5l3.2 3.2L17 8.5');
+  tick.setAttribute('fill', 'none');
+  tick.setAttribute('stroke', '#0b1220');
+  tick.setAttribute('stroke-width', '2.2');
+  tick.setAttribute('stroke-linecap', 'round');
+  tick.setAttribute('stroke-linejoin', 'round');
+  svg.append(circle, tick);
+  return svg;
+}
+
+// How many applicable modes of a card are fully mastered (0..3).
+function modesMasteredCount(c) {
+  return modesFor(c).filter(m => isMastered(stateForMode(c, m))).length;
+}
+function modesTotal(c) { return modesFor(c).length; }
 
 // ---- Auto-play setting ----
 // When on, the Mandarin clip plays automatically whenever a Chinese card face
