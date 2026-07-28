@@ -236,6 +236,9 @@ function deckStats(cards) {
   for (const c of cards) ensureStates(c);
   const s = YC.deckStatsModes(cards, now);
   s.cards = cards.length; // real word count (mode-total lives in s.total)
+  // Fully-mastered WORD count (all applicable modes done). This is the honest
+  // "N mastered" figure for the pills; s.mastered stays per-mode for the bar.
+  s.wordsMastered = cards.filter(fullyMastered).length;
   return s;
 }
 // per-mode progress count for a set of cards (delegates to core.js).
@@ -331,7 +334,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v23 · mastery check + progress badge';
+const BUILD = 'v24 · honest mastered count + per-mode bar';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -359,7 +362,7 @@ async function renderHome(root) {
     el('div', { class: 'stats' },
       el('span', { class: 'pill' }, `${totals.cards} words`),
       el('span', { class: 'pill due' }, `${totals.due} / ${totals.total} due`),
-      el('span', { class: 'pill mastered' }, `${totals.mastered} mastered`)));
+      el('span', { class: 'pill mastered' }, `${totals.wordsMastered} mastered`)));
   root.append(reviewCard);
   root.append(el('div', { class: 'hint' }, 'Or pick a single upload to focus on:'));
 
@@ -374,7 +377,7 @@ async function renderHome(root) {
       el('div', { class: 'stats' },
         el('span', { class: 'pill' }, `${s.cards} words`),
         el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
-        el('span', { class: 'pill mastered' }, `${s.mastered} mastered`))));
+        el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`))));
   }
   root.append(el('div', { class: 'hint', style: 'text-align:center;opacity:.5;margin-top:1.5rem' }, `build ${BUILD}`));
 }
@@ -391,7 +394,13 @@ async function renderDeck(root, deckId) {
   root.append(el('div', { class: 'stats', style: 'margin:.4rem 0 0' },
     el('span', { class: 'pill' }, `${s.cards} words`),
     el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
-    el('span', { class: 'pill mastered' }, `${s.mastered} mastered`)));
+    el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`)));
+  // Granular progress bar: fills per-mode (out of words×modes), so it climbs
+  // as you master each direction/tone even before a word is fully mastered.
+  const barPct = s.total ? Math.round(100 * s.mastered / s.total) : 0;
+  root.append(el('div', { class: 'bar', style: 'margin:.5rem 0 .2rem',
+    title: `${s.mastered} of ${s.total} mode-goals complete` },
+    el('i', { style: `width:${barPct}%` })));
 
   const actions = el('div', { class: 'actions' });
   const mZhEn = modeMastery(cards, 'zh2en');
