@@ -276,6 +276,7 @@ async function render() {
   $('#backBtn').hidden = app.stack.length <= 1;
   // ＋ upload button only makes sense on the home screen.
   $('#uploadBtn').hidden = view !== 'home';
+  updateAutoplayBtn(view);
   if (view === 'home') return renderHome(root);
   if (view === 'deck') return renderDeck(root, params.deckId);
   if (view === 'practice') return renderPractice(root, params);
@@ -330,7 +331,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v21 · audio playback';
+const BUILD = 'v22 · icon + autoplay toggle';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -470,10 +471,62 @@ function playCardAudio(c, ev) {
     _audioEl.play().catch(() => {});
   } catch (e) { /* ignore */ }
 }
-// A round 🔊 button; stops click-propagation so it won't trigger card reveal.
+
+// Clean inline speaker SVG (replaces the dated 🔊 emoji glyph).
+function speakerSvg() {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', '22');
+  svg.setAttribute('height', '22');
+  svg.setAttribute('aria-hidden', 'true');
+  // speaker body
+  const p = document.createElementNS(NS, 'path');
+  p.setAttribute('d', 'M4 9v6h4l5 5V4L8 9H4z');
+  p.setAttribute('fill', 'currentColor');
+  svg.append(p);
+  // two sound waves
+  const w1 = document.createElementNS(NS, 'path');
+  w1.setAttribute('d', 'M16 8.5a4 4 0 0 1 0 7');
+  w1.setAttribute('fill', 'none');
+  w1.setAttribute('stroke', 'currentColor');
+  w1.setAttribute('stroke-width', '1.8');
+  w1.setAttribute('stroke-linecap', 'round');
+  const w2 = document.createElementNS(NS, 'path');
+  w2.setAttribute('d', 'M18.5 6a7.5 7.5 0 0 1 0 12');
+  w2.setAttribute('fill', 'none');
+  w2.setAttribute('stroke', 'currentColor');
+  w2.setAttribute('stroke-width', '1.8');
+  w2.setAttribute('stroke-linecap', 'round');
+  svg.append(w1, w2);
+  return svg;
+}
+
+// A round speaker button; stops click-propagation so it won't trigger card reveal.
 function audioBtn(c) {
   return el('button', { class: 'audio-btn', 'aria-label': 'Play pronunciation',
-    onclick: (e) => playCardAudio(c, e) }, '🔊');
+    onclick: (e) => playCardAudio(c, e) }, speakerSvg());
+}
+
+// ---- Auto-play setting ----
+// When on, the Mandarin clip plays automatically whenever a Chinese card face
+// is shown (meaning practice + mixed review), and after answering a tone drill.
+let _autoplay = false;
+let _currentAudioCard = null; // the card whose Chinese face is currently shown (for autoplay-on-toggle)
+async function loadAutoplay() { _autoplay = !!(await DB.getMeta('autoplay')); }
+async function setAutoplay(v) { _autoplay = !!v; await DB.setMeta('autoplay', _autoplay); }
+function autoplayOn() { return _autoplay; }
+function maybeAutoplay(c) { if (_autoplay) playCardAudio(c); }
+
+// Header toggle shown only on practice/drill/mixed screens.
+function updateAutoplayBtn(view) {
+  const btn = $('#autoplayBtn');
+  if (!btn) return;
+  const show = (view === 'practice' || view === 'tones' || view === 'mixed');
+  btn.hidden = !show;
+  btn.classList.toggle('on', _autoplay);
+  btn.title = _autoplay ? 'Auto-play sound: ON' : 'Auto-play sound: OFF';
+  btn.setAttribute('aria-label', btn.title);
 }
 
 // ---- Practice (meaning flashcards) ----
@@ -506,11 +559,14 @@ async function renderPractice(root, params) {
     const card = el('div', { class: 'card', onclick: reveal });
     if (dir === 'en2zh') {
       card.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));
+      _currentAudioCard = null; // Chinese not shown yet on this face
     } else {
       // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
       card.append(el('div', { class: 'front' }, c.front));
       // Audio is safe here — hearing the Mandarin is the point of the prompt.
       card.append(audioBtn(c));
+      _currentAudioCard = c;
+      maybeAutoplay(c);
     }
     card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
     stage.append(card);
@@ -526,11 +582,16 @@ async function renderPractice(root, params) {
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'front' }, frontText(c)));
       card.append(audioBtn(c));
+      // EN→中: Chinese revealed now — auto-play the answer if enabled.
+      _currentAudioCard = c;
+      maybeAutoplay(c);
     } else {
       card.append(el('div', { class: 'front' }, frontText(c)));
       card.append(audioBtn(c));
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'meaning' }, c.meaning));
+      // 中→EN: Chinese already played on the front face; don't replay.
+      _currentAudioCard = c;
     }
     if (c.example) card.append(el('div', { class: 'example' }, c.example));
     if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
@@ -651,6 +712,12 @@ async function renderToneDrill(root, params) {
       // time to internalize it (no auto-advance).
       const q = stage.querySelector('.drill-q');
       if (q) q.textContent = allCorrect ? '✓ correct' : 'answer: ' + syls.join(' ');
+      // Now that the answer is shown, offer the pronunciation (button always;
+      // auto-play if the setting is on) so they hear the correct tones.
+      const audioRow = el('div', { style: 'display:flex;justify-content:center;margin:.4rem 0' }, audioBtn(c));
+      stage.append(audioRow);
+      _currentAudioCard = c;
+      maybeAutoplay(c);
       const next = el('div', { class: 'grade grade1' },
         el('button', { class: 'easy', onclick: () => { i++; draw(); } },
           el('span', {}, i + 1 >= queue.length ? 'Finish' : 'Next →')));
@@ -725,7 +792,8 @@ async function renderMixedReview(root, params) {
         card.append(dir === 'en2zh'
           ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
           : el('div', { class: 'front' }, c.front)); // face-down 中→EN: no emoji (would spoil answer)
-        if (dir !== 'en2zh') card.append(audioBtn(c));
+        if (dir !== 'en2zh') { card.append(audioBtn(c)); _currentAudioCard = c; maybeAutoplay(c); }
+        else { _currentAudioCard = null; }
         card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
         stage.append(card);
       } else {
@@ -734,11 +802,13 @@ async function renderMixedReview(root, params) {
           card.append(el('div', { class: 'divider' }));
           card.append(el('div', { class: 'front' }, frontText(c)));
           card.append(audioBtn(c));
+          _currentAudioCard = c; maybeAutoplay(c); // Chinese revealed now
         } else {
           card.append(el('div', { class: 'front' }, frontText(c)));
           card.append(audioBtn(c));
           card.append(el('div', { class: 'divider' }));
           card.append(el('div', { class: 'meaning' }, c.meaning));
+          _currentAudioCard = c; // already played on front; don't replay
         }
         if (c.example) card.append(el('div', { class: 'example' }, c.example));
         if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
@@ -805,6 +875,10 @@ async function renderMixedReview(root, params) {
       render();
       const q = stage.querySelector('.drill-q');
       if (q) q.textContent = allCorrect ? '✓ correct' : 'answer: ' + syls.join(' ');
+      const audioRow = el('div', { style: 'display:flex;justify-content:center;margin:.4rem 0' }, audioBtn(c));
+      stage.append(audioRow);
+      _currentAudioCard = c;
+      maybeAutoplay(c);
       const next = el('div', { class: 'grade grade1' },
         el('button', { class: 'easy', onclick: () => advance(allCorrect, allCorrect ? null : item) },
           el('span', {}, i + 1 >= queue.length ? 'Finish' : 'Next →')));
@@ -827,6 +901,15 @@ function doneScreen(title, stats) {
 
 // ---------- upload handling ----------
 $('#settingsBtn').addEventListener('click', () => app.go('settings', {}));
+$('#autoplayBtn').addEventListener('click', async () => {
+  await setAutoplay(!autoplayOn());
+  updateAutoplayBtn(app.cur().view);
+  toast(autoplayOn() ? 'Auto-play on' : 'Auto-play off');
+  // If turning on mid-card, play the current Chinese face immediately.
+  if (autoplayOn() && _currentAudioCard) playCardAudio(_currentAudioCard);
+});
+$('#autoplayBtn').innerHTML = '';
+$('#autoplayBtn').append(speakerSvg());
 $('#uploadBtn').addEventListener('click', () => $('#fileInput').click());
 $('#fileInput').addEventListener('change', async (e) => {
   const files = [...e.target.files];
@@ -854,6 +937,7 @@ $('#backBtn').addEventListener('click', () => app.back());
 (async function boot() {
   try { await ensureSeeded(); } catch (e) { console.error(e); }
   try { await migrateCards(); } catch (e) { console.error(e); }
+  try { await loadAutoplay(); } catch (e) { console.error(e); }
   // Pull latest progress from GitHub (if this device has a token) before render,
   // so a fresh install / new device restores prior progress automatically.
   try {

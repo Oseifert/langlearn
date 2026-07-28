@@ -28,6 +28,10 @@ body{
 }
 .icon-btn:active{transform:scale(.94)}
 .icon-btn[hidden]{display:none !important}
+.icon-btn svg{display:block}
+/* Auto-play toggle: dim by default, accent-filled when ON */
+#autoplayBtn{color:var(--muted,#94a3b8);opacity:.75}
+#autoplayBtn.on{color:#fff;background:var(--accent);border-color:var(--accent);opacity:1}
 #view{padding:1rem .9rem 5rem;max-width:640px;margin:0 auto}
 
 /* Deck list */
@@ -155,6 +159,7 @@ body{
 .settings-actions .btn{flex:1}
 
 /* --- Audio play button (v21) --- */
-.audio-btn{margin:.5rem auto 0;display:flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);font-size:1.4rem;line-height:1;cursor:pointer;transition:transform .08s ease,background .15s ease}
+.audio-btn{margin:.5rem auto 0;display:flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:var(--accent);cursor:pointer;transition:transform .08s ease,background .15s ease}
+.audio-btn svg{display:block}
 .audio-btn:hover{background:rgba(255,255,255,.12)}
 .audio-btn:active{transform:scale(.9)}
