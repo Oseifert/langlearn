@@ -100,6 +100,7 @@ function makeCardRecord(raw, deckId) {
     front: raw.front || raw.pinyin || raw.meaning || '?',
     pinyin: raw.pinyin || '',
     meaning: raw.meaning || '',
+    hanzi: raw.hanzi || '',
     emoji: raw.emoji || '',
     example: raw.example || '',
     notes: raw.notes || '',
@@ -135,23 +136,34 @@ async function ensureSeeded() {
 
 // One-time migration of already-stored cards to the 3-mode schema + refreshed tones.
 async function migrateCards() {
-  const done = await DB.getMeta('migv4');
+  const done = await DB.getMeta('migv5');
   const cards = await DB.allCards();
-  if (!cards.length) { await DB.setMeta('migv4', true); return; }
+  if (!cards.length) { await DB.setMeta('migv5', true); return; }
+  // Build a pinyin->hanzi lookup from the current seed so already-installed
+  // cards (created before hanzi existed) get the hidden hanzi backfilled.
+  let seedHanzi = null;
+  try {
+    const seed = await (await fetch('./seed.json', { cache: 'no-store' })).json();
+    seedHanzi = new Map();
+    for (const d of (seed.decks || [])) for (const c of (d.cards || [])) {
+      if (c.id && c.hanzi) seedHanzi.set(c.id, c.hanzi);
+    }
+  } catch (e) { /* offline: skip hanzi backfill this run */ }
   let changed = 0;
   for (const c of cards) {
     let dirty = false;
     if (!c.zhEnState) { c.zhEnState = c.meaningState || newState(); dirty = true; }
     if (!c.enZhState) { c.enZhState = c.meaningState ? { ...c.meaningState } : newState(); dirty = true; }
     if (!c.toneState) { c.toneState = newState(); dirty = true; }
+    if (!c.hanzi && seedHanzi && seedHanzi.has(c.id)) { c.hanzi = seedHanzi.get(c.id); dirty = true; }
     const nt = deriveTones(c.pinyin || '');
     const ns = deriveSyllables(c.pinyin || '');
     if (JSON.stringify(nt) !== JSON.stringify(c.tones)) { c.tones = nt; dirty = true; }
     if (JSON.stringify(ns) !== JSON.stringify(c.syllables)) { c.syllables = ns; dirty = true; }
     if (dirty) { await DB.putCard(c); changed++; }
   }
-  await DB.setMeta('migv4', true);
-  if (changed && !done) console.log('migrated', changed, 'cards to v4');
+  await DB.setMeta('migv5', true);
+  if (changed && !done) console.log('migrated', changed, 'cards');
 }
 
 async function importDeck(deckRaw, notify = true) {
@@ -176,6 +188,7 @@ async function importDeck(deckRaw, notify = true) {
       rec.zhEnState = prev.zhEnState || prev.meaningState || rec.zhEnState;
       rec.enZhState = prev.enZhState || prev.meaningState || rec.enZhState;
       rec.toneState = prev.toneState || rec.toneState;
+      if (prev.updatedAt) rec.updatedAt = prev.updatedAt;
     }
     return rec;
   });
@@ -317,7 +330,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v20 · GitHub progress backup';
+const BUILD = 'v21 · audio playback';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -443,6 +456,26 @@ function shuffle(a) { return YC.shuffle(a); }
 // concrete fit (memory aid). Emoji comes from the seed (build_seed.py).
 function frontText(c) { return c.emoji ? `${c.front} ${c.emoji}` : c.front; }
 
+// ---- Audio playback ----
+// Pre-generated Mandarin clips live at ./audio/<cardId>.mp3 (committed to the
+// repo, cached by the service worker → works offline once loaded).
+let _audioEl = null;
+function playCardAudio(c, ev) {
+  if (ev) ev.stopPropagation();
+  if (!c || !c.id) return;
+  try {
+    if (!_audioEl) _audioEl = new Audio();
+    _audioEl.src = `./audio/${c.id}.mp3`;
+    _audioEl.currentTime = 0;
+    _audioEl.play().catch(() => {});
+  } catch (e) { /* ignore */ }
+}
+// A round 🔊 button; stops click-propagation so it won't trigger card reveal.
+function audioBtn(c) {
+  return el('button', { class: 'audio-btn', 'aria-label': 'Play pronunciation',
+    onclick: (e) => playCardAudio(c, e) }, '🔊');
+}
+
 // ---- Practice (meaning flashcards) ----
 async function renderPractice(root, params) {
   const dir = params.dir === 'en2zh' ? 'en2zh' : 'zh2en';
@@ -476,6 +509,8 @@ async function renderPractice(root, params) {
     } else {
       // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
       card.append(el('div', { class: 'front' }, c.front));
+      // Audio is safe here — hearing the Mandarin is the point of the prompt.
+      card.append(audioBtn(c));
     }
     card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
     stage.append(card);
@@ -490,8 +525,10 @@ async function renderPractice(root, params) {
       card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'front' }, frontText(c)));
+      card.append(audioBtn(c));
     } else {
       card.append(el('div', { class: 'front' }, frontText(c)));
+      card.append(audioBtn(c));
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'meaning' }, c.meaning));
     }
@@ -688,6 +725,7 @@ async function renderMixedReview(root, params) {
         card.append(dir === 'en2zh'
           ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
           : el('div', { class: 'front' }, c.front)); // face-down 中→EN: no emoji (would spoil answer)
+        if (dir !== 'en2zh') card.append(audioBtn(c));
         card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
         stage.append(card);
       } else {
@@ -695,8 +733,10 @@ async function renderMixedReview(root, params) {
           card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
           card.append(el('div', { class: 'divider' }));
           card.append(el('div', { class: 'front' }, frontText(c)));
+          card.append(audioBtn(c));
         } else {
           card.append(el('div', { class: 'front' }, frontText(c)));
+          card.append(audioBtn(c));
           card.append(el('div', { class: 'divider' }));
           card.append(el('div', { class: 'meaning' }, c.meaning));
         }

@@ -153,3 +153,8 @@ body{
 .sync-status{padding:.7rem .9rem;border-radius:12px;background:rgba(255,255,255,.05);font-size:.95rem}
 .settings-actions{display:flex;gap:.5rem}
 .settings-actions .btn{flex:1}
+
+/* --- Audio play button (v21) --- */
+.audio-btn{margin:.5rem auto 0;display:flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);font-size:1.4rem;line-height:1;cursor:pointer;transition:transform .08s ease,background .15s ease}
+.audio-btn:hover{background:rgba(255,255,255,.12)}
+.audio-btn:active{transform:scale(.9)}
