@@ -334,7 +334,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v24 · honest mastered count + per-mode bar';
+const BUILD = 'v25 · HSK1 full (248 new)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';

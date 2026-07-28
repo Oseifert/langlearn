@@ -1,7 +1,4330 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T18:27:03.067295+00:00",
+  "generatedAt": "2026-07-28T22:37:50.291618+00:00",
   "decks": [
+    {
+      "id": "hw_hsk1_new_300",
+      "title": "HSK 1 (New) — Full List",
+      "source": "New-HSK-Vocabulary-Level-1.pdf",
+      "summary": "Official New HSK Level 1 vocabulary (duplicates already in other decks removed).",
+      "createdAt": "2026-07-28T22:40:00+00:00",
+      "cards": [
+        {
+          "id": "c_b64e5f4b395c",
+          "front": "ài",
+          "pinyin": "ài",
+          "meaning": "to love",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "ài"
+          ],
+          "hanzi": "爱"
+        },
+        {
+          "id": "c_4e3869a74cc3",
+          "front": "bā",
+          "pinyin": "bā",
+          "meaning": "eight",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "bā"
+          ],
+          "hanzi": "八"
+        },
+        {
+          "id": "c_d871a965048e",
+          "front": "bàba",
+          "pinyin": "bàba",
+          "meaning": "dad",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "bà",
+            "ba"
+          ],
+          "hanzi": "爸爸"
+        },
+        {
+          "id": "c_69fd9a5d0178",
+          "front": "ba",
+          "pinyin": "ba",
+          "meaning": "indicating suggestion, confirmation, or hesitation",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "ba"
+          ],
+          "hanzi": "吧"
+        },
+        {
+          "id": "c_e586af313fbe",
+          "front": "báitiān",
+          "pinyin": "báitiān",
+          "meaning": "daytime",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "bái",
+            "tiān"
+          ],
+          "hanzi": "白天"
+        },
+        {
+          "id": "c_337b39fa517e",
+          "front": "bǎi",
+          "pinyin": "bǎi",
+          "meaning": "hundred",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "bǎi"
+          ],
+          "hanzi": "百"
+        },
+        {
+          "id": "c_4d28c2157701",
+          "front": "bàn",
+          "pinyin": "bàn",
+          "meaning": "half; (half, semi-) （adverb）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "bàn"
+          ],
+          "hanzi": "半"
+        },
+        {
+          "id": "c_c6e6bd57990c",
+          "front": "bāozi",
+          "pinyin": "bāozi",
+          "meaning": "steamed stuffed bun",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "bāo",
+            "zi"
+          ],
+          "hanzi": "包子"
+        },
+        {
+          "id": "c_6246db50a89f",
+          "front": "bēizi",
+          "pinyin": "bēizi",
+          "meaning": "cup, glass",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "bēi",
+            "zi"
+          ],
+          "hanzi": "杯子"
+        },
+        {
+          "id": "c_05466f4c2276",
+          "front": "běn",
+          "pinyin": "běn",
+          "meaning": "measure word for books",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "běn"
+          ],
+          "hanzi": "本"
+        },
+        {
+          "id": "c_1119b73f1ede",
+          "front": "biān",
+          "pinyin": "biān",
+          "meaning": "noun、suffix side; suffix indicating direction",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "biān"
+          ],
+          "hanzi": "边"
+        },
+        {
+          "id": "c_1e17a40d6e3c",
+          "front": "bìng",
+          "pinyin": "bìng",
+          "meaning": "noun、verb illness, disease; to be ill",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "bìng"
+          ],
+          "hanzi": "病"
+        },
+        {
+          "id": "c_a278be579167",
+          "front": "bú kèqi",
+          "pinyin": "bú kèqi",
+          "meaning": "you're welcome",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4,
+            5
+          ],
+          "syllables": [
+            "bú",
+            "kè",
+            "qi"
+          ],
+          "hanzi": "不客气"
+        },
+        {
+          "id": "c_10a69e0c90f5",
+          "front": "búyào",
+          "pinyin": "búyào",
+          "meaning": "don't, not want",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "bú",
+            "yào"
+          ],
+          "hanzi": "不要"
+        },
+        {
+          "id": "c_588553f51f46",
+          "front": "chàng",
+          "pinyin": "chàng",
+          "meaning": "to sing",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "chàng"
+          ],
+          "hanzi": "唱"
+        },
+        {
+          "id": "c_15f7f81e3f36",
+          "front": "chāoshì",
+          "pinyin": "chāoshì",
+          "meaning": "supermarket",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "chāo",
+            "shì"
+          ],
+          "hanzi": "超市"
+        },
+        {
+          "id": "c_970ebc071e8c",
+          "front": "chē",
+          "pinyin": "chē",
+          "meaning": "vehicle, car",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "chē"
+          ],
+          "hanzi": "车"
+        },
+        {
+          "id": "c_14cae1d45a35",
+          "front": "chī",
+          "pinyin": "chī",
+          "meaning": "to eat",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "chī"
+          ],
+          "hanzi": "吃"
+        },
+        {
+          "id": "c_cc7269ca8e37",
+          "front": "dǎ diànhuà",
+          "pinyin": "dǎ diànhuà",
+          "meaning": "to make a phone call",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            4
+          ],
+          "syllables": [
+            "dǎ",
+            "diàn",
+            "huà"
+          ],
+          "hanzi": "打电话"
+        },
+        {
+          "id": "c_023e0e8a97c8",
+          "front": "dà",
+          "pinyin": "dà",
+          "meaning": "big",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "dà"
+          ],
+          "hanzi": "大"
+        },
+        {
+          "id": "c_e95cf9dbe2bb",
+          "front": "dàjiā",
+          "pinyin": "dàjiā",
+          "meaning": "everyone",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "dà",
+            "jiā"
+          ],
+          "hanzi": "大家"
+        },
+        {
+          "id": "c_3aaff0e3e8e0",
+          "front": "dàxué",
+          "pinyin": "dàxué",
+          "meaning": "university",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2
+          ],
+          "syllables": [
+            "dà",
+            "xu",
+            "é"
+          ],
+          "hanzi": "大学"
+        },
+        {
+          "id": "c_b4b114701c4d",
+          "front": "dàxuéshēng",
+          "pinyin": "dàxuéshēng",
+          "meaning": "university student",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2,
+            1
+          ],
+          "syllables": [
+            "dà",
+            "xu",
+            "é",
+            "shēng"
+          ],
+          "hanzi": "大学生"
+        },
+        {
+          "id": "c_ab2c01a56fbf",
+          "front": "de",
+          "pinyin": "de",
+          "meaning": "possessive or modifying particle",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "de"
+          ],
+          "hanzi": "的"
+        },
+        {
+          "id": "c_a2ce73e07acf",
+          "front": "dì",
+          "pinyin": "dì",
+          "meaning": "for ordinal numbers",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "dì"
+          ],
+          "hanzi": "第"
+        },
+        {
+          "id": "c_403b5479b87e",
+          "front": "dìdi",
+          "pinyin": "dìdi",
+          "meaning": "younger brother",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "dì",
+            "di"
+          ],
+          "hanzi": "弟弟"
+        },
+        {
+          "id": "c_77ad09a4d677",
+          "front": "diǎn",
+          "pinyin": "diǎn",
+          "meaning": "measure word for small round （noun） things; (point, dot)",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "diǎn"
+          ],
+          "hanzi": "点"
+        },
+        {
+          "id": "c_2a0290ad3f25",
+          "front": "diàn",
+          "pinyin": "diàn",
+          "meaning": "shop, store",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "diàn"
+          ],
+          "hanzi": "店"
+        },
+        {
+          "id": "c_8249ac754c51",
+          "front": "diànhuà",
+          "pinyin": "diànhuà",
+          "meaning": "telephone, phone call",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "diàn",
+            "huà"
+          ],
+          "hanzi": "电话"
+        },
+        {
+          "id": "c_0db4c637a577",
+          "front": "diànnǎo",
+          "pinyin": "diànnǎo",
+          "meaning": "computer",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "diàn",
+            "nǎo"
+          ],
+          "hanzi": "电脑"
+        },
+        {
+          "id": "c_bdcd230b7bb4",
+          "front": "diànshì",
+          "pinyin": "diànshì",
+          "meaning": "television",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "diàn",
+            "shì"
+          ],
+          "hanzi": "电视"
+        },
+        {
+          "id": "c_a7652a509699",
+          "front": "diànyǐng",
+          "pinyin": "diànyǐng",
+          "meaning": "movie, film",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "diàn",
+            "yǐng"
+          ],
+          "hanzi": "电影"
+        },
+        {
+          "id": "c_9b06260cbe8f",
+          "front": "diànyǐngyuàn",
+          "pinyin": "diànyǐngyuàn",
+          "meaning": "cinema",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3,
+            4
+          ],
+          "syllables": [
+            "diàn",
+            "yǐng",
+            "yuàn"
+          ],
+          "hanzi": "电影院"
+        },
+        {
+          "id": "c_0551fc4e0e48",
+          "front": "dōngxi",
+          "pinyin": "dōngxi",
+          "meaning": "thing, object",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "dōng",
+            "xi"
+          ],
+          "hanzi": "东西"
+        },
+        {
+          "id": "c_0a170ac92517",
+          "front": "dú",
+          "pinyin": "dú",
+          "meaning": "to read",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "dú"
+          ],
+          "hanzi": "读"
+        },
+        {
+          "id": "c_b8e5f47d7abe",
+          "front": "dúshū",
+          "pinyin": "dúshū",
+          "meaning": "to read a book",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "dú",
+            "shū"
+          ],
+          "hanzi": "读书"
+        },
+        {
+          "id": "c_0613cb41e72a",
+          "front": "duì",
+          "pinyin": "duì",
+          "meaning": "correct, right; to, toward, for; (to preposition、 treat; pair) （verb、 classifier）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "duì"
+          ],
+          "hanzi": "对"
+        },
+        {
+          "id": "c_14e452cb5039",
+          "front": "duìbuqǐ",
+          "pinyin": "duìbuqǐ",
+          "meaning": "sorry",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            3
+          ],
+          "syllables": [
+            "duì",
+            "bu",
+            "qǐ"
+          ],
+          "hanzi": "对不起"
+        },
+        {
+          "id": "c_9747baf156b4",
+          "front": "duō",
+          "pinyin": "duō",
+          "meaning": "adjective、verb、 many, much; to have more; how pronoun、 many, how much; (more, over) （number、 adverb）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "duō"
+          ],
+          "hanzi": "多"
+        },
+        {
+          "id": "c_b81de9c0851f",
+          "front": "duōshao",
+          "pinyin": "duōshao",
+          "meaning": "how many, how much",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "duō",
+            "shao"
+          ],
+          "hanzi": "多少"
+        },
+        {
+          "id": "c_ba848d53816c",
+          "front": "érzi",
+          "pinyin": "érzi",
+          "meaning": "son",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "ér",
+            "zi"
+          ],
+          "hanzi": "儿子"
+        },
+        {
+          "id": "c_2c76dcfce753",
+          "front": "èr",
+          "pinyin": "èr",
+          "meaning": "two",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "èr"
+          ],
+          "hanzi": "二"
+        },
+        {
+          "id": "c_b0fe4edcfb8a",
+          "front": "fàn",
+          "pinyin": "fàn",
+          "meaning": "cooked rice, meal",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "fàn"
+          ],
+          "hanzi": "饭"
+        },
+        {
+          "id": "c_9c2162f9db51",
+          "front": "fàndiàn",
+          "pinyin": "fàndiàn",
+          "meaning": "restaurant",
+          "emoji": "🍽️",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "fàn",
+            "diàn"
+          ],
+          "hanzi": "饭店"
+        },
+        {
+          "id": "c_a76e61968a0c",
+          "front": "fángjiān",
+          "pinyin": "fángjiān",
+          "meaning": "room",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "fáng",
+            "jiān"
+          ],
+          "hanzi": "房间"
+        },
+        {
+          "id": "c_a6c345be6cb1",
+          "front": "fēicháng",
+          "pinyin": "fēicháng",
+          "meaning": "very, extremely",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "fēi",
+            "cháng"
+          ],
+          "hanzi": "非常"
+        },
+        {
+          "id": "c_6b413899181e",
+          "front": "fēn",
+          "pinyin": "fēn",
+          "meaning": "minute; (to divide, to separate; （verb、noun） component, part)",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "fēn"
+          ],
+          "hanzi": "分"
+        },
+        {
+          "id": "c_2914551a6bd9",
+          "front": "fēnzhōng",
+          "pinyin": "fēnzhōng",
+          "meaning": "minute",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "fēn",
+            "zhōng"
+          ],
+          "hanzi": "分钟"
+        },
+        {
+          "id": "c_c5a8b4e3a442",
+          "front": "gāoxìng",
+          "pinyin": "gāoxìng",
+          "meaning": "happy, glad",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "gāo",
+            "xìng"
+          ],
+          "hanzi": "高兴"
+        },
+        {
+          "id": "c_150ce94e68b4",
+          "front": "gē",
+          "pinyin": "gē",
+          "meaning": "song",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "gē"
+          ],
+          "hanzi": "歌"
+        },
+        {
+          "id": "c_57b13a8a574f",
+          "front": "gēge",
+          "pinyin": "gēge",
+          "meaning": "older brother",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "gē",
+            "ge"
+          ],
+          "hanzi": "哥哥"
+        },
+        {
+          "id": "c_24b6d21b7691",
+          "front": "gè",
+          "pinyin": "gè",
+          "meaning": "measure word for general objects",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "gè"
+          ],
+          "hanzi": "个"
+        },
+        {
+          "id": "c_4a5575903006",
+          "front": "gěi",
+          "pinyin": "gěi",
+          "meaning": "to give; (to, for) （preposition）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "gěi"
+          ],
+          "hanzi": "给"
+        },
+        {
+          "id": "c_58f0123c244f",
+          "front": "gǒu",
+          "pinyin": "gǒu",
+          "meaning": "dog",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "gǒu"
+          ],
+          "hanzi": "狗"
+        },
+        {
+          "id": "c_2139e6ef7647",
+          "front": "hái",
+          "pinyin": "hái",
+          "meaning": "still, also; quite",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "hái"
+          ],
+          "hanzi": "还"
+        },
+        {
+          "id": "c_4af3d1562636",
+          "front": "háizi",
+          "pinyin": "háizi",
+          "meaning": "child",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "hái",
+            "zi"
+          ],
+          "hanzi": "孩子"
+        },
+        {
+          "id": "c_03341f619253",
+          "front": "Hànyǔ",
+          "pinyin": "Hànyǔ",
+          "meaning": "Chinese language",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "Hàn",
+            "yǔ"
+          ],
+          "hanzi": "汉语"
+        },
+        {
+          "id": "c_4112d2f69776",
+          "front": "Hànzì",
+          "pinyin": "Hànzì",
+          "meaning": "Chinese character",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "Hàn",
+            "zì"
+          ],
+          "hanzi": "汉字"
+        },
+        {
+          "id": "c_0032c802d202",
+          "front": "hǎochī",
+          "pinyin": "hǎochī",
+          "meaning": "delicious, tasty",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "hǎo",
+            "chī"
+          ],
+          "hanzi": "好吃"
+        },
+        {
+          "id": "c_b43b14767ddd",
+          "front": "hǎokàn",
+          "pinyin": "hǎokàn",
+          "meaning": "good-looking",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "hǎo",
+            "kàn"
+          ],
+          "hanzi": "好看"
+        },
+        {
+          "id": "c_2e24633faefd",
+          "front": "hǎotīng",
+          "pinyin": "hǎotīng",
+          "meaning": "pleasant to listen to",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "hǎo",
+            "tīng"
+          ],
+          "hanzi": "好听"
+        },
+        {
+          "id": "c_8e74f940eb0f",
+          "front": "hào",
+          "pinyin": "hào",
+          "meaning": "noun、classifier number; measure word for people, items",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "hào"
+          ],
+          "hanzi": "号"
+        },
+        {
+          "id": "c_807a53384ac8",
+          "front": "hē",
+          "pinyin": "hē",
+          "meaning": "to drink",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "hē"
+          ],
+          "hanzi": "喝"
+        },
+        {
+          "id": "c_cc654ad69e8c",
+          "front": "hé",
+          "pinyin": "hé",
+          "meaning": "and, with conjunction",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "hé"
+          ],
+          "hanzi": "和"
+        },
+        {
+          "id": "c_ef61eb9c4e6a",
+          "front": "hěn",
+          "pinyin": "hěn",
+          "meaning": "very",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "hěn"
+          ],
+          "hanzi": "很"
+        },
+        {
+          "id": "c_a4abef7be90e",
+          "front": "hòu",
+          "pinyin": "hòu",
+          "meaning": "behind, later",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "hòu"
+          ],
+          "hanzi": "后"
+        },
+        {
+          "id": "c_c06cd148934c",
+          "front": "huí",
+          "pinyin": "huí",
+          "meaning": "to return; (measure word for times) （classifier）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "huí"
+          ],
+          "hanzi": "回"
+        },
+        {
+          "id": "c_c5760a44cac4",
+          "front": "huì",
+          "pinyin": "huì",
+          "meaning": "can, to be able to",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "huì"
+          ],
+          "hanzi": "会"
+        },
+        {
+          "id": "c_db5a80d3934e",
+          "front": "jīdàn",
+          "pinyin": "jīdàn",
+          "meaning": "egg",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "jī",
+            "dàn"
+          ],
+          "hanzi": "鸡蛋"
+        },
+        {
+          "id": "c_b566da16b4b0",
+          "front": "jǐ",
+          "pinyin": "jǐ",
+          "meaning": "how many, a few number",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "jǐ"
+          ],
+          "hanzi": "几"
+        },
+        {
+          "id": "c_296d5e3e4941",
+          "front": "jiārén",
+          "pinyin": "jiārén",
+          "meaning": "family member",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "jiā",
+            "rén"
+          ],
+          "hanzi": "家人"
+        },
+        {
+          "id": "c_f6b1da8ef445",
+          "front": "jiàn",
+          "pinyin": "jiàn",
+          "meaning": "to see",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "jiàn"
+          ],
+          "hanzi": "件"
+        },
+        {
+          "id": "c_f6b1da8ef445",
+          "front": "jiàn",
+          "pinyin": "jiàn",
+          "meaning": "measure word for items",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "jiàn"
+          ],
+          "hanzi": "件"
+        },
+        {
+          "id": "c_d289c7ecb703",
+          "front": "jiějie",
+          "pinyin": "jiějie",
+          "meaning": "older sister",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "jiě",
+            "jie"
+          ],
+          "hanzi": "姐姐"
+        },
+        {
+          "id": "c_f10f8f684c93",
+          "front": "jīnnián",
+          "pinyin": "jīnnián",
+          "meaning": "this year",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "jīn",
+            "nián"
+          ],
+          "hanzi": "今年"
+        },
+        {
+          "id": "c_d3550723da76",
+          "front": "jīntiān",
+          "pinyin": "jīntiān",
+          "meaning": "today",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "jīn",
+            "tiān"
+          ],
+          "hanzi": "今天"
+        },
+        {
+          "id": "c_9948a6e87ba2",
+          "front": "jiǔ",
+          "pinyin": "jiǔ",
+          "meaning": "nine",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "jiǔ"
+          ],
+          "hanzi": "九"
+        },
+        {
+          "id": "c_89e8c9be68d0",
+          "front": "juéde",
+          "pinyin": "juéde",
+          "meaning": "to feel, to think",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            2,
+            5
+          ],
+          "syllables": [
+            "ju",
+            "é",
+            "de"
+          ],
+          "hanzi": "觉得"
+        },
+        {
+          "id": "c_3f9eb95148fd",
+          "front": "kāi",
+          "pinyin": "kāi",
+          "meaning": "to open",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "kāi"
+          ],
+          "hanzi": "开"
+        },
+        {
+          "id": "c_16a3d87954db",
+          "front": "kàn",
+          "pinyin": "kàn",
+          "meaning": "to see, to look",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "kàn"
+          ],
+          "hanzi": "看"
+        },
+        {
+          "id": "c_c54ff4fb2d74",
+          "front": "kànbìng",
+          "pinyin": "kànbìng",
+          "meaning": "to see a doctor",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "kàn",
+            "bìng"
+          ],
+          "hanzi": "看病"
+        },
+        {
+          "id": "c_d598bfcfcd48",
+          "front": "kànjiàn",
+          "pinyin": "kànjiàn",
+          "meaning": "to see",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "kàn",
+            "jiàn"
+          ],
+          "hanzi": "看见"
+        },
+        {
+          "id": "c_f20489b5d88f",
+          "front": "kè",
+          "pinyin": "kè",
+          "meaning": "class, lesson",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "kè"
+          ],
+          "hanzi": "课"
+        },
+        {
+          "id": "c_6f83d9c2b6d9",
+          "front": "kǒu",
+          "pinyin": "kǒu",
+          "meaning": "noun、classifier mouth; measure word for family members, bites",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "kǒu"
+          ],
+          "hanzi": "口"
+        },
+        {
+          "id": "c_da1c675b4843",
+          "front": "lái",
+          "pinyin": "lái",
+          "meaning": "to come",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "lái"
+          ],
+          "hanzi": "来"
+        },
+        {
+          "id": "c_c5373bee767b",
+          "front": "le",
+          "pinyin": "le",
+          "meaning": "indicating completed action or change of state",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "le"
+          ],
+          "hanzi": "了"
+        },
+        {
+          "id": "c_11ec16324074",
+          "front": "lěng",
+          "pinyin": "lěng",
+          "meaning": "cold",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "lěng"
+          ],
+          "hanzi": "冷"
+        },
+        {
+          "id": "c_e9b4997134f9",
+          "front": "liǎng",
+          "pinyin": "liǎng",
+          "meaning": "two",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "liǎng"
+          ],
+          "hanzi": "两"
+        },
+        {
+          "id": "c_3d57e182cccd",
+          "front": "líng",
+          "pinyin": "líng",
+          "meaning": "zero",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "líng"
+          ],
+          "hanzi": "零"
+        },
+        {
+          "id": "c_a0ce94b72630",
+          "front": "liù",
+          "pinyin": "liù",
+          "meaning": "six",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "liù"
+          ],
+          "hanzi": "六"
+        },
+        {
+          "id": "c_cfcfb02dde15",
+          "front": "māma",
+          "pinyin": "māma",
+          "meaning": "mom",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "mā",
+            "ma"
+          ],
+          "hanzi": "妈妈"
+        },
+        {
+          "id": "c_579442549fad",
+          "front": "máng",
+          "pinyin": "máng",
+          "meaning": "adjective、verb busy; to be busy",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "máng"
+          ],
+          "hanzi": "忙"
+        },
+        {
+          "id": "c_e2b6953974f7",
+          "front": "māo",
+          "pinyin": "māo",
+          "meaning": "cat",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "māo"
+          ],
+          "hanzi": "猫"
+        },
+        {
+          "id": "c_ac3ee38a3e6a",
+          "front": "méi guānxi",
+          "pinyin": "méi guānxi",
+          "meaning": "never mind, it's okay",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1,
+            5
+          ],
+          "syllables": [
+            "méi",
+            "guān",
+            "xi"
+          ],
+          "hanzi": "没关系"
+        },
+        {
+          "id": "c_2539b09168c5",
+          "front": "méishì",
+          "pinyin": "méishì",
+          "meaning": "to have nothing to do, it doesn't matter",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "méi",
+            "shì"
+          ],
+          "hanzi": "没事"
+        },
+        {
+          "id": "c_2a2eba362878",
+          "front": "méiyǒu",
+          "pinyin": "méiyǒu",
+          "meaning": "verb、adverb to not have; have not",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "méi",
+            "yǒu"
+          ],
+          "hanzi": "没有"
+        },
+        {
+          "id": "c_0a2998016adf",
+          "front": "mèimei",
+          "pinyin": "mèimei",
+          "meaning": "younger sister",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "mèi",
+            "mei"
+          ],
+          "hanzi": "妹妹"
+        },
+        {
+          "id": "c_51a1587a9092",
+          "front": "men",
+          "pinyin": "men",
+          "meaning": "plural suffix for pronouns and nouns",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5
+          ],
+          "syllables": [
+            "men"
+          ],
+          "hanzi": "们"
+        },
+        {
+          "id": "c_976a379cface",
+          "front": "mǐfàn",
+          "pinyin": "mǐfàn",
+          "meaning": "cooked rice",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "mǐ",
+            "fàn"
+          ],
+          "hanzi": "米饭"
+        },
+        {
+          "id": "c_0fe47e34e917",
+          "front": "miànbāo",
+          "pinyin": "miànbāo",
+          "meaning": "bread",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "miàn",
+            "bāo"
+          ],
+          "hanzi": "面包"
+        },
+        {
+          "id": "c_3408f5c67583",
+          "front": "miàntiáor",
+          "pinyin": "miàntiáor",
+          "meaning": "noodles",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            2,
+            5
+          ],
+          "syllables": [
+            "miàn",
+            "tiáo",
+            "r"
+          ],
+          "hanzi": "面条儿"
+        },
+        {
+          "id": "c_a53b9083c891",
+          "front": "míngnián",
+          "pinyin": "míngnián",
+          "meaning": "next year",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "míng",
+            "nián"
+          ],
+          "hanzi": "明年"
+        },
+        {
+          "id": "c_a8873cd6f855",
+          "front": "míngtiān",
+          "pinyin": "míngtiān",
+          "meaning": "tomorrow",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "míng",
+            "tiān"
+          ],
+          "hanzi": "明天"
+        },
+        {
+          "id": "c_0fa4494f105f",
+          "front": "nǎge",
+          "pinyin": "nǎge",
+          "meaning": "which one",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "nǎ",
+            "ge"
+          ],
+          "hanzi": "哪个"
+        },
+        {
+          "id": "c_962ec3f8dfb6",
+          "front": "nǎlǐ",
+          "pinyin": "nǎlǐ",
+          "meaning": "where",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "nǎ",
+            "lǐ"
+          ],
+          "hanzi": "哪里"
+        },
+        {
+          "id": "c_4a6f0e78e8bc",
+          "front": "nǎr",
+          "pinyin": "nǎr",
+          "meaning": "where",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "nǎ",
+            "r"
+          ],
+          "hanzi": "哪儿"
+        },
+        {
+          "id": "c_06a868fc627a",
+          "front": "nǎxiē",
+          "pinyin": "nǎxiē",
+          "meaning": "which ones",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "nǎ",
+            "xiē"
+          ],
+          "hanzi": "哪些"
+        },
+        {
+          "id": "c_d9b039a7f884",
+          "front": "nà",
+          "pinyin": "nà",
+          "meaning": "that; (then) （conjunction）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "nà"
+          ],
+          "hanzi": "那"
+        },
+        {
+          "id": "c_7e94c827715d",
+          "front": "nàbiān",
+          "pinyin": "nàbiān",
+          "meaning": "over there",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "nà",
+            "biān"
+          ],
+          "hanzi": "那边"
+        },
+        {
+          "id": "c_196e6332cb60",
+          "front": "nàge",
+          "pinyin": "nàge",
+          "meaning": "that one",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "nà",
+            "ge"
+          ],
+          "hanzi": "那个"
+        },
+        {
+          "id": "c_87b40491cc9d",
+          "front": "nàlǐ",
+          "pinyin": "nàlǐ",
+          "meaning": "there",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "nà",
+            "lǐ"
+          ],
+          "hanzi": "那里"
+        },
+        {
+          "id": "c_5fcde71cba1a",
+          "front": "nàr",
+          "pinyin": "nàr",
+          "meaning": "there",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "nà",
+            "r"
+          ],
+          "hanzi": "那儿"
+        },
+        {
+          "id": "c_62e06abf95ba",
+          "front": "nàxiē",
+          "pinyin": "nàxiē",
+          "meaning": "those",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "nà",
+            "xiē"
+          ],
+          "hanzi": "那些"
+        },
+        {
+          "id": "c_2f82c24c9242",
+          "front": "nán",
+          "pinyin": "nán",
+          "meaning": "male",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "nán"
+          ],
+          "hanzi": "男"
+        },
+        {
+          "id": "c_87f27597bfce",
+          "front": "nánpéngyou",
+          "pinyin": "nánpéngyou",
+          "meaning": "boyfriend",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            2,
+            5
+          ],
+          "syllables": [
+            "nán",
+            "péng",
+            "you"
+          ],
+          "hanzi": "男朋友"
+        },
+        {
+          "id": "c_3f69ed15bd70",
+          "front": "néng",
+          "pinyin": "néng",
+          "meaning": "can, be able to",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "néng"
+          ],
+          "hanzi": "能"
+        },
+        {
+          "id": "c_ffc9ff5e5bc4",
+          "front": "nǐ hǎo",
+          "pinyin": "nǐ hǎo",
+          "meaning": "hello",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "nǐ",
+            "hǎo"
+          ],
+          "hanzi": "你好"
+        },
+        {
+          "id": "c_c6ae0e46856d",
+          "front": "nǐmen",
+          "pinyin": "nǐmen",
+          "meaning": "you plural",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "nǐ",
+            "men"
+          ],
+          "hanzi": "你们"
+        },
+        {
+          "id": "c_47d86f82579f",
+          "front": "nián",
+          "pinyin": "nián",
+          "meaning": "noun、classifier year; measure word for years",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "nián"
+          ],
+          "hanzi": "年"
+        },
+        {
+          "id": "c_875502a77458",
+          "front": "niúnǎi",
+          "pinyin": "niúnǎi",
+          "meaning": "milk",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "niú",
+            "nǎi"
+          ],
+          "hanzi": "牛奶"
+        },
+        {
+          "id": "c_c5bdfbdaf5cf",
+          "front": "nǚ",
+          "pinyin": "nǚ",
+          "meaning": "female",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "nǚ"
+          ],
+          "hanzi": "女"
+        },
+        {
+          "id": "c_478bf5687385",
+          "front": "nǚ’ér",
+          "pinyin": "nǚ’ér",
+          "meaning": "daughter",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "nǚ",
+            "ér"
+          ],
+          "hanzi": "女儿"
+        },
+        {
+          "id": "c_ac0b9eef08dc",
+          "front": "nǚpéngyou",
+          "pinyin": "nǚpéngyou",
+          "meaning": "girlfriend",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            5
+          ],
+          "syllables": [
+            "nǚ",
+            "péng",
+            "you"
+          ],
+          "hanzi": "女朋友"
+        },
+        {
+          "id": "c_365bd5f8b1f0",
+          "front": "nǚshì",
+          "pinyin": "nǚshì",
+          "meaning": "lady, Ms.",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "nǚ",
+            "shì"
+          ],
+          "hanzi": "女士"
+        },
+        {
+          "id": "c_b363fcb87d53",
+          "front": "péngyou",
+          "pinyin": "péngyou",
+          "meaning": "friend",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "péng",
+            "you"
+          ],
+          "hanzi": "朋友"
+        },
+        {
+          "id": "c_03a85fa914f9",
+          "front": "piàoliang",
+          "pinyin": "piàoliang",
+          "meaning": "beautiful",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "piào",
+            "liang"
+          ],
+          "hanzi": "漂亮"
+        },
+        {
+          "id": "c_ea8c7f668747",
+          "front": "píngguǒ",
+          "pinyin": "píngguǒ",
+          "meaning": "apple",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "píng",
+            "guǒ"
+          ],
+          "hanzi": "苹果"
+        },
+        {
+          "id": "c_9aba4a4ead6f",
+          "front": "qī",
+          "pinyin": "qī",
+          "meaning": "seven",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "qī"
+          ],
+          "hanzi": "七"
+        },
+        {
+          "id": "c_a4673610efe5",
+          "front": "qǐchuáng",
+          "pinyin": "qǐchuáng",
+          "meaning": "to get up",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "qǐ",
+            "chuáng"
+          ],
+          "hanzi": "起床"
+        },
+        {
+          "id": "c_bc69e3a23179",
+          "front": "qiān",
+          "pinyin": "qiān",
+          "meaning": "thousand",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "qiān"
+          ],
+          "hanzi": "千"
+        },
+        {
+          "id": "c_29b5ef19e742",
+          "front": "qián",
+          "pinyin": "qián",
+          "meaning": "front, before",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "qián"
+          ],
+          "hanzi": "钱"
+        },
+        {
+          "id": "c_29b5ef19e742",
+          "front": "qián",
+          "pinyin": "qián",
+          "meaning": "money",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "qián"
+          ],
+          "hanzi": "钱"
+        },
+        {
+          "id": "c_cb0ed5c78d22",
+          "front": "qǐng",
+          "pinyin": "qǐng",
+          "meaning": "please",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "qǐng"
+          ],
+          "hanzi": "请"
+        },
+        {
+          "id": "c_9e0fa43fe478",
+          "front": "qù",
+          "pinyin": "qù",
+          "meaning": "to go",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "qù"
+          ],
+          "hanzi": "去"
+        },
+        {
+          "id": "c_2becc5069416",
+          "front": "qùnián",
+          "pinyin": "qùnián",
+          "meaning": "last year",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "qùn",
+            "ián"
+          ],
+          "hanzi": "去年"
+        },
+        {
+          "id": "c_9b76595ae40e",
+          "front": "rè",
+          "pinyin": "rè",
+          "meaning": "hot",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "rè"
+          ],
+          "hanzi": "热"
+        },
+        {
+          "id": "c_b5e1972b444f",
+          "front": "rènshi",
+          "pinyin": "rènshi",
+          "meaning": "to know, to recognize",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "rèn",
+            "shi"
+          ],
+          "hanzi": "认识"
+        },
+        {
+          "id": "c_909bb04d6862",
+          "front": "rì",
+          "pinyin": "rì",
+          "meaning": "measure word for days; (sun) （noun）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "rì"
+          ],
+          "hanzi": "日"
+        },
+        {
+          "id": "c_21ba5c7fcf63",
+          "front": "sān",
+          "pinyin": "sān",
+          "meaning": "three",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "sān"
+          ],
+          "hanzi": "三"
+        },
+        {
+          "id": "c_1bf9ca34a591",
+          "front": "shàng",
+          "pinyin": "shàng",
+          "meaning": "noun、verb up, above; to go up",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "shàng"
+          ],
+          "hanzi": "上"
+        },
+        {
+          "id": "c_6615bfa833d6",
+          "front": "shàngkè",
+          "pinyin": "shàngkè",
+          "meaning": "to attend class",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "shàng",
+            "kè"
+          ],
+          "hanzi": "上课"
+        },
+        {
+          "id": "c_0c4e5dcc77d3",
+          "front": "shàngwǔ",
+          "pinyin": "shàngwǔ",
+          "meaning": "morning",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "shàng",
+            "wǔ"
+          ],
+          "hanzi": "上午"
+        },
+        {
+          "id": "c_51c4373b711e",
+          "front": "shàngxué",
+          "pinyin": "shàngxué",
+          "meaning": "to go to school",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2
+          ],
+          "syllables": [
+            "shàng",
+            "xu",
+            "é"
+          ],
+          "hanzi": "上学"
+        },
+        {
+          "id": "c_625ec12247bd",
+          "front": "shǎo",
+          "pinyin": "shǎo",
+          "meaning": "adjective、verb few, little; to lack",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "shǎo"
+          ],
+          "hanzi": "少"
+        },
+        {
+          "id": "c_52ea32a95a2a",
+          "front": "shēngbìng",
+          "pinyin": "shēngbìng",
+          "meaning": "to get sick",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shēng",
+            "bìng"
+          ],
+          "hanzi": "生病"
+        },
+        {
+          "id": "c_65316b5e36ac",
+          "front": "shí",
+          "pinyin": "shí",
+          "meaning": "ten",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "shí"
+          ],
+          "hanzi": "十"
+        },
+        {
+          "id": "c_d06f0adb6ab2",
+          "front": "shíhou",
+          "pinyin": "shíhou",
+          "meaning": "moment, time",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "shí",
+            "hou"
+          ],
+          "hanzi": "时候"
+        },
+        {
+          "id": "c_59aef1d47ec7",
+          "front": "shíjiān",
+          "pinyin": "shíjiān",
+          "meaning": "time",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "shí",
+            "jiān"
+          ],
+          "hanzi": "时间"
+        },
+        {
+          "id": "c_81e215f6838b",
+          "front": "shǒujī",
+          "pinyin": "shǒujī",
+          "meaning": "cell phone",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "shǒu",
+            "jī"
+          ],
+          "hanzi": "手机"
+        },
+        {
+          "id": "c_e191cc077dba",
+          "front": "shū",
+          "pinyin": "shū",
+          "meaning": "book",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "shū"
+          ],
+          "hanzi": "书"
+        },
+        {
+          "id": "c_8e2a95248c39",
+          "front": "shūdiàn",
+          "pinyin": "shūdiàn",
+          "meaning": "bookstore",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shū",
+            "diàn"
+          ],
+          "hanzi": "书店"
+        },
+        {
+          "id": "c_87b70177082f",
+          "front": "shuǐ",
+          "pinyin": "shuǐ",
+          "meaning": "water",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "shuǐ"
+          ],
+          "hanzi": "水"
+        },
+        {
+          "id": "c_c6350dd52029",
+          "front": "shuǐguǒ",
+          "pinyin": "shuǐguǒ",
+          "meaning": "fruit",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "shuǐ",
+            "guǒ"
+          ],
+          "hanzi": "水果"
+        },
+        {
+          "id": "c_c0ec0cdb0230",
+          "front": "shuì",
+          "pinyin": "shuì",
+          "meaning": "to sleep",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "shuì"
+          ],
+          "hanzi": "睡"
+        },
+        {
+          "id": "c_bc70f54ecdfb",
+          "front": "shuìjiào",
+          "pinyin": "shuìjiào",
+          "meaning": "to sleep",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "shuì",
+            "jiào"
+          ],
+          "hanzi": "睡觉"
+        },
+        {
+          "id": "c_63e322274ed3",
+          "front": "shuō",
+          "pinyin": "shuō",
+          "meaning": "to speak, to say",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "shuō"
+          ],
+          "hanzi": "说"
+        },
+        {
+          "id": "c_9617cf8c1d17",
+          "front": "shuōhuà",
+          "pinyin": "shuōhuà",
+          "meaning": "to talk",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shuō",
+            "huà"
+          ],
+          "hanzi": "说话"
+        },
+        {
+          "id": "c_c6bd3efeda7f",
+          "front": "sì",
+          "pinyin": "sì",
+          "meaning": "four",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "sì"
+          ],
+          "hanzi": "四"
+        },
+        {
+          "id": "c_e6257f7eeb6a",
+          "front": "suì",
+          "pinyin": "suì",
+          "meaning": "measure word for age",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "suì"
+          ],
+          "hanzi": "岁"
+        },
+        {
+          "id": "c_ed25a7093825",
+          "front": "tā",
+          "pinyin": "tā",
+          "meaning": "it",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tā"
+          ],
+          "hanzi": "它"
+        },
+        {
+          "id": "c_72e7da47a8ed",
+          "front": "tāmen",
+          "pinyin": "tāmen",
+          "meaning": "they",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "tā",
+            "men"
+          ],
+          "hanzi": "她们"
+        },
+        {
+          "id": "c_72e7da47a8ed",
+          "front": "tāmen",
+          "pinyin": "tāmen",
+          "meaning": "they",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "tā",
+            "men"
+          ],
+          "hanzi": "她们"
+        },
+        {
+          "id": "c_72e7da47a8ed",
+          "front": "tāmen",
+          "pinyin": "tāmen",
+          "meaning": "they",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "tā",
+            "men"
+          ],
+          "hanzi": "她们"
+        },
+        {
+          "id": "c_09f15f28e22a",
+          "front": "tiān",
+          "pinyin": "tiān",
+          "meaning": "noun、classifier day; measure word for days",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tiān"
+          ],
+          "hanzi": "天"
+        },
+        {
+          "id": "c_4c47f6fb3663",
+          "front": "tiānqì",
+          "pinyin": "tiānqì",
+          "meaning": "weather",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tiān",
+            "qì"
+          ],
+          "hanzi": "天气"
+        },
+        {
+          "id": "c_9a6596ae909b",
+          "front": "tīng",
+          "pinyin": "tīng",
+          "meaning": "to listen",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tīng"
+          ],
+          "hanzi": "听"
+        },
+        {
+          "id": "c_52d21dcb2071",
+          "front": "tīngjiàn",
+          "pinyin": "tīngjiàn",
+          "meaning": "to hear",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tīng",
+            "jiàn"
+          ],
+          "hanzi": "听见"
+        },
+        {
+          "id": "c_145381598bfb",
+          "front": "tóngxué",
+          "pinyin": "tóngxué",
+          "meaning": "classmate",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            5,
+            2
+          ],
+          "syllables": [
+            "tóng",
+            "xu",
+            "é"
+          ],
+          "hanzi": "同学"
+        },
+        {
+          "id": "c_b224a255bdff",
+          "front": "wài",
+          "pinyin": "wài",
+          "meaning": "outside, exterior",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "wài"
+          ],
+          "hanzi": "外"
+        },
+        {
+          "id": "c_eaeb9eef87a0",
+          "front": "wàibian",
+          "pinyin": "wàibian",
+          "meaning": "outside",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "wài",
+            "bian"
+          ],
+          "hanzi": "外边"
+        },
+        {
+          "id": "c_a89f44da5cd9",
+          "front": "wán",
+          "pinyin": "wán",
+          "meaning": "to play",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "wán"
+          ],
+          "hanzi": "玩"
+        },
+        {
+          "id": "c_a02ec07f8c5a",
+          "front": "wǎn",
+          "pinyin": "wǎn",
+          "meaning": "late",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "wǎn"
+          ],
+          "hanzi": "晚"
+        },
+        {
+          "id": "c_5194f576135f",
+          "front": "wǎnfàn",
+          "pinyin": "wǎnfàn",
+          "meaning": "dinner",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "wǎn",
+            "fàn"
+          ],
+          "hanzi": "晚饭"
+        },
+        {
+          "id": "c_f2c9f40265eb",
+          "front": "wǎnshang",
+          "pinyin": "wǎnshang",
+          "meaning": "evening",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "wǎn",
+            "shang"
+          ],
+          "hanzi": "晚上"
+        },
+        {
+          "id": "c_b3a65b79b9af",
+          "front": "wèn",
+          "pinyin": "wèn",
+          "meaning": "to ask",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "wèn"
+          ],
+          "hanzi": "问"
+        },
+        {
+          "id": "c_db62daf8ccf3",
+          "front": "wèntí",
+          "pinyin": "wèntí",
+          "meaning": "question",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "wèn",
+            "tí"
+          ],
+          "hanzi": "问题"
+        },
+        {
+          "id": "c_eeacd4b21599",
+          "front": "wǒmen",
+          "pinyin": "wǒmen",
+          "meaning": "we",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "wǒ",
+            "men"
+          ],
+          "hanzi": "我们"
+        },
+        {
+          "id": "c_23034d57a2f0",
+          "front": "wǔ",
+          "pinyin": "wǔ",
+          "meaning": "five",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "wǔ"
+          ],
+          "hanzi": "五"
+        },
+        {
+          "id": "c_504af3bdaae3",
+          "front": "wǔfàn",
+          "pinyin": "wǔfàn",
+          "meaning": "lunch",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "wǔ",
+            "fàn"
+          ],
+          "hanzi": "午饭"
+        },
+        {
+          "id": "c_c25daf7d300c",
+          "front": "xǐhuan",
+          "pinyin": "xǐhuan",
+          "meaning": "to like",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "xǐ",
+            "huan"
+          ],
+          "hanzi": "喜欢"
+        },
+        {
+          "id": "c_cbf1dc78fb4d",
+          "front": "xià",
+          "pinyin": "xià",
+          "meaning": "noun、verb、 down, below; to go down; measure classifier word for times",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "xià"
+          ],
+          "hanzi": "下"
+        },
+        {
+          "id": "c_3dc90abb3ac7",
+          "front": "xià yǔ",
+          "pinyin": "xià yǔ",
+          "meaning": "to rain",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "xià",
+            "yǔ"
+          ],
+          "hanzi": "下雨"
+        },
+        {
+          "id": "c_610a09b55ccf",
+          "front": "xiàbān",
+          "pinyin": "xiàbān",
+          "meaning": "to get off work",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "xià",
+            "bān"
+          ],
+          "hanzi": "下班"
+        },
+        {
+          "id": "c_9c82ddff785e",
+          "front": "xiàkè",
+          "pinyin": "xiàkè",
+          "meaning": "to finish class",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "xià",
+            "kè"
+          ],
+          "hanzi": "下课"
+        },
+        {
+          "id": "c_5d6c4d3d445b",
+          "front": "xiàwǔ",
+          "pinyin": "xiàwǔ",
+          "meaning": "afternoon",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "xià",
+            "wǔ"
+          ],
+          "hanzi": "下午"
+        },
+        {
+          "id": "c_ebd46e63f089",
+          "front": "xiànzài",
+          "pinyin": "xiànzài",
+          "meaning": "now",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "xiàn",
+            "zài"
+          ],
+          "hanzi": "现在"
+        },
+        {
+          "id": "c_77e96ef6f402",
+          "front": "xiǎng",
+          "pinyin": "xiǎng",
+          "meaning": "to think; to want",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "xiǎng"
+          ],
+          "hanzi": "想"
+        },
+        {
+          "id": "c_29891af03463",
+          "front": "xiǎo",
+          "pinyin": "xiǎo",
+          "meaning": "adjective、prefix small; prefix indicating small size or endearment",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "xiǎo"
+          ],
+          "hanzi": "小"
+        },
+        {
+          "id": "c_f412e0ec4f2e",
+          "front": "xiǎopéngyǒu",
+          "pinyin": "xiǎopéngyǒu",
+          "meaning": "little friend, child",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            3
+          ],
+          "syllables": [
+            "xiǎo",
+            "péng",
+            "yǒu"
+          ],
+          "hanzi": "小朋友"
+        },
+        {
+          "id": "c_5f72af0cb915",
+          "front": "xiǎoshí",
+          "pinyin": "xiǎoshí",
+          "meaning": "hour",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "xiǎo",
+            "shí"
+          ],
+          "hanzi": "小时"
+        },
+        {
+          "id": "c_1cdfd3669f17",
+          "front": "xiǎoxué",
+          "pinyin": "xiǎoxué",
+          "meaning": "primary school",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            2
+          ],
+          "syllables": [
+            "xiǎo",
+            "xu",
+            "é"
+          ],
+          "hanzi": "小学"
+        },
+        {
+          "id": "c_e87ba81a214f",
+          "front": "xiǎoxuéshēng",
+          "pinyin": "xiǎoxuéshēng",
+          "meaning": "primary school student",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            2,
+            1
+          ],
+          "syllables": [
+            "xiǎo",
+            "xu",
+            "é",
+            "shēng"
+          ],
+          "hanzi": "小学生"
+        },
+        {
+          "id": "c_6ee53d624a6a",
+          "front": "xiē",
+          "pinyin": "xiē",
+          "meaning": "measure word for an indefinite amount",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "xiē"
+          ],
+          "hanzi": "些"
+        },
+        {
+          "id": "c_ac3f542c2c54",
+          "front": "xiě",
+          "pinyin": "xiě",
+          "meaning": "to write",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "xiě"
+          ],
+          "hanzi": "写"
+        },
+        {
+          "id": "c_2afe442485c6",
+          "front": "xièxie",
+          "pinyin": "xièxie",
+          "meaning": "to thank",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "xiè",
+            "xie"
+          ],
+          "hanzi": "谢谢"
+        },
+        {
+          "id": "c_b7a707982384",
+          "front": "xīn",
+          "pinyin": "xīn",
+          "meaning": "new",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "xīn"
+          ],
+          "hanzi": "新"
+        },
+        {
+          "id": "c_a4306ea2f1dd",
+          "front": "xīngqī",
+          "pinyin": "xīngqī",
+          "meaning": "week",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "xīng",
+            "qī"
+          ],
+          "hanzi": "星期"
+        },
+        {
+          "id": "c_45d999443de0",
+          "front": "xīngqīrì",
+          "pinyin": "xīngqīrì",
+          "meaning": "Sunday",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            4
+          ],
+          "syllables": [
+            "xīng",
+            "qī",
+            "rì"
+          ],
+          "hanzi": "星期日"
+        },
+        {
+          "id": "c_3c7404e990d1",
+          "front": "xīngqītiān",
+          "pinyin": "xīngqītiān",
+          "meaning": "Sunday",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            1
+          ],
+          "syllables": [
+            "xīng",
+            "qī",
+            "tiān"
+          ],
+          "hanzi": "星期天"
+        },
+        {
+          "id": "c_e09b3ff5378a",
+          "front": "xiūxi",
+          "pinyin": "xiūxi",
+          "meaning": "to rest",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "xiū",
+            "xi"
+          ],
+          "hanzi": "休息"
+        },
+        {
+          "id": "c_7ace0d5fb626",
+          "front": "xué",
+          "pinyin": "xué",
+          "meaning": "to learn, to study",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            2
+          ],
+          "syllables": [
+            "xu",
+            "é"
+          ],
+          "hanzi": "学"
+        },
+        {
+          "id": "c_624f4f51a8ba",
+          "front": "xuéshēng",
+          "pinyin": "xuéshēng",
+          "meaning": "student",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            2,
+            1
+          ],
+          "syllables": [
+            "xu",
+            "é",
+            "shēng"
+          ],
+          "hanzi": "学生"
+        },
+        {
+          "id": "c_407c3073a7f1",
+          "front": "xuéxí",
+          "pinyin": "xuéxí",
+          "meaning": "to study",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            2,
+            2
+          ],
+          "syllables": [
+            "xu",
+            "é",
+            "xí"
+          ],
+          "hanzi": "学习"
+        },
+        {
+          "id": "c_eb1094143d46",
+          "front": "xuéxiào",
+          "pinyin": "xuéxiào",
+          "meaning": "school",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            2,
+            4
+          ],
+          "syllables": [
+            "xu",
+            "é",
+            "xiào"
+          ],
+          "hanzi": "学校"
+        },
+        {
+          "id": "c_8a61407c995a",
+          "front": "xuě",
+          "pinyin": "xuě",
+          "meaning": "snow",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            3
+          ],
+          "syllables": [
+            "xu",
+            "ě"
+          ],
+          "hanzi": "雪"
+        },
+        {
+          "id": "c_bec25f310c4b",
+          "front": "yào",
+          "pinyin": "yào",
+          "meaning": "to want, to need",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "yào"
+          ],
+          "hanzi": "要"
+        },
+        {
+          "id": "c_f3c73d02863b",
+          "front": "yě",
+          "pinyin": "yě",
+          "meaning": "also, too",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "yě"
+          ],
+          "hanzi": "也"
+        },
+        {
+          "id": "c_0ff8e80caeda",
+          "front": "yī",
+          "pinyin": "yī",
+          "meaning": "one",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "yī"
+          ],
+          "hanzi": "一"
+        },
+        {
+          "id": "c_463d6750600b",
+          "front": "yīyuàn",
+          "pinyin": "yīyuàn",
+          "meaning": "hospital",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "yī",
+            "yuàn"
+          ],
+          "hanzi": "医院"
+        },
+        {
+          "id": "c_727a355e14fc",
+          "front": "yíbàn",
+          "pinyin": "yíbàn",
+          "meaning": "half",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yí",
+            "bàn"
+          ],
+          "hanzi": "一半"
+        },
+        {
+          "id": "c_3e69eb9532df",
+          "front": "yíxià",
+          "pinyin": "yíxià",
+          "meaning": "numberclassifier、 once, a little; (in a short while) （adverb）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yí",
+            "xià"
+          ],
+          "hanzi": "一下"
+        },
+        {
+          "id": "c_2836ef396092",
+          "front": "yǐzi",
+          "pinyin": "yǐzi",
+          "meaning": "chair",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "yǐ",
+            "zi"
+          ],
+          "hanzi": "椅子"
+        },
+        {
+          "id": "c_21b3edf85956",
+          "front": "yìdiǎnr",
+          "pinyin": "yìdiǎnr",
+          "meaning": "number-classifier a little, a bit",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3,
+            5
+          ],
+          "syllables": [
+            "yì",
+            "diǎn",
+            "r"
+          ],
+          "hanzi": "一点儿"
+        },
+        {
+          "id": "c_7a3816e93d22",
+          "front": "yìxiē",
+          "pinyin": "yìxiē",
+          "meaning": "number-classifier some, a few",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "yì",
+            "xiē"
+          ],
+          "hanzi": "一些"
+        },
+        {
+          "id": "c_6384e3a1c11a",
+          "front": "yǒu",
+          "pinyin": "yǒu",
+          "meaning": "to have, to exist",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "yǒu"
+          ],
+          "hanzi": "有"
+        },
+        {
+          "id": "c_c9d8003e5cfe",
+          "front": "yǒude",
+          "pinyin": "yǒude",
+          "meaning": "some of them",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "yǒu",
+            "de"
+          ],
+          "hanzi": "有的"
+        },
+        {
+          "id": "c_e02124be7351",
+          "front": "yǒudiǎnr",
+          "pinyin": "yǒudiǎnr",
+          "meaning": "a little, slightly",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            3,
+            5
+          ],
+          "syllables": [
+            "yǒu",
+            "diǎn",
+            "r"
+          ],
+          "hanzi": "有点儿"
+        },
+        {
+          "id": "c_e985ff02187c",
+          "front": "yǒuxiē",
+          "pinyin": "yǒuxiē",
+          "meaning": "some, some of; (somewhat, rather) （adverb）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "yǒu",
+            "xiē"
+          ],
+          "hanzi": "有些"
+        },
+        {
+          "id": "c_da4390d9143b",
+          "front": "yǔ",
+          "pinyin": "yǔ",
+          "meaning": "rain",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "yǔ"
+          ],
+          "hanzi": "雨"
+        },
+        {
+          "id": "c_9dc5acda1e9a",
+          "front": "yuán",
+          "pinyin": "yuán",
+          "meaning": "yuan",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "yuán"
+          ],
+          "hanzi": "元"
+        },
+        {
+          "id": "c_86835c52a986",
+          "front": "yuè",
+          "pinyin": "yuè",
+          "meaning": "month; moon",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            5,
+            4
+          ],
+          "syllables": [
+            "yu",
+            "è"
+          ],
+          "hanzi": "月"
+        },
+        {
+          "id": "c_d2eb11d0d05c",
+          "front": "zài",
+          "pinyin": "zài",
+          "meaning": "again, then",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zài"
+          ],
+          "hanzi": "在"
+        },
+        {
+          "id": "c_d2eb11d0d05c",
+          "front": "zài",
+          "pinyin": "zài",
+          "meaning": "to be at; at; in the middle of preposition、 adverb",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zài"
+          ],
+          "hanzi": "在"
+        },
+        {
+          "id": "c_6b95eb304b0b",
+          "front": "zàijiàn",
+          "pinyin": "zàijiàn",
+          "meaning": "goodbye",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "zài",
+            "jiàn"
+          ],
+          "hanzi": "再见"
+        },
+        {
+          "id": "c_abc03bb83230",
+          "front": "zǎo",
+          "pinyin": "zǎo",
+          "meaning": "early",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "zǎo"
+          ],
+          "hanzi": "早"
+        },
+        {
+          "id": "c_fd31baca8906",
+          "front": "zǎofàn",
+          "pinyin": "zǎofàn",
+          "meaning": "breakfast",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "zǎo",
+            "fàn"
+          ],
+          "hanzi": "早饭"
+        },
+        {
+          "id": "c_e0b005992a14",
+          "front": "zǎoshang",
+          "pinyin": "zǎoshang",
+          "meaning": "morning",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "zǎo",
+            "shang"
+          ],
+          "hanzi": "早上"
+        },
+        {
+          "id": "c_86b57ba8fd7d",
+          "front": "zěnmeyàng",
+          "pinyin": "zěnmeyàng",
+          "meaning": "how about, what do you think",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            4
+          ],
+          "syllables": [
+            "zěn",
+            "me",
+            "yàng"
+          ],
+          "hanzi": "怎么样"
+        },
+        {
+          "id": "c_a5da7ca68855",
+          "front": "zhǎo",
+          "pinyin": "zhǎo",
+          "meaning": "to look for",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "zhǎo"
+          ],
+          "hanzi": "找"
+        },
+        {
+          "id": "c_2828d834a9b5",
+          "front": "zhè",
+          "pinyin": "zhè",
+          "meaning": "this",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zhè"
+          ],
+          "hanzi": "这"
+        },
+        {
+          "id": "c_29fe52eec4f6",
+          "front": "zhèbiān",
+          "pinyin": "zhèbiān",
+          "meaning": "here",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "zhè",
+            "biān"
+          ],
+          "hanzi": "这边"
+        },
+        {
+          "id": "c_89c1195931fe",
+          "front": "zhège",
+          "pinyin": "zhège",
+          "meaning": "this one",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "zhè",
+            "ge"
+          ],
+          "hanzi": "这个"
+        },
+        {
+          "id": "c_bbccd24192c9",
+          "front": "zhèlǐ",
+          "pinyin": "zhèlǐ",
+          "meaning": "here",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "zhè",
+            "lǐ"
+          ],
+          "hanzi": "这里"
+        },
+        {
+          "id": "c_c940c44752f6",
+          "front": "zhèr",
+          "pinyin": "zhèr",
+          "meaning": "here",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zhèr"
+          ],
+          "hanzi": "这儿"
+        },
+        {
+          "id": "c_e20fe14ffe54",
+          "front": "zhèxiē",
+          "pinyin": "zhèxiē",
+          "meaning": "these",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "zhè",
+            "xiē"
+          ],
+          "hanzi": "这些"
+        },
+        {
+          "id": "c_15a2f4659372",
+          "front": "zhēn",
+          "pinyin": "zhēn",
+          "meaning": "really; (true) （adjective）",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "zhēn"
+          ],
+          "hanzi": "真"
+        },
+        {
+          "id": "c_395435b31d7a",
+          "front": "zhèngzài",
+          "pinyin": "zhèngzài",
+          "meaning": "in the process of",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "zhèng",
+            "zài"
+          ],
+          "hanzi": "正在"
+        },
+        {
+          "id": "c_94156fc1952b",
+          "front": "zhī",
+          "pinyin": "zhī",
+          "meaning": "measure word for animals, one of a pair",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "zhī"
+          ],
+          "hanzi": "只"
+        },
+        {
+          "id": "c_020672f04f62",
+          "front": "zhīdào",
+          "pinyin": "zhīdào",
+          "meaning": "to know",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "zhī",
+            "dào"
+          ],
+          "hanzi": "知道"
+        },
+        {
+          "id": "c_2404311e1a4f",
+          "front": "Zhōngwén",
+          "pinyin": "Zhōngwén",
+          "meaning": "Chinese language",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "Zhōng",
+            "wén"
+          ],
+          "hanzi": "中文"
+        },
+        {
+          "id": "c_6fe3922a4f28",
+          "front": "zhōngwǔ",
+          "pinyin": "zhōngwǔ",
+          "meaning": "noon",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "zhōng",
+            "wǔ"
+          ],
+          "hanzi": "中午"
+        },
+        {
+          "id": "c_d17d9b662489",
+          "front": "zhōngxué",
+          "pinyin": "zhōngxué",
+          "meaning": "middle school",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5,
+            2
+          ],
+          "syllables": [
+            "zhōng",
+            "xu",
+            "é"
+          ],
+          "hanzi": "中学"
+        },
+        {
+          "id": "c_f086acd0b306",
+          "front": "zhōngxuéshēng",
+          "pinyin": "zhōngxuéshēng",
+          "meaning": "middle school student",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5,
+            2,
+            1
+          ],
+          "syllables": [
+            "zhōng",
+            "xu",
+            "é",
+            "shēng"
+          ],
+          "hanzi": "中学生"
+        },
+        {
+          "id": "c_5ef81232a20b",
+          "front": "zhù",
+          "pinyin": "zhù",
+          "meaning": "to live, to reside",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zhù"
+          ],
+          "hanzi": "住"
+        },
+        {
+          "id": "c_962171650d9a",
+          "front": "zhuōzi",
+          "pinyin": "zhuōzi",
+          "meaning": "table, desk",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "zhuō",
+            "zi"
+          ],
+          "hanzi": "桌子"
+        },
+        {
+          "id": "c_fddc9c539d78",
+          "front": "zì",
+          "pinyin": "zì",
+          "meaning": "character, script",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zì"
+          ],
+          "hanzi": "字"
+        },
+        {
+          "id": "c_1a5fd3915b9b",
+          "front": "zuótiān",
+          "pinyin": "zuótiān",
+          "meaning": "yesterday",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "zuó",
+            "tiān"
+          ],
+          "hanzi": "昨天"
+        },
+        {
+          "id": "c_08173fff127b",
+          "front": "zuò fàn",
+          "pinyin": "zuò fàn",
+          "meaning": "to cook",
+          "emoji": "",
+          "example": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "zuò",
+            "fàn"
+          ],
+          "hanzi": "做饭"
+        }
+      ]
+    },
     {
       "id": "hw_20260722_225213",
       "title": "Jobs and Workplace Vocabulary",
