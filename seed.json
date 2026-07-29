@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T23:30:51.131331+00:00",
+  "generatedAt": "2026-07-29T00:16:04.474510+00:00",
   "decks": [
     {
       "id": "hw_hsk1_new_300",
@@ -1245,10 +1245,10 @@
           "syllables": [
             "jiàn"
           ],
-          "hanzi": "件"
+          "hanzi": "见"
         },
         {
-          "id": "c_f6b1da8ef445",
+          "id": "c_34f3924f50bf",
           "front": "jiàn",
           "pinyin": "jiàn",
           "meaning": "measure word for items",
@@ -2271,10 +2271,10 @@
           "syllables": [
             "qián"
           ],
-          "hanzi": "钱"
+          "hanzi": "前"
         },
         {
-          "id": "c_29b5ef19e742",
+          "id": "c_992c28301d8c",
           "front": "qián",
           "pinyin": "qián",
           "meaning": "money",
@@ -2764,42 +2764,6 @@
             "tā"
           ],
           "hanzi": "它"
-        },
-        {
-          "id": "c_72e7da47a8ed",
-          "front": "tāmen",
-          "pinyin": "tāmen",
-          "meaning": "they",
-          "emoji": "",
-          "example": "",
-          "notes": "",
-          "tones": [
-            1,
-            5
-          ],
-          "syllables": [
-            "tā",
-            "men"
-          ],
-          "hanzi": "她们"
-        },
-        {
-          "id": "c_72e7da47a8ed",
-          "front": "tāmen",
-          "pinyin": "tāmen",
-          "meaning": "they",
-          "emoji": "",
-          "example": "",
-          "notes": "",
-          "tones": [
-            1,
-            5
-          ],
-          "syllables": [
-            "tā",
-            "men"
-          ],
-          "hanzi": "她们"
         },
         {
           "id": "c_72e7da47a8ed",
@@ -3848,22 +3812,6 @@
             "è"
           ],
           "hanzi": "月"
-        },
-        {
-          "id": "c_d2eb11d0d05c",
-          "front": "zài",
-          "pinyin": "zài",
-          "meaning": "to be at; at, in",
-          "emoji": "",
-          "example": "",
-          "notes": "",
-          "tones": [
-            4
-          ],
-          "syllables": [
-            "zài"
-          ],
-          "hanzi": "在"
         },
         {
           "id": "c_d2eb11d0d05c",
