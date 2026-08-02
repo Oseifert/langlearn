@@ -334,7 +334,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v27 · fix dup card IDs (436)';
+const BUILD = 'v28 · ue one syllable + tap to edit tone';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -721,7 +721,8 @@ async function renderToneDrill(root, params) {
       const wrap = el('div', { class: 'card', style: 'min-height:26vh' });
       // toneless word
       wrap.append(el('div', { class: 'drill-word' }, bare.join('')));
-      // per-syllable slots showing chosen tone (or blank), highlight the active one
+      // per-syllable slots showing chosen tone (or blank), highlight the active one.
+      // Tap any slot to jump back and re-answer it.
       wrap.append(el('div', { class: 'syllable-tones' }, ...bare.map((s, k) => {
         const chosen = picks[k];
         const cls = 'syl' + (k === activeSyl && !locked ? ' target' : '');
@@ -729,6 +730,7 @@ async function renderToneDrill(root, params) {
         const label = chosen ? `${s}${'₁₂₃₄₅'[chosen-1]||''}` : s;
         const node = el('span', { class: cls, style }, label);
         if (locked) node.classList.add(picks[k] === answers[k] ? 'ok' : 'bad');
+        else { node.style.cursor = 'pointer'; node.onclick = () => { activeSyl = k; render(); }; }
         return node;
       })));
       wrap.append(el('div', { class: 'drill-q' }, locked ? '' : `Tone for syllable ${activeSyl + 1} of ${syls.length}: “${bare[activeSyl]}”`));
@@ -745,8 +747,10 @@ async function renderToneDrill(root, params) {
 
     function choose(t) {
       picks[activeSyl] = t;
-      // advance to next syllable; skip nothing — every syllable needs a tone (neutral=5 valid)
-      if (activeSyl < syls.length - 1) { activeSyl++; render(); }
+      // advance to the next UNANSWERED syllable (so returning to fix one earlier
+      // pick doesn't force you to re-do the rest). Only finish once all are set.
+      const nextUnanswered = picks.findIndex((p) => p == null);
+      if (nextUnanswered !== -1) { activeSyl = nextUnanswered; render(); }
       else finish();
     }
 
@@ -899,6 +903,7 @@ async function renderMixedReview(root, params) {
         const label = chosen ? `${s}${'₁₂₃₄₅'[chosen-1]||''}` : s;
         const node = el('span', { class: cls, style }, label);
         if (locked) node.classList.add(picks[k] === answers[k] ? 'ok' : 'bad');
+        else { node.style.cursor = 'pointer'; node.onclick = () => { activeSyl = k; render(); }; }
         return node;
       })));
       wrap.append(el('div', { class: 'drill-q' }, locked ? '' : `Tone for syllable ${activeSyl + 1} of ${syls.length}: “${bare[activeSyl]}”`));
@@ -914,7 +919,8 @@ async function renderMixedReview(root, params) {
     }
     function choose(t) {
       picks[activeSyl] = t;
-      if (activeSyl < syls.length - 1) { activeSyl++; render(); }
+      const nextUnanswered = picks.findIndex((p) => p == null);
+      if (nextUnanswered !== -1) { activeSyl = nextUnanswered; render(); }
       else finish();
     }
     async function finish() {

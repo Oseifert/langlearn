@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T00:16:04.474510+00:00",
+  "generatedAt": "2026-08-02T03:25:50.647821+00:00",
   "decks": [
     {
       "id": "hw_hsk1_new_300",
@@ -377,13 +377,11 @@
           "notes": "",
           "tones": [
             4,
-            5,
             2
           ],
           "syllables": [
             "dà",
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "大学"
         },
@@ -397,14 +395,12 @@
           "notes": "",
           "tones": [
             4,
-            5,
             2,
             1
           ],
           "syllables": [
             "dà",
-            "xu",
-            "é",
+            "xué",
             "shēng"
           ],
           "hanzi": "大学生"
@@ -1342,13 +1338,11 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             2,
             5
           ],
           "syllables": [
-            "ju",
-            "é",
+            "jué",
             "de"
           ],
           "hanzi": "觉得"
@@ -2467,13 +2461,11 @@
           "notes": "",
           "tones": [
             4,
-            5,
             2
           ],
           "syllables": [
             "shàng",
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "上学"
         },
@@ -2861,13 +2853,11 @@
           "notes": "",
           "tones": [
             2,
-            5,
             2
           ],
           "syllables": [
             "tóng",
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "同学"
         },
@@ -3263,13 +3253,11 @@
           "notes": "",
           "tones": [
             3,
-            5,
             2
           ],
           "syllables": [
             "xiǎo",
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "小学"
         },
@@ -3283,14 +3271,12 @@
           "notes": "",
           "tones": [
             3,
-            5,
             2,
             1
           ],
           "syllables": [
             "xiǎo",
-            "xu",
-            "é",
+            "xué",
             "shēng"
           ],
           "hanzi": "小学生"
@@ -3446,12 +3432,10 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             2
           ],
           "syllables": [
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "学"
         },
@@ -3464,13 +3448,11 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             2,
             1
           ],
           "syllables": [
-            "xu",
-            "é",
+            "xué",
             "shēng"
           ],
           "hanzi": "学生"
@@ -3484,13 +3466,11 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             2,
             2
           ],
           "syllables": [
-            "xu",
-            "é",
+            "xué",
             "xí"
           ],
           "hanzi": "学习"
@@ -3504,13 +3484,11 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             2,
             4
           ],
           "syllables": [
-            "xu",
-            "é",
+            "xué",
             "xiào"
           ],
           "hanzi": "学校"
@@ -3524,12 +3502,10 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             3
           ],
           "syllables": [
-            "xu",
-            "ě"
+            "xuě"
           ],
           "hanzi": "雪"
         },
@@ -3804,12 +3780,10 @@
           "example": "",
           "notes": "",
           "tones": [
-            5,
             4
           ],
           "syllables": [
-            "yu",
-            "è"
+            "yuè"
           ],
           "hanzi": "月"
         },
@@ -4153,13 +4127,11 @@
           "notes": "",
           "tones": [
             1,
-            5,
             2
           ],
           "syllables": [
             "zhōng",
-            "xu",
-            "é"
+            "xué"
           ],
           "hanzi": "中学"
         },
@@ -4173,14 +4145,12 @@
           "notes": "",
           "tones": [
             1,
-            5,
             2,
             1
           ],
           "syllables": [
             "zhōng",
-            "xu",
-            "é",
+            "xué",
             "shēng"
           ],
           "hanzi": "中学生"
@@ -4510,14 +4480,12 @@
           "notes": "",
           "tones": [
             1,
-            5,
             4,
             1
           ],
           "syllables": [
             "yīn",
-            "yu",
-            "è",
+            "yuè",
             "jiā"
           ],
           "hanzi": "音乐家"

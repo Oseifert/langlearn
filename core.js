@@ -100,7 +100,7 @@
 
   // ---------- pinyin -> tones / syllables (greedy segmentation) ----------
   const _INITIALS = ['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s','y','w',''];
-  const _FINALS = ['a','o','e','ai','ei','ao','ou','an','en','ang','eng','ong','er','i','ia','ie','iao','iu','ian','in','iang','ing','iong','u','ua','uo','uai','ui','uan','un','uang','ueng','v','ve','van','vn'];
+  const _FINALS = ['a','o','e','ai','ei','ao','ou','an','en','ang','eng','ong','er','i','ia','ie','iao','iu','ian','in','iang','ing','iong','u','ua','uo','uai','ui','uan','un','uang','ueng','ue','v','ve','van','vn'];
   const _SYL = (() => { const s = new Set(); for (const i of _INITIALS) for (const f of _FINALS) s.add(i + f); ['er','r','n','ng','hm','hng','m'].forEach(x => s.add(x)); return s; })();
 
   function _stripTones(tok) { let o = ''; for (const ch of tok.normalize('NFD')) { if (TONE_MARKS[ch]) continue; if (/\p{Mn}/u.test(ch)) continue; o += ch; } return o; }
