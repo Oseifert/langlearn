@@ -334,7 +334,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v28 · ue one syllable + tap to edit tone';
+const BUILD = 'v29 · HSK2 (200) added, 178 new after dedup';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
