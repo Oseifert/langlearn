@@ -283,6 +283,7 @@ async function render() {
   if (view === 'home') return renderHome(root);
   if (view === 'deck') return renderDeck(root, params.deckId);
   if (view === 'practice') return renderPractice(root, params);
+  if (view === 'learn') return renderLearn(root, params);
   if (view === 'mixed') return renderMixedReview(root, params);
   if (view === 'tones') return renderToneDrill(root, params);
   if (view === 'settings') return renderSettings(root);
@@ -334,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v29 · HSK2 (200) added, 178 new after dedup';
+const BUILD = 'v30 · Learn mode + clearer Cram/Review-due';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -418,8 +419,21 @@ async function renderDeck(root, deckId) {
   const toneBtn = el('button', { class: 'btn', onclick: () => app.go('tones', { deckId }) }, mTone.applicable ? label('🎵 Tone drills', 'tone', mTone) : '🎵 Tone drills · n/a');
   if (!toneCards.length) toneBtn.disabled = true;
   actions.append(toneBtn);
-  actions.append(el('button', { class: 'btn ghost', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en', cram: true }) }, 'Cram all cards'));
+  // Review everything due in this deck across ALL modes (中→EN, EN→中, tone),
+  // mixed + interleaved — respects SRS scheduling (unlike Cram).
+  const dueAll = modesFor && cards.reduce((n, c) => {
+    ensureStates(c);
+    return n + modesFor(c).filter(m => stateForMode(c, m).due <= now()).length;
+  }, 0);
+  actions.append(el('button', { class: 'btn', onclick: () => app.go('mixed', { deckId }) },
+    dueAll ? `🔁 Review due · all modes · ${dueAll} due` : '🔁 Review due · all modes · caught up'));
+  // Cram = ignore scheduling, drill every card in 中→EN. Useful before a test.
+  actions.append(el('button', { class: 'btn ghost', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en', cram: true }) }, 'Cram all · 中→EN (ignores schedule)'));
   root.append(actions);
+  // Small, low-emphasis entry point for the peek-first Learn pass — mainly
+  // useful the first time you meet a new deck.
+  const learnLink = el('a', { class: 'learn-link', href: '#', onclick: (e) => { e.preventDefault(); app.go('learn', { deckId }); } }, '👀 Learn (peek-first, no grading)');
+  root.append(el('div', { style: 'text-align:center;margin:.1rem 0 .3rem' }, learnLink));
   root.append(el('div', { class: 'hint' }, 'Master a word in all its modes to fully master it — a green ✓ marks a fully mastered word; “n/N” shows how many modes are done so far.'));
 
   // card list preview
@@ -572,7 +586,7 @@ function maybeAutoplay(c) { if (_autoplay) playCardAudio(c); }
 function updateAutoplayBtn(view) {
   const btn = $('#autoplayBtn');
   if (!btn) return;
-  const show = (view === 'practice' || view === 'tones' || view === 'mixed');
+  const show = (view === 'practice' || view === 'tones' || view === 'mixed' || view === 'learn');
   btn.hidden = !show;
   btn.classList.toggle('on', _autoplay);
   btn.title = _autoplay ? 'Auto-play sound: ON' : 'Auto-play sound: OFF';
@@ -580,6 +594,58 @@ function updateAutoplayBtn(view) {
 }
 
 // ---- Practice (meaning flashcards) ----
+// ---- Learn (peek-first, no grading) ----
+// A gentle first-exposure pass over a fresh deck: shows EVERYTHING at once
+// (hanzi/pinyin front, meaning, audio, example/notes) so the memory trace is
+// built before any recall testing. No SRS grading happens here — it never
+// touches scheduling state. Just Prev / Next / audio, in deck order.
+async function renderLearn(root, params) {
+  const deck = await DB.getDeck(params.deckId);
+  const cards = await DB.cardsFor(params.deckId);
+  cards.forEach(ensureStates);
+  $('#title').textContent = (deck ? deck.title : 'Deck') + ' · learn';
+  if (!cards.length) { root.append(doneScreen('Empty deck', {})); return; }
+
+  root.append(el('div', { class: 'hint', style: 'text-align:center' },
+    'First look — just meet the words. No grading here.'));
+  let i = 0;
+  const stage = el('div', { class: 'stage' });
+  root.append(stage);
+  draw();
+
+  function draw() {
+    if (i >= cards.length) {
+      stage.replaceWith(doneScreen('Nice — you’ve met them all! 👋',
+        { Words: cards.length }));
+      return;
+    }
+    const c = cards[i];
+    stage.innerHTML = '';
+    stage.append(el('div', { class: 'progress-row' },
+      el('span', {}, `${i + 1} / ${cards.length}`),
+      el('span', {}, 'peek-first')));
+    const card = el('div', { class: 'card' });
+    card.append(el('div', { class: 'front' }, frontText(c)));
+    card.append(audioBtn(c));
+    card.append(el('div', { class: 'divider' }));
+    card.append(el('div', { class: 'meaning' }, c.meaning));
+    if (c.example) card.append(el('div', { class: 'example' }, c.example));
+    if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
+    stage.append(card);
+    _currentAudioCard = c;
+    maybeAutoplay(c);
+    const nav = el('div', { class: 'grade grade2' });
+    const prev = gradeBtnPlain('again', '← Back', () => { if (i > 0) { i--; draw(); } });
+    if (i === 0) prev.disabled = true;
+    nav.append(prev);
+    nav.append(gradeBtnPlain('easy', i + 1 >= cards.length ? 'Finish' : 'Next →', () => { i++; draw(); }));
+    stage.append(nav);
+  }
+  function gradeBtnPlain(cls, label, fn) {
+    return el('button', { class: cls, onclick: fn }, el('span', {}, label));
+  }
+}
+
 async function renderPractice(root, params) {
   const dir = params.dir === 'en2zh' ? 'en2zh' : 'zh2en';
   const dirLabel = dir === 'en2zh' ? 'EN→中' : '中→EN';
@@ -784,8 +850,12 @@ async function renderToneDrill(root, params) {
 
 // ---- Mixed review: every due (card, mode) across ALL decks, interleaved ----
 async function renderMixedReview(root, params) {
-  $('#title').textContent = 'Review All · mixed';
-  const cards = await DB.allCards();
+  // Deck-scoped when params.deckId is set (per-deck "review due, all modes"),
+  // otherwise the global cross-deck Review Everything.
+  const scoped = !!params.deckId;
+  const deck = scoped ? await DB.getDeck(params.deckId) : null;
+  $('#title').textContent = scoped ? `${deck ? deck.title : 'Deck'} · due (all modes)` : 'Review All · mixed';
+  const cards = scoped ? await DB.cardsFor(params.deckId) : await DB.allCards();
   cards.forEach(ensureStates);
   // Build one queue entry per DUE (card, mode) pair. modesFor() returns the
   // modes applicable to a card (tone only when it has tone data).

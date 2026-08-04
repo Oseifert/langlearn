@@ -54,6 +54,8 @@ body{
   border:1px solid var(--accent2);
 }
 .hint{color:var(--muted);font-size:.85rem;line-height:1.5;margin:.4rem 0 1rem}
+.learn-link{color:var(--muted);font-size:.85rem;text-decoration:none;border-bottom:1px dashed var(--muted);opacity:.8}
+.learn-link:hover{color:var(--accent);border-color:var(--accent)}
 
 /* Deck detail action buttons */
 .actions{display:grid;gap:.6rem;margin:1rem 0}
