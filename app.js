@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v30 · Learn mode + clearer Cram/Review-due';
+const BUILD = 'v31 · due-highlight buttons, drop Cram';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -408,27 +408,28 @@ async function renderDeck(root, deckId) {
   const mEnZh = modeMastery(cards, 'en2zh');
   const mTone = modeMastery(cards, 'tone');
   // Simple, honest per-mode label: how many are due (what a session quizzes),
-  // ✅ when the whole mode is mastered, "caught up" when nothing's due right now.
+  // ✓ when the whole mode is mastered, "caught up" when nothing's due right now.
   const label = (base, mode, m) => {
     if (m.applicable && m.mastered >= m.applicable) return `${base} · ✓ mastered`;
     const d = modeDue(cards, mode);
     return d ? `${base} · ${d} due` : `${base} · caught up`;
   };
-  actions.append(el('button', { class: 'btn primary', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, label('Practice 中→EN', 'zh2en', mZhEn)));
-  actions.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, label('Practice EN→中', 'en2zh', mEnZh)));
-  const toneBtn = el('button', { class: 'btn', onclick: () => app.go('tones', { deckId }) }, mTone.applicable ? label('🎵 Tone drills', 'tone', mTone) : '🎵 Tone drills · n/a');
+  // A mode with something due gets a highlighted border (call to action);
+  // modes with nothing due stay as plain secondary buttons. No always-primary.
+  const modeClass = (mode) => modeDue(cards, mode) > 0 ? 'btn due-cta' : 'btn';
+  actions.append(el('button', { class: modeClass('zh2en'), onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, label('Practice 中→EN', 'zh2en', mZhEn)));
+  actions.append(el('button', { class: modeClass('en2zh'), onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, label('Practice EN→中', 'en2zh', mEnZh)));
+  const toneBtn = el('button', { class: toneCards.length ? modeClass('tone') : 'btn', onclick: () => app.go('tones', { deckId }) }, mTone.applicable ? label('🎵 Tone drills', 'tone', mTone) : '🎵 Tone drills · n/a');
   if (!toneCards.length) toneBtn.disabled = true;
   actions.append(toneBtn);
-  // Review everything due in this deck across ALL modes (中→EN, EN→中, tone),
-  // mixed + interleaved — respects SRS scheduling (unlike Cram).
-  const dueAll = modesFor && cards.reduce((n, c) => {
+  // Review everything due in this deck across all modes (中→EN, EN→中, tone),
+  // mixed + interleaved — respects SRS scheduling.
+  const dueAll = cards.reduce((n, c) => {
     ensureStates(c);
     return n + modesFor(c).filter(m => stateForMode(c, m).due <= now()).length;
   }, 0);
-  actions.append(el('button', { class: 'btn', onclick: () => app.go('mixed', { deckId }) },
-    dueAll ? `🔁 Review due · all modes · ${dueAll} due` : '🔁 Review due · all modes · caught up'));
-  // Cram = ignore scheduling, drill every card in 中→EN. Useful before a test.
-  actions.append(el('button', { class: 'btn ghost', onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en', cram: true }) }, 'Cram all · 中→EN (ignores schedule)'));
+  actions.append(el('button', { class: dueAll ? 'btn due-cta' : 'btn', onclick: () => app.go('mixed', { deckId }) },
+    dueAll ? `🔁 Review all · ${dueAll} due` : '🔁 Review all · caught up'));
   root.append(actions);
   // Small, low-emphasis entry point for the peek-first Learn pass — mainly
   // useful the first time you meet a new deck.

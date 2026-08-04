@@ -67,6 +67,7 @@ body{
 .btn:active{transform:scale(.98)}
 .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;color:#0b1220;font-weight:650}
 .btn.ghost{background:transparent}
+.btn.due-cta{border:2px solid var(--accent);box-shadow:0 0 0 1px rgba(56,189,248,.25) inset;font-weight:650}
 .btn:disabled{opacity:.45}
 
 /* Flashcard */
