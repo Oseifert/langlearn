@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T17:03:19.783897+00:00",
+  "generatedAt": "2026-08-31T17:30:03.818158+00:00",
   "decks": [
     {
       "id": "hw_hsk3_new_500",
@@ -85,7 +85,7 @@
           "pinyin": "bǎ",
           "meaning": "word for objects with handles; particle for object-fronting",
           "emoji": "",
-          "example": "",
+          "example": "wǒ bǎ mén guān le",
           "notes": "",
           "tones": [
             3
@@ -187,7 +187,7 @@
           "pinyin": "bàntiān",
           "meaning": "half a day, a long time",
           "emoji": "",
-          "example": "",
+          "example": "wǒ děng le bàntiān",
           "notes": "",
           "tones": [
             4,
@@ -257,7 +257,7 @@
           "pinyin": "běi",
           "meaning": "north",
           "emoji": "",
-          "example": "",
+          "example": "wǎng běi zǒu jiù dào le",
           "notes": "",
           "tones": [
             3
@@ -273,7 +273,7 @@
           "pinyin": "běifāng",
           "meaning": "north",
           "emoji": "",
-          "example": "",
+          "example": "běifāng de dōngtiān hěn lěng",
           "notes": "",
           "tones": [
             3,
@@ -291,7 +291,7 @@
           "pinyin": "bèi",
           "meaning": "by",
           "emoji": "",
-          "example": "",
+          "example": "wǒ de shū bèi tā ná zǒu le",
           "notes": "",
           "tones": [
             4
@@ -325,7 +325,7 @@
           "pinyin": "bǐjiào",
           "meaning": "to compare; quite, relatively; than",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān bǐjiào lěng",
           "notes": "",
           "tones": [
             3,
@@ -399,7 +399,7 @@
           "pinyin": "bìxū",
           "meaning": "must",
           "emoji": "",
-          "example": "",
+          "example": "nǐ bìxū xiànzài qù",
           "notes": "",
           "tones": [
             4,
@@ -433,7 +433,7 @@
           "pinyin": "biàn",
           "meaning": "word for actions",
           "emoji": "",
-          "example": "",
+          "example": "zhè běn shū wǒ kàn le sān biàn",
           "notes": "",
           "tones": [
             4
@@ -611,7 +611,7 @@
           "pinyin": "búdàn",
           "meaning": "not only",
           "emoji": "",
-          "example": "",
+          "example": "tā búdàn huì shuō zhōngwén, yě huì shuō yīngwén",
           "notes": "",
           "tones": [
             2,
@@ -647,7 +647,7 @@
           "pinyin": "bù tóng",
           "meaning": "different",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men liǎng gè rén bù tóng",
           "notes": "",
           "tones": [
             4,
@@ -665,7 +665,7 @@
           "pinyin": "bùjiǔ",
           "meaning": "soon, not long after",
           "emoji": "",
-          "example": "",
+          "example": "tā bùjiǔ jiù huì huílái",
           "notes": "",
           "tones": [
             4,
@@ -701,7 +701,7 @@
           "pinyin": "cái",
           "meaning": "just, only",
           "emoji": "",
-          "example": "",
+          "example": "tā xiànzài cái lái",
           "notes": "",
           "tones": [
             2
@@ -769,7 +769,7 @@
           "pinyin": "céng",
           "meaning": "word for layer, floor",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zhù zài sān céng",
           "notes": "",
           "tones": [
             2
@@ -817,7 +817,7 @@
           "pinyin": "chàbuduō",
           "meaning": "almost, similar; nearly",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men chàbuduō dào le",
           "notes": "",
           "tones": [
             4,
@@ -853,7 +853,7 @@
           "pinyin": "cháng",
           "meaning": "often, frequent",
           "emoji": "",
-          "example": "",
+          "example": "wǒ cháng qù nàli chī fàn",
           "notes": "",
           "tones": [
             2
@@ -887,7 +887,7 @@
           "pinyin": "cháng yòng",
           "meaning": "commonly used",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cí hěn chángyòng",
           "notes": "",
           "tones": [
             2,
@@ -1031,7 +1031,7 @@
           "pinyin": "chúle",
           "meaning": "except, besides",
           "emoji": "",
-          "example": "",
+          "example": "chúle wǒ, dàjiā dōu qù le",
           "notes": "",
           "tones": [
             2,
@@ -1139,7 +1139,7 @@
           "pinyin": "dàgài",
           "meaning": "general, rough; probably, approximately; (general idea)",
           "emoji": "",
-          "example": "",
+          "example": "tā dàgài míngtiān lái",
           "notes": "",
           "tones": [
             4,
@@ -1283,7 +1283,7 @@
           "pinyin": "dāngrán",
           "meaning": "of course",
           "emoji": "",
-          "example": "",
+          "example": "wǒ dāngrán zhīdào",
           "notes": "",
           "tones": [
             1,
@@ -1301,7 +1301,7 @@
           "pinyin": "dàochù",
           "meaning": "everywhere",
           "emoji": "",
-          "example": "",
+          "example": "zhèli dàochù dōu shì rén",
           "notes": "",
           "tones": [
             4,
@@ -1355,7 +1355,7 @@
           "pinyin": "dehuà",
           "meaning": "used after a condition clause, if...",
           "emoji": "",
-          "example": "",
+          "example": "rúguǒ nǐ máng de huà, wǒ zìjǐ qù",
           "notes": "",
           "tones": [
             5,
@@ -1495,7 +1495,7 @@
           "pinyin": "dōng",
           "meaning": "east",
           "emoji": "",
-          "example": "",
+          "example": "tàiyáng cóng dōng biān chūlái",
           "notes": "",
           "tones": [
             1
@@ -1511,7 +1511,7 @@
           "pinyin": "dōngběi",
           "meaning": "northeast",
           "emoji": "",
-          "example": "",
+          "example": "tā jiā zài dōngběi",
           "notes": "",
           "tones": [
             1,
@@ -1529,7 +1529,7 @@
           "pinyin": "dōngfāng",
           "meaning": "east",
           "emoji": "",
-          "example": "",
+          "example": "dōngfāng de wénhuà hěn yǒu yìsi",
           "notes": "",
           "tones": [
             1,
@@ -1547,7 +1547,7 @@
           "pinyin": "dōngnán",
           "meaning": "southeast",
           "emoji": "",
-          "example": "",
+          "example": "fēng cóng dōngnán lái",
           "notes": "",
           "tones": [
             1,
@@ -1673,7 +1673,7 @@
           "pinyin": "duàn",
           "meaning": "word of segment, paragraph",
           "emoji": "",
-          "example": "",
+          "example": "zhè duàn lù hěn cháng",
           "notes": "",
           "tones": [
             4
@@ -1741,7 +1741,7 @@
           "pinyin": "érqiě",
           "meaning": "and, moreover",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài hǎo chī, érqiě hěn piányi",
           "notes": "",
           "tones": [
             2,
@@ -1921,7 +1921,7 @@
           "pinyin": "fāngxiàng",
           "meaning": "direction",
           "emoji": "",
-          "example": "",
+          "example": "nǐ zǒu cuò fāngxiàng le",
           "notes": "",
           "tones": [
             1,
@@ -2061,7 +2061,7 @@
           "pinyin": "fēng",
           "meaning": "word for letters; (to seal)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiě le yì fēng xìn",
           "notes": "",
           "tones": [
             1
@@ -2237,7 +2237,7 @@
           "pinyin": "gāng",
           "meaning": "just, just now",
           "emoji": "",
-          "example": "",
+          "example": "wǒ gāng chī le fàn",
           "notes": "",
           "tones": [
             1
@@ -2253,7 +2253,7 @@
           "pinyin": "gāngcái",
           "meaning": "just now",
           "emoji": "",
-          "example": "",
+          "example": "gāngcái tā zài zhèli",
           "notes": "",
           "tones": [
             1,
@@ -2271,7 +2271,7 @@
           "pinyin": "gānggāng",
           "meaning": "just now, a moment ago",
           "emoji": "",
-          "example": "",
+          "example": "wǒ gānggāng dào jiā",
           "notes": "",
           "tones": [
             1,
@@ -2307,7 +2307,7 @@
           "pinyin": "gēnjù",
           "meaning": "to base on; according to; (basis)",
           "emoji": "",
-          "example": "",
+          "example": "gēnjù tiānqì, míngtiān huì xià yǔ",
           "notes": "",
           "tones": [
             1,
@@ -2325,7 +2325,7 @@
           "pinyin": "gèng",
           "meaning": "more",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān bǐ zuótiān gèng lěng",
           "notes": "",
           "tones": [
             4
@@ -2341,7 +2341,7 @@
           "pinyin": "gōngjīn",
           "meaning": "kilogram",
           "emoji": "⚖️",
-          "example": "",
+          "example": "zhè ge xīguā yǒu sān gōngjīn",
           "notes": "",
           "tones": [
             1,
@@ -2501,7 +2501,7 @@
           "pinyin": "guānyú",
           "meaning": "about, regarding",
           "emoji": "",
-          "example": "",
+          "example": "zhè shì guānyú zhōngguó de shū",
           "notes": "",
           "tones": [
             1,
@@ -2643,7 +2643,7 @@
           "pinyin": "hǎoxiàng",
           "meaning": "to seem, as if; perhaps",
           "emoji": "",
-          "example": "",
+          "example": "tā hǎoxiàng bìng le",
           "notes": "",
           "tones": [
             3,
@@ -2947,7 +2947,7 @@
           "pinyin": "huò",
           "meaning": "or; (perhaps, maybe)",
           "emoji": "",
-          "example": "",
+          "example": "nǐ hē chá huò kāfēi dōu kěyǐ",
           "notes": "",
           "tones": [
             4
@@ -2963,7 +2963,7 @@
           "pinyin": "huòzhě",
           "meaning": "or",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men míngtiān huòzhě hòutiān qù",
           "notes": "",
           "tones": [
             4,
@@ -2997,7 +2997,7 @@
           "pinyin": "jīhū",
           "meaning": "almost",
           "emoji": "",
-          "example": "",
+          "example": "wǒ jīhū měitiān dōu xuéxí zhōngwén",
           "notes": "",
           "tones": [
             1,
@@ -3033,7 +3033,7 @@
           "pinyin": "jí",
           "meaning": "extremely",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài hǎo chī jí le",
           "notes": "",
           "tones": [
             2
@@ -3255,7 +3255,7 @@
           "pinyin": "jiǎo",
           "meaning": "word for fractions, angle, currency",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge yào wǔ kuài èr jiǎo",
           "notes": "",
           "tones": [
             3
@@ -3303,7 +3303,7 @@
           "pinyin": "jié",
           "meaning": "word for segments, sections, lessons; festival, joint; (to save, to control)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men jīntiān yǒu sān jié kè",
           "notes": "",
           "tones": [
             2
@@ -3443,7 +3443,7 @@
           "pinyin": "jīn",
           "meaning": "catty",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le liǎng jīn píngguǒ",
           "notes": "",
           "tones": [
             1
@@ -3543,7 +3543,7 @@
           "pinyin": "jù",
           "meaning": "word of sentence",
           "emoji": "",
-          "example": "",
+          "example": "qǐng zài shuō yí jù",
           "notes": "",
           "tones": [
             4
@@ -3751,7 +3751,7 @@
           "pinyin": "kěshì",
           "meaning": "but",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiǎng qù, kěshì méiyǒu shíjiān",
           "notes": "",
           "tones": [
             3,
@@ -3769,7 +3769,7 @@
           "pinyin": "kè",
           "meaning": "quarter; to carve",
           "emoji": "",
-          "example": "",
+          "example": "xiànzài shì sān diǎn yí kè",
           "notes": "",
           "tones": [
             4
@@ -3927,7 +3927,7 @@
           "pinyin": "lǎo",
           "meaning": "old, aged; prefix indicating seniority or endearment; (always, constantly)",
           "emoji": "",
-          "example": "",
+          "example": "tā lǎo shì chídào",
           "notes": "",
           "tones": [
             3
@@ -4083,7 +4083,7 @@
           "pinyin": "liàng",
           "meaning": "word for vehicles",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yí liàng chē",
           "notes": "",
           "tones": [
             4
@@ -4227,7 +4227,7 @@
           "pinyin": "lùbiān",
           "meaning": "roadside",
           "emoji": "",
-          "example": "",
+          "example": "tā zhàn zài lùbiān děng chē",
           "notes": "",
           "tones": [
             4,
@@ -4297,7 +4297,7 @@
           "pinyin": "mǎshàng",
           "meaning": "immediately",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎshàng jiù lái",
           "notes": "",
           "tones": [
             3,
@@ -4333,7 +4333,7 @@
           "pinyin": "mǐ",
           "meaning": "meter",
           "emoji": "",
-          "example": "",
+          "example": "zhèli lí xuéxiào yǒu wǔbǎi mǐ",
           "notes": "",
           "tones": [
             3
@@ -4349,7 +4349,7 @@
           "pinyin": "miànqián",
           "meaning": "in front of",
           "emoji": "",
-          "example": "",
+          "example": "tā jiù zhàn zài wǒ miànqián",
           "notes": "",
           "tones": [
             4,
@@ -4421,7 +4421,7 @@
           "pinyin": "nán",
           "meaning": "south",
           "emoji": "",
-          "example": "",
+          "example": "wǎng nán zǒu jiù dào hǎi le",
           "notes": "",
           "tones": [
             2
@@ -4453,7 +4453,7 @@
           "pinyin": "nánfāng",
           "meaning": "south",
           "emoji": "",
-          "example": "",
+          "example": "nánfāng de xiàtiān hěn rè",
           "notes": "",
           "tones": [
             2,
@@ -4769,7 +4769,7 @@
           "pinyin": "píngshí",
           "meaning": "usually",
           "emoji": "",
-          "example": "",
+          "example": "wǒ píngshí liù diǎn qǐchuáng",
           "notes": "",
           "tones": [
             2,
@@ -4823,7 +4823,7 @@
           "pinyin": "qíshí",
           "meaning": "actually",
           "emoji": "",
-          "example": "",
+          "example": "qíshí wǒ bù zhīdào",
           "notes": "",
           "tones": [
             2,
@@ -4859,7 +4859,7 @@
           "pinyin": "qǐ",
           "meaning": "to rise, to get up; (measure word for events)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men yìqǐ zhàn qǐ lái",
           "notes": "",
           "tones": [
             3
@@ -5055,7 +5055,7 @@
           "pinyin": "ránhòu",
           "meaning": "then, afterwards",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiān chī fàn, ránhòu xuéxí",
           "notes": "",
           "tones": [
             2,
@@ -5163,7 +5163,7 @@
           "pinyin": "rúguǒ",
           "meaning": "if",
           "emoji": "",
-          "example": "",
+          "example": "rúguǒ nǐ máng, wǒ míngtiān zài lái",
           "notes": "",
           "tones": [
             2,
@@ -5283,7 +5283,7 @@
           "pinyin": "shēnbiān",
           "meaning": "by one's side",
           "emoji": "",
-          "example": "",
+          "example": "tā zǒng zài wǒ shēnbiān",
           "notes": "",
           "tones": [
             1,
@@ -5319,7 +5319,7 @@
           "pinyin": "shēng",
           "meaning": "sound, voice; measure word for sounds",
           "emoji": "",
-          "example": "",
+          "example": "wǒ tīngdào le yì shēng",
           "notes": "",
           "tones": [
             1
@@ -5607,7 +5607,7 @@
           "pinyin": "shuāng",
           "meaning": "pair, measure word for pairs",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yì shuāng xié",
           "notes": "",
           "tones": [
             1
@@ -5693,7 +5693,7 @@
           "pinyin": "tèbié",
           "meaning": "special; particularly",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān tèbié lěng",
           "notes": "",
           "tones": [
             4,
@@ -5817,7 +5817,7 @@
           "pinyin": "tǐng",
           "meaning": "quite, rather; (to endure)",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài tǐng hǎo chī de",
           "notes": "",
           "tones": [
             3
@@ -6119,7 +6119,7 @@
           "pinyin": "wèi",
           "meaning": "for, because of, to",
           "emoji": "",
-          "example": "",
+          "example": "wǒ wèi nǐ gāoxìng",
           "notes": "",
           "tones": [
             4
@@ -6135,7 +6135,7 @@
           "pinyin": "wèile",
           "meaning": "in order to",
           "emoji": "",
-          "example": "",
+          "example": "wèile xuéxí zhōngwén, tā qù le zhōngguó",
           "notes": "",
           "tones": [
             4,
@@ -6209,7 +6209,7 @@
           "pinyin": "xī",
           "meaning": "west",
           "emoji": "",
-          "example": "",
+          "example": "chāoshì zài xī biān",
           "notes": "",
           "tones": [
             1
@@ -6225,7 +6225,7 @@
           "pinyin": "xīběi",
           "meaning": "northwest",
           "emoji": "",
-          "example": "",
+          "example": "tā jiā zài xīběi",
           "notes": "",
           "tones": [
             1,
@@ -6243,7 +6243,7 @@
           "pinyin": "xīfāng",
           "meaning": "west",
           "emoji": "",
-          "example": "",
+          "example": "xīfāng de wénhuà hé dōngfāng bù tóng",
           "notes": "",
           "tones": [
             1,
@@ -6279,7 +6279,7 @@
           "pinyin": "xīnán",
           "meaning": "southwest",
           "emoji": "",
-          "example": "",
+          "example": "xīnán de shān hěn duō",
           "notes": "",
           "tones": [
             1,
@@ -6389,7 +6389,7 @@
           "pinyin": "xiān",
           "meaning": "first, before",
           "emoji": "",
-          "example": "",
+          "example": "nǐ xiān zǒu, wǒ mǎshàng lái",
           "notes": "",
           "tones": [
             1
@@ -6459,7 +6459,7 @@
           "pinyin": "xiàng",
           "meaning": "to face, to turn toward; toward, to",
           "emoji": "",
-          "example": "",
+          "example": "qǐng xiàng qián zǒu",
           "notes": "",
           "tones": [
             4
@@ -6475,7 +6475,7 @@
           "pinyin": "xiàng",
           "meaning": "to resemble, to be like; (as if, such as); (image, statue, portrait)",
           "emoji": "",
-          "example": "",
+          "example": "tā zhǎng de xiàng tā māma",
           "notes": "",
           "tones": [
             4
@@ -6509,7 +6509,7 @@
           "pinyin": "xiǎoqū",
           "meaning": "residential community",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zhù de xiǎoqū hěn dà",
           "notes": "",
           "tones": [
             3,
@@ -6913,7 +6913,7 @@
           "pinyin": "yè",
           "meaning": "word for page",
           "emoji": "",
-          "example": "",
+          "example": "qǐng kàn dì shí yè",
           "notes": "",
           "tones": [
             4
@@ -6929,7 +6929,7 @@
           "pinyin": "yídìng",
           "meaning": "certain; certainly",
           "emoji": "",
-          "example": "",
+          "example": "wǒ míngtiān yídìng lái",
           "notes": "",
           "tones": [
             2,
@@ -6947,7 +6947,7 @@
           "pinyin": "yígòng",
           "meaning": "altogether, in total",
           "emoji": "",
-          "example": "",
+          "example": "zhèxiē yígòng duōshao qián",
           "notes": "",
           "tones": [
             2,
@@ -6965,7 +6965,7 @@
           "pinyin": "yíkuàir",
           "meaning": "the same place; together",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men yíkuàir qù chī fàn",
           "notes": "",
           "tones": [
             2,
@@ -7039,7 +7039,7 @@
           "pinyin": "yǐshàng",
           "meaning": "above, more than",
           "emoji": "",
-          "example": "",
+          "example": "wǔ suì yǐshàng de háizi",
           "notes": "",
           "tones": [
             3,
@@ -7057,7 +7057,7 @@
           "pinyin": "yǐwài",
           "meaning": "except, besides",
           "emoji": "",
-          "example": "",
+          "example": "chú le zhōngwén yǐwài, tā hái huì yīngwén",
           "notes": "",
           "tones": [
             3,
@@ -7093,7 +7093,7 @@
           "pinyin": "yǐxià",
           "meaning": "below, less than",
           "emoji": "",
-          "example": "",
+          "example": "shí kuài yǐxià de dōngxi",
           "notes": "",
           "tones": [
             3,
@@ -7129,7 +7129,7 @@
           "pinyin": "yìbiān",
           "meaning": "at the same time",
           "emoji": "",
-          "example": "",
+          "example": "tā yìbiān chī fàn, yìbiān kàn shū",
           "notes": "",
           "tones": [
             4,
@@ -7147,7 +7147,7 @@
           "pinyin": "yìzhí",
           "meaning": "always, straight",
           "emoji": "",
-          "example": "",
+          "example": "tā yìzhí zài xuéxí zhōngwén",
           "notes": "",
           "tones": [
             4,
@@ -7345,7 +7345,7 @@
           "pinyin": "yǒuguān",
           "meaning": "to have to do with; concerning",
           "emoji": "",
-          "example": "",
+          "example": "zhè jiàn shì hé nǐ yǒuguān",
           "notes": "",
           "tones": [
             3,
@@ -7399,7 +7399,7 @@
           "pinyin": "yòu",
           "meaning": "again, also",
           "emoji": "",
-          "example": "",
+          "example": "tā jīntiān yòu chídào le",
           "notes": "",
           "tones": [
             4
@@ -7557,7 +7557,7 @@
           "pinyin": "yuè",
           "meaning": "more, increasingly",
           "emoji": "",
-          "example": "",
+          "example": "yǔ yuè xià yuè dà",
           "notes": "",
           "tones": [
             4
@@ -7683,7 +7683,7 @@
           "pinyin": "zhāng",
           "meaning": "to open; measure word for flat objects",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yào yì zhāng zhǐ",
           "notes": "",
           "tones": [
             1
@@ -7821,7 +7821,7 @@
           "pinyin": "zhǐ néng",
           "meaning": "can only",
           "emoji": "",
-          "example": "",
+          "example": "wǒ jīntiān zhǐ néng zǒu",
           "notes": "",
           "tones": [
             3,
@@ -7839,7 +7839,7 @@
           "pinyin": "zhǐshì",
           "meaning": "only, merely; but",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zhǐshì yǒudiǎn lèi",
           "notes": "",
           "tones": [
             3,
@@ -7857,7 +7857,7 @@
           "pinyin": "zhǐyào",
           "meaning": "as long as",
           "emoji": "",
-          "example": "",
+          "example": "zhǐyào nǐ xǐhuan jiù hǎo",
           "notes": "",
           "tones": [
             3,
@@ -7875,7 +7875,7 @@
           "pinyin": "zhǐyǒu",
           "meaning": "only if",
           "emoji": "",
-          "example": "",
+          "example": "zhǐyǒu tā zhīdào zhè jiàn shì",
           "notes": "",
           "tones": [
             3,
@@ -7893,7 +7893,7 @@
           "pinyin": "zhōng",
           "meaning": "middle",
           "emoji": "",
-          "example": "",
+          "example": "tā zhàn zài fángjiān zhōng",
           "notes": "",
           "tones": [
             1
@@ -7909,7 +7909,7 @@
           "pinyin": "zhōngjiān",
           "meaning": "middle, between",
           "emoji": "",
-          "example": "",
+          "example": "tā zuò zài wǒ men zhōngjiān",
           "notes": "",
           "tones": [
             1,
@@ -7927,7 +7927,7 @@
           "pinyin": "zhōngyú",
           "meaning": "finally",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zhōngyú dào jiā le",
           "notes": "",
           "tones": [
             1,
@@ -7945,7 +7945,7 @@
           "pinyin": "zhǒng",
           "meaning": "word for kinds",
           "emoji": "",
-          "example": "",
+          "example": "zhèli yǒu hěn duō zhǒng chá",
           "notes": "",
           "tones": [
             3
@@ -8085,7 +8085,7 @@
           "pinyin": "zǒng",
           "meaning": "always, invariably; (to sum up, to assemble; total, overall)",
           "emoji": "",
-          "example": "",
+          "example": "tā zǒng shì hěn máng",
           "notes": "",
           "tones": [
             3
@@ -8101,7 +8101,7 @@
           "pinyin": "zǒngshì",
           "meaning": "always",
           "emoji": "",
-          "example": "",
+          "example": "tā zǒngshì chídào",
           "notes": "",
           "tones": [
             3,
@@ -8135,7 +8135,7 @@
           "pinyin": "zuìhǎo",
           "meaning": "best",
           "emoji": "",
-          "example": "",
+          "example": "nǐ zuìhǎo xiànzài jiù qù",
           "notes": "",
           "tones": [
             4,
@@ -8171,7 +8171,7 @@
           "pinyin": "zuìjìn",
           "meaning": "recently",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zuìjìn hěn máng",
           "notes": "",
           "tones": [
             4,
@@ -8286,7 +8286,7 @@
           "pinyin": "bān",
           "meaning": "class, team; (measure word for groups)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men bān yǒu sānshí gè xuéshēng",
           "notes": "",
           "tones": [
             1
@@ -8336,7 +8336,7 @@
           "pinyin": "bāo",
           "meaning": "to wrap, to pack; bag; (measure word for bundles)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yì bāo chá",
           "notes": "",
           "tones": [
             1
@@ -8386,7 +8386,7 @@
           "pinyin": "bǐ",
           "meaning": "pen; (measure word for writing tools)",
           "emoji": "",
-          "example": "",
+          "example": "qǐng gěi wǒ yì zhī bǐ",
           "notes": "",
           "tones": [
             3
@@ -8612,7 +8612,7 @@
           "pinyin": "cì",
           "meaning": "(measure word for times or occasions; next in order)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ qù guo sān cì zhōngguó",
           "notes": "",
           "tones": [
             4
@@ -8730,7 +8730,7 @@
           "pinyin": "dàn",
           "meaning": "but, however; (only, merely)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiǎng qù, dàn méiyǒu shíjiān",
           "notes": "",
           "tones": [
             4
@@ -8746,7 +8746,7 @@
           "pinyin": "dànshì",
           "meaning": "but, however",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài hǎo chī, dànshì tài guì le",
           "notes": "",
           "tones": [
             4,
@@ -8764,7 +8764,7 @@
           "pinyin": "de",
           "meaning": "(particle indicating degree or manner)",
           "emoji": "",
-          "example": "",
+          "example": "tā pǎo de hěn kuài",
           "notes": "",
           "tones": [
             5
@@ -8780,7 +8780,7 @@
           "pinyin": "de",
           "meaning": "(particle turning an adjective into an adverb)",
           "emoji": "",
-          "example": "",
+          "example": "tā mànmàn de zǒu",
           "notes": "",
           "tones": [
             5
@@ -9088,7 +9088,7 @@
           "pinyin": "guo",
           "meaning": "(particle indicating past experience)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ chī guo zhōngguó cài",
           "notes": "",
           "tones": [
             5
@@ -9104,7 +9104,7 @@
           "pinyin": "háishi",
           "meaning": "still; or",
           "emoji": "",
-          "example": "",
+          "example": "nǐ hē chá háishi hē kāfēi",
           "notes": "",
           "tones": [
             2,
@@ -9176,7 +9176,7 @@
           "pinyin": "hòumiàn",
           "meaning": "behind, back",
           "emoji": "",
-          "example": "",
+          "example": "shāngdiàn zài fángzi hòumiàn",
           "notes": "",
           "tones": [
             4,
@@ -9258,7 +9258,7 @@
           "pinyin": "huílái",
           "meaning": "to come back",
           "emoji": "",
-          "example": "",
+          "example": "tā gāng huílái",
           "notes": "",
           "tones": [
             2,
@@ -9276,7 +9276,7 @@
           "pinyin": "huíqù",
           "meaning": "to go back",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiǎng huíqù le",
           "notes": "",
           "tones": [
             2,
@@ -9348,7 +9348,7 @@
           "pinyin": "jiān",
           "meaning": "(measure word for rooms); between",
           "emoji": "",
-          "example": "",
+          "example": "zhè jiān fángjiān hěn dà",
           "notes": "",
           "tones": [
             1
@@ -9484,7 +9484,7 @@
           "pinyin": "jīngcháng",
           "meaning": "often",
           "emoji": "",
-          "example": "",
+          "example": "wǒ jīngcháng qù nàli mǎi dōngxi",
           "notes": "",
           "tones": [
             1,
@@ -9520,7 +9520,7 @@
           "pinyin": "jiù",
           "meaning": "just, then; (as early as, only, as soon as)",
           "emoji": "",
-          "example": "",
+          "example": "tā xiànzài jiù yào zǒu",
           "notes": "",
           "tones": [
             4
@@ -9660,7 +9660,7 @@
           "pinyin": "kuài",
           "meaning": "fast; soon, quickly",
           "emoji": "",
-          "example": "",
+          "example": "tā zǒu de hěn kuài",
           "notes": "",
           "tones": [
             4
@@ -9694,7 +9694,7 @@
           "pinyin": "kuàiyào",
           "meaning": "soon, almost",
           "emoji": "",
-          "example": "",
+          "example": "diànyǐng kuàiyào kāishǐ le",
           "notes": "",
           "tones": [
             4,
@@ -9762,7 +9762,7 @@
           "pinyin": "lǐmiàn",
           "meaning": "inside",
           "emoji": "",
-          "example": "",
+          "example": "shū zài bāo lǐmiàn",
           "notes": "",
           "tones": [
             3,
@@ -9988,7 +9988,7 @@
           "pinyin": "miàn",
           "meaning": "side, aspect; (suffix for a person with a trait; measure word for flat objects)",
           "emoji": "",
-          "example": "",
+          "example": "qǐng ná yì zhāng zhǐ",
           "notes": "",
           "tones": [
             4
@@ -10004,7 +10004,7 @@
           "pinyin": "míng",
           "meaning": "name, reputation; (measure word for people)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men bān yǒu shí míng xuéshēng",
           "notes": "",
           "tones": [
             2
@@ -10036,7 +10036,7 @@
           "pinyin": "nàme",
           "meaning": "so, like that; then",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān nàme lěng, nǐ duō chuān diǎn",
           "notes": "",
           "tones": [
             4,
@@ -10164,7 +10164,7 @@
           "pinyin": "pángbiān",
           "meaning": "side",
           "emoji": "",
-          "example": "",
+          "example": "yínháng zài xuéxiào pángbiān",
           "notes": "",
           "tones": [
             2,
@@ -10250,7 +10250,7 @@
           "pinyin": "qǐlái",
           "meaning": "to get up, to stand up; (used after verbs for upward movement or beginning)",
           "emoji": "",
-          "example": "",
+          "example": "qǐng zhàn qǐlái",
           "notes": "",
           "tones": [
             3,
@@ -10268,7 +10268,7 @@
           "pinyin": "qiánmiàn",
           "meaning": "front",
           "emoji": "",
-          "example": "",
+          "example": "shāngdiàn jiù zài qiánmiàn",
           "notes": "",
           "tones": [
             2,
@@ -10368,7 +10368,7 @@
           "pinyin": "shànglái",
           "meaning": "to come up",
           "emoji": "",
-          "example": "",
+          "example": "qǐng shànglái",
           "notes": "",
           "tones": [
             4,
@@ -10386,7 +10386,7 @@
           "pinyin": "shàngmiàn",
           "meaning": "above, top",
           "emoji": "",
-          "example": "",
+          "example": "shū zài zhuōzi shàngmiàn",
           "notes": "",
           "tones": [
             4,
@@ -10404,7 +10404,7 @@
           "pinyin": "shàngqù",
           "meaning": "to go up",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xiǎng shàngqù kànkan",
           "notes": "",
           "tones": [
             4,
@@ -10596,7 +10596,7 @@
           "pinyin": "suīrán",
           "meaning": "although",
           "emoji": "",
-          "example": "",
+          "example": "suīrán hěn lěng, dànshì wǒ hěn gāoxìng",
           "notes": "",
           "tones": [
             1,
@@ -10614,7 +10614,7 @@
           "pinyin": "suǒyǐ",
           "meaning": "so, therefore",
           "emoji": "",
-          "example": "",
+          "example": "wǒ bìng le, suǒyǐ méi qù",
           "notes": "",
           "tones": [
             3,
@@ -10680,7 +10680,7 @@
           "pinyin": "tiáo",
           "meaning": "(measure word for long, thin, strip-like objects; clause, item)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yì tiáo yú",
           "notes": "",
           "tones": [
             2
@@ -10714,7 +10714,7 @@
           "pinyin": "tóu",
           "meaning": "head; (measure word for animals; first)",
           "emoji": "",
-          "example": "",
+          "example": "zhèli yǒu sān tóu niú",
           "notes": "",
           "tones": [
             2
@@ -10748,7 +10748,7 @@
           "pinyin": "wàimiàn",
           "meaning": "outside",
           "emoji": "",
-          "example": "",
+          "example": "wàimiàn zài xià yǔ",
           "notes": "",
           "tones": [
             4,
@@ -10848,7 +10848,7 @@
           "pinyin": "wèi",
           "meaning": "(measure word for people)",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān lái le sān wèi lǎoshī",
           "notes": "",
           "tones": [
             4
@@ -10938,7 +10938,7 @@
           "pinyin": "xiàlái",
           "meaning": "to come down",
           "emoji": "",
-          "example": "",
+          "example": "qǐng xiàlái",
           "notes": "",
           "tones": [
             4,
@@ -10956,7 +10956,7 @@
           "pinyin": "xiàmiàn",
           "meaning": "below, under",
           "emoji": "",
-          "example": "",
+          "example": "māo zài zhuōzi xiàmiàn",
           "notes": "",
           "tones": [
             4,
@@ -10974,7 +10974,7 @@
           "pinyin": "xiàqù",
           "meaning": "to go down",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men zǒu xiàqù ba",
           "notes": "",
           "tones": [
             4,
@@ -11170,7 +11170,7 @@
           "pinyin": "yíhuìr",
           "meaning": "a while, a moment; (soon, in a little while)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yíhuìr jiù lái",
           "notes": "",
           "tones": [
             2,
@@ -11190,7 +11190,7 @@
           "pinyin": "yǐjīng",
           "meaning": "already",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yǐjīng dào le",
           "notes": "",
           "tones": [
             3,
@@ -11208,7 +11208,7 @@
           "pinyin": "yìqǐ",
           "meaning": "together",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men yìqǐ qù chī fàn",
           "notes": "",
           "tones": [
             4,
@@ -11260,7 +11260,7 @@
           "pinyin": "yīnwèi",
           "meaning": "because; because of",
           "emoji": "",
-          "example": "",
+          "example": "yīnwèi xià yǔ, wǒ méi qù",
           "notes": "",
           "tones": [
             1,
@@ -11332,7 +11332,7 @@
           "pinyin": "yǒushí",
           "meaning": "sometimes",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yǒushí zǎoshang hē chá",
           "notes": "",
           "tones": [
             3,
@@ -11350,7 +11350,7 @@
           "pinyin": "yòu",
           "meaning": "right",
           "emoji": "➡️",
-          "example": "",
+          "example": "wǎng yòu zǒu jiù dào le",
           "notes": "",
           "tones": [
             4
@@ -11366,7 +11366,7 @@
           "pinyin": "yòubian",
           "meaning": "right side",
           "emoji": "",
-          "example": "",
+          "example": "yínháng zài yòubian",
           "notes": "",
           "tones": [
             4,
@@ -11504,7 +11504,7 @@
           "pinyin": "zhe",
           "meaning": "(particle indicating ongoing action or state)",
           "emoji": "",
-          "example": "",
+          "example": "tā kàn zhe shū",
           "notes": "",
           "tones": [
             5
@@ -11520,7 +11520,7 @@
           "pinyin": "zhèng",
           "meaning": "just, exactly, right; (straight)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zhèng yào chūmén",
           "notes": "",
           "tones": [
             4
@@ -11536,7 +11536,7 @@
           "pinyin": "zhōu",
           "meaning": "week; (measure word for circumference, cycle)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ xià zhōu qù zhōngguó",
           "notes": "",
           "tones": [
             1
@@ -11640,7 +11640,7 @@
           "pinyin": "zuì",
           "meaning": "most, -est",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài zuì hǎo chī",
           "notes": "",
           "tones": [
             4
@@ -11656,7 +11656,7 @@
           "pinyin": "zuǒ",
           "meaning": "left",
           "emoji": "⬅️",
-          "example": "",
+          "example": "wǎng zuǒ zǒu jiù shì shāngdiàn",
           "notes": "",
           "tones": [
             3
@@ -11672,7 +11672,7 @@
           "pinyin": "zuǒbian",
           "meaning": "left side",
           "emoji": "",
-          "example": "",
+          "example": "chāoshì zài zuǒbian",
           "notes": "",
           "tones": [
             3,
@@ -11851,7 +11851,7 @@
           "pinyin": "běn",
           "meaning": "measure word for books",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le sān běn shū",
           "notes": "",
           "tones": [
             3
@@ -11867,7 +11867,7 @@
           "pinyin": "biān",
           "meaning": "side",
           "emoji": "",
-          "example": "",
+          "example": "tā zhàn zài lù biān",
           "notes": "",
           "tones": [
             1
@@ -12095,7 +12095,7 @@
           "pinyin": "de",
           "meaning": "possessive particle",
           "emoji": "",
-          "example": "",
+          "example": "zhè shì wǒ de shū",
           "notes": "",
           "tones": [
             5
@@ -12477,7 +12477,7 @@
           "pinyin": "fēicháng",
           "meaning": "very, extremely",
           "emoji": "",
-          "example": "",
+          "example": "zhè ge cài fēicháng hǎo chī",
           "notes": "",
           "tones": [
             1,
@@ -12581,7 +12581,7 @@
           "pinyin": "gè",
           "meaning": "measure word for general objects",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yào yí gè píngguǒ",
           "notes": "",
           "tones": [
             4
@@ -12629,7 +12629,7 @@
           "pinyin": "hái",
           "meaning": "still, also",
           "emoji": "",
-          "example": "",
+          "example": "wǒ hái méiyǒu chī fàn",
           "notes": "",
           "tones": [
             2
@@ -12785,7 +12785,7 @@
           "pinyin": "hé",
           "meaning": "and, with",
           "emoji": "",
-          "example": "",
+          "example": "wǒ hé tā yìqǐ qù",
           "notes": "",
           "tones": [
             2
@@ -12801,7 +12801,7 @@
           "pinyin": "hěn",
           "meaning": "very",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān hěn lěng",
           "notes": "",
           "tones": [
             3
@@ -12933,7 +12933,7 @@
           "pinyin": "jiàn",
           "meaning": "measure word for items",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yí jiàn yīfu",
           "notes": "",
           "tones": [
             4
@@ -13121,7 +13121,7 @@
           "pinyin": "kǒu",
           "meaning": "mouth; (measure word for people)",
           "emoji": "👄",
-          "example": "",
+          "example": "wǒ jiā yǒu sì kǒu rén",
           "notes": "",
           "tones": [
             3
@@ -13283,7 +13283,7 @@
           "pinyin": "méi guānxi",
           "meaning": "never mind, it's okay",
           "emoji": "",
-          "example": "",
+          "example": "méi guānxi, wǒ bù máng",
           "notes": "",
           "tones": [
             2,
@@ -13357,7 +13357,7 @@
           "pinyin": "men",
           "meaning": "(plural suffix)",
           "emoji": "",
-          "example": "",
+          "example": "wǒ men yìqǐ qù",
           "notes": "",
           "tones": [
             5
@@ -13483,7 +13483,7 @@
           "pinyin": "nǎlǐ",
           "meaning": "where",
           "emoji": "",
-          "example": "",
+          "example": "nǐ qù nǎlǐ",
           "notes": "",
           "tones": [
             3,
@@ -13501,7 +13501,7 @@
           "pinyin": "nǎr",
           "meaning": "where",
           "emoji": "",
-          "example": "",
+          "example": "nǐ zhù zài nǎr",
           "notes": "",
           "tones": [
             3,
@@ -13553,7 +13553,7 @@
           "pinyin": "nàbiān",
           "meaning": "over there",
           "emoji": "",
-          "example": "",
+          "example": "shāngdiàn zài nàbiān",
           "notes": "",
           "tones": [
             4,
@@ -13589,7 +13589,7 @@
           "pinyin": "nàlǐ",
           "meaning": "there",
           "emoji": "",
-          "example": "",
+          "example": "wǒ qù guo nàlǐ",
           "notes": "",
           "tones": [
             4,
@@ -13607,7 +13607,7 @@
           "pinyin": "nàr",
           "meaning": "there",
           "emoji": "",
-          "example": "",
+          "example": "tā zài nàr děng nǐ",
           "notes": "",
           "tones": [
             4,
@@ -13941,7 +13941,7 @@
           "pinyin": "qián",
           "meaning": "front, before",
           "emoji": "",
-          "example": "",
+          "example": "tā zhàn zài mén qián",
           "notes": "",
           "tones": [
             2
@@ -14089,7 +14089,7 @@
           "pinyin": "shàng",
           "meaning": "up, above; to go up",
           "emoji": "",
-          "example": "",
+          "example": "shū zài zhuōzi shàng",
           "notes": "",
           "tones": [
             4
@@ -14415,7 +14415,7 @@
           "pinyin": "suì",
           "meaning": "measure word for age",
           "emoji": "",
-          "example": "",
+          "example": "wǒ èrshí suì",
           "notes": "",
           "tones": [
             4
@@ -14551,7 +14551,7 @@
           "pinyin": "wài",
           "meaning": "outside, exterior",
           "emoji": "",
-          "example": "",
+          "example": "tā zài mén wài děng",
           "notes": "",
           "tones": [
             4
@@ -14567,7 +14567,7 @@
           "pinyin": "wàibian",
           "meaning": "outside",
           "emoji": "",
-          "example": "",
+          "example": "wàibian hěn lěng",
           "notes": "",
           "tones": [
             4,
@@ -14757,7 +14757,7 @@
           "pinyin": "xià",
           "meaning": "down, below; to go down; next",
           "emoji": "",
-          "example": "",
+          "example": "māo zài zhuōzi xià",
           "notes": "",
           "tones": [
             4
@@ -14971,7 +14971,7 @@
           "pinyin": "xiē",
           "meaning": "measure word for an indefinite amount",
           "emoji": "",
-          "example": "",
+          "example": "wǒ mǎi le yìxiē shuǐguǒ",
           "notes": "",
           "tones": [
             1
@@ -15215,7 +15215,7 @@
           "pinyin": "yě",
           "meaning": "also, too",
           "emoji": "",
-          "example": "",
+          "example": "wǒ yě xiǎng qù",
           "notes": "",
           "tones": [
             3
@@ -15615,7 +15615,7 @@
           "pinyin": "zhèbiān",
           "meaning": "here",
           "emoji": "",
-          "example": "",
+          "example": "qǐng dào zhèbiān lái",
           "notes": "",
           "tones": [
             4,
@@ -15651,7 +15651,7 @@
           "pinyin": "zhèlǐ",
           "meaning": "here",
           "emoji": "",
-          "example": "",
+          "example": "wǒ zài zhèlǐ děng nǐ",
           "notes": "",
           "tones": [
             4,
@@ -15669,7 +15669,7 @@
           "pinyin": "zhèr",
           "meaning": "here",
           "emoji": "",
-          "example": "",
+          "example": "nǐ dào zhèr lái",
           "notes": "",
           "tones": [
             4
@@ -15703,7 +15703,7 @@
           "pinyin": "zhēn",
           "meaning": "really; true",
           "emoji": "",
-          "example": "",
+          "example": "jīntiān zhēn lěng",
           "notes": "",
           "tones": [
             1
@@ -15737,7 +15737,7 @@
           "pinyin": "zhī",
           "meaning": "measure word for animals, one of a pair",
           "emoji": "",
-          "example": "",
+          "example": "wǒ jiā yǒu yì zhī māo",
           "notes": "",
           "tones": [
             1

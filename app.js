@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v33 · HSK3 emoji coverage (3→84)';
+const BUILD = 'v34 · example sentences for adverbs/directionals/measure words (+180)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
