@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v32 · HSK3 (500) added, 467 new after dedup';
+const BUILD = 'v33 · HSK3 emoji coverage (3→84)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
