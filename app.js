@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v31 · due-highlight buttons, drop Cram';
+const BUILD = 'v32 · HSK3 (500) added, 467 new after dedup';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
