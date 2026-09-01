@@ -357,7 +357,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v39 · EN→中 pass also clears 中→EN (tones stay separate)';
+const BUILD = 'v40 · hide "met" counter once a set is fully met';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -381,14 +381,18 @@ async function renderHome(root) {
   const metAll = all.filter(isMet);
   const totalsMet = deckStats(metAll);
   const metWords = metAll.length;
+  const reviewStats = el('div', { class: 'stats' },
+    el('span', { class: 'pill due' }, `${totalsMet.due} due`),
+    el('span', { class: 'pill mastered' }, `${totals.wordsMastered} mastered`));
+  // Only show the aggregate "met" count while there are still words left to meet.
+  if (metWords < totals.cards) {
+    reviewStats.insertBefore(el('span', { class: 'pill' }, `${metWords} / ${totals.cards} met`), reviewStats.firstChild);
+  }
   const reviewCard = el('div', { class: 'deck review-all', onclick: () => app.go('mixed', {}) },
     el('h3', {}, '🔁 Review Everything'),
     el('div', { class: 'sub' }, 'All modes mixed — every due item (中→EN, EN→中, tones) across every deck'),
     el('div', { class: 'bar' }, el('i', { style: `width:${totals.total ? Math.round(100 * totals.mastered / totals.total) : 0}%` })),
-    el('div', { class: 'stats' },
-      el('span', { class: 'pill' }, `${metWords} / ${totals.cards} met`),
-      el('span', { class: 'pill due' }, `${totalsMet.due} due`),
-      el('span', { class: 'pill mastered' }, `${totals.wordsMastered} mastered`)));
+    reviewStats);
   root.append(reviewCard);
   root.append(el('div', { class: 'hint' }, 'Or pick a single upload to focus on:'));
 
@@ -425,11 +429,13 @@ async function renderDeck(root, deckId) {
   const ms = metStats(cards);
 
   if (deck.summary) root.append(el('div', { class: 'hint' }, deck.summary));
-  root.append(el('div', { class: 'stats', style: 'margin:.4rem 0 0' },
-    el('span', { class: 'pill' }, `${s.cards} words`),
-    el('span', { class: 'pill' }, `${ms.met} / ${ms.total} met`),
-    el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
-    el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`)));
+  const deckStatsRow = el('div', { class: 'stats', style: 'margin:.4rem 0 0' },
+    el('span', { class: 'pill' }, `${s.cards} words`));
+  // "met" pill only while there are still unseen words — once fully met it's noise.
+  if (ms.unseen > 0) deckStatsRow.append(el('span', { class: 'pill' }, `${ms.met} / ${ms.total} met`));
+  deckStatsRow.append(el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`));
+  deckStatsRow.append(el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`));
+  root.append(deckStatsRow);
   // Granular progress bar: fills per-mode (out of words×modes), so it climbs
   // as you master each direction/tone even before a word is fully mastered.
   const barPct = s.total ? Math.round(100 * s.mastered / s.total) : 0;
