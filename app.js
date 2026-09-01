@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v36 · HSK1 title consistency (New HSK Level 1 Vocabulary)';
+const BUILD = 'v37 · drop "New" from HSK deck titles (HSK Level 1/2/3 Vocabulary)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';

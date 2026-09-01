@@ -4,7 +4,7 @@
 "decks": [
 {
 "id": "hw_hsk3_new_500",
-"title": "New HSK Level 3 Vocabulary",
+"title": "HSK Level 3 Vocabulary",
 "source": "New HSK Vocabulary Level 3 (MandarinBean)",
 "summary": "The 500-word New HSK Level 3 vocabulary list (MandarinBean). Duplicates of words already in your other decks are auto-removed on build (hanzi-authoritative, so homophones are kept distinct).",
 "createdAt": "2026-08-31T17:00:00+00:00",
@@ -8223,7 +8223,7 @@
 },
 {
 "id": "hw_hsk2_new_200",
-"title": "New HSK Level 2 Vocabulary",
+"title": "HSK Level 2 Vocabulary",
 "source": "New HSK Vocabulary Level 2 (MandarinBean)",
 "summary": "The 200-word New HSK Level 2 vocabulary list (MandarinBean). Duplicates of words already in your decks are auto-removed on build.",
 "createdAt": "2026-08-03T17:45:21.592985+00:00",
@@ -11292,7 +11292,7 @@
 },
 {
 "id": "hw_hsk1_new_300",
-"title": "New HSK Level 1 Vocabulary",
+"title": "HSK Level 1 Vocabulary",
 "source": "New-HSK-Vocabulary-Level-1.pdf",
 "summary": "Official New HSK Level 1 vocabulary (duplicates already in other decks removed).",
 "createdAt": "2026-07-28T22:40:00+00:00",
