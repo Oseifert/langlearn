@@ -226,6 +226,12 @@ function stateForMode(c, mode) { return YC.stateForMode(c, mode); }
 // A word is truly mastered only when all applicable modes are mastered.
 function modesFor(c) { return YC.modesFor(c); }
 function fullyMastered(c) { return YC.fullyMastered(c); }
+// Batched new-card introduction (peek-first Learn).
+function isMet(c) { return YC.isMet(c); }
+function nextUnseen(cards, size) { return YC.nextUnseen(cards, size); }
+function introduce(c) { return YC.introduce(c, now); }
+function metStats(cards) { return YC.metStats(cards); }
+const LEARN_BATCH = 20; // new cards introduced per Learn session
 
 // ---------- deck stats ----------
 // Mode-aware: total/due/mastered count each card once per applicable mode
@@ -335,7 +341,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v37 · drop "New" from HSK deck titles (HSK Level 1/2/3 Vocabulary)';
+const BUILD = 'v38 · batched Learn (meet new words in doses of 20)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -356,13 +362,16 @@ async function renderHome(root) {
 
   // Review everything card
   const totals = deckStats(all);
+  const metAll = all.filter(isMet);
+  const totalsMet = deckStats(metAll);
+  const metWords = metAll.length;
   const reviewCard = el('div', { class: 'deck review-all', onclick: () => app.go('mixed', {}) },
     el('h3', {}, '🔁 Review Everything'),
     el('div', { class: 'sub' }, 'All modes mixed — every due item (中→EN, EN→中, tones) across every deck'),
     el('div', { class: 'bar' }, el('i', { style: `width:${totals.total ? Math.round(100 * totals.mastered / totals.total) : 0}%` })),
     el('div', { class: 'stats' },
-      el('span', { class: 'pill' }, `${totals.cards} words`),
-      el('span', { class: 'pill due' }, `${totals.due} / ${totals.total} due`),
+      el('span', { class: 'pill' }, `${metWords} / ${totals.cards} met`),
+      el('span', { class: 'pill due' }, `${totalsMet.due} due`),
       el('span', { class: 'pill mastered' }, `${totals.wordsMastered} mastered`)));
   root.append(reviewCard);
   root.append(el('div', { class: 'hint' }, 'Or pick a single upload to focus on:'));
@@ -370,15 +379,20 @@ async function renderHome(root) {
   for (const d of decks) {
     const cards = byDeck.get(d.id) || [];
     const s = deckStats(cards);
+    const metCards = cards.filter(isMet);
+    const sMet = deckStats(metCards);
+    const ms = metStats(cards);
     const pct = s.total ? Math.round(100 * s.mastered / s.total) : 0;
+    const pills = el('div', { class: 'stats' },
+      el('span', { class: 'pill' }, `${s.cards} words`),
+      el('span', { class: 'pill due' }, `${sMet.due} due`),
+      el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`));
+    if (ms.unseen > 0) pills.append(el('span', { class: 'pill', style: 'background:var(--accent);color:#fff' }, `${ms.unseen} new`));
     root.append(el('div', { class: 'deck', onclick: () => app.go('deck', { deckId: d.id }) },
       el('h3', {}, d.title),
       el('div', { class: 'sub' }, d.source || ''),
       el('div', { class: 'bar' }, el('i', { style: `width:${pct}%` })),
-      el('div', { class: 'stats' },
-        el('span', { class: 'pill' }, `${s.cards} words`),
-        el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
-        el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`))));
+      pills));
   }
   root.append(el('div', { class: 'hint', style: 'text-align:center;opacity:.5;margin-top:1.5rem' }, `build ${BUILD}`));
 }
@@ -390,10 +404,14 @@ async function renderDeck(root, deckId) {
   $('#title').textContent = deck ? deck.title : 'Deck';
   const s = deckStats(cards);
   const toneCards = cards.filter(cardHasTones);
+  // Cards you've actually met (introduced via Learn) — only these are quizzed.
+  const metCards = cards.filter(isMet);
+  const ms = metStats(cards);
 
   if (deck.summary) root.append(el('div', { class: 'hint' }, deck.summary));
   root.append(el('div', { class: 'stats', style: 'margin:.4rem 0 0' },
     el('span', { class: 'pill' }, `${s.cards} words`),
+    el('span', { class: 'pill' }, `${ms.met} / ${ms.total} met`),
     el('span', { class: 'pill due' }, `${s.due} / ${s.total} due`),
     el('span', { class: 'pill mastered' }, `${s.wordsMastered} mastered`)));
   // Granular progress bar: fills per-mode (out of words×modes), so it climbs
@@ -403,28 +421,36 @@ async function renderDeck(root, deckId) {
     title: `${s.mastered} of ${s.total} mode-goals complete` },
     el('i', { style: `width:${barPct}%` })));
 
+  // Learn (introduce new words) — prominent when there are unseen cards, since
+  // meeting words in small batches is the intended first step for big decks.
+  if (ms.unseen > 0) {
+    root.append(el('button', { class: 'btn primary', style: 'width:100%;margin:.5rem 0 .2rem',
+      onclick: () => app.go('learn', { deckId }) },
+      `👀 Learn next ${Math.min(LEARN_BATCH, ms.unseen)} new word${Math.min(LEARN_BATCH, ms.unseen) > 1 ? 's' : ''} · ${ms.unseen} left`));
+  }
+
   const actions = el('div', { class: 'actions' });
   const mZhEn = modeMastery(cards, 'zh2en');
   const mEnZh = modeMastery(cards, 'en2zh');
   const mTone = modeMastery(cards, 'tone');
-  // Simple, honest per-mode label: how many are due (what a session quizzes),
-  // ✓ when the whole mode is mastered, "caught up" when nothing's due right now.
+  // Simple, honest per-mode label: how many are due (what a session quizzes,
+  // among MET cards), ✓ when the whole mode is mastered, "caught up" otherwise.
   const label = (base, mode, m) => {
     if (m.applicable && m.mastered >= m.applicable) return `${base} · ✓ mastered`;
-    const d = modeDue(cards, mode);
+    const d = modeDue(metCards, mode);
     return d ? `${base} · ${d} due` : `${base} · caught up`;
   };
   // A mode with something due gets a highlighted border (call to action);
   // modes with nothing due stay as plain secondary buttons. No always-primary.
-  const modeClass = (mode) => modeDue(cards, mode) > 0 ? 'btn due-cta' : 'btn';
+  const modeClass = (mode) => modeDue(metCards, mode) > 0 ? 'btn due-cta' : 'btn';
   actions.append(el('button', { class: modeClass('zh2en'), onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'zh2en' }) }, label('Practice 中→EN', 'zh2en', mZhEn)));
   actions.append(el('button', { class: modeClass('en2zh'), onclick: () => app.go('practice', { mode: 'deck', deckId, dir: 'en2zh' }) }, label('Practice EN→中', 'en2zh', mEnZh)));
   const toneBtn = el('button', { class: toneCards.length ? modeClass('tone') : 'btn', onclick: () => app.go('tones', { deckId }) }, mTone.applicable ? label('🎵 Tone drills', 'tone', mTone) : '🎵 Tone drills · n/a');
   if (!toneCards.length) toneBtn.disabled = true;
   actions.append(toneBtn);
   // Review everything due in this deck across all modes (中→EN, EN→中, tone),
-  // mixed + interleaved — respects SRS scheduling.
-  const dueAll = cards.reduce((n, c) => {
+  // mixed + interleaved — respects SRS scheduling. Only among MET cards.
+  const dueAll = metCards.reduce((n, c) => {
     ensureStates(c);
     return n + modesFor(c).filter(m => stateForMode(c, m).due <= now()).length;
   }, 0);
@@ -433,7 +459,8 @@ async function renderDeck(root, deckId) {
   root.append(actions);
   // Small, low-emphasis entry point for the peek-first Learn pass — mainly
   // useful the first time you meet a new deck.
-  const learnLink = el('a', { class: 'learn-link', href: '#', onclick: (e) => { e.preventDefault(); app.go('learn', { deckId }); } }, '👀 Learn (peek-first, no grading)');
+  // Low-emphasis link to re-peek any words you've already met (no grading).
+  const learnLink = el('a', { class: 'learn-link', href: '#', onclick: (e) => { e.preventDefault(); app.go('learn', { deckId }); } }, ms.unseen > 0 ? '👀 Learn (peek-first, no grading)' : '👀 Re-peek words (no grading)');
   root.append(el('div', { style: 'text-align:center;margin:.1rem 0 .3rem' }, learnLink));
   root.append(el('div', { class: 'hint' }, 'Master a word in all its modes to fully master it — a green ✓ marks a fully mastered word; “n/N” shows how many modes are done so far.'));
 
@@ -467,6 +494,9 @@ async function buildQueue({ mode, deckId, cram, dir }) {
   const smode = dir === 'en2zh' ? 'en2zh' : 'zh2en';
   let cards = mode === 'all' ? await DB.allCards() : await DB.cardsFor(deckId);
   cards.forEach(ensureStates);
+  // Only cards you've actually MET (introduced via Learn) enter practice. Unseen
+  // cards sit out until you meet them, so a 467-card deck never floods a session.
+  cards = cards.filter(isMet);
   if (cram) return { queue: shuffle(cards), dueCount: cards.length, aheadUsed: false };
   const due = cards.filter(c => stateForMode(c, smode).due <= now());
   // If cards are due in this mode, practice EXACTLY those — never pad the
@@ -595,31 +625,71 @@ function updateAutoplayBtn(view) {
 }
 
 // ---- Practice (meaning flashcards) ----
-// ---- Learn (peek-first, no grading) ----
-// A gentle first-exposure pass over a fresh deck: shows EVERYTHING at once
-// (hanzi/pinyin front, meaning, audio, example/notes) so the memory trace is
-// built before any recall testing. No SRS grading happens here — it never
-// touches scheduling state. Just Prev / Next / audio, in deck order.
+// ---- Learn (peek-first, no grading) — BATCHED ----
+// A gentle first-exposure pass. Instead of walking the WHOLE deck at once
+// (overwhelming for 400+ card decks), it introduces the next batch of
+// NOT-YET-MET cards (default 20) in deck order: shows everything (hanzi/pinyin
+// front, meaning, audio, example/notes) so a memory trace forms before any
+// recall testing. No SRS grading here. On finishing the batch, each card is
+// "introduced" — stamped met + made due now — so it enters your Practice /
+// Review rotation. The rest of the deck waits until you tap for the next batch.
 async function renderLearn(root, params) {
   const deck = await DB.getDeck(params.deckId);
-  const cards = await DB.cardsFor(params.deckId);
-  cards.forEach(ensureStates);
+  const all = await DB.cardsFor(params.deckId);
+  all.forEach(ensureStates);
   $('#title').textContent = (deck ? deck.title : 'Deck') + ' · learn';
-  if (!cards.length) { root.append(doneScreen('Empty deck', {})); return; }
+  if (!all.length) { root.append(doneScreen('Empty deck', {})); return; }
+
+  const ms = metStats(all);
+  // Nothing left to meet: celebrate and route to practice.
+  if (!ms.unseen) {
+    const wrap = el('div', { class: 'done-screen' },
+      el('div', { class: 'big' }, '🎉'),
+      el('h2', {}, 'You’ve met every word in this deck!'),
+      el('div', { class: 'hint', style: 'margin:.4rem 0 1rem' }, `All ${ms.total} words are in your review rotation. Keep them fresh with Practice.`),
+      el('button', { class: 'btn primary', onclick: () => app.go('deck', { deckId: params.deckId }) }, 'Back to deck'));
+    root.append(wrap); return;
+  }
+
+  // This session's batch: next N unseen cards, in deck order.
+  const cards = nextUnseen(all, LEARN_BATCH);
 
   root.append(el('div', { class: 'hint', style: 'text-align:center' },
-    'First look — just meet the words. No grading here.'));
+    `First look — meeting ${cards.length} new word${cards.length > 1 ? 's' : ''}. ` +
+    `${ms.met} / ${ms.total} met so far · ${ms.unseen} left. No grading here.`));
   let i = 0;
   const stage = el('div', { class: 'stage' });
   root.append(stage);
   draw();
 
-  function draw() {
-    if (i >= cards.length) {
-      stage.replaceWith(doneScreen('Nice — you’ve met them all! 👋',
-        { Words: cards.length }));
-      return;
+  async function graduateBatch() {
+    // Introduce every card in this batch: met + due now, entering SRS rotation.
+    for (const c of cards) { introduce(c); c.updatedAt = now(); await DB.putCard(c); }
+    if (window.YukaSync) YukaSync.scheduleBackup();
+  }
+
+  async function finish() {
+    await graduateBatch();
+    const fresh = await DB.cardsFor(params.deckId);
+    fresh.forEach(ensureStates);
+    const after = metStats(fresh);
+    stage.innerHTML = '';
+    const wrap = el('div', { class: 'done-screen' },
+      el('div', { class: 'big' }, '👋'),
+      el('h2', {}, `Met ${cards.length} new word${cards.length > 1 ? 's' : ''}!`),
+      el('div', { class: 'hint', style: 'margin:.4rem 0 1rem' },
+        `${after.met} / ${after.total} met · ${after.unseen} left. These are now in your review rotation — practice them to lock them in.`));
+    if (after.unseen > 0) {
+      wrap.append(el('button', { class: 'btn primary', onclick: () => app.go('learn', { deckId: params.deckId }) },
+        `Learn next ${Math.min(LEARN_BATCH, after.unseen)} →`));
     }
+    wrap.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId: params.deckId, dir: 'zh2en' }) }, 'Practice these now'));
+    wrap.append(el('button', { class: 'btn', onclick: () => app.go('deck', { deckId: params.deckId }) }, 'Back to deck'));
+    stage.replaceWith(wrap);
+  }
+
+  function draw() {
+    if (i >= cards.length) { finish(); return; }
     const c = cards[i];
     stage.innerHTML = '';
     stage.append(el('div', { class: 'progress-row' },
@@ -639,7 +709,7 @@ async function renderLearn(root, params) {
     const prev = gradeBtnPlain('again', '← Back', () => { if (i > 0) { i--; draw(); } });
     if (i === 0) prev.disabled = true;
     nav.append(prev);
-    nav.append(gradeBtnPlain('easy', i + 1 >= cards.length ? 'Finish' : 'Next →', () => { i++; draw(); }));
+    nav.append(gradeBtnPlain('easy', i + 1 >= cards.length ? 'Finish batch' : 'Next →', () => { i++; draw(); }));
     stage.append(nav);
   }
   function gradeBtnPlain(cls, label, fn) {
@@ -737,6 +807,8 @@ async function renderToneDrill(root, params) {
   let cards = params.deckId ? await DB.cardsFor(params.deckId) : await DB.allCards();
   cards.forEach(ensureStates);
   cards = cards.filter(cardHasTones);
+  // Only drill words you've MET — unseen cards wait for a Learn batch.
+  cards = cards.filter(isMet);
   // Consistent with meaning practice: if tone cards are due, drill EXACTLY
   // those. If none are due, do NOT dump the deck — offer a small "get ahead"
   // batch of the least-solid cards, capped low, and flag it for the UI.
@@ -858,10 +930,13 @@ async function renderMixedReview(root, params) {
   $('#title').textContent = scoped ? `${deck ? deck.title : 'Deck'} · due (all modes)` : 'Review All · mixed';
   const cards = scoped ? await DB.cardsFor(params.deckId) : await DB.allCards();
   cards.forEach(ensureStates);
+  // Only review words you've MET — unseen cards wait for a Learn batch, so a
+  // huge deck's un-introduced words never flood Review All.
+  const metCards = cards.filter(isMet);
   // Build one queue entry per DUE (card, mode) pair. modesFor() returns the
   // modes applicable to a card (tone only when it has tone data).
   let items = [];
-  for (const c of cards) {
+  for (const c of metCards) {
     for (const mode of modesFor(c)) {
       if (stateForMode(c, mode).due <= now()) items.push({ c, mode });
     }
@@ -870,7 +945,7 @@ async function renderMixedReview(root, params) {
   // keep practicing, still mixed across modes. Cap it so it isn't overwhelming.
   if (!items.length) {
     const pool = [];
-    for (const c of cards) for (const mode of modesFor(c)) {
+    for (const c of metCards) for (const mode of modesFor(c)) {
       if (!isMastered(stateForMode(c, mode))) pool.push({ c, mode });
     }
     pool.sort((a, b) => (stateForMode(a.c, a.mode).ease) - (stateForMode(b.c, b.mode).ease));

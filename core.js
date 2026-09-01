@@ -98,6 +98,37 @@
     return { total, due, mastered };
   }
 
+  // ---------- new-card introduction (batched Learn) ----------
+  // A card is "met" once it has been introduced (graduated into the SRS via a
+  // Learn batch) OR it already has at least one successful rep in any mode
+  // (covers cards learned before this feature existed). We never require reps
+  // here so introducing a card doesn't fake mastery progress.
+  function isMet(c) {
+    if (c && c.introduced) return true;
+    if (!c) return false;
+    for (const mode of modesFor(c)) { const s = stateForMode(c, mode); if (s && s.reps >= 1) return true; }
+    return false;
+  }
+  // The next batch of not-yet-met cards, in deck order, capped at `size`.
+  function nextUnseen(cards, size) {
+    const unseen = cards.filter(c => !isMet(c));
+    return size && size > 0 ? unseen.slice(0, size) : unseen;
+  }
+  // Introduce a card: stamp it met and make every applicable mode due NOW so it
+  // enters the practice/review rotation immediately. Does NOT touch reps/ease/
+  // interval, so mastery math stays honest. Returns the same card (mutated).
+  function introduce(c, nowFn) {
+    const t = (nowFn || Date.now)();
+    c.introduced = t;
+    for (const mode of modesFor(c)) { const s = stateForMode(c, mode); if (s) s.due = t; }
+    return c;
+  }
+  // Met / total for a deck (word-level, not per-mode).
+  function metStats(cards) {
+    let met = 0; for (const c of cards) if (isMet(c)) met++;
+    return { met, total: cards.length, unseen: cards.length - met };
+  }
+
   // ---------- pinyin -> tones / syllables (greedy segmentation) ----------
   const _INITIALS = ['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s','y','w',''];
   const _FINALS = ['a','o','e','ai','ei','ao','ou','an','en','ang','eng','ong','er','i','ia','ie','iao','iu','ian','in','iang','ing','iong','u','ua','uo','uai','ui','uan','un','uang','ueng','ue','v','ve','van','vn'];
@@ -156,6 +187,7 @@
     stripToneMarks,
     newState, schedule,
     isMastered, isProgressed, cardHasTones,
+    isMet, nextUnseen, introduce, metStats,
     stateForMode, modesFor, fullyMastered, modeMastery, deckStatsModes,
     deriveTones, deriveSyllables,
     shuffle,
