@@ -98,6 +98,18 @@
     return { total, due, mastered };
   }
 
+  // ---------- cross-mode satisfaction ----------
+  // Recall direction hierarchy: producing Chinese from English (en2zh) is the
+  // harder recall and implies you'd recognize Chinese->English (zh2en). So a
+  // PASSING en2zh grade also credits the zh2en direction (co-scheduled with the
+  // same grade) — no redundant reverse drill. This is one-way: a passing zh2en
+  // does NOT credit en2zh (recognition doesn't prove production). Tone is
+  // orthogonal and never affected. Returns the list of extra modes credited.
+  function reverseCreditedModes(gradedMode, grade) {
+    if (grade > 0 && gradedMode === 'en2zh') return ['zh2en'];
+    return [];
+  }
+
   // ---------- new-card introduction (batched Learn) ----------
   // A card is "met" once it has been introduced (graduated into the SRS via a
   // Learn batch) OR it already has at least one successful rep in any mode
@@ -188,6 +200,7 @@
     newState, schedule,
     isMastered, isProgressed, cardHasTones,
     isMet, nextUnseen, introduce, metStats,
+    reverseCreditedModes,
     stateForMode, modesFor, fullyMastered, modeMastery, deckStatsModes,
     deriveTones, deriveSyllables,
     shuffle,

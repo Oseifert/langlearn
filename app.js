@@ -231,6 +231,22 @@ function isMet(c) { return YC.isMet(c); }
 function nextUnseen(cards, size) { return YC.nextUnseen(cards, size); }
 function introduce(c) { return YC.introduce(c, now); }
 function metStats(cards) { return YC.metStats(cards); }
+// Co-schedule the reverse (easier) direction when the harder one passes.
+// A passing EN→中 grade also credits 中→EN with the same grade, but only if
+// 中→EN is currently due (don't pull a not-yet-due card forward). Returns true
+// if any reverse state changed.
+function applyReverseCredit(c, gradedMode, g) {
+  let changed = false;
+  for (const m of YC.reverseCreditedModes(gradedMode, g)) {
+    const s = stateForMode(c, m);
+    if (s && s.due <= now()) {
+      if (m === 'zh2en') c.zhEnState = schedule(c.zhEnState, g);
+      else if (m === 'en2zh') c.enZhState = schedule(c.enZhState, g);
+      changed = true;
+    }
+  }
+  return changed;
+}
 const LEARN_BATCH = 20; // new cards introduced per Learn session
 
 // ---------- deck stats ----------
@@ -341,7 +357,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v38 · batched Learn (meet new words in doses of 20)';
+const BUILD = 'v39 · EN→中 pass also clears 中→EN (tones stay separate)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -795,6 +811,9 @@ async function renderPractice(root, params) {
     const c = queue[i];
     if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
     else c.zhEnState = schedule(c.zhEnState, g);
+    // Passing the harder EN→中 direction also credits the easier 中→EN (if due),
+    // so you don't have to redundantly drill the reverse of a word you can produce.
+    applyReverseCredit(c, dir, g);
     await saveGraded(c);
     if (g === 0) { again++; queue.push(c); } else correct++;
     i++; draw();
@@ -1023,6 +1042,15 @@ async function renderMixedReview(root, params) {
     async function grade0(g) {
       if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
       else c.zhEnState = schedule(c.zhEnState, g);
+      // Passing EN→中 also credits 中→EN for the same card. Beyond scheduling,
+      // drop any still-pending 中→EN item for this card from the rest of the
+      // queue so you don't get asked the easier reverse right after nailing it.
+      if (applyReverseCredit(c, dir, g)) {
+        for (let k = i + 1; k < queue.length; k++) {
+          const it = queue[k];
+          if (it && it.c && it.c.id === c.id && it.mode === 'zh2en') { queue.splice(k, 1); k--; }
+        }
+      }
       await saveGraded(c);
       advance(g > 0, g === 0 ? item : null);
     }
