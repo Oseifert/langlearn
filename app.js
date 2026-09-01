@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v35 · fix HSK2 dedup regression (200→177, removed 23 re-added dupes)';
+const BUILD = 'v36 · HSK1 title consistency (New HSK Level 1 Vocabulary)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
