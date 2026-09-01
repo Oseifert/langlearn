@@ -335,7 +335,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v34 · example sentences for adverbs/directionals/measure words (+180)';
+const BUILD = 'v35 · fix HSK2 dedup regression (200→177, removed 23 re-added dupes)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
