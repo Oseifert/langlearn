@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T05:29:12.264472+00:00",
+  "generatedAt": "2026-09-10T05:30:34.925711+00:00",
   "decks": [
     {
       "id": "wk_2026_37",
@@ -608,6 +608,132 @@
             "yù"
           ],
           "hanzi": "我在打扫公寓"
+        },
+        {
+          "id": "c_4044f800f7a0",
+          "front": "zhěn tou",
+          "pinyin": "zhěn tou",
+          "meaning": "pillow",
+          "emoji": "",
+          "example": "这个枕头很软。",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "zhěn",
+            "tou"
+          ],
+          "hanzi": "枕头"
+        },
+        {
+          "id": "c_2ea045ce5f3a",
+          "front": "tǎn zi",
+          "pinyin": "tǎn zi",
+          "meaning": "blanket",
+          "emoji": "",
+          "example": "天冷了，盖上毯子。",
+          "notes": "",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "tǎn",
+            "zi"
+          ],
+          "hanzi": "毯子"
+        },
+        {
+          "id": "c_3e40fbe38aaf",
+          "front": "kè tīng",
+          "pinyin": "kè tīng",
+          "meaning": "living room",
+          "emoji": "",
+          "example": "客厅里有一个沙发。",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "kè",
+            "tīng"
+          ],
+          "hanzi": "客厅"
+        },
+        {
+          "id": "c_77b5e7a62b7f",
+          "front": "wò shì",
+          "pinyin": "wò shì",
+          "meaning": "bedroom",
+          "emoji": "",
+          "example": "我的卧室很小。",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "wò",
+            "shì"
+          ],
+          "hanzi": "卧室"
+        },
+        {
+          "id": "c_6f6183b9d877",
+          "front": "yī guì",
+          "pinyin": "yī guì",
+          "meaning": "closet; wardrobe",
+          "emoji": "",
+          "example": "衣服都在衣柜里。",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "yī",
+            "guì"
+          ],
+          "hanzi": "衣柜"
+        },
+        {
+          "id": "c_3792114053d8",
+          "front": "wǒ men zhù zài yí ge liǎng fáng de gōng yù",
+          "pinyin": "wǒ men zhù zài yí ge liǎng fáng de gōng yù",
+          "meaning": "we live in a two-bedroom apartment",
+          "emoji": "",
+          "example": "我们住在一个两房的公寓，离公司很近。",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            4,
+            4,
+            2,
+            5,
+            3,
+            2,
+            5,
+            1,
+            4
+          ],
+          "syllables": [
+            "wǒ",
+            "men",
+            "zhù",
+            "zài",
+            "yí",
+            "ge",
+            "liǎng",
+            "fáng",
+            "de",
+            "gōng",
+            "yù"
+          ],
+          "hanzi": "我们住在一个两房的公寓"
         }
       ]
     },
