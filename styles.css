@@ -81,6 +81,7 @@ body{
 .card .front{font-size:2.4rem;font-weight:650;letter-spacing:1px}
 .card .meaning{font-size:1.35rem;color:var(--text)}
 .card .example{font-size:1rem;color:var(--muted);font-style:italic}
+.card .example .example-pinyin{font-size:.9rem;color:var(--muted);opacity:.85;font-style:normal;margin-top:.2rem}
 .card .notes{font-size:.85rem;color:var(--muted);max-width:32ch}
 .card .flip-hint{position:absolute;bottom:.9rem;font-size:.75rem;color:var(--muted)}
 .divider{width:60%;height:1px;background:var(--line);margin:.2rem 0}

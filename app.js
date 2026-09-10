@@ -103,6 +103,7 @@ function makeCardRecord(raw, deckId) {
     hanzi: raw.hanzi || '',
     emoji: raw.emoji || '',
     example: raw.example || '',
+    examplePinyin: raw.examplePinyin || '',
     notes: raw.notes || '',
     tones: Array.isArray(raw.tones) ? raw.tones : deriveTones(raw.pinyin || ''),
     syllables: Array.isArray(raw.syllables) && raw.syllables.length ? raw.syllables : deriveSyllables(raw.pinyin || ''),
@@ -357,7 +358,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v40 · hide "met" counter once a set is fully met';
+const BUILD = 'v43 · example sentences show pinyin';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -544,6 +545,13 @@ function shuffle(a) { return YC.shuffle(a); }
 // Chinese/pinyin front, with a trailing emoji when the word has an obvious
 // concrete fit (memory aid). Emoji comes from the seed (build_seed.py).
 function frontText(c) { return c.emoji ? `${c.front} ${c.emoji}` : c.front; }
+// Example sentence block: hanzi line + (optional) pinyin line beneath it.
+function appendExample(card, c) {
+  if (!c.example) return;
+  const box = el('div', { class: 'example' }, c.example);
+  if (c.examplePinyin) box.append(el('div', { class: 'example-pinyin' }, c.examplePinyin));
+  card.append(box);
+}
 
 // ---- Audio playback ----
 // Pre-generated Mandarin clips live at ./audio/<cardId>.mp3 (committed to the
@@ -722,7 +730,7 @@ async function renderLearn(root, params) {
     card.append(audioBtn(c));
     card.append(el('div', { class: 'divider' }));
     card.append(el('div', { class: 'meaning' }, c.meaning));
-    if (c.example) card.append(el('div', { class: 'example' }, c.example));
+    appendExample(card, c);
     if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
     stage.append(card);
     _currentAudioCard = c;
@@ -802,7 +810,7 @@ async function renderPractice(root, params) {
       // 中→EN: Chinese already played on the front face; don't replay.
       _currentAudioCard = c;
     }
-    if (c.example) card.append(el('div', { class: 'example' }, c.example));
+    appendExample(card, c);
     if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
     stage.append(card);
     const grade = el('div', { class: 'grade grade2' });
@@ -1035,7 +1043,7 @@ async function renderMixedReview(root, params) {
           card.append(el('div', { class: 'meaning' }, c.meaning));
           _currentAudioCard = c; // already played on front; don't replay
         }
-        if (c.example) card.append(el('div', { class: 'example' }, c.example));
+        appendExample(card, c);
         if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
         stage.append(card);
         const grade = el('div', { class: 'grade grade2' });
