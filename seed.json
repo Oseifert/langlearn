@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T04:47:13.963689+00:00",
+  "generatedAt": "2026-09-10T04:48:01.760535+00:00",
   "decks": [
-    {
-      "id": "wk_2026_37",
-      "title": "Week of Sep 07 – 13",
-      "source": "Week Deck",
-      "summary": "Real-world words captured this week.",
-      "createdAt": "2026-09-10T04:47:03.054842+00:00",
-      "cards": [
-        {
-          "id": "c_5b4f64f885ff",
-          "front": "cè shì",
-          "pinyin": "cè shì",
-          "meaning": "test (trial run)",
-          "emoji": "",
-          "example": "这是一个测试。",
-          "notes": "week-deck plumbing self-test",
-          "tones": [
-            4,
-            4
-          ],
-          "syllables": [
-            "cè",
-            "shì"
-          ],
-          "hanzi": "测试"
-        }
-      ]
-    },
     {
       "id": "hw_hsk3_new_500",
       "title": "HSK Level 3 Vocabulary",
