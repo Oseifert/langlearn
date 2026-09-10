@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T05:39:41.189626+00:00",
+  "generatedAt": "2026-09-10T16:12:45.932918+00:00",
   "decks": [
     {
       "id": "wk_2026_37",
@@ -101,25 +101,6 @@
             "tī"
           ],
           "hanzi": "电梯"
-        },
-        {
-          "id": "c_a28a68c55023",
-          "front": "lín yù",
-          "pinyin": "lín yù",
-          "meaning": "shower",
-          "emoji": "",
-          "example": "我每天早上淋浴。",
-          "examplePinyin": "wǒ měi tiān zǎo shang lín yù.",
-          "notes": "",
-          "tones": [
-            2,
-            4
-          ],
-          "syllables": [
-            "lín",
-            "yù"
-          ],
-          "hanzi": "淋浴"
         },
         {
           "id": "c_3d833e724dba",
