@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T16:12:45.932918+00:00",
+  "generatedAt": "2026-09-10T16:15:48.619324+00:00",
   "decks": [
     {
       "id": "wk_2026_37",
@@ -753,6 +753,46 @@
             "yù"
           ],
           "hanzi": "我们住在一个两房的公寓"
+        },
+        {
+          "id": "c_5c7e73ba5fee",
+          "front": "yǒu shí hou",
+          "pinyin": "yǒu shí hou",
+          "meaning": "sometimes",
+          "emoji": "",
+          "example": "我有时候喝咖啡。",
+          "examplePinyin": "wǒ yǒu shí hou hē kā fēi.",
+          "notes": "",
+          "tones": [
+            3,
+            2,
+            5
+          ],
+          "syllables": [
+            "yǒu",
+            "shí",
+            "hou"
+          ],
+          "hanzi": "有时候"
+        },
+        {
+          "id": "c_1210f7429599",
+          "front": "yīng gāi",
+          "pinyin": "yīng gāi",
+          "meaning": "should; ought to",
+          "emoji": "",
+          "example": "你应该多休息。",
+          "examplePinyin": "nǐ yīng gāi duō xiū xi.",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "yīng",
+            "gāi"
+          ],
+          "hanzi": "应该"
         }
       ]
     },
