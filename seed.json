@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T05:22:24.909421+00:00",
+  "generatedAt": "2026-09-10T05:29:12.264472+00:00",
   "decks": [
     {
       "id": "wk_2026_37",
@@ -44,20 +44,22 @@
           "hanzi": "窗户"
         },
         {
-          "id": "c_122ac74bc2e5",
-          "front": "dì",
-          "pinyin": "dì",
-          "meaning": "ground; floor",
+          "id": "c_65aa5adcaaf5",
+          "front": "dì bǎn",
+          "pinyin": "dì bǎn",
+          "meaning": "floor (of a room, e.g. wooden floor)",
           "emoji": "",
-          "example": "东西掉在地上了。",
+          "example": "这个公寓是木地板。",
           "notes": "",
           "tones": [
-            4
+            4,
+            3
           ],
           "syllables": [
-            "dì"
+            "dì",
+            "bǎn"
           ],
-          "hanzi": "地"
+          "hanzi": "地板"
         },
         {
           "id": "c_77ff72df9ae3",
@@ -440,6 +442,172 @@
             "cáo"
           ],
           "hanzi": "水槽"
+        },
+        {
+          "id": "c_3a39bc2406d4",
+          "front": "yù shì",
+          "pinyin": "yù shì",
+          "meaning": "bathroom; shower room (the location)",
+          "emoji": "",
+          "example": "浴室在楼上。",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "yù",
+            "shì"
+          ],
+          "hanzi": "浴室"
+        },
+        {
+          "id": "c_1a5cf3853d31",
+          "front": "xǐ zǎo",
+          "pinyin": "xǐ zǎo",
+          "meaning": "to shower; to bathe (verb)",
+          "emoji": "",
+          "example": "我要去洗澡。",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "xǐ",
+            "zǎo"
+          ],
+          "hanzi": "洗澡"
+        },
+        {
+          "id": "c_c13438c078f3",
+          "front": "wǒ zài shuā yá",
+          "pinyin": "wǒ zài shuā yá",
+          "meaning": "I'm brushing my teeth",
+          "emoji": "",
+          "example": "我在刷牙，等一下。",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "syllables": [
+            "wǒ",
+            "zài",
+            "shuā",
+            "yá"
+          ],
+          "hanzi": "我在刷牙"
+        },
+        {
+          "id": "c_2845a4d2e51b",
+          "front": "wǒ zài chuī tóu fa",
+          "pinyin": "wǒ zài chuī tóu fa",
+          "meaning": "I'm drying my hair",
+          "emoji": "",
+          "example": "我在吹头发，很吵。",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            1,
+            2,
+            5
+          ],
+          "syllables": [
+            "wǒ",
+            "zài",
+            "chuī",
+            "tóu",
+            "fa"
+          ],
+          "hanzi": "我在吹头发"
+        },
+        {
+          "id": "c_28784a7c7837",
+          "front": "wǒ zài xǐ liǎn",
+          "pinyin": "wǒ zài xǐ liǎn",
+          "meaning": "I'm washing my face",
+          "emoji": "",
+          "example": "我在洗脸，马上好。",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "syllables": [
+            "wǒ",
+            "zài",
+            "xǐ",
+            "liǎn"
+          ],
+          "hanzi": "我在洗脸"
+        },
+        {
+          "id": "c_cd64bece196e",
+          "front": "gōng yù",
+          "pinyin": "gōng yù",
+          "meaning": "apartment",
+          "emoji": "",
+          "example": "我住在一个小公寓。",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "gōng",
+            "yù"
+          ],
+          "hanzi": "公寓"
+        },
+        {
+          "id": "c_086b5146fac1",
+          "front": "dǎ sǎo",
+          "pinyin": "dǎ sǎo",
+          "meaning": "to clean (tidy up a space)",
+          "emoji": "",
+          "example": "周末我要打扫。",
+          "notes": "",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "dǎ",
+            "sǎo"
+          ],
+          "hanzi": "打扫"
+        },
+        {
+          "id": "c_938140b1b1e8",
+          "front": "wǒ zài dǎ sǎo gōng yù",
+          "pinyin": "wǒ zài dǎ sǎo gōng yù",
+          "meaning": "I'm cleaning the apartment",
+          "emoji": "",
+          "example": "我在打扫公寓，有点乱。",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            3,
+            3,
+            1,
+            4
+          ],
+          "syllables": [
+            "wǒ",
+            "zài",
+            "dǎ",
+            "sǎo",
+            "gōng",
+            "yù"
+          ],
+          "hanzi": "我在打扫公寓"
         }
       ]
     },
