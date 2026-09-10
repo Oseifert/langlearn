@@ -1,7 +1,328 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T04:48:01.760535+00:00",
+  "generatedAt": "2026-09-10T05:21:15.796953+00:00",
   "decks": [
+    {
+      "id": "wk_2026_37",
+      "title": "Week of Sep 07 – 13",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-09-10T04:47:03.054842+00:00",
+      "cards": [
+        {
+          "id": "c_3589e8bd3295",
+          "front": "qiáng",
+          "pinyin": "qiáng",
+          "meaning": "wall",
+          "emoji": "",
+          "example": "墙上有一幅画。",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "qiáng"
+          ],
+          "hanzi": "墙"
+        },
+        {
+          "id": "c_8fff8a0ca695",
+          "front": "chuāng hu",
+          "pinyin": "chuāng hu",
+          "meaning": "window",
+          "emoji": "",
+          "example": "请把窗户打开。",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "chuāng",
+            "hu"
+          ],
+          "hanzi": "窗户"
+        },
+        {
+          "id": "c_77ff72df9ae3",
+          "front": "yào shi",
+          "pinyin": "yào shi",
+          "meaning": "keys",
+          "emoji": "",
+          "example": "我找不到我的钥匙。",
+          "notes": "",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "yào",
+            "shi"
+          ],
+          "hanzi": "钥匙"
+        },
+        {
+          "id": "c_a28a68c55023",
+          "front": "lín yù",
+          "pinyin": "lín yù",
+          "meaning": "shower",
+          "emoji": "",
+          "example": "我每天早上淋浴。",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "lín",
+            "yù"
+          ],
+          "hanzi": "淋浴"
+        },
+        {
+          "id": "c_dc7b63f42639",
+          "front": "yá chǐ",
+          "pinyin": "yá chǐ",
+          "meaning": "teeth",
+          "emoji": "",
+          "example": "每天要刷牙齿。",
+          "notes": "",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "yá",
+            "chǐ"
+          ],
+          "hanzi": "牙齿"
+        },
+        {
+          "id": "c_ef18ef3fafab",
+          "front": "wēi bō lú",
+          "pinyin": "wēi bō lú",
+          "meaning": "microwave",
+          "emoji": "",
+          "example": "用微波炉热一下饭。",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            2
+          ],
+          "syllables": [
+            "wēi",
+            "bō",
+            "lú"
+          ],
+          "hanzi": "微波炉"
+        },
+        {
+          "id": "c_f5951937a7b0",
+          "front": "zhí wù",
+          "pinyin": "zhí wù",
+          "meaning": "plant",
+          "emoji": "",
+          "example": "窗边有一盆植物。",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "zhí",
+            "wù"
+          ],
+          "hanzi": "植物"
+        },
+        {
+          "id": "c_7e18ee595098",
+          "front": "kāi dēng",
+          "pinyin": "kāi dēng",
+          "meaning": "turn on the light",
+          "emoji": "",
+          "example": "天黑了，开灯吧。",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "kāi",
+            "dēng"
+          ],
+          "hanzi": "开灯"
+        },
+        {
+          "id": "c_b95c8a8d06ba",
+          "front": "guān dēng",
+          "pinyin": "guān dēng",
+          "meaning": "turn off the light",
+          "emoji": "",
+          "example": "睡觉前请关灯。",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "guān",
+            "dēng"
+          ],
+          "hanzi": "关灯"
+        },
+        {
+          "id": "c_e9bc076b407b",
+          "front": "xī chén qì",
+          "pinyin": "xī chén qì",
+          "meaning": "vacuum (cleaner)",
+          "emoji": "",
+          "example": "吸尘器坏了。",
+          "notes": "",
+          "tones": [
+            1,
+            2,
+            4
+          ],
+          "syllables": [
+            "xī",
+            "chén",
+            "qì"
+          ],
+          "hanzi": "吸尘器"
+        },
+        {
+          "id": "c_16c2f4f82939",
+          "front": "xī chén",
+          "pinyin": "xī chén",
+          "meaning": "to vacuum; vacuuming",
+          "emoji": "",
+          "example": "我在客厅吸尘。",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "xī",
+            "chén"
+          ],
+          "hanzi": "吸尘"
+        },
+        {
+          "id": "c_63595ed40441",
+          "front": "chōu ti",
+          "pinyin": "chōu ti",
+          "meaning": "drawer",
+          "emoji": "",
+          "example": "袜子在抽屉里。",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "chōu",
+            "ti"
+          ],
+          "hanzi": "抽屉"
+        },
+        {
+          "id": "c_53342b2908bf",
+          "front": "máo jīn",
+          "pinyin": "máo jīn",
+          "meaning": "towel",
+          "emoji": "",
+          "example": "给我一条毛巾。",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "máo",
+            "jīn"
+          ],
+          "hanzi": "毛巾"
+        },
+        {
+          "id": "c_086a84c2ab64",
+          "front": "chuī fēng jī",
+          "pinyin": "chuī fēng jī",
+          "meaning": "hair dryer",
+          "emoji": "",
+          "example": "用吹风机吹干头发。",
+          "notes": "",
+          "tones": [
+            1,
+            1,
+            1
+          ],
+          "syllables": [
+            "chuī",
+            "fēng",
+            "jī"
+          ],
+          "hanzi": "吹风机"
+        },
+        {
+          "id": "c_eed5f0742a6c",
+          "front": "kǎo xiāng",
+          "pinyin": "kǎo xiāng",
+          "meaning": "oven",
+          "emoji": "",
+          "example": "蛋糕在烤箱里。",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "kǎo",
+            "xiāng"
+          ],
+          "hanzi": "烤箱"
+        },
+        {
+          "id": "c_9f9f8354e769",
+          "front": "xǐ wǎn jī",
+          "pinyin": "xǐ wǎn jī",
+          "meaning": "dishwasher",
+          "emoji": "",
+          "example": "把盘子放进洗碗机。",
+          "notes": "",
+          "tones": [
+            3,
+            3,
+            1
+          ],
+          "syllables": [
+            "xǐ",
+            "wǎn",
+            "jī"
+          ],
+          "hanzi": "洗碗机"
+        },
+        {
+          "id": "c_7c4d3455262e",
+          "front": "shuǐ cáo",
+          "pinyin": "shuǐ cáo",
+          "meaning": "sink",
+          "emoji": "",
+          "example": "碗在水槽里。",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "shuǐ",
+            "cáo"
+          ],
+          "hanzi": "水槽"
+        }
+      ]
+    },
     {
       "id": "hw_hsk3_new_500",
       "title": "HSK Level 3 Vocabulary",
