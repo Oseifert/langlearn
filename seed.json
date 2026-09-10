@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T05:21:15.796953+00:00",
+  "generatedAt": "2026-09-10T05:22:24.909421+00:00",
   "decks": [
     {
       "id": "wk_2026_37",
@@ -44,6 +44,22 @@
           "hanzi": "窗户"
         },
         {
+          "id": "c_122ac74bc2e5",
+          "front": "dì",
+          "pinyin": "dì",
+          "meaning": "ground; floor",
+          "emoji": "",
+          "example": "东西掉在地上了。",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "dì"
+          ],
+          "hanzi": "地"
+        },
+        {
           "id": "c_77ff72df9ae3",
           "front": "yào shi",
           "pinyin": "yào shi",
@@ -60,6 +76,24 @@
             "shi"
           ],
           "hanzi": "钥匙"
+        },
+        {
+          "id": "c_1f7f61a936eb",
+          "front": "diàn tī",
+          "pinyin": "diàn tī",
+          "meaning": "elevator",
+          "emoji": "🛗",
+          "example": "我们坐电梯上去吧。",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "diàn",
+            "tī"
+          ],
+          "hanzi": "电梯"
         },
         {
           "id": "c_a28a68c55023",
@@ -80,6 +114,40 @@
           "hanzi": "淋浴"
         },
         {
+          "id": "c_3d833e724dba",
+          "front": "yá shuā",
+          "pinyin": "yá shuā",
+          "meaning": "toothbrush",
+          "emoji": "🪥",
+          "example": "这是我的牙刷。",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "yá",
+            "shuā"
+          ],
+          "hanzi": "牙刷"
+        },
+        {
+          "id": "c_e70b69162f23",
+          "front": "liǎn",
+          "pinyin": "liǎn",
+          "meaning": "face",
+          "emoji": "",
+          "example": "她洗了脸。",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "liǎn"
+          ],
+          "hanzi": "脸"
+        },
+        {
           "id": "c_dc7b63f42639",
           "front": "yá chǐ",
           "pinyin": "yá chǐ",
@@ -96,6 +164,24 @@
             "chǐ"
           ],
           "hanzi": "牙齿"
+        },
+        {
+          "id": "c_54d36b10eb88",
+          "front": "bīng xiāng",
+          "pinyin": "bīng xiāng",
+          "meaning": "fridge; refrigerator",
+          "emoji": "",
+          "example": "牛奶在冰箱里。",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "bīng",
+            "xiāng"
+          ],
+          "hanzi": "冰箱"
         },
         {
           "id": "c_ef18ef3fafab",
@@ -118,6 +204,24 @@
           "hanzi": "微波炉"
         },
         {
+          "id": "c_9a297a56ba5f",
+          "front": "shā fā",
+          "pinyin": "shā fā",
+          "meaning": "couch; sofa",
+          "emoji": "",
+          "example": "他坐在沙发上看电视。",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "shā",
+            "fā"
+          ],
+          "hanzi": "沙发"
+        },
+        {
           "id": "c_f5951937a7b0",
           "front": "zhí wù",
           "pinyin": "zhí wù",
@@ -134,6 +238,22 @@
             "wù"
           ],
           "hanzi": "植物"
+        },
+        {
+          "id": "c_a46d7a88ada6",
+          "front": "dēng",
+          "pinyin": "dēng",
+          "meaning": "lamp; light",
+          "emoji": "💡",
+          "example": "这个灯很亮。",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "dēng"
+          ],
+          "hanzi": "灯"
         },
         {
           "id": "c_7e18ee595098",
