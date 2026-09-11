@@ -1,7 +1,275 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T16:15:48.619324+00:00",
+  "generatedAt": "2026-09-11T01:12:15.031664+00:00",
   "decks": [
+    {
+      "id": "hw_classroom_phrases",
+      "title": "Classroom & Help Phrases",
+      "source": "Classroom Phrases",
+      "summary": "Phrases for asking your teacher to slow down, repeat, explain meanings/tones, and say things in Chinese.",
+      "createdAt": "2026-09-11T01:12:08.898038+00:00",
+      "cards": [
+        {
+          "id": "c_63f54109a01c",
+          "front": "qǐng zài shuō yí biàn, màn yì diǎn",
+          "pinyin": "qǐng zài shuō yí biàn, màn yì diǎn",
+          "meaning": "could you say that again, more slowly?",
+          "emoji": "",
+          "example": "对不起，请再说一遍，慢一点。",
+          "examplePinyin": "duì bu qǐ, qǐng zài shuō yí biàn, màn yì diǎn.",
+          "notes": "",
+          "tones": [
+            3,
+            4,
+            1,
+            2,
+            4,
+            4,
+            4,
+            3
+          ],
+          "syllables": [
+            "qǐng",
+            "zài",
+            "shuō",
+            "yí",
+            "biàn",
+            "màn",
+            "yì",
+            "diǎn"
+          ],
+          "hanzi": "请再说一遍，慢一点"
+        },
+        {
+          "id": "c_4d45b37f152e",
+          "front": "... shì shén me yì si?",
+          "pinyin": "... shì shén me yì si?",
+          "meaning": "what does ... mean?",
+          "emoji": "",
+          "example": "这个词是什么意思？",
+          "examplePinyin": "zhè ge cí shì shén me yì si?",
+          "notes": "",
+          "tones": [
+            4,
+            2,
+            5,
+            4,
+            5
+          ],
+          "syllables": [
+            "shì",
+            "shén",
+            "me",
+            "yì",
+            "si"
+          ],
+          "hanzi": "……是什么意思？"
+        },
+        {
+          "id": "c_c0c8f53622b4",
+          "front": "kě yǐ zài tīng yí biàn ma?",
+          "pinyin": "kě yǐ zài tīng yí biàn ma?",
+          "meaning": "can we listen to it one more time?",
+          "emoji": "",
+          "example": "老师，可以再听一遍吗？",
+          "examplePinyin": "lǎo shī, kě yǐ zài tīng yí biàn ma?",
+          "notes": "",
+          "tones": [
+            3,
+            3,
+            4,
+            1,
+            2,
+            4,
+            5
+          ],
+          "syllables": [
+            "kě",
+            "yǐ",
+            "zài",
+            "tīng",
+            "yí",
+            "biàn",
+            "ma"
+          ],
+          "hanzi": "可以再听一遍吗？"
+        },
+        {
+          "id": "c_1de4ffb17d45",
+          "front": "zhè ge cí wǒ bú rèn shi",
+          "pinyin": "zhè ge cí wǒ bú rèn shi",
+          "meaning": "I don't know that word",
+          "emoji": "",
+          "example": "这个词我不认识，是什么意思？",
+          "examplePinyin": "zhè ge cí wǒ bú rèn shi, shì shén me yì si?",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2,
+            3,
+            2,
+            4,
+            5
+          ],
+          "syllables": [
+            "zhè",
+            "ge",
+            "cí",
+            "wǒ",
+            "bú",
+            "rèn",
+            "shi"
+          ],
+          "hanzi": "这个词我不认识"
+        },
+        {
+          "id": "c_5d4b30ff7382",
+          "front": "zhè ge cí shì jǐ shēng?",
+          "pinyin": "zhè ge cí shì jǐ shēng?",
+          "meaning": "what tone(s) is that word?",
+          "emoji": "",
+          "example": "请问，这个词是几声？",
+          "examplePinyin": "qǐng wèn, zhè ge cí shì jǐ shēng?",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2,
+            4,
+            3,
+            1
+          ],
+          "syllables": [
+            "zhè",
+            "ge",
+            "cí",
+            "shì",
+            "jǐ",
+            "shēng"
+          ],
+          "hanzi": "这个词是几声？"
+        },
+        {
+          "id": "c_8f5c189882ef",
+          "front": "zhè ge shì yì shēng hái shì sān shēng?",
+          "pinyin": "zhè ge shì yì shēng hái shì sān shēng?",
+          "meaning": "is that first tone or third tone?",
+          "emoji": "",
+          "example": "这个是一声还是三声？",
+          "examplePinyin": "zhè ge shì yì shēng hái shì sān shēng?",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            4,
+            4,
+            1,
+            2,
+            4,
+            1,
+            1
+          ],
+          "syllables": [
+            "zhè",
+            "ge",
+            "shì",
+            "yì",
+            "shēng",
+            "hái",
+            "shì",
+            "sān",
+            "shēng"
+          ],
+          "hanzi": "这个是一声还是三声？"
+        },
+        {
+          "id": "c_f736c67ebb06",
+          "front": "zhè ge cí wǒ hái bú huì",
+          "pinyin": "zhè ge cí wǒ hái bú huì",
+          "meaning": "I don't know that word yet",
+          "emoji": "",
+          "example": "这个词我还不会，可以教我吗？",
+          "examplePinyin": "zhè ge cí wǒ hái bú huì, kě yǐ jiāo wǒ ma?",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            2,
+            3,
+            2,
+            2,
+            4
+          ],
+          "syllables": [
+            "zhè",
+            "ge",
+            "cí",
+            "wǒ",
+            "hái",
+            "bú",
+            "huì"
+          ],
+          "hanzi": "这个词我还不会"
+        },
+        {
+          "id": "c_53c0925d5174",
+          "front": "... yòng zhōng wén zěn me shuō?",
+          "pinyin": "... yòng zhōng wén zěn me shuō?",
+          "meaning": "how do you say ... in Chinese?",
+          "emoji": "",
+          "example": "\"apple\" 用中文怎么说？",
+          "examplePinyin": "\"apple\" yòng zhōng wén zěn me shuō?",
+          "notes": "",
+          "tones": [
+            4,
+            1,
+            2,
+            3,
+            5,
+            1
+          ],
+          "syllables": [
+            "yòng",
+            "zhōng",
+            "wén",
+            "zěn",
+            "me",
+            "shuō"
+          ],
+          "hanzi": "……用中文怎么说？"
+        },
+        {
+          "id": "c_6da7ead73f0c",
+          "front": "zhè ge zì wǒ bú rèn shi",
+          "pinyin": "zhè ge zì wǒ bú rèn shi",
+          "meaning": "I don't know how to read this (character)",
+          "emoji": "",
+          "example": "不好意思，这个字我不认识。",
+          "examplePinyin": "bù hǎo yì si, zhè ge zì wǒ bú rèn shi.",
+          "notes": "",
+          "tones": [
+            4,
+            5,
+            4,
+            3,
+            2,
+            4,
+            5
+          ],
+          "syllables": [
+            "zhè",
+            "ge",
+            "zì",
+            "wǒ",
+            "bú",
+            "rèn",
+            "shi"
+          ],
+          "hanzi": "这个字我不认识"
+        }
+      ]
+    },
     {
       "id": "wk_2026_37",
       "title": "Week of Sep 07 – 13",

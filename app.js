@@ -358,7 +358,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v43 · example sentences show pinyin';
+const BUILD = 'v44 · classroom & help phrases deck';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
