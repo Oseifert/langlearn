@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T05:31:55.132065+00:00",
+  "generatedAt": "2026-09-11T06:05:27.823165+00:00",
   "decks": [
     {
       "id": "hw_song_nvhai_daily",
@@ -9,6 +9,25 @@
       "summary": "Day-to-day vocab pulled from the song 《女孩》(learned via lyrics). Song-specific idioms/poetic words excluded.",
       "createdAt": "2026-09-11T05:31:50.611205+00:00",
       "cards": [
+        {
+          "id": "c_523213ad78db",
+          "front": "gùshi",
+          "pinyin": "gùshi",
+          "meaning": "story",
+          "emoji": "",
+          "example": "他给孩子讲了一个故事。",
+          "examplePinyin": "Tā gěi háizi jiǎng le yí gè gùshi.",
+          "notes": "从歌里：我的故事因为你而展开",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "gù",
+            "shi"
+          ],
+          "hanzi": "故事"
+        },
         {
           "id": "c_ba08e01d397f",
           "front": "zhǎnkāi",
@@ -46,6 +65,25 @@
             "nài"
           ],
           "hanzi": "忍耐"
+        },
+        {
+          "id": "c_397805cf2d86",
+          "front": "xíguàn",
+          "pinyin": "xíguàn",
+          "meaning": "habit / to be used to",
+          "emoji": "",
+          "example": "我习惯早起。",
+          "examplePinyin": "Wǒ xíguàn zǎo qǐ.",
+          "notes": "常用：习惯 also = 'to be accustomed to'",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "xí",
+            "guàn"
+          ],
+          "hanzi": "习惯"
         },
         {
           "id": "c_96d635a6c5f1",
@@ -124,6 +162,44 @@
           "hanzi": "随时"
         },
         {
+          "id": "c_a4ff37e25e03",
+          "front": "dānxīn",
+          "pinyin": "dānxīn",
+          "meaning": "to worry",
+          "emoji": "",
+          "example": "别担心，我没事。",
+          "examplePinyin": "Bié dānxīn, wǒ méishì.",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "dān",
+            "xīn"
+          ],
+          "hanzi": "担心"
+        },
+        {
+          "id": "c_63c38df05548",
+          "front": "qíshí",
+          "pinyin": "qíshí",
+          "meaning": "actually / in fact",
+          "emoji": "",
+          "example": "其实我不太喜欢咖啡。",
+          "examplePinyin": "Qíshí wǒ bú tài xǐhuan kāfēi.",
+          "notes": "超常用口语",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "qí",
+            "shí"
+          ],
+          "hanzi": "其实"
+        },
+        {
           "id": "c_014b95cc96ad",
           "front": "yīlài",
           "pinyin": "yīlài",
@@ -141,6 +217,25 @@
             "lài"
           ],
           "hanzi": "依赖"
+        },
+        {
+          "id": "c_9da276d37f79",
+          "front": "xūyào",
+          "pinyin": "xūyào",
+          "meaning": "to need / need",
+          "emoji": "",
+          "example": "你需要帮忙吗？",
+          "examplePinyin": "Nǐ xūyào bāngmáng ma?",
+          "notes": "超常用",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "xū",
+            "yào"
+          ],
+          "hanzi": "需要"
         },
         {
           "id": "c_b10d3e7fca9d",
@@ -179,6 +274,61 @@
             "shén"
           ],
           "hanzi": "眼神"
+        },
+        {
+          "id": "c_dca8ee1ca5f9",
+          "front": "shānghài",
+          "pinyin": "shānghài",
+          "meaning": "to hurt / harm; hurt (n.)",
+          "emoji": "",
+          "example": "我不想伤害你。",
+          "examplePinyin": "Wǒ bù xiǎng shānghài nǐ.",
+          "notes": "从歌里：不想看你受一样的伤害",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shāng",
+            "hài"
+          ],
+          "hanzi": "伤害"
+        },
+        {
+          "id": "c_49f121bd6d86",
+          "front": "chóngbài",
+          "pinyin": "chóngbài",
+          "meaning": "to admire / worship / look up to",
+          "emoji": "",
+          "example": "我很崇拜他。",
+          "examplePinyin": "Wǒ hěn chóngbài tā.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "chóng",
+            "bài"
+          ],
+          "hanzi": "崇拜"
+        },
+        {
+          "id": "c_cb25b832543d",
+          "front": "guài",
+          "pinyin": "guài",
+          "meaning": "to blame; strange / odd",
+          "emoji": "",
+          "example": "这不怪你。",
+          "examplePinyin": "Zhè bú guài nǐ.",
+          "notes": "口语的‘blame’；错怪 = wrongly blame",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guài"
+          ],
+          "hanzi": "怪"
         }
       ]
     },
