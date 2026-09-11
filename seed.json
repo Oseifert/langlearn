@@ -1,7 +1,187 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T01:12:15.031664+00:00",
+  "generatedAt": "2026-09-11T05:31:55.132065+00:00",
   "decks": [
+    {
+      "id": "hw_song_nvhai_daily",
+      "title": "Song 女孩 — Everyday Words",
+      "source": "Song 女孩",
+      "summary": "Day-to-day vocab pulled from the song 《女孩》(learned via lyrics). Song-specific idioms/poetic words excluded.",
+      "createdAt": "2026-09-11T05:31:50.611205+00:00",
+      "cards": [
+        {
+          "id": "c_ba08e01d397f",
+          "front": "zhǎnkāi",
+          "pinyin": "zhǎnkāi",
+          "meaning": "to unfold / begin / spread out",
+          "emoji": "",
+          "example": "新的一天就要展开了。",
+          "examplePinyin": "Xīn de yì tiān jiù yào zhǎnkāi le.",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "zhǎn",
+            "kāi"
+          ],
+          "hanzi": "展开"
+        },
+        {
+          "id": "c_f16daaf7b805",
+          "front": "rěnnài",
+          "pinyin": "rěnnài",
+          "meaning": "patience / to endure",
+          "emoji": "",
+          "example": "你要学会忍耐。",
+          "examplePinyin": "Nǐ yào xuéhuì rěnnài.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "rěn",
+            "nài"
+          ],
+          "hanzi": "忍耐"
+        },
+        {
+          "id": "c_96d635a6c5f1",
+          "front": "mǎnzú",
+          "pinyin": "mǎnzú",
+          "meaning": "to satisfy / satisfied",
+          "emoji": "",
+          "example": "我对现在的生活很满足。",
+          "examplePinyin": "Wǒ duì xiànzài de shēnghuó hěn mǎnzú.",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "mǎn",
+            "zú"
+          ],
+          "hanzi": "满足"
+        },
+        {
+          "id": "c_e49799f67397",
+          "front": "qídài",
+          "pinyin": "qídài",
+          "meaning": "expectation / to look forward to",
+          "emoji": "",
+          "example": "我很期待这次旅行。",
+          "examplePinyin": "Wǒ hěn qídài zhè cì lǚxíng.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "qí",
+            "dài"
+          ],
+          "hanzi": "期待"
+        },
+        {
+          "id": "c_65cf28224666",
+          "front": "kūqì",
+          "pinyin": "kūqì",
+          "meaning": "to cry / weep",
+          "emoji": "",
+          "example": "她一个人在房间里哭泣。",
+          "examplePinyin": "Tā yí gè rén zài fángjiān lǐ kūqì.",
+          "notes": "口语常说 哭 kū；哭泣 稍书面",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "kū",
+            "qì"
+          ],
+          "hanzi": "哭泣"
+        },
+        {
+          "id": "c_c7cdc54b2554",
+          "front": "suíshí",
+          "pinyin": "suíshí",
+          "meaning": "anytime / at any moment",
+          "emoji": "",
+          "example": "有问题随时找我。",
+          "examplePinyin": "Yǒu wèntí suíshí zhǎo wǒ.",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "suí",
+            "shí"
+          ],
+          "hanzi": "随时"
+        },
+        {
+          "id": "c_014b95cc96ad",
+          "front": "yīlài",
+          "pinyin": "yīlài",
+          "meaning": "to depend on / rely on",
+          "emoji": "",
+          "example": "孩子太依赖父母不好。",
+          "examplePinyin": "Háizi tài yīlài fùmǔ bù hǎo.",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "yī",
+            "lài"
+          ],
+          "hanzi": "依赖"
+        },
+        {
+          "id": "c_b10d3e7fca9d",
+          "front": "kǒudài",
+          "pinyin": "kǒudài",
+          "meaning": "pocket",
+          "emoji": "",
+          "example": "钥匙在我的口袋里。",
+          "examplePinyin": "Yàoshi zài wǒ de kǒudài lǐ.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "kǒu",
+            "dài"
+          ],
+          "hanzi": "口袋"
+        },
+        {
+          "id": "c_0a806e755d11",
+          "front": "yǎnshén",
+          "pinyin": "yǎnshén",
+          "meaning": "the look in one's eyes / gaze",
+          "emoji": "",
+          "example": "她的眼神很温柔。",
+          "examplePinyin": "Tā de yǎnshén hěn wēnróu.",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "yǎn",
+            "shén"
+          ],
+          "hanzi": "眼神"
+        }
+      ]
+    },
     {
       "id": "hw_classroom_phrases",
       "title": "Classroom & Help Phrases",
