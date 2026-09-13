@@ -358,7 +358,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v44 · classroom & help phrases deck';
+const BUILD = 'v46 · Review All: EN→中 only (skips 中→EN)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -391,7 +391,7 @@ async function renderHome(root) {
   }
   const reviewCard = el('div', { class: 'deck review-all', onclick: () => app.go('mixed', {}) },
     el('h3', {}, '🔁 Review Everything'),
-    el('div', { class: 'sub' }, 'All modes mixed — every due item (中→EN, EN→中, tones) across every deck'),
+    el('div', { class: 'sub' }, 'Mixed across every deck — EN→中 + tones (中→EN is covered by EN→中)'),
     el('div', { class: 'bar' }, el('i', { style: `width:${totals.total ? Math.round(100 * totals.mastered / totals.total) : 0}%` })),
     reviewStats);
   root.append(reviewCard);
@@ -968,9 +968,13 @@ async function renderMixedReview(root, params) {
   const metCards = cards.filter(isMet);
   // Build one queue entry per DUE (card, mode) pair. modesFor() returns the
   // modes applicable to a card (tone only when it has tone data).
+  // In global Review All we SKIP 中→EN (zh2en): passing EN→中 already credits
+  // 中→EN (see applyReverseCredit), so testing the easier reverse direction is
+  // redundant. Deck-scoped review keeps all modes. Tone mode always stays.
+  const modesForReview = (c) => scoped ? modesFor(c) : modesFor(c).filter(m => m !== 'zh2en');
   let items = [];
   for (const c of metCards) {
-    for (const mode of modesFor(c)) {
+    for (const mode of modesForReview(c)) {
       if (stateForMode(c, mode).due <= now()) items.push({ c, mode });
     }
   }
@@ -978,7 +982,7 @@ async function renderMixedReview(root, params) {
   // keep practicing, still mixed across modes. Cap it so it isn't overwhelming.
   if (!items.length) {
     const pool = [];
-    for (const c of metCards) for (const mode of modesFor(c)) {
+    for (const c of metCards) for (const mode of modesForReview(c)) {
       if (!isMastered(stateForMode(c, mode))) pool.push({ c, mode });
     }
     pool.sort((a, b) => (stateForMode(a.c, a.mode).ease) - (stateForMode(b.c, b.mode).ease));
