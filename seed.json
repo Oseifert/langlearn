@@ -1,7 +1,128 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T23:41:16.997948+00:00",
+  "generatedAt": "2026-09-14T02:51:14.229311+00:00",
   "decks": [
+    {
+      "id": "wk_2026_38",
+      "title": "Week of Sep 14 – 20",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-09-14T02:51:10.588862+00:00",
+      "cards": [
+        {
+          "id": "c_5b2bc4aeb2df",
+          "front": "chéngshì",
+          "pinyin": "chéngshì",
+          "meaning": "city",
+          "emoji": "🏙️",
+          "example": "上海是一个很大的城市。",
+          "examplePinyin": "Shànghǎi shì yí ge hěn dà de chéngshì.",
+          "notes": "chéng (wall/city) + shì (market)",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "chéng",
+            "shì"
+          ],
+          "hanzi": "城市"
+        },
+        {
+          "id": "c_8c048461d701",
+          "front": "zuìhòu",
+          "pinyin": "zuìhòu",
+          "meaning": "finally; last; in the end",
+          "emoji": "",
+          "example": "我们最后决定坐地铁去。",
+          "examplePinyin": "Wǒmen zuìhòu juédìng zuò dìtiě qù.",
+          "notes": "the most + behind",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "zuì",
+            "hòu"
+          ],
+          "hanzi": "最后"
+        },
+        {
+          "id": "c_aa970b806b79",
+          "front": "suǒyǒu",
+          "pinyin": "suǒyǒu",
+          "meaning": "all; every",
+          "emoji": "",
+          "example": "所有的东西都在这儿。",
+          "examplePinyin": "Suǒyǒu de dōngxi dōu zài zhèr.",
+          "notes": "often 所有的… + 都; B1 grammar point",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "suǒ",
+            "yǒu"
+          ],
+          "hanzi": "所有"
+        },
+        {
+          "id": "c_35cbe000ebf2",
+          "front": "xiān",
+          "pinyin": "xiān",
+          "meaning": "first; earlier; before",
+          "emoji": "",
+          "example": "我先吃饭，然后写作业。",
+          "examplePinyin": "Wǒ xiān chīfàn, ránhòu xiě zuòyè.",
+          "notes": "first-tone; sequencing word 先…然后… / 先…再…",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "xiān"
+          ],
+          "hanzi": "先"
+        },
+        {
+          "id": "c_a519f564aeac",
+          "front": "dōngbian",
+          "pinyin": "dōngbian",
+          "meaning": "east; east side",
+          "emoji": "",
+          "example": "银行在学校的东边。",
+          "examplePinyin": "Yínháng zài xuéxiào de dōngbian.",
+          "notes": "边 is neutral tone here",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "dōng",
+            "bian"
+          ],
+          "hanzi": "东边"
+        },
+        {
+          "id": "c_073c4cdc2720",
+          "front": "běibian",
+          "pinyin": "běibian",
+          "meaning": "north; north side",
+          "emoji": "",
+          "example": "我家在公园的北边。",
+          "examplePinyin": "Wǒ jiā zài gōngyuán de běibian.",
+          "notes": "边 is neutral tone here",
+          "tones": [
+            3,
+            5
+          ],
+          "syllables": [
+            "běi",
+            "bian"
+          ],
+          "hanzi": "北边"
+        }
+      ]
+    },
     {
       "id": "hw_song_nvhai_daily",
       "title": "女孩 (Nǚhái) — Song Vocab",
