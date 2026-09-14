@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T05:22:20.339676+00:00",
+  "generatedAt": "2026-09-14T15:00:03.071995+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -1527,25 +1527,6 @@
           "hanzi": "大树"
         },
         {
-          "id": "c_e6d6cbc791cf",
-          "front": "hóngsè",
-          "pinyin": "hóngsè",
-          "meaning": "red (color)",
-          "emoji": "🔴",
-          "example": "她围着红色的围巾。",
-          "examplePinyin": "tā wéi zhe hóngsè de wéijīn.",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            2,
-            4
-          ],
-          "syllables": [
-            "hóng",
-            "sè"
-          ],
-          "hanzi": "红色"
-        },
-        {
           "id": "c_ce78d141475e",
           "front": "wéijīn",
           "pinyin": "wéijīn",
@@ -1584,23 +1565,6 @@
           "hanzi": "手心"
         },
         {
-          "id": "c_d5930324b0d3",
-          "front": "yǔ",
-          "pinyin": "yǔ",
-          "meaning": "rain",
-          "emoji": "",
-          "example": "外面下雨了。",
-          "examplePinyin": "wàimiàn xià yǔ le.",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            3
-          ],
-          "syllables": [
-            "yǔ"
-          ],
-          "hanzi": "雨"
-        },
-        {
           "id": "c_463cf346db43",
           "front": "kū",
           "pinyin": "kū",
@@ -1616,23 +1580,6 @@
             "kū"
           ],
           "hanzi": "哭"
-        },
-        {
-          "id": "c_0e5f73e76f4e",
-          "front": "xiào",
-          "pinyin": "xiào",
-          "meaning": "to laugh / to smile",
-          "emoji": "",
-          "example": "她笑了。",
-          "examplePinyin": "tā xiào le.",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            4
-          ],
-          "syllables": [
-            "xiào"
-          ],
-          "hanzi": "笑"
         },
         {
           "id": "c_bdedf2264ed5",
@@ -1671,23 +1618,6 @@
           "hanzi": "牵"
         },
         {
-          "id": "c_ab630b2a8617",
-          "front": "shǒu",
-          "pinyin": "shǒu",
-          "meaning": "hand",
-          "emoji": "",
-          "example": "请举起你的手。",
-          "examplePinyin": "qǐng jǔ qǐ nǐ de shǒu.",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            3
-          ],
-          "syllables": [
-            "shǒu"
-          ],
-          "hanzi": "手"
-        },
-        {
           "id": "c_f927ecb4f179",
           "front": "jìmò",
           "pinyin": "jìmò",
@@ -1724,25 +1654,6 @@
             "dài"
           ],
           "hanzi": "等待"
-        },
-        {
-          "id": "c_cdaa00a94624",
-          "front": "shíhou",
-          "pinyin": "shíhou",
-          "meaning": "time / moment / (the time) when",
-          "emoji": "",
-          "example": "你什么时候来？",
-          "examplePinyin": "nǐ shénme shíhou lái?",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            2,
-            5
-          ],
-          "syllables": [
-            "shí",
-            "hou"
-          ],
-          "hanzi": "时候"
         },
         {
           "id": "c_967753d96db9",
@@ -1800,25 +1711,6 @@
             "yù"
           ],
           "hanzi": "相遇"
-        },
-        {
-          "id": "c_4e0f1ce65d08",
-          "front": "shíjiān",
-          "pinyin": "shíjiān",
-          "meaning": "time",
-          "emoji": "",
-          "example": "时间过得很快。",
-          "examplePinyin": "shíjiān guò de hěn kuài.",
-          "notes": "[from 《如果可以》]",
-          "tones": [
-            2,
-            1
-          ],
-          "syllables": [
-            "shí",
-            "jiān"
-          ],
-          "hanzi": "时间"
         },
         {
           "id": "c_210839a1c179",

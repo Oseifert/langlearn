@@ -45,6 +45,7 @@
         zhEnState: c.zhEnState,
         enZhState: c.enZhState,
         toneState: c.toneState,
+        introduced: c.introduced || 0,
         updatedAt: c.updatedAt || 0,
       };
     }
@@ -75,6 +76,13 @@
         if (r.toneState) local.toneState = r.toneState;
         local.updatedAt = rt;
         toWrite.push(local);
+      }
+      // "met" is sticky: once a card was introduced on ANY device it should never
+      // revert to "new". Restore it independent of the updatedAt race so a stale
+      // merge direction can't un-meet a card. (Only ever sets, never clears.)
+      if (r.introduced && !local.introduced) {
+        local.introduced = r.introduced;
+        if (!toWrite.includes(local)) toWrite.push(local);
       }
     }
     if (toWrite.length) await DB.putCards(toWrite);

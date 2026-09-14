@@ -83,6 +83,24 @@ const DB = (() => {
   };
 })();
 
+// ---------- deck archiving ----------
+// Archived decks stay fully intact (progress preserved) but drop out of the
+// "Review Everything" aggregate + mixed queue and collapse to an "Archived"
+// section at the bottom of home. Stored as a set of deck ids in meta so it
+// survives seed rebuilds and is trivial to toggle. (Parked HSK3 etc.)
+async function getArchived() {
+  const v = await DB.getMeta('archivedDecks');
+  return new Set(Array.isArray(v) ? v : []);
+}
+async function setArchived(set) { await DB.setMeta('archivedDecks', [...set]); }
+async function isArchivedDeck(id) { return (await getArchived()).has(id); }
+// Cards belonging to non-archived decks only (feeds Review Everything / totals).
+async function activeCards() {
+  const arch = await getArchived();
+  const all = await DB.allCards();
+  return arch.size ? all.filter(c => !arch.has(c.deckId)) : all;
+}
+
 // ---------- SM-2 scheduler (per mastery dimension) ----------
 // state: { ease, interval(days), reps, due(ts), lapses }
 function newState() { return YC.newState(now); }
@@ -189,6 +207,11 @@ async function importDeck(deckRaw, notify = true) {
       rec.zhEnState = prev.zhEnState || prev.meaningState || rec.zhEnState;
       rec.enZhState = prev.enZhState || prev.meaningState || rec.enZhState;
       rec.toneState = prev.toneState || rec.toneState;
+      // Preserve the "met" flag across seed rebuilds. Without this, every seed
+      // update (each word drop bumps generatedAt -> re-import) wiped `introduced`,
+      // so met-but-not-yet-graded cards reverted to "new" and had to be
+      // rediscovered in a Learn batch. This was the recurring reset.
+      if (prev.introduced) rec.introduced = prev.introduced;
       if (prev.updatedAt) rec.updatedAt = prev.updatedAt;
     }
     return rec;
@@ -365,7 +388,9 @@ async function renderHome(root) {
   const decks = await DB.getAllDecks();
   // Most recently uploaded deck first.
   decks.sort((a, b) => String(b.createdAt || '').localeCompare(String(a.createdAt || '')));
+  const arch = await getArchived();
   const all = await DB.allCards();
+  const activeAll = arch.size ? all.filter(c => !arch.has(c.deckId)) : all;
   const byDeck = new Map();
   for (const c of all) { if (!byDeck.has(c.deckId)) byDeck.set(c.deckId, []); byDeck.get(c.deckId).push(c); }
 
@@ -377,9 +402,9 @@ async function renderHome(root) {
     return;
   }
 
-  // Review everything card
-  const totals = deckStats(all);
-  const metAll = all.filter(isMet);
+  // Review everything card — EXCLUDES archived decks.
+  const totals = deckStats(activeAll);
+  const metAll = activeAll.filter(isMet);
   const totalsMet = deckStats(metAll);
   const metWords = metAll.length;
   const reviewStats = el('div', { class: 'stats' },
@@ -397,7 +422,10 @@ async function renderHome(root) {
   root.append(reviewCard);
   root.append(el('div', { class: 'hint' }, 'Or pick a single upload to focus on:'));
 
-  for (const d of decks) {
+  const activeDecks = decks.filter(d => !arch.has(d.id));
+  const archivedDecks = decks.filter(d => arch.has(d.id));
+
+  const renderDeckCard = (d) => {
     const cards = byDeck.get(d.id) || [];
     const s = deckStats(cards);
     const metCards = cards.filter(isMet);
@@ -414,6 +442,20 @@ async function renderHome(root) {
       el('div', { class: 'sub' }, d.source || ''),
       el('div', { class: 'bar' }, el('i', { style: `width:${pct}%` })),
       pills));
+  };
+
+  for (const d of activeDecks) renderDeckCard(d);
+
+  if (archivedDecks.length) {
+    root.append(el('div', { class: 'hint', style: 'margin-top:1.2rem;opacity:.7' },
+      `📦 Archived (${archivedDecks.length}) — hidden from Review Everything, progress kept`));
+    for (const d of archivedDecks) {
+      const cards = byDeck.get(d.id) || [];
+      const s = deckStats(cards);
+      root.append(el('div', { class: 'deck archived', onclick: () => app.go('deck', { deckId: d.id }) },
+        el('h3', {}, d.title),
+        el('div', { class: 'sub' }, `${s.cards} words · ${s.wordsMastered} mastered · tap to open / unarchive`)));
+    }
   }
   root.append(el('div', { class: 'hint', style: 'text-align:center;opacity:.5;margin-top:1.5rem' }, `build ${BUILD}`));
 }
@@ -480,6 +522,21 @@ async function renderDeck(root, deckId) {
   actions.append(el('button', { class: dueAll ? 'btn due-cta' : 'btn', onclick: () => app.go('mixed', { deckId }) },
     dueAll ? `🔁 Review all · ${dueAll} due` : '🔁 Review all · caught up'));
   root.append(actions);
+  // Archive / unarchive: archived decks keep all progress but drop out of
+  // "Review Everything" and collapse to the bottom of home. Toggle here.
+  {
+    const archived = await isArchivedDeck(deckId);
+    const archBtn = el('button', { class: 'btn', style: 'width:100%;margin:.3rem 0;opacity:.85',
+      onclick: async () => {
+        const set = await getArchived();
+        if (set.has(deckId)) set.delete(deckId); else set.add(deckId);
+        await setArchived(set);
+        toast(set.has(deckId) ? `Archived “${deck.title}”` : `Unarchived “${deck.title}”`);
+        app.back();
+      } },
+      archived ? '📤 Unarchive this deck' : '📦 Archive this deck (hide from Review Everything)');
+    root.append(archBtn);
+  }
   // Small, low-emphasis entry point for the peek-first Learn pass — mainly
   // useful the first time you meet a new deck.
   // Low-emphasis link to re-peek any words you've already met (no grading).
