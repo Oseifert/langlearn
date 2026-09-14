@@ -1,7 +1,670 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T02:51:14.229311+00:00",
+  "generatedAt": "2026-09-14T04:07:59.234106+00:00",
   "decks": [
+    {
+      "id": "mk_monkey_king",
+      "title": "Monkey King (Reading)",
+      "source": "Monkey King",
+      "summary": "Vocab captured while reading 'The Rise of the Monkey King' (600-word level), in reading order.",
+      "createdAt": "2026-09-14T04:06:42.549905+00:00",
+      "cards": [
+        {
+          "id": "c_3b186fa0a376",
+          "front": "qīn'ài",
+          "pinyin": "qīn'ài",
+          "meaning": "dear / beloved",
+          "emoji": "",
+          "example": "亲爱的朋友，你好吗？",
+          "examplePinyin": "qīn'ài de péngyou, nǐ hǎo ma?",
+          "notes": "",
+          "tones": [
+            1,
+            5,
+            4
+          ],
+          "syllables": [
+            "qīn",
+            "'",
+            "ài"
+          ],
+          "hanzi": "亲爱"
+        },
+        {
+          "id": "c_d9247c0d2182",
+          "front": "yìtiān",
+          "pinyin": "yìtiān",
+          "meaning": "one day",
+          "emoji": "",
+          "example": "有一天，他去了森林。",
+          "examplePinyin": "yǒu yìtiān, tā qùle sēnlín.",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "yì",
+            "tiān"
+          ],
+          "hanzi": "一天"
+        },
+        {
+          "id": "c_0177472732c5",
+          "front": "jiǎng",
+          "pinyin": "jiǎng",
+          "meaning": "to tell / speak / explain",
+          "emoji": "",
+          "example": "老师给我们讲故事。",
+          "examplePinyin": "lǎoshī gěi wǒmen jiǎng gùshi.",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "jiǎng"
+          ],
+          "hanzi": "讲"
+        },
+        {
+          "id": "c_5fb25fa82e14",
+          "front": "guānyú",
+          "pinyin": "guānyú",
+          "meaning": "about / concerning",
+          "emoji": "",
+          "example": "这是一个关于猴子的故事。",
+          "examplePinyin": "zhè shì yí ge guānyú hóuzi de gùshi.",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "guān",
+            "yú"
+          ],
+          "hanzi": "关于"
+        },
+        {
+          "id": "c_d916363e8362",
+          "front": "hóuzi",
+          "pinyin": "hóuzi",
+          "meaning": "monkey",
+          "emoji": "",
+          "example": "那只猴子很聪明。",
+          "examplePinyin": "nà zhī hóuzi hěn cōngming.",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "hóu",
+            "zi"
+          ],
+          "hanzi": "猴子"
+        },
+        {
+          "id": "c_3c9a0da13ecb",
+          "front": "qiángdà",
+          "pinyin": "qiángdà",
+          "meaning": "powerful / mighty",
+          "emoji": "",
+          "example": "他变得非常强大。",
+          "examplePinyin": "tā biàn de fēicháng qiángdà.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "qiáng",
+            "dà"
+          ],
+          "hanzi": "强大"
+        },
+        {
+          "id": "c_613c43054c1b",
+          "front": "táoqì",
+          "pinyin": "táoqì",
+          "meaning": "naughty / mischievous",
+          "emoji": "",
+          "example": "这个孩子很淘气。",
+          "examplePinyin": "zhège háizi hěn táoqì.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "táo",
+            "qì"
+          ],
+          "hanzi": "淘气"
+        },
+        {
+          "id": "c_34ae6e1f630f",
+          "front": "bāngzhù",
+          "pinyin": "bāngzhù",
+          "meaning": "to help / help",
+          "emoji": "",
+          "example": "谢谢你的帮助。",
+          "examplePinyin": "xièxie nǐ de bāngzhù.",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "bāng",
+            "zhù"
+          ],
+          "hanzi": "帮助"
+        },
+        {
+          "id": "c_6b6b21c2c001",
+          "front": "jǐ qiān nián",
+          "pinyin": "jǐ qiān nián",
+          "meaning": "several thousand years",
+          "emoji": "",
+          "example": "这个故事有几千年了。",
+          "examplePinyin": "zhège gùshi yǒu jǐ qiān nián le.",
+          "notes": "",
+          "tones": [
+            3,
+            1,
+            2
+          ],
+          "syllables": [
+            "jǐ",
+            "qiān",
+            "nián"
+          ],
+          "hanzi": "几千年"
+        },
+        {
+          "id": "c_2387af736b31",
+          "front": "yǐqián",
+          "pinyin": "yǐqián",
+          "meaning": "before / previously / in the past",
+          "emoji": "",
+          "example": "以前这里有一座山。",
+          "examplePinyin": "yǐqián zhèlǐ yǒu yí zuò shān.",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "yǐ",
+            "qián"
+          ],
+          "hanzi": "以前"
+        },
+        {
+          "id": "c_6ca5ed3e89ba",
+          "front": "shēnghuó",
+          "pinyin": "shēnghuó",
+          "meaning": "life / to live",
+          "emoji": "",
+          "example": "他的生活很快乐。",
+          "examplePinyin": "tā de shēnghuó hěn kuàilè.",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "shēng",
+            "huó"
+          ],
+          "hanzi": "生活"
+        },
+        {
+          "id": "c_58588f56548e",
+          "front": "běifāng",
+          "pinyin": "běifāng",
+          "meaning": "the north",
+          "emoji": "",
+          "example": "北方的冬天很冷。",
+          "examplePinyin": "běifāng de dōngtiān hěn lěng.",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "běi",
+            "fāng"
+          ],
+          "hanzi": "北方"
+        },
+        {
+          "id": "c_89677d96220c",
+          "front": "yìshēng",
+          "pinyin": "yìshēng",
+          "meaning": "a lifetime / all one's life",
+          "emoji": "",
+          "example": "他一生都住在这里。",
+          "examplePinyin": "tā yìshēng dōu zhù zài zhèlǐ.",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "yì",
+            "shēng"
+          ],
+          "hanzi": "一生"
+        },
+        {
+          "id": "c_6ea45169a9d6",
+          "front": "cháng",
+          "pinyin": "cháng",
+          "meaning": "long",
+          "emoji": "",
+          "example": "这条河很长。",
+          "examplePinyin": "zhè tiáo hé hěn cháng.",
+          "notes": "cháng (2nd tone) = long; zhǎng (3rd tone) = to grow / chief",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "cháng"
+          ],
+          "hanzi": "长"
+        },
+        {
+          "id": "c_85949d9b5ad3",
+          "front": "yǒumíng",
+          "pinyin": "yǒumíng",
+          "meaning": "famous",
+          "emoji": "",
+          "example": "他是一个很有名的人。",
+          "examplePinyin": "tā shì yí ge hěn yǒumíng de rén.",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "yǒu",
+            "míng"
+          ],
+          "hanzi": "有名"
+        },
+        {
+          "id": "c_92400f3670fb",
+          "front": "chūshēng",
+          "pinyin": "chūshēng",
+          "meaning": "to be born",
+          "emoji": "",
+          "example": "他出生在山里。",
+          "examplePinyin": "tā chūshēng zài shān lǐ.",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "chū",
+            "shēng"
+          ],
+          "hanzi": "出生"
+        },
+        {
+          "id": "c_03bdaad07833",
+          "front": "chéngwéi",
+          "pinyin": "chéngwéi",
+          "meaning": "to become",
+          "emoji": "",
+          "example": "他成为了大王。",
+          "examplePinyin": "tā chéngwéi le dàwáng.",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "chéng",
+            "wéi"
+          ],
+          "hanzi": "成为"
+        },
+        {
+          "id": "c_5aa0663e8d3b",
+          "front": "dàwáng",
+          "pinyin": "dàwáng",
+          "meaning": "great king",
+          "emoji": "",
+          "example": "猴子们叫他大王。",
+          "examplePinyin": "hóuzimen jiào tā dàwáng.",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "dà",
+            "wáng"
+          ],
+          "hanzi": "大王"
+        },
+        {
+          "id": "c_39e6830259b1",
+          "front": "yì kāishǐ",
+          "pinyin": "yì kāishǐ",
+          "meaning": "at the beginning / at first",
+          "emoji": "",
+          "example": "一开始，他不会说话。",
+          "examplePinyin": "yì kāishǐ, tā bú huì shuōhuà.",
+          "notes": "",
+          "tones": [
+            4,
+            1,
+            3
+          ],
+          "syllables": [
+            "yì",
+            "kāi",
+            "shǐ"
+          ],
+          "hanzi": "一开始"
+        },
+        {
+          "id": "c_7b73d70eef16",
+          "front": "dìqiú",
+          "pinyin": "dìqiú",
+          "meaning": "the Earth",
+          "emoji": "",
+          "example": "地球是圆的。",
+          "examplePinyin": "dìqiú shì yuán de.",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "dì",
+            "qiú"
+          ],
+          "hanzi": "地球"
+        },
+        {
+          "id": "c_c231838df518",
+          "front": "niánqīng",
+          "pinyin": "niánqīng",
+          "meaning": "young",
+          "emoji": "",
+          "example": "他还很年轻。",
+          "examplePinyin": "tā hái hěn niánqīng.",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "nián",
+            "qīng"
+          ],
+          "hanzi": "年轻"
+        },
+        {
+          "id": "c_2aa099db6050",
+          "front": "shàngtiān",
+          "pinyin": "shàngtiān",
+          "meaning": "heaven / the heavens",
+          "emoji": "",
+          "example": "上天创造了世界。",
+          "examplePinyin": "shàngtiān chuàngzào le shìjiè.",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shàng",
+            "tiān"
+          ],
+          "hanzi": "上天"
+        },
+        {
+          "id": "c_114fc88bf910",
+          "front": "chuàngzào",
+          "pinyin": "chuàngzào",
+          "meaning": "to create",
+          "emoji": "",
+          "example": "他们创造了一个新世界。",
+          "examplePinyin": "tāmen chuàngzào le yí ge xīn shìjiè.",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "chuàng",
+            "zào"
+          ],
+          "hanzi": "创造"
+        },
+        {
+          "id": "c_77c83e687f08",
+          "front": "jiù xiàng gōngdiàn",
+          "pinyin": "jiù xiàng gōngdiàn",
+          "meaning": "just like a palace",
+          "emoji": "",
+          "example": "这个地方就像宫殿一样。",
+          "examplePinyin": "zhège dìfang jiù xiàng gōngdiàn yíyàng.",
+          "notes": "就像 = just like; 宫殿 gōngdiàn = palace",
+          "tones": [
+            4,
+            4,
+            1,
+            4
+          ],
+          "syllables": [
+            "jiù",
+            "xiàng",
+            "gōng",
+            "diàn"
+          ],
+          "hanzi": "就像宫殿"
+        },
+        {
+          "id": "c_f764d0dafec5",
+          "front": "guówáng",
+          "pinyin": "guówáng",
+          "meaning": "king",
+          "emoji": "",
+          "example": "国王住在城里。",
+          "examplePinyin": "guówáng zhù zài chéng lǐ.",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "guó",
+            "wáng"
+          ],
+          "hanzi": "国王"
+        },
+        {
+          "id": "c_9bf837c4c953",
+          "front": "yíyàng",
+          "pinyin": "yíyàng",
+          "meaning": "the same / alike",
+          "emoji": "",
+          "example": "这两个一样吗？",
+          "examplePinyin": "zhè liǎng ge yíyàng ma?",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yí",
+            "yàng"
+          ],
+          "hanzi": "一样"
+        },
+        {
+          "id": "c_ef08346e12fa",
+          "front": "hǎizhōng",
+          "pinyin": "hǎizhōng",
+          "meaning": "in the sea / in the middle of the sea",
+          "emoji": "",
+          "example": "海中有一座山。",
+          "examplePinyin": "hǎizhōng yǒu yí zuò shān.",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "hǎi",
+            "zhōng"
+          ],
+          "hanzi": "海中"
+        },
+        {
+          "id": "c_153821fabcb8",
+          "front": "zuò",
+          "pinyin": "zuò",
+          "meaning": "(measure word for mountains, buildings, bridges)",
+          "emoji": "",
+          "example": "那是一座很高的山。",
+          "examplePinyin": "nà shì yí zuò hěn gāo de shān.",
+          "notes": "measure word (MW) for large, solid, fixed things: mountains, buildings, bridges",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zuò"
+          ],
+          "hanzi": "座"
+        },
+        {
+          "id": "c_c8dd59801dee",
+          "front": "sìzhōu",
+          "pinyin": "sìzhōu",
+          "meaning": "all around / surroundings",
+          "emoji": "",
+          "example": "四周都是森林。",
+          "examplePinyin": "sìzhōu dōu shì sēnlín.",
+          "notes": "",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "sì",
+            "zhōu"
+          ],
+          "hanzi": "四周"
+        },
+        {
+          "id": "c_265a20943c33",
+          "front": "měilì",
+          "pinyin": "měilì",
+          "meaning": "beautiful",
+          "emoji": "",
+          "example": "这是一个美丽的地方。",
+          "examplePinyin": "zhè shì yí ge měilì de dìfang.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "měi",
+            "lì"
+          ],
+          "hanzi": "美丽"
+        },
+        {
+          "id": "c_04368b092dcb",
+          "front": "sēnlín",
+          "pinyin": "sēnlín",
+          "meaning": "forest",
+          "emoji": "",
+          "example": "森林里有很多动物。",
+          "examplePinyin": "sēnlín lǐ yǒu hěn duō dòngwù.",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "sēn",
+            "lín"
+          ],
+          "hanzi": "森林"
+        },
+        {
+          "id": "c_3d6cac7f9942",
+          "front": "dòngwù",
+          "pinyin": "dòngwù",
+          "meaning": "animal",
+          "emoji": "🐾",
+          "example": "猴子是一种动物。",
+          "examplePinyin": "hóuzi shì yì zhǒng dòngwù.",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "dòng",
+            "wù"
+          ],
+          "hanzi": "动物"
+        },
+        {
+          "id": "c_d53dd97e25b7",
+          "front": "lǜlǜ de cǎo",
+          "pinyin": "lǜlǜ de cǎo",
+          "meaning": "green grass",
+          "emoji": "",
+          "example": "山上有绿绿的草。",
+          "examplePinyin": "shān shàng yǒu lǜlǜ de cǎo.",
+          "notes": "绿绿的 = reduplicated 绿 (green) for a vivid, soft descriptive feel; 草 cǎo = grass",
+          "tones": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "syllables": [
+            "lǜ",
+            "lǜ",
+            "de",
+            "cǎo"
+          ],
+          "hanzi": "绿绿的草"
+        },
+        {
+          "id": "c_811863ea3df4",
+          "front": "guǒshù",
+          "pinyin": "guǒshù",
+          "meaning": "fruit tree",
+          "emoji": "",
+          "example": "这里有很多果树。",
+          "examplePinyin": "zhèlǐ yǒu hěn duō guǒshù.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "guǒ",
+            "shù"
+          ],
+          "hanzi": "果树"
+        }
+      ]
+    },
     {
       "id": "wk_2026_38",
       "title": "Week of Sep 14 – 20",
