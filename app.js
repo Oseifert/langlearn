@@ -186,6 +186,25 @@ async function migrateCards() {
   if (changed && !done) console.log('migrated', changed, 'cards');
 }
 
+// One-time (idempotent) orphan sweep: delete locally-stored cards that no longer
+// exist in the current seed, for decks that ARE in the seed. Needed because
+// ensureSeeded only re-imports (and prunes) when seed.generatedAt changes; if a
+// word was removed from a deck WITHOUT a generatedAt bump reaching this client,
+// the orphan lingered. Safe: only touches seed-backed decks, never user uploads.
+async function sweepOrphans() {
+  let seed;
+  try { seed = await (await fetch('seed.json', { cache: 'no-store' })).json(); }
+  catch (e) { return; } // offline: keep whatever is stored
+  const seedDeckIds = new Set((seed.decks || []).map(d => d.id));
+  const seedCardIds = new Set();
+  for (const d of (seed.decks || [])) for (const c of (d.cards || [])) seedCardIds.add(c.id);
+  const all = await DB.allCards();
+  const orphans = all
+    .filter(c => seedDeckIds.has(c.deckId) && !seedCardIds.has(c.id))
+    .map(c => c.id);
+  if (orphans.length) { await DB.deleteCards(orphans); console.log('swept', orphans.length, 'orphan cards'); }
+}
+
 async function importDeck(deckRaw, notify = true) {
   const deckId = deckRaw.id || ('d_' + Math.random().toString(36).slice(2, 10));
   const existing = await DB.getDeck(deckId);
@@ -388,7 +407,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v52 · prune removed cards on import + archive + reset fix';
+const BUILD = 'v53 · orphan sweep on boot (remove deleted cards now)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -1250,6 +1269,7 @@ $('#backBtn').addEventListener('click', () => app.back());
 (async function boot() {
   try { await ensureSeeded(); } catch (e) { console.error(e); }
   try { await migrateCards(); } catch (e) { console.error(e); }
+  try { await sweepOrphans(); } catch (e) { console.error('orphan sweep failed', e); }
   try { await loadAutoplay(); } catch (e) { console.error(e); }
   // Pull latest progress from GitHub (if this device has a token) before render,
   // so a fresh install / new device restores prior progress automatically.
