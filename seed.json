@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T04:07:59.234106+00:00",
+  "generatedAt": "2026-09-14T04:50:20.150578+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -662,6 +662,380 @@
             "shù"
           ],
           "hanzi": "果树"
+        },
+        {
+          "id": "c_e28480897667",
+          "front": "xiǎohé",
+          "pinyin": "xiǎohé",
+          "meaning": "small river / stream / brook",
+          "emoji": "",
+          "example": "山下有一条小河。",
+          "examplePinyin": "shān xià yǒu yì tiáo xiǎohé.",
+          "notes": "",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "xiǎo",
+            "hé"
+          ],
+          "hanzi": "小河"
+        },
+        {
+          "id": "c_d00fc107b679",
+          "front": "liúxiàng",
+          "pinyin": "liúxiàng",
+          "meaning": "to flow towards",
+          "emoji": "",
+          "example": "河水流向大海。",
+          "examplePinyin": "héshuǐ liúxiàng dàhǎi.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "liú",
+            "xiàng"
+          ],
+          "hanzi": "流向"
+        },
+        {
+          "id": "c_c6975e5a6b9c",
+          "front": "dǐng",
+          "pinyin": "dǐng",
+          "meaning": "top / peak / summit",
+          "emoji": "",
+          "example": "他站在山顶。",
+          "examplePinyin": "tā zhàn zài shāndǐng.",
+          "notes": "顶 = top/peak; also a measure word for hats & things with a top",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "dǐng"
+          ],
+          "hanzi": "顶"
+        },
+        {
+          "id": "c_b433cdce8f27",
+          "front": "kuài",
+          "pinyin": "kuài",
+          "meaning": "(measure word for chunks / pieces / lumps)",
+          "emoji": "",
+          "example": "那是一块大石头。",
+          "examplePinyin": "nà shì yí kuài dà shítou.",
+          "notes": "MW for chunks, lumps, slices (stone, cake, soap); also the spoken word for 'yuan' (money)",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "kuài"
+          ],
+          "hanzi": "块"
+        },
+        {
+          "id": "c_a9ca2294af04",
+          "front": "shítou",
+          "pinyin": "shítou",
+          "meaning": "stone / rock",
+          "emoji": "",
+          "example": "路上有很多石头。",
+          "examplePinyin": "lù shàng yǒu hěn duō shítou.",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "shí",
+            "tou"
+          ],
+          "hanzi": "石头"
+        },
+        {
+          "id": "c_3592af968927",
+          "front": "bǎ",
+          "pinyin": "bǎ",
+          "meaning": "(disposal particle: 'take/handle'; also MW for handled objects)",
+          "emoji": "",
+          "example": "他把石头打开了。",
+          "examplePinyin": "tā bǎ shítou dǎkāi le.",
+          "notes": "把 structure: 把 + object + verb (do something TO the object); also MW for things with a handle (knife, chair, umbrella)",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "bǎ"
+          ],
+          "hanzi": "把"
+        },
+        {
+          "id": "c_1c02b71df6f8",
+          "front": "bàozhù",
+          "pinyin": "bàozhù",
+          "meaning": "to hold / hug tightly",
+          "emoji": "",
+          "example": "他抱住了那块石头。",
+          "examplePinyin": "tā bàozhù le nà kuài shítou.",
+          "notes": "抱 bào = hug + 住 zhù = resultative 'firmly/fast'",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "bào",
+            "zhù"
+          ],
+          "hanzi": "抱住"
+        },
+        {
+          "id": "c_b443e53faf19",
+          "front": "niánjì",
+          "pinyin": "niánjì",
+          "meaning": "age (of a person)",
+          "emoji": "",
+          "example": "他年纪很大了。",
+          "examplePinyin": "tā niánjì hěn dà le.",
+          "notes": "年纪 = a person's age; 年级 niánjí (same pinyin diff char) = school grade",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "nián",
+            "jì"
+          ],
+          "hanzi": "年纪"
+        },
+        {
+          "id": "c_6d2899a31a32",
+          "front": "yìbǎi",
+          "pinyin": "yìbǎi",
+          "meaning": "one hundred",
+          "emoji": "",
+          "example": "这座山有一百米高。",
+          "examplePinyin": "zhè zuò shān yǒu yìbǎi mǐ gāo.",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "yì",
+            "bǎi"
+          ],
+          "hanzi": "一百"
+        },
+        {
+          "id": "c_108e78a7ece0",
+          "front": "dàdì",
+          "pinyin": "dàdì",
+          "meaning": "the earth / the land",
+          "emoji": "",
+          "example": "太阳照着大地。",
+          "examplePinyin": "tàiyáng zhào zhe dàdì.",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "dà",
+            "dì"
+          ],
+          "hanzi": "大地"
+        },
+        {
+          "id": "c_ba332ee998b2",
+          "front": "yǎngyù",
+          "pinyin": "yǎngyù",
+          "meaning": "to raise / bring up / nurture",
+          "emoji": "",
+          "example": "大地养育了万物。",
+          "examplePinyin": "dàdì yǎngyù le wànwù.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "yǎng",
+            "yù"
+          ],
+          "hanzi": "养育"
+        },
+        {
+          "id": "c_e480a55f5442",
+          "front": "zhōngyú",
+          "pinyin": "zhōngyú",
+          "meaning": "finally / at last",
+          "emoji": "",
+          "example": "他终于到了山顶。",
+          "examplePinyin": "tā zhōngyú dào le shāndǐng.",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "zhōng",
+            "yú"
+          ],
+          "hanzi": "终于"
+        },
+        {
+          "id": "c_0fdf8730f95e",
+          "front": "yǐhòu",
+          "pinyin": "yǐhòu",
+          "meaning": "after / afterwards / later",
+          "emoji": "",
+          "example": "以后我会告诉你。",
+          "examplePinyin": "yǐhòu wǒ huì gàosu nǐ.",
+          "notes": "",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "yǐ",
+            "hòu"
+          ],
+          "hanzi": "以后"
+        },
+        {
+          "id": "c_3707de16c30f",
+          "front": "huáiyùn",
+          "pinyin": "huáiyùn",
+          "meaning": "to be pregnant",
+          "emoji": "",
+          "example": "石头好像怀孕了一样。",
+          "examplePinyin": "shítou hǎoxiàng huáiyùn le yíyàng.",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "huái",
+            "yùn"
+          ],
+          "hanzi": "怀孕"
+        },
+        {
+          "id": "c_b8b776c5ff81",
+          "front": "yí ge shí dàn",
+          "pinyin": "yí ge shí dàn",
+          "meaning": "a stone egg",
+          "emoji": "",
+          "example": "石头里有一个石蛋。",
+          "examplePinyin": "shítou lǐ yǒu yí ge shí dàn.",
+          "notes": "石 shí = stone + 蛋 dàn = egg",
+          "tones": [
+            2,
+            5,
+            2,
+            4
+          ],
+          "syllables": [
+            "yí",
+            "ge",
+            "shí",
+            "dàn"
+          ],
+          "hanzi": "一个石蛋"
+        },
+        {
+          "id": "c_3d2a910fb6eb",
+          "front": "fēng",
+          "pinyin": "fēng",
+          "meaning": "wind",
+          "emoji": "🌬️",
+          "example": "今天的风很大。",
+          "examplePinyin": "jīntiān de fēng hěn dà.",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "fēng"
+          ],
+          "hanzi": "风"
+        },
+        {
+          "id": "c_3214c77b02ce",
+          "front": "chuī",
+          "pinyin": "chuī",
+          "meaning": "to blow (of wind); to blow (with mouth)",
+          "emoji": "",
+          "example": "风吹着石蛋。",
+          "examplePinyin": "fēng chuī zhe shí dàn.",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "chuī"
+          ],
+          "hanzi": "吹"
+        },
+        {
+          "id": "c_58547e3d7c46",
+          "front": "dǎkāi",
+          "pinyin": "dǎkāi",
+          "meaning": "to open / open up",
+          "emoji": "",
+          "example": "他打开了门。",
+          "examplePinyin": "tā dǎkāi le mén.",
+          "notes": "打 dǎ + 开 kāi (resultative 'open')",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "dǎ",
+            "kāi"
+          ],
+          "hanzi": "打开"
+        },
+        {
+          "id": "c_192aa0b62c6a",
+          "front": "kànshàngqù",
+          "pinyin": "kànshàngqù",
+          "meaning": "to look / seem / appear (to be)",
+          "emoji": "",
+          "example": "这个石蛋看上去很奇怪。",
+          "examplePinyin": "zhège shí dàn kànshàngqù hěn qíguài.",
+          "notes": "看上去 = 'it looks/seems…' (impression from looking)",
+          "tones": [
+            4,
+            4,
+            4
+          ],
+          "syllables": [
+            "kàn",
+            "shàng",
+            "qù"
+          ],
+          "hanzi": "看上去"
+        },
+        {
+          "id": "c_43608fdbcd1a",
+          "front": "pá",
+          "pinyin": "pá",
+          "meaning": "to climb / crawl",
+          "emoji": "",
+          "example": "猴子爬上了山。",
+          "examplePinyin": "hóuzi pá shàng le shān.",
+          "notes": "爬山 = to climb a mountain / hike",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "pá"
+          ],
+          "hanzi": "爬"
         }
       ]
     },
