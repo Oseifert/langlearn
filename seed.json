@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T04:50:20.150578+00:00",
+  "generatedAt": "2026-09-14T05:22:20.339676+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -1162,9 +1162,9 @@
     },
     {
       "id": "hw_song_nvhai_daily",
-      "title": "女孩 (Nǚhái) — Song Vocab",
+      "title": "Song Vocab (Daily Words)",
       "source": "女孩 (Nǚhái)",
-      "summary": "Day-to-day vocab pulled from the song 《女孩》(learned via lyrics). Song-specific idioms/poetic words excluded.",
+      "summary": "Everyday, useful vocab pulled from songs learned via lyrics (multiple songs). Poetic/song-only words excluded.",
       "createdAt": "2026-09-11T05:31:50.611205+00:00",
       "cards": [
         {
@@ -1487,6 +1487,657 @@
             "guài"
           ],
           "hanzi": "怪"
+        },
+        {
+          "id": "c_e51e1f3c5cac",
+          "front": "shēngyīn",
+          "pinyin": "shēngyīn",
+          "meaning": "voice / sound",
+          "emoji": "",
+          "example": "我听到了她的声音。",
+          "examplePinyin": "wǒ tīngdào le tā de shēngyīn.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "shēng",
+            "yīn"
+          ],
+          "hanzi": "声音"
+        },
+        {
+          "id": "c_3152225575eb",
+          "front": "dàshù",
+          "pinyin": "dàshù",
+          "meaning": "big tree",
+          "emoji": "",
+          "example": "我们坐在大树下。",
+          "examplePinyin": "wǒmen zuò zài dàshù xià.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "dà",
+            "shù"
+          ],
+          "hanzi": "大树"
+        },
+        {
+          "id": "c_e6d6cbc791cf",
+          "front": "hóngsè",
+          "pinyin": "hóngsè",
+          "meaning": "red (color)",
+          "emoji": "🔴",
+          "example": "她围着红色的围巾。",
+          "examplePinyin": "tā wéi zhe hóngsè de wéijīn.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "hóng",
+            "sè"
+          ],
+          "hanzi": "红色"
+        },
+        {
+          "id": "c_ce78d141475e",
+          "front": "wéijīn",
+          "pinyin": "wéijīn",
+          "meaning": "scarf",
+          "emoji": "",
+          "example": "天冷了，戴上围巾吧。",
+          "examplePinyin": "tiān lěng le, dài shàng wéijīn ba.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "wéi",
+            "jīn"
+          ],
+          "hanzi": "围巾"
+        },
+        {
+          "id": "c_74b4776baf7a",
+          "front": "shǒuxīn",
+          "pinyin": "shǒuxīn",
+          "meaning": "palm (of the hand)",
+          "emoji": "",
+          "example": "雨落在她的手心里。",
+          "examplePinyin": "yǔ luò zài tā de shǒuxīn lǐ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "shǒu",
+            "xīn"
+          ],
+          "hanzi": "手心"
+        },
+        {
+          "id": "c_d5930324b0d3",
+          "front": "yǔ",
+          "pinyin": "yǔ",
+          "meaning": "rain",
+          "emoji": "",
+          "example": "外面下雨了。",
+          "examplePinyin": "wàimiàn xià yǔ le.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "yǔ"
+          ],
+          "hanzi": "雨"
+        },
+        {
+          "id": "c_463cf346db43",
+          "front": "kū",
+          "pinyin": "kū",
+          "meaning": "to cry",
+          "emoji": "",
+          "example": "孩子哭了。",
+          "examplePinyin": "háizi kū le.",
+          "notes": "哭 kū = cry (vs 哭泣 kūqì = to sob, more literary) [from 《如果可以》]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "kū"
+          ],
+          "hanzi": "哭"
+        },
+        {
+          "id": "c_0e5f73e76f4e",
+          "front": "xiào",
+          "pinyin": "xiào",
+          "meaning": "to laugh / to smile",
+          "emoji": "",
+          "example": "她笑了。",
+          "examplePinyin": "tā xiào le.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "xiào"
+          ],
+          "hanzi": "笑"
+        },
+        {
+          "id": "c_bdedf2264ed5",
+          "front": "cuòguò",
+          "pinyin": "cuòguò",
+          "meaning": "to miss (a chance / person / train)",
+          "emoji": "",
+          "example": "我不想错过这次机会。",
+          "examplePinyin": "wǒ bù xiǎng cuòguò zhè cì jīhuì.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "cuò",
+            "guò"
+          ],
+          "hanzi": "错过"
+        },
+        {
+          "id": "c_1742df023de5",
+          "front": "qiān",
+          "pinyin": "qiān",
+          "meaning": "to hold / lead by the hand",
+          "emoji": "",
+          "example": "他牵着她的手。",
+          "examplePinyin": "tā qiān zhe tā de shǒu.",
+          "notes": "牵手 qiānshǒu = to hold hands [from 《如果可以》]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "qiān"
+          ],
+          "hanzi": "牵"
+        },
+        {
+          "id": "c_ab630b2a8617",
+          "front": "shǒu",
+          "pinyin": "shǒu",
+          "meaning": "hand",
+          "emoji": "",
+          "example": "请举起你的手。",
+          "examplePinyin": "qǐng jǔ qǐ nǐ de shǒu.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "shǒu"
+          ],
+          "hanzi": "手"
+        },
+        {
+          "id": "c_f927ecb4f179",
+          "front": "jìmò",
+          "pinyin": "jìmò",
+          "meaning": "lonely / lonesome",
+          "emoji": "",
+          "example": "一个人的时候我很寂寞。",
+          "examplePinyin": "yí ge rén de shíhou wǒ hěn jìmò.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jì",
+            "mò"
+          ],
+          "hanzi": "寂寞"
+        },
+        {
+          "id": "c_0245551f9c90",
+          "front": "děngdài",
+          "pinyin": "děngdài",
+          "meaning": "to wait / await",
+          "emoji": "",
+          "example": "我在等待你的回答。",
+          "examplePinyin": "wǒ zài děngdài nǐ de huídá.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "děng",
+            "dài"
+          ],
+          "hanzi": "等待"
+        },
+        {
+          "id": "c_cdaa00a94624",
+          "front": "shíhou",
+          "pinyin": "shíhou",
+          "meaning": "time / moment / (the time) when",
+          "emoji": "",
+          "example": "你什么时候来？",
+          "examplePinyin": "nǐ shénme shíhou lái?",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "shí",
+            "hou"
+          ],
+          "hanzi": "时候"
+        },
+        {
+          "id": "c_967753d96db9",
+          "front": "huídào",
+          "pinyin": "huídào",
+          "meaning": "to return to / go back to",
+          "emoji": "",
+          "example": "我想回到家里。",
+          "examplePinyin": "wǒ xiǎng huídào jiā lǐ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "huí",
+            "dào"
+          ],
+          "hanzi": "回到"
+        },
+        {
+          "id": "c_b2b5d4d4486a",
+          "front": "nàtiān",
+          "pinyin": "nàtiān",
+          "meaning": "that day",
+          "emoji": "",
+          "example": "那天我们第一次见面。",
+          "examplePinyin": "nàtiān wǒmen dì yī cì jiànmiàn.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "nà",
+            "tiān"
+          ],
+          "hanzi": "那天"
+        },
+        {
+          "id": "c_c02720ae4508",
+          "front": "xiāngyù",
+          "pinyin": "xiāngyù",
+          "meaning": "to meet / encounter (each other)",
+          "emoji": "",
+          "example": "我们在雨中相遇。",
+          "examplePinyin": "wǒmen zài yǔ zhōng xiāngyù.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "xiāng",
+            "yù"
+          ],
+          "hanzi": "相遇"
+        },
+        {
+          "id": "c_4e0f1ce65d08",
+          "front": "shíjiān",
+          "pinyin": "shíjiān",
+          "meaning": "time",
+          "emoji": "",
+          "example": "时间过得很快。",
+          "examplePinyin": "shíjiān guò de hěn kuài.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "shí",
+            "jiān"
+          ],
+          "hanzi": "时间"
+        },
+        {
+          "id": "c_210839a1c179",
+          "front": "tíngzhǐ",
+          "pinyin": "tíngzhǐ",
+          "meaning": "to stop / cease",
+          "emoji": "",
+          "example": "雨停止了。",
+          "examplePinyin": "yǔ tíngzhǐ le.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "tíng",
+            "zhǐ"
+          ],
+          "hanzi": "停止"
+        },
+        {
+          "id": "c_37de1257d240",
+          "front": "yōngbào",
+          "pinyin": "yōngbào",
+          "meaning": "to hug / embrace",
+          "emoji": "",
+          "example": "她拥抱了我。",
+          "examplePinyin": "tā yōngbào le wǒ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "yōng",
+            "bào"
+          ],
+          "hanzi": "拥抱"
+        },
+        {
+          "id": "c_3d39f536a1e7",
+          "front": "shēnbiān",
+          "pinyin": "shēnbiān",
+          "meaning": "by one's side / around one",
+          "emoji": "",
+          "example": "我想一直在你身边。",
+          "examplePinyin": "wǒ xiǎng yìzhí zài nǐ shēnbiān.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "shēn",
+            "biān"
+          ],
+          "hanzi": "身边"
+        },
+        {
+          "id": "c_c272525c85c5",
+          "front": "wěn",
+          "pinyin": "wěn",
+          "meaning": "to kiss / a kiss",
+          "emoji": "",
+          "example": "他轻轻吻了她。",
+          "examplePinyin": "tā qīngqīng wěn le tā.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "wěn"
+          ],
+          "hanzi": "吻"
+        },
+        {
+          "id": "c_9c5ae3798ffc",
+          "front": "hūxī",
+          "pinyin": "hūxī",
+          "meaning": "to breathe / breath",
+          "emoji": "",
+          "example": "深呼吸，别紧张。",
+          "examplePinyin": "shēn hūxī, bié jǐnzhāng.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "hū",
+            "xī"
+          ],
+          "hanzi": "呼吸"
+        },
+        {
+          "id": "c_92b209672f29",
+          "front": "yǒngyuǎn",
+          "pinyin": "yǒngyuǎn",
+          "meaning": "forever / always",
+          "emoji": "",
+          "example": "我会永远记得你。",
+          "examplePinyin": "wǒ huì yǒngyuǎn jìde nǐ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "yǒng",
+            "yuǎn"
+          ],
+          "hanzi": "永远"
+        },
+        {
+          "id": "c_7690a9155d84",
+          "front": "biàn",
+          "pinyin": "biàn",
+          "meaning": "to change / become",
+          "emoji": "",
+          "example": "天气变了。",
+          "examplePinyin": "tiānqì biàn le.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "biàn"
+          ],
+          "hanzi": "变"
+        },
+        {
+          "id": "c_95001b4a6060",
+          "front": "zhuǎnshēn",
+          "pinyin": "zhuǎnshēn",
+          "meaning": "to turn around / turn one's body",
+          "emoji": "",
+          "example": "她转身就走了。",
+          "examplePinyin": "tā zhuǎnshēn jiù zǒu le.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "zhuǎn",
+            "shēn"
+          ],
+          "hanzi": "转身"
+        },
+        {
+          "id": "c_b69241e75214",
+          "front": "yuèguāng",
+          "pinyin": "yuèguāng",
+          "meaning": "moonlight",
+          "emoji": "",
+          "example": "月光很美。",
+          "examplePinyin": "yuèguāng hěn měi.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "yuè",
+            "guāng"
+          ],
+          "hanzi": "月光"
+        },
+        {
+          "id": "c_8d901b79eca4",
+          "front": "mìmì",
+          "pinyin": "mìmì",
+          "meaning": "secret",
+          "emoji": "",
+          "example": "这是我们的秘密。",
+          "examplePinyin": "zhè shì wǒmen de mìmì.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "mì",
+            "mì"
+          ],
+          "hanzi": "秘密"
+        },
+        {
+          "id": "c_f64cad7c108a",
+          "front": "yùnqì",
+          "pinyin": "yùnqì",
+          "meaning": "luck / fortune",
+          "emoji": "",
+          "example": "祝你好运气！",
+          "examplePinyin": "zhù nǐ hǎo yùnqì!",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "yùn",
+            "qì"
+          ],
+          "hanzi": "运气"
+        },
+        {
+          "id": "c_450eada7e4aa",
+          "front": "xiāngxìn",
+          "pinyin": "xiāngxìn",
+          "meaning": "to believe / trust",
+          "emoji": "",
+          "example": "我相信你。",
+          "examplePinyin": "wǒ xiāngxìn nǐ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "xiāng",
+            "xìn"
+          ],
+          "hanzi": "相信"
+        },
+        {
+          "id": "c_9a42e17a2f3a",
+          "front": "kàojìn",
+          "pinyin": "kàojìn",
+          "meaning": "to approach / get close to",
+          "emoji": "",
+          "example": "别靠近那条狗。",
+          "examplePinyin": "bié kàojìn nà tiáo gǒu.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "kào",
+            "jìn"
+          ],
+          "hanzi": "靠近"
+        },
+        {
+          "id": "c_3c011d011cd5",
+          "front": "hàipà",
+          "pinyin": "hàipà",
+          "meaning": "to be afraid / scared",
+          "emoji": "",
+          "example": "我一个人不害怕。",
+          "examplePinyin": "wǒ yí ge rén bú hàipà.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "hài",
+            "pà"
+          ],
+          "hanzi": "害怕"
+        },
+        {
+          "id": "c_f13faa2b4991",
+          "front": "bàoyǔ",
+          "pinyin": "bàoyǔ",
+          "meaning": "rainstorm / downpour",
+          "emoji": "",
+          "example": "昨天下了一场暴雨。",
+          "examplePinyin": "zuótiān xià le yì chǎng bàoyǔ.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "bào",
+            "yǔ"
+          ],
+          "hanzi": "暴雨"
+        },
+        {
+          "id": "c_b5b37ce54085",
+          "front": "shìjiè",
+          "pinyin": "shìjiè",
+          "meaning": "world",
+          "emoji": "",
+          "example": "世界很大。",
+          "examplePinyin": "shìjiè hěn dà.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "shì",
+            "jiè"
+          ],
+          "hanzi": "世界"
+        },
+        {
+          "id": "c_a73e4f2cd3f9",
+          "front": "juédìng",
+          "pinyin": "juédìng",
+          "meaning": "decision / to decide",
+          "emoji": "",
+          "example": "这是我的决定。",
+          "examplePinyin": "zhè shì wǒ de juédìng.",
+          "notes": "[from 《如果可以》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "jué",
+            "dìng"
+          ],
+          "hanzi": "决定"
         }
       ]
     },
