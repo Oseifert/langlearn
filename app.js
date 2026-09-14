@@ -381,7 +381,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v46 · Review All: EN→中 only (skips 中→EN)';
+const BUILD = 'v50 · fix progress reset (introduced sticky) + deck archive';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -572,7 +572,7 @@ async function renderDeck(root, deckId) {
 // between "reviewing due cards" and "getting ahead (nothing was due)".
 async function buildQueue({ mode, deckId, cram, dir }) {
   const smode = dir === 'en2zh' ? 'en2zh' : 'zh2en';
-  let cards = mode === 'all' ? await DB.allCards() : await DB.cardsFor(deckId);
+  let cards = mode === 'all' ? await activeCards() : await DB.cardsFor(deckId);
   cards.forEach(ensureStates);
   // Only cards you've actually MET (introduced via Learn) enter practice. Unseen
   // cards sit out until you meet them, so a 467-card deck never floods a session.
@@ -894,8 +894,9 @@ async function renderPractice(root, params) {
 // ---- Tone drill ----
 async function renderToneDrill(root, params) {
   $('#title').textContent = 'Tone Drills';
-  let cards = params.deckId ? await DB.cardsFor(params.deckId) : await DB.allCards();
+  let cards = params.deckId ? await DB.cardsFor(params.deckId) : await activeCards();
   cards.forEach(ensureStates);
+
   cards = cards.filter(cardHasTones);
   // Only drill words you've MET — unseen cards wait for a Learn batch.
   cards = cards.filter(isMet);
@@ -1018,7 +1019,7 @@ async function renderMixedReview(root, params) {
   const scoped = !!params.deckId;
   const deck = scoped ? await DB.getDeck(params.deckId) : null;
   $('#title').textContent = scoped ? `${deck ? deck.title : 'Deck'} · due (all modes)` : 'Review All · mixed';
-  const cards = scoped ? await DB.cardsFor(params.deckId) : await DB.allCards();
+  const cards = scoped ? await DB.cardsFor(params.deckId) : await activeCards();
   cards.forEach(ensureStates);
   // Only review words you've MET — unseen cards wait for a Learn batch, so a
   // huge deck's un-introduced words never flood Review All.
