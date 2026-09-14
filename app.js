@@ -78,6 +78,7 @@ const DB = (() => {
     async allCards() { const o = []; await tx('cards', 'readonly', t => { t.objectStore('cards').openCursor().onsuccess = e => { const c = e.target.result; if (c) { o.push(c.value); c.continue(); } }; }); return o; },
     async putCards(cards) { return tx('cards', 'readwrite', t => { const s = t.objectStore('cards'); cards.forEach(c => s.put(c)); }); },
     async putCard(c) { return tx('cards', 'readwrite', t => t.objectStore('cards').put(c)); },
+    async deleteCards(ids) { return tx('cards', 'readwrite', t => { const s = t.objectStore('cards'); ids.forEach(id => s.delete(id)); }); },
     async getMeta(k) { let v; await tx('meta', 'readonly', t => { t.objectStore('meta').get(k).onsuccess = e => (v = e.target.result); }); return v ? v.v : undefined; },
     async setMeta(k, v) { return tx('meta', 'readwrite', t => t.objectStore('meta').put({ k, v })); },
   };
@@ -217,6 +218,12 @@ async function importDeck(deckRaw, notify = true) {
     return rec;
   });
   await DB.putCards(recs);
+  // Prune orphans: cards previously stored for this deck that are no longer in
+  // the seed (e.g. a word was removed/deduped from the source). Without this,
+  // removed words linger in local IndexedDB forever since import only upserts.
+  const keep = new Set(recs.map(r => r.id));
+  const orphans = existingCards.filter(c => !keep.has(c.id)).map(c => c.id);
+  if (orphans.length) await DB.deleteCards(orphans);
   if (notify) toast(`Imported “${deck.title}” · ${recs.length} cards`);
   return deck;
 }
@@ -381,7 +388,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v51 · fix progress reset (introduced sticky) + deck archive';
+const BUILD = 'v52 · prune removed cards on import + archive + reset fix';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
