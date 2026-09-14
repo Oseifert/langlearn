@@ -381,7 +381,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v50 · fix progress reset (introduced sticky) + deck archive';
+const BUILD = 'v51 · fix progress reset (introduced sticky) + deck archive';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
