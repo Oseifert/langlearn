@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T12:53:52.620197+00:00",
+  "generatedAt": "2026-09-19T12:59:07.300499+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -2032,25 +2032,6 @@
           "hanzi": "决定"
         },
         {
-          "id": "c_c2b06da0f2ca",
-          "front": "liúlàng",
-          "pinyin": "liúlàng",
-          "meaning": "to wander / roam",
-          "emoji": "",
-          "example": "他一个人在外面流浪。",
-          "examplePinyin": "tā yí ge rén zài wàimiàn liúlàng.",
-          "notes": "song-ish but usable [from 《Lydia》]",
-          "tones": [
-            2,
-            4
-          ],
-          "syllables": [
-            "liú",
-            "làng"
-          ],
-          "hanzi": "流浪"
-        },
-        {
           "id": "c_bfb56bfef0eb",
           "front": "hǎiyáng",
           "pinyin": "hǎiyáng",
@@ -2178,25 +2159,6 @@
             "fù"
           ],
           "hanzi": "重复"
-        },
-        {
-          "id": "c_05cea6d3fba5",
-          "front": "bēishāng",
-          "pinyin": "bēishāng",
-          "meaning": "sorrow / sad",
-          "emoji": "",
-          "example": "这首歌很悲伤。",
-          "examplePinyin": "zhè shǒu gē hěn bēishāng.",
-          "notes": "[from 《Lydia》]",
-          "tones": [
-            1,
-            1
-          ],
-          "syllables": [
-            "bēi",
-            "shāng"
-          ],
-          "hanzi": "悲伤"
         },
         {
           "id": "c_273003a1bb33",
