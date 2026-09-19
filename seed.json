@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T15:24:00.310177+00:00",
+  "generatedAt": "2026-09-19T12:53:52.620197+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -2030,6 +2030,357 @@
             "dìng"
           ],
           "hanzi": "决定"
+        },
+        {
+          "id": "c_c2b06da0f2ca",
+          "front": "liúlàng",
+          "pinyin": "liúlàng",
+          "meaning": "to wander / roam",
+          "emoji": "",
+          "example": "他一个人在外面流浪。",
+          "examplePinyin": "tā yí ge rén zài wàimiàn liúlàng.",
+          "notes": "song-ish but usable [from 《Lydia》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "liú",
+            "làng"
+          ],
+          "hanzi": "流浪"
+        },
+        {
+          "id": "c_bfb56bfef0eb",
+          "front": "hǎiyáng",
+          "pinyin": "hǎiyáng",
+          "meaning": "ocean / sea",
+          "emoji": "",
+          "example": "海洋很大很深。",
+          "examplePinyin": "hǎiyáng hěn dà hěn shēn.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "hǎi",
+            "yáng"
+          ],
+          "hanzi": "海洋"
+        },
+        {
+          "id": "c_240d914334a9",
+          "front": "shòushāng",
+          "pinyin": "shòushāng",
+          "meaning": "to be injured / hurt",
+          "emoji": "",
+          "example": "他在比赛中受伤了。",
+          "examplePinyin": "tā zài bǐsài zhōng shòushāng le.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shòu",
+            "shāng"
+          ],
+          "hanzi": "受伤"
+        },
+        {
+          "id": "c_a96038df82f6",
+          "front": "wēixiào",
+          "pinyin": "wēixiào",
+          "meaning": "to smile / a smile",
+          "emoji": "",
+          "example": "她对我微笑。",
+          "examplePinyin": "tā duì wǒ wēixiào.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "wēi",
+            "xiào"
+          ],
+          "hanzi": "微笑"
+        },
+        {
+          "id": "c_b8902e9f514b",
+          "front": "wù",
+          "pinyin": "wù",
+          "meaning": "fog / mist",
+          "emoji": "",
+          "example": "今天早上有雾。",
+          "examplePinyin": "jīntiān zǎoshang yǒu wù.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "wù"
+          ],
+          "hanzi": "雾"
+        },
+        {
+          "id": "c_807bd9e87661",
+          "front": "yún",
+          "pinyin": "yún",
+          "meaning": "cloud",
+          "emoji": "",
+          "example": "天上有很多云。",
+          "examplePinyin": "tiān shàng yǒu hěn duō yún.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "yún"
+          ],
+          "hanzi": "云"
+        },
+        {
+          "id": "c_2cf1a81f43de",
+          "front": "tàiyáng",
+          "pinyin": "tàiyáng",
+          "meaning": "sun",
+          "emoji": "☀️",
+          "example": "太阳出来了。",
+          "examplePinyin": "tàiyáng chūlái le.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "tài",
+            "yáng"
+          ],
+          "hanzi": "太阳"
+        },
+        {
+          "id": "c_ecc668782928",
+          "front": "chóngfù",
+          "pinyin": "chóngfù",
+          "meaning": "to repeat / repetition",
+          "emoji": "",
+          "example": "请不要重复同样的错误。",
+          "examplePinyin": "qǐng bú yào chóngfù tóngyàng de cuòwù.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "chóng",
+            "fù"
+          ],
+          "hanzi": "重复"
+        },
+        {
+          "id": "c_05cea6d3fba5",
+          "front": "bēishāng",
+          "pinyin": "bēishāng",
+          "meaning": "sorrow / sad",
+          "emoji": "",
+          "example": "这首歌很悲伤。",
+          "examplePinyin": "zhè shǒu gē hěn bēishāng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "bēi",
+            "shāng"
+          ],
+          "hanzi": "悲伤"
+        },
+        {
+          "id": "c_273003a1bb33",
+          "front": "mèng",
+          "pinyin": "mèng",
+          "meaning": "dream",
+          "emoji": "",
+          "example": "昨晚我做了一个梦。",
+          "examplePinyin": "zuówǎn wǒ zuò le yí ge mèng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "mèng"
+          ],
+          "hanzi": "梦"
+        },
+        {
+          "id": "c_d1092801c957",
+          "front": "xìngfú",
+          "pinyin": "xìngfú",
+          "meaning": "happiness / happy",
+          "emoji": "",
+          "example": "我们过得很幸福。",
+          "examplePinyin": "wǒmen guò de hěn xìngfú.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "xìng",
+            "fú"
+          ],
+          "hanzi": "幸福"
+        },
+        {
+          "id": "c_11ce27890fa7",
+          "front": "yuǎnfāng",
+          "pinyin": "yuǎnfāng",
+          "meaning": "faraway place / the distance",
+          "emoji": "",
+          "example": "他去了远方。",
+          "examplePinyin": "tā qù le yuǎnfāng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "yuǎn",
+            "fāng"
+          ],
+          "hanzi": "远方"
+        },
+        {
+          "id": "c_4dfe8525342d",
+          "front": "chuāng",
+          "pinyin": "chuāng",
+          "meaning": "window",
+          "emoji": "",
+          "example": "请打开窗。",
+          "examplePinyin": "qǐng dǎkāi chuāng.",
+          "notes": "窗户 chuānghu is the fuller everyday word [from 《Lydia》]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "chuāng"
+          ],
+          "hanzi": "窗"
+        },
+        {
+          "id": "c_f1b501c29a95",
+          "front": "yuànwàng",
+          "pinyin": "yuànwàng",
+          "meaning": "wish / desire",
+          "emoji": "",
+          "example": "我有一个愿望。",
+          "examplePinyin": "wǒ yǒu yí ge yuànwàng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "yuàn",
+            "wàng"
+          ],
+          "hanzi": "愿望"
+        },
+        {
+          "id": "c_e9cac98e3f28",
+          "front": "gǎnshòu",
+          "pinyin": "gǎnshòu",
+          "meaning": "to feel / feeling",
+          "emoji": "",
+          "example": "我能感受到你的心情。",
+          "examplePinyin": "wǒ néng gǎnshòu dào nǐ de xīnqíng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "gǎn",
+            "shòu"
+          ],
+          "hanzi": "感受"
+        },
+        {
+          "id": "c_2ad78228bbaa",
+          "front": "hèn",
+          "pinyin": "hèn",
+          "meaning": "to hate / hatred",
+          "emoji": "",
+          "example": "我不恨任何人。",
+          "examplePinyin": "wǒ bú hèn rènhé rén.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "hèn"
+          ],
+          "hanzi": "恨"
+        },
+        {
+          "id": "c_19d2a5e748b9",
+          "front": "yuánliàng",
+          "pinyin": "yuánliàng",
+          "meaning": "to forgive",
+          "emoji": "",
+          "example": "请原谅我。",
+          "examplePinyin": "qǐng yuánliàng wǒ.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yuán",
+            "liàng"
+          ],
+          "hanzi": "原谅"
+        },
+        {
+          "id": "c_4075a95238f9",
+          "front": "shēngmìng",
+          "pinyin": "shēngmìng",
+          "meaning": "life",
+          "emoji": "",
+          "example": "生命很宝贵。",
+          "examplePinyin": "shēngmìng hěn bǎoguì.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shēng",
+            "mìng"
+          ],
+          "hanzi": "生命"
+        },
+        {
+          "id": "c_0a496f285742",
+          "front": "chōngmǎn",
+          "pinyin": "chōngmǎn",
+          "meaning": "to be full of / filled with",
+          "emoji": "",
+          "example": "她的生活充满了希望。",
+          "examplePinyin": "tā de shēnghuó chōngmǎn le xīwàng.",
+          "notes": "[from 《Lydia》]",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "chōng",
+            "mǎn"
+          ],
+          "hanzi": "充满"
         }
       ]
     },
