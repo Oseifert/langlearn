@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T12:59:07.300499+00:00",
+  "generatedAt": "2026-09-19T16:53:11.421453+00:00",
   "decks": [
     {
       "id": "mk_monkey_king",
@@ -1036,6 +1036,414 @@
             "pá"
           ],
           "hanzi": "爬"
+        },
+        {
+          "id": "c_0e95964e47da",
+          "front": "zhāngkāi",
+          "pinyin": "zhāngkāi",
+          "meaning": "to open / spread (mouth, arms, eyes)",
+          "emoji": "",
+          "example": "他张开双臂拥抱我。",
+          "examplePinyin": "tā zhāngkāi shuāng bì yōngbào wǒ.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "zhāng",
+            "kāi"
+          ],
+          "hanzi": "张开"
+        },
+        {
+          "id": "c_8a10b06543c4",
+          "front": "guāng",
+          "pinyin": "guāng",
+          "meaning": "light / beam / ray",
+          "emoji": "",
+          "example": "太阳发出金色的光。",
+          "examplePinyin": "tàiyáng fāchū jīnsè de guāng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "guāng"
+          ],
+          "hanzi": "光"
+        },
+        {
+          "id": "c_e1eb730e13fc",
+          "front": "fàng",
+          "pinyin": "fàng",
+          "meaning": "to put / place / release",
+          "emoji": "",
+          "example": "把书放在桌子上。",
+          "examplePinyin": "bǎ shū fàng zài zhuōzi shàng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "fàng"
+          ],
+          "hanzi": "放"
+        },
+        {
+          "id": "c_ca1af82cdb81",
+          "front": "tiānshàng",
+          "pinyin": "tiānshàng",
+          "meaning": "in the sky / in heaven",
+          "emoji": "",
+          "example": "天上有很多星星。",
+          "examplePinyin": "tiānshàng yǒu hěn duō xīngxing.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tiān",
+            "shàng"
+          ],
+          "hanzi": "天上"
+        },
+        {
+          "id": "c_5d08ef296fb7",
+          "front": "gōngdiàn",
+          "pinyin": "gōngdiàn",
+          "meaning": "palace",
+          "emoji": "",
+          "example": "国王住在美丽的宫殿里。",
+          "examplePinyin": "guówáng zhù zài měilì de gōngdiàn lǐ.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "gōng",
+            "diàn"
+          ],
+          "hanzi": "宫殿"
+        },
+        {
+          "id": "c_0ede0ec12289",
+          "front": "qítā",
+          "pinyin": "qítā",
+          "meaning": "other / the rest",
+          "emoji": "",
+          "example": "其他人都走了。",
+          "examplePinyin": "qítā rén dōu zǒu le.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "qí",
+            "tā"
+          ],
+          "hanzi": "其他"
+        },
+        {
+          "id": "c_48e395346ae5",
+          "front": "xiàozhe",
+          "pinyin": "xiàozhe",
+          "meaning": "smilingly / while smiling",
+          "emoji": "",
+          "example": "她笑着看着我。",
+          "examplePinyin": "tā xiàozhe kàn zhe wǒ.",
+          "notes": "着 -zhe marks an ongoing/accompanying action [from Monkey King reading]",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "xiào",
+            "zhe"
+          ],
+          "hanzi": "笑着"
+        },
+        {
+          "id": "c_9af6955f096f",
+          "front": "tiāndì",
+          "pinyin": "tiāndì",
+          "meaning": "heaven and earth / the world",
+          "emoji": "",
+          "example": "天地之间有很多秘密。",
+          "examplePinyin": "tiāndì zhī jiān yǒu hěn duō mìmì.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tiān",
+            "dì"
+          ],
+          "hanzi": "天地"
+        },
+        {
+          "id": "c_adbe683e1671",
+          "front": "zhòng",
+          "pinyin": "zhòng",
+          "meaning": "heavy",
+          "emoji": "",
+          "example": "这个箱子很重。",
+          "examplePinyin": "zhège xiāngzi hěn zhòng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zhòng"
+          ],
+          "hanzi": "重"
+        },
+        {
+          "id": "c_0fdda6738e54",
+          "front": "jiǎndān",
+          "pinyin": "jiǎndān",
+          "meaning": "simple",
+          "emoji": "",
+          "example": "这个问题很简单。",
+          "examplePinyin": "zhège wèntí hěn jiǎndān.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "jiǎn",
+            "dān"
+          ],
+          "hanzi": "简单"
+        },
+        {
+          "id": "c_0c193c3c3f7b",
+          "front": "héshuǐ",
+          "pinyin": "héshuǐ",
+          "meaning": "river water",
+          "emoji": "",
+          "example": "河水很清很凉。",
+          "examplePinyin": "héshuǐ hěn qīng hěn liáng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "hé",
+            "shuǐ"
+          ],
+          "hanzi": "河水"
+        },
+        {
+          "id": "c_a36901133c80",
+          "front": "zào",
+          "pinyin": "zào",
+          "meaning": "to make / create / build",
+          "emoji": "",
+          "example": "他们造了一座桥。",
+          "examplePinyin": "tāmen zào le yí zuò qiáo.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "zào"
+          ],
+          "hanzi": "造"
+        },
+        {
+          "id": "c_ac108c1412f4",
+          "front": "hé",
+          "pinyin": "hé",
+          "meaning": "river",
+          "emoji": "🏞️",
+          "example": "这条河很长。",
+          "examplePinyin": "zhè tiáo hé hěn cháng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "hé"
+          ],
+          "hanzi": "河"
+        },
+        {
+          "id": "c_ecb60fa56b0b",
+          "front": "huò",
+          "pinyin": "huò",
+          "meaning": "or",
+          "emoji": "",
+          "example": "你可以喝茶或咖啡。",
+          "examplePinyin": "nǐ kěyǐ hē chá huò kāfēi.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "huò"
+          ],
+          "hanzi": "或"
+        },
+        {
+          "id": "c_592f5f63f0a3",
+          "front": "hébiān",
+          "pinyin": "hébiān",
+          "meaning": "riverside / by the river",
+          "emoji": "",
+          "example": "他们在河边休息。",
+          "examplePinyin": "tāmen zài hébiān xiūxi.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "hé",
+            "biān"
+          ],
+          "hanzi": "河边"
+        },
+        {
+          "id": "c_622b35c04baf",
+          "front": "yánzhe",
+          "pinyin": "yánzhe",
+          "meaning": "along",
+          "emoji": "",
+          "example": "沿着这条路一直走。",
+          "examplePinyin": "yánzhe zhè tiáo lù yìzhí zǒu.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "yán",
+            "zhe"
+          ],
+          "hanzi": "沿着"
+        },
+        {
+          "id": "c_bfd65ef5d053",
+          "front": "hǎnjiào",
+          "pinyin": "hǎnjiào",
+          "meaning": "to shout / yell",
+          "emoji": "",
+          "example": "孩子们高兴地喊叫。",
+          "examplePinyin": "háizimen gāoxìng de hǎnjiào.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "hǎn",
+            "jiào"
+          ],
+          "hanzi": "喊叫"
+        },
+        {
+          "id": "c_cdad2a48d781",
+          "front": "pùbù",
+          "pinyin": "pùbù",
+          "meaning": "waterfall",
+          "emoji": "",
+          "example": "山上有一个大瀑布。",
+          "examplePinyin": "shān shàng yǒu yí ge dà pùbù.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "pù",
+            "bù"
+          ],
+          "hanzi": "瀑布"
+        },
+        {
+          "id": "c_281c78e98c71",
+          "front": "kànqǐlái",
+          "pinyin": "kànqǐlái",
+          "meaning": "to look / seem / appear (to be)",
+          "emoji": "",
+          "example": "她看起来很累。",
+          "examplePinyin": "tā kànqǐlái hěn lèi.",
+          "notes": "near-synonym of 看上去 kànshàngqù [from Monkey King reading]",
+          "tones": [
+            4,
+            3,
+            2
+          ],
+          "syllables": [
+            "kàn",
+            "qǐ",
+            "lái"
+          ],
+          "hanzi": "看起来"
+        },
+        {
+          "id": "c_1621a388134a",
+          "front": "cǎihóng",
+          "pinyin": "cǎihóng",
+          "meaning": "rainbow",
+          "emoji": "",
+          "example": "雨后天上出现了彩虹。",
+          "examplePinyin": "yǔ hòu tiānshàng chūxiàn le cǎihóng.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "cǎi",
+            "hóng"
+          ],
+          "hanzi": "彩虹"
+        },
+        {
+          "id": "c_13d084ba8034",
+          "front": "huǒyàn",
+          "pinyin": "huǒyàn",
+          "meaning": "flame",
+          "emoji": "",
+          "example": "火焰越来越大。",
+          "examplePinyin": "huǒyàn yuèláiyuè dà.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "huǒ",
+            "yàn"
+          ],
+          "hanzi": "火焰"
+        },
+        {
+          "id": "c_47b9d7340746",
+          "front": "fāzhe",
+          "pinyin": "fāzhe",
+          "meaning": "emitting / giving off (e.g. light)",
+          "emoji": "",
+          "example": "石头发着金色的光。",
+          "examplePinyin": "shítou fāzhe jīnsè de guāng.",
+          "notes": "发 fā = emit + 着 -zhe (ongoing); e.g. 发着光 = glowing [from Monkey King reading]",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "fā",
+            "zhe"
+          ],
+          "hanzi": "发着"
         }
       ]
     },
