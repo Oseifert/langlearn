@@ -1,7 +1,367 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T16:53:11.421453+00:00",
+  "generatedAt": "2026-09-21T05:09:02.512528+00:00",
   "decks": [
+    {
+      "id": "wk_2026_39",
+      "title": "Week of Sep 21 – 27",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-09-21T05:08:58.819442+00:00",
+      "cards": [
+        {
+          "id": "c_b49b18182e92",
+          "front": "mógū",
+          "pinyin": "mógū",
+          "meaning": "mushroom",
+          "emoji": "",
+          "example": "我喜欢吃蘑菇。",
+          "examplePinyin": "Wǒ xǐhuān chī mógū.",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "mó",
+            "gū"
+          ],
+          "hanzi": "蘑菇"
+        },
+        {
+          "id": "c_82851953ecfc",
+          "front": "qiángzhuàng",
+          "pinyin": "qiángzhuàng",
+          "meaning": "strong (physically)",
+          "emoji": "",
+          "example": "他很强壮。",
+          "examplePinyin": "Tā hěn qiángzhuàng.",
+          "notes": "强壮 = physically strong/robust. 强 qiáng alone = strong/powerful more generally.",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "qiáng",
+            "zhuàng"
+          ],
+          "hanzi": "强壮"
+        },
+        {
+          "id": "c_dbab8eea8e43",
+          "front": "húzi",
+          "pinyin": "húzi",
+          "meaning": "beard",
+          "emoji": "",
+          "example": "他有很长的胡子。",
+          "examplePinyin": "Tā yǒu hěn cháng de húzi.",
+          "notes": "húzi covers beard/moustache/facial hair",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "hú",
+            "zi"
+          ],
+          "hanzi": "胡子"
+        },
+        {
+          "id": "c_a752b3c6d2d1",
+          "front": "sháozi",
+          "pinyin": "sháozi",
+          "meaning": "spoon",
+          "emoji": "🥄",
+          "example": "用勺子喝汤。",
+          "examplePinyin": "Yòng sháozi hē tāng.",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "sháo",
+            "zi"
+          ],
+          "hanzi": "勺子"
+        },
+        {
+          "id": "c_1ce099a59b04",
+          "front": "chāzi",
+          "pinyin": "chāzi",
+          "meaning": "fork",
+          "emoji": "",
+          "example": "我需要一个叉子。",
+          "examplePinyin": "Wǒ xūyào yí gè chāzi.",
+          "notes": "",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "chā",
+            "zi"
+          ],
+          "hanzi": "叉子"
+        },
+        {
+          "id": "c_edac149a66b9",
+          "front": "dāo",
+          "pinyin": "dāo",
+          "meaning": "knife",
+          "emoji": "",
+          "example": "这把刀很快。",
+          "examplePinyin": "Zhè bǎ dāo hěn kuài.",
+          "notes": "刀子 dāozi is also used, esp. for a small knife",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "dāo"
+          ],
+          "hanzi": "刀"
+        },
+        {
+          "id": "c_6ccac01b93b6",
+          "front": "jiàotáng",
+          "pinyin": "jiàotáng",
+          "meaning": "church",
+          "emoji": "",
+          "example": "他们在教堂结婚。",
+          "examplePinyin": "Tāmen zài jiàotáng jiéhūn.",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "jiào",
+            "táng"
+          ],
+          "hanzi": "教堂"
+        },
+        {
+          "id": "c_8da999247474",
+          "front": "qǐ'é",
+          "pinyin": "qǐ'é",
+          "meaning": "penguin",
+          "emoji": "",
+          "example": "企鹅住在南极。",
+          "examplePinyin": "Qǐ'é zhù zài Nánjí.",
+          "notes": "",
+          "tones": [
+            3,
+            5,
+            2
+          ],
+          "syllables": [
+            "qǐ",
+            "'",
+            "é"
+          ],
+          "hanzi": "企鹅"
+        },
+        {
+          "id": "c_fff68fc199e4",
+          "front": "qìqiú",
+          "pinyin": "qìqiú",
+          "meaning": "balloon",
+          "emoji": "",
+          "example": "孩子喜欢气球。",
+          "examplePinyin": "Háizi xǐhuān qìqiú.",
+          "notes": "",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "qì",
+            "qiú"
+          ],
+          "hanzi": "气球"
+        },
+        {
+          "id": "c_a9e7b29d063c",
+          "front": "pūkèpái",
+          "pinyin": "pūkèpái",
+          "meaning": "playing cards",
+          "emoji": "",
+          "example": "我们玩扑克牌吧。",
+          "examplePinyin": "Wǒmen wán pūkèpái ba.",
+          "notes": "扑克牌 = a deck of playing cards. 纸牌 zhǐpái = cards more generally.",
+          "tones": [
+            1,
+            4,
+            2
+          ],
+          "syllables": [
+            "pū",
+            "kè",
+            "pái"
+          ],
+          "hanzi": "扑克牌"
+        },
+        {
+          "id": "c_f5c57147285f",
+          "front": "chúfáng",
+          "pinyin": "chúfáng",
+          "meaning": "kitchen",
+          "emoji": "",
+          "example": "妈妈在厨房做饭。",
+          "examplePinyin": "Māma zài chúfáng zuòfàn.",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "chú",
+            "fáng"
+          ],
+          "hanzi": "厨房"
+        },
+        {
+          "id": "c_d52deac0d86a",
+          "front": "yán",
+          "pinyin": "yán",
+          "meaning": "salt",
+          "emoji": "",
+          "example": "请给我一点盐。",
+          "examplePinyin": "Qǐng gěi wǒ yìdiǎn yán.",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "yán"
+          ],
+          "hanzi": "盐"
+        },
+        {
+          "id": "c_67807242466c",
+          "front": "xián",
+          "pinyin": "xián",
+          "meaning": "salty",
+          "emoji": "",
+          "example": "这个汤太咸了。",
+          "examplePinyin": "Zhège tāng tài xián le.",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "xián"
+          ],
+          "hanzi": "咸"
+        },
+        {
+          "id": "c_adcc9d2297f9",
+          "front": "hújiāo",
+          "pinyin": "hújiāo",
+          "meaning": "pepper (spice)",
+          "emoji": "",
+          "example": "加一点胡椒。",
+          "examplePinyin": "Jiā yìdiǎn hújiāo.",
+          "notes": "胡椒 = the black/white pepper spice. 辣椒 làjiāo = chili pepper.",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "hú",
+            "jiāo"
+          ],
+          "hanzi": "胡椒"
+        },
+        {
+          "id": "c_4007214ea65d",
+          "front": "tián",
+          "pinyin": "tián",
+          "meaning": "sweet",
+          "emoji": "",
+          "example": "这个西瓜很甜。",
+          "examplePinyin": "Zhège xīguā hěn tián.",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "tián"
+          ],
+          "hanzi": "甜"
+        },
+        {
+          "id": "c_3dff52aef275",
+          "front": "kǔ",
+          "pinyin": "kǔ",
+          "meaning": "bitter",
+          "emoji": "",
+          "example": "咖啡有点苦。",
+          "examplePinyin": "Kāfēi yǒudiǎn kǔ.",
+          "notes": "",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "kǔ"
+          ],
+          "hanzi": "苦"
+        },
+        {
+          "id": "c_6466c55b63ad",
+          "front": "bǎo",
+          "pinyin": "bǎo",
+          "meaning": "to be full (from eating)",
+          "emoji": "",
+          "example": "我吃饱了。",
+          "examplePinyin": "Wǒ chī bǎo le.",
+          "notes": "吃饱了 = full/satiated from eating",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "bǎo"
+          ],
+          "hanzi": "饱"
+        },
+        {
+          "id": "c_d152bc80f196",
+          "front": "è",
+          "pinyin": "è",
+          "meaning": "to be hungry",
+          "emoji": "",
+          "example": "我很饿。",
+          "examplePinyin": "Wǒ hěn è.",
+          "notes": "",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "è"
+          ],
+          "hanzi": "饿"
+        },
+        {
+          "id": "c_cf087c40fa41",
+          "front": "mòjìng",
+          "pinyin": "mòjìng",
+          "meaning": "sunglasses",
+          "emoji": "",
+          "example": "夏天我戴墨镜。",
+          "examplePinyin": "Xiàtiān wǒ dài mòjìng.",
+          "notes": "墨镜 or 太阳镜 tàiyángjìng both mean sunglasses",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "mò",
+            "jìng"
+          ],
+          "hanzi": "墨镜"
+        }
+      ]
+    },
     {
       "id": "mk_monkey_king",
       "title": "Monkey King (Reading)",
