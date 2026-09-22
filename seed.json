@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T03:43:31.917629+00:00",
+  "generatedAt": "2026-09-22T03:44:34.111179+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -422,25 +422,23 @@
           "hanzi": "姐妹"
         },
         {
-          "id": "c_a75cdc6c273a",
-          "front": "xīhóngshì",
-          "pinyin": "xīhóngshì",
+          "id": "c_163a3955266f",
+          "front": "fānqié",
+          "pinyin": "fānqié",
           "meaning": "tomato",
           "emoji": "",
-          "example": "我喜欢吃西红柿。",
-          "examplePinyin": "Wǒ xǐhuān chī xīhóngshì.",
-          "notes": "西红柿 is the common/northern word. 番茄 fānqié = same thing, southern/more formal.",
+          "example": "我喜欢吃番茄。",
+          "examplePinyin": "Wǒ xǐhuān chī fānqié.",
+          "notes": "番茄 is common in Taiwan. 西红柿 xīhóngshì = same thing, more common in mainland north.",
           "tones": [
             1,
-            2,
-            4
+            2
           ],
           "syllables": [
-            "xī",
-            "hóng",
-            "shì"
+            "fān",
+            "qié"
           ],
-          "hanzi": "西红柿"
+          "hanzi": "番茄"
         }
       ]
     },
