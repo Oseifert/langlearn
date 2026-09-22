@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T05:09:02.512528+00:00",
+  "generatedAt": "2026-09-22T03:43:31.917629+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -359,6 +359,88 @@
             "jìng"
           ],
           "hanzi": "墨镜"
+        },
+        {
+          "id": "c_6604ffb8e295",
+          "front": "xiōngdì jiěmèi",
+          "pinyin": "xiōngdì jiěmèi",
+          "meaning": "siblings",
+          "emoji": "",
+          "example": "你有几个兄弟姐妹？",
+          "examplePinyin": "Nǐ yǒu jǐ gè xiōngdì jiěmèi?",
+          "notes": "the set phrase for siblings (brothers and sisters together)",
+          "tones": [
+            1,
+            4,
+            3,
+            4
+          ],
+          "syllables": [
+            "xiōng",
+            "dì",
+            "jiě",
+            "mèi"
+          ],
+          "hanzi": "兄弟姐妹"
+        },
+        {
+          "id": "c_2441cfd55c0c",
+          "front": "xiōngdì",
+          "pinyin": "xiōngdì",
+          "meaning": "brother (general)",
+          "emoji": "",
+          "example": "他们是兄弟。",
+          "examplePinyin": "Tāmen shì xiōngdì.",
+          "notes": "general/collective 'brothers'. For specific: 哥哥 gēge = older brother, 弟弟 dìdi = younger brother.",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "xiōng",
+            "dì"
+          ],
+          "hanzi": "兄弟"
+        },
+        {
+          "id": "c_0bd5006347a0",
+          "front": "jiěmèi",
+          "pinyin": "jiěmèi",
+          "meaning": "sister (general)",
+          "emoji": "",
+          "example": "我们是姐妹。",
+          "examplePinyin": "Wǒmen shì jiěmèi.",
+          "notes": "general/collective 'sisters'. For specific: 姐姐 jiějie = older sister, 妹妹 mèimei = younger sister.",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "jiě",
+            "mèi"
+          ],
+          "hanzi": "姐妹"
+        },
+        {
+          "id": "c_a75cdc6c273a",
+          "front": "xīhóngshì",
+          "pinyin": "xīhóngshì",
+          "meaning": "tomato",
+          "emoji": "",
+          "example": "我喜欢吃西红柿。",
+          "examplePinyin": "Wǒ xǐhuān chī xīhóngshì.",
+          "notes": "西红柿 is the common/northern word. 番茄 fānqié = same thing, southern/more formal.",
+          "tones": [
+            1,
+            2,
+            4
+          ],
+          "syllables": [
+            "xī",
+            "hóng",
+            "shì"
+          ],
+          "hanzi": "西红柿"
         }
       ]
     },
