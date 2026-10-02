@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T03:44:34.111179+00:00",
+  "generatedAt": "2026-10-02T12:24:02.712709+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -1884,6 +1884,355 @@
             "zhe"
           ],
           "hanzi": "发着"
+        },
+        {
+          "id": "c_35a681199dab",
+          "front": "dìyù",
+          "pinyin": "dìyù",
+          "meaning": "hell / the underworld",
+          "emoji": "",
+          "example": "坏人死后会下地狱。",
+          "examplePinyin": "huàirén sǐ hòu huì xià dìyù.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "dì",
+            "yù"
+          ],
+          "hanzi": "地狱"
+        },
+        {
+          "id": "c_1972089f3a23",
+          "front": "dāng",
+          "pinyin": "dāng",
+          "meaning": "when / at the time of; to act as / be",
+          "emoji": "",
+          "example": "当我回家时，天已经黑了。",
+          "examplePinyin": "dāng wǒ huíjiā shí, tiān yǐjīng hēi le.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "dāng"
+          ],
+          "hanzi": "当"
+        },
+        {
+          "id": "c_983558c32d50",
+          "front": "ránhòu",
+          "pinyin": "ránhòu",
+          "meaning": "then / after that / afterwards",
+          "emoji": "",
+          "example": "先吃饭，然后做作业。",
+          "examplePinyin": "xiān chīfàn, ránhòu zuò zuòyè.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "rán",
+            "hòu"
+          ],
+          "hanzi": "然后"
+        },
+        {
+          "id": "c_44c26a80f81f",
+          "front": "tiào",
+          "pinyin": "tiào",
+          "meaning": "to jump / leap",
+          "emoji": "",
+          "example": "小猴子高高地跳起来。",
+          "examplePinyin": "xiǎo hóuzi gāogāo de tiào qǐlái.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "tiào"
+          ],
+          "hanzi": "跳"
+        },
+        {
+          "id": "c_0700c31eec05",
+          "front": "huó",
+          "pinyin": "huó",
+          "meaning": "to live / alive",
+          "emoji": "",
+          "example": "这条鱼还活着。",
+          "examplePinyin": "zhè tiáo yú hái huózhe.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "huó"
+          ],
+          "hanzi": "活"
+        },
+        {
+          "id": "c_b488383323e5",
+          "front": "chǎng",
+          "pinyin": "chǎng",
+          "meaning": "(measure word for events, performances, games)",
+          "emoji": "",
+          "example": "昨天下了一场大雨。",
+          "examplePinyin": "zuótiān xià le yì chǎng dàyǔ.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "chǎng"
+          ],
+          "hanzi": "场"
+        },
+        {
+          "id": "c_d86e17555cf5",
+          "front": "yìzhí",
+          "pinyin": "yìzhí",
+          "meaning": "continuously / all along / straight (ahead)",
+          "emoji": "",
+          "example": "他一直在等你。",
+          "examplePinyin": "tā yìzhí zài děng nǐ.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "yì",
+            "zhí"
+          ],
+          "hanzi": "一直"
+        },
+        {
+          "id": "c_604ad865db53",
+          "front": "pāishǒu",
+          "pinyin": "pāishǒu",
+          "meaning": "to clap (hands) / applaud",
+          "emoji": "",
+          "example": "大家高兴地拍手。",
+          "examplePinyin": "dàjiā gāoxìng de pāishǒu.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "pāi",
+            "shǒu"
+          ],
+          "hanzi": "拍手"
+        },
+        {
+          "id": "c_310e2055ed18",
+          "front": "yànhuì",
+          "pinyin": "yànhuì",
+          "meaning": "banquet / feast",
+          "emoji": "",
+          "example": "国王举行了一场盛大的宴会。",
+          "examplePinyin": "guówáng jǔxíng le yì chǎng shèngdà de yànhuì.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "yàn",
+            "huì"
+          ],
+          "hanzi": "宴会"
+        },
+        {
+          "id": "c_a4b48b5d81f3",
+          "front": "zhǒng",
+          "pinyin": "zhǒng",
+          "meaning": "kind / sort / type (measure word)",
+          "emoji": "",
+          "example": "这种水果很甜。",
+          "examplePinyin": "zhè zhǒng shuǐguǒ hěn tián.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "zhǒng"
+          ],
+          "hanzi": "种"
+        },
+        {
+          "id": "c_73f7afb70baf",
+          "front": "hējiǔ",
+          "pinyin": "hējiǔ",
+          "meaning": "to drink alcohol / drink wine",
+          "emoji": "",
+          "example": "他们在宴会上喝酒唱歌。",
+          "examplePinyin": "tāmen zài yànhuì shàng hējiǔ chànggē.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "hē",
+            "jiǔ"
+          ],
+          "hanzi": "喝酒"
+        },
+        {
+          "id": "c_20e2cfb73e6e",
+          "front": "duōme",
+          "pinyin": "duōme",
+          "meaning": "how / so (exclamatory: how beautiful!)",
+          "emoji": "",
+          "example": "这里的风景多么美丽啊！",
+          "examplePinyin": "zhèlǐ de fēngjǐng duōme měilì a!",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "duō",
+            "me"
+          ],
+          "hanzi": "多么"
+        },
+        {
+          "id": "c_2f3c340329c8",
+          "front": "lǐwù",
+          "pinyin": "lǐwù",
+          "meaning": "gift / present",
+          "emoji": "",
+          "example": "他送给我一个生日礼物。",
+          "examplePinyin": "tā sòng gěi wǒ yí ge shēngrì lǐwù.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "lǐ",
+            "wù"
+          ],
+          "hanzi": "礼物"
+        },
+        {
+          "id": "c_dd5de72a206b",
+          "front": "jīngguò",
+          "pinyin": "jīngguò",
+          "meaning": "to pass by / go through; after / as a result of",
+          "emoji": "",
+          "example": "经过努力，他终于成功了。",
+          "examplePinyin": "jīngguò nǔlì, tā zhōngyú chénggōng le.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "jīng",
+            "guò"
+          ],
+          "hanzi": "经过"
+        },
+        {
+          "id": "c_8709fab50574",
+          "front": "diàoyú",
+          "pinyin": "diàoyú",
+          "meaning": "to fish / go fishing",
+          "emoji": "",
+          "example": "爷爷喜欢去河边钓鱼。",
+          "examplePinyin": "yéye xǐhuan qù hébiān diàoyú.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "diào",
+            "yú"
+          ],
+          "hanzi": "钓鱼"
+        },
+        {
+          "id": "c_43cf8f27e58d",
+          "front": "kěpà",
+          "pinyin": "kěpà",
+          "meaning": "terrible / frightful / scary",
+          "emoji": "",
+          "example": "那是一个可怕的怪物。",
+          "examplePinyin": "nà shì yí ge kěpà de guàiwù.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "kě",
+            "pà"
+          ],
+          "hanzi": "可怕"
+        },
+        {
+          "id": "c_d6e114f8be68",
+          "front": "chǒu",
+          "pinyin": "chǒu",
+          "meaning": "ugly",
+          "emoji": "",
+          "example": "这个妖怪长得很丑。",
+          "examplePinyin": "zhège yāoguài zhǎng de hěn chǒu.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "chǒu"
+          ],
+          "hanzi": "丑"
+        },
+        {
+          "id": "c_3058b1755e0f",
+          "front": "dédào",
+          "pinyin": "dédào",
+          "meaning": "to get / obtain / receive",
+          "emoji": "",
+          "example": "他得到了大家的帮助。",
+          "examplePinyin": "tā dédào le dàjiā de bāngzhù.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "dé",
+            "dào"
+          ],
+          "hanzi": "得到"
+        },
+        {
+          "id": "c_5dd8f2b6f0cf",
+          "front": "gèngduō",
+          "pinyin": "gèngduō",
+          "meaning": "more / even more",
+          "emoji": "",
+          "example": "我想学更多的汉字。",
+          "examplePinyin": "wǒ xiǎng xué gèngduō de hànzì.",
+          "notes": "[from Monkey King reading]",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "gèng",
+            "duō"
+          ],
+          "hanzi": "更多"
         }
       ]
     },
