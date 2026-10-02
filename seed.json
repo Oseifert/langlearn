@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T12:24:02.712709+00:00",
+  "generatedAt": "2026-10-02T12:32:31.947562+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -25710,6 +25710,180 @@
             "shī"
           ],
           "hanzi": "老师"
+        }
+      ]
+    },
+    {
+      "id": "wk_2026_40",
+      "title": "Week of Sep 28 – Oct 04",
+      "source": "",
+      "summary": "",
+      "createdAt": "",
+      "cards": [
+        {
+          "id": "c_dd38c4bc91c1",
+          "front": "páshān",
+          "pinyin": "páshān",
+          "meaning": "to hike / climb a mountain",
+          "emoji": "",
+          "example": "周末我们一起去爬山吧。",
+          "examplePinyin": "zhōumò wǒmen yìqǐ qù páshān ba.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "pá",
+            "shān"
+          ],
+          "hanzi": "爬山"
+        },
+        {
+          "id": "c_563bdb3c601e",
+          "front": "qiánbāo",
+          "pinyin": "qiánbāo",
+          "meaning": "wallet / purse",
+          "emoji": "",
+          "example": "我的钱包不见了。",
+          "examplePinyin": "wǒ de qiánbāo bújiàn le.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "qián",
+            "bāo"
+          ],
+          "hanzi": "钱包"
+        },
+        {
+          "id": "c_0586b86c418e",
+          "front": "yóuxì",
+          "pinyin": "yóuxì",
+          "meaning": "game (esp. video game)",
+          "emoji": "🎮",
+          "example": "他每天晚上玩游戏。",
+          "examplePinyin": "tā měitiān wǎnshang wán yóuxì.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yóu",
+            "xì"
+          ],
+          "hanzi": "游戏"
+        },
+        {
+          "id": "c_f3aa3ef59ce6",
+          "front": "xióng",
+          "pinyin": "xióng",
+          "meaning": "bear",
+          "emoji": "",
+          "example": "森林里有一只大熊。",
+          "examplePinyin": "sēnlín lǐ yǒu yì zhī dà xióng.",
+          "notes": "[from weekly]",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "xióng"
+          ],
+          "hanzi": "熊"
+        },
+        {
+          "id": "c_398d37ff13d4",
+          "front": "huáxuě",
+          "pinyin": "huáxuě",
+          "meaning": "to ski",
+          "emoji": "",
+          "example": "冬天我喜欢去滑雪。",
+          "examplePinyin": "dōngtiān wǒ xǐhuan qù huáxuě.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "huá",
+            "xuě"
+          ],
+          "hanzi": "滑雪"
+        },
+        {
+          "id": "c_fdfbacfbac6b",
+          "front": "tōu",
+          "pinyin": "tōu",
+          "meaning": "to steal",
+          "emoji": "",
+          "example": "有人偷了我的自行车。",
+          "examplePinyin": "yǒurén tōu le wǒ de zìxíngchē.",
+          "notes": "[from weekly]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tōu"
+          ],
+          "hanzi": "偷"
+        },
+        {
+          "id": "c_7835646c7972",
+          "front": "shìpín",
+          "pinyin": "shìpín",
+          "meaning": "video / video clip",
+          "emoji": "",
+          "example": "我在看一个中文视频。",
+          "examplePinyin": "wǒ zài kàn yí ge zhōngwén shìpín.",
+          "notes": "[from weekly]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "shì",
+            "pín"
+          ],
+          "hanzi": "视频"
+        },
+        {
+          "id": "c_afb8c3e0a18d",
+          "front": "fùqián",
+          "pinyin": "fùqián",
+          "meaning": "to pay (money)",
+          "emoji": "",
+          "example": "请在这里付钱。",
+          "examplePinyin": "qǐng zài zhèlǐ fùqián.",
+          "notes": "[from weekly]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "fù",
+            "qián"
+          ],
+          "hanzi": "付钱"
+        },
+        {
+          "id": "c_ac31f61d9a81",
+          "front": "zhuā",
+          "pinyin": "zhuā",
+          "meaning": "to grab / hold on to / grasp",
+          "emoji": "",
+          "example": "在地铁上要抓住扶手。",
+          "examplePinyin": "zài dìtiě shàng yào zhuā zhù fúshǒu.",
+          "notes": "抓住 zhuāzhù = grab and hold on (e.g. a subway handle) [from weekly]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "zhuā"
+          ],
+          "hanzi": "抓"
         }
       ]
     }
