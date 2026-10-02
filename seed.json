@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T12:32:31.947562+00:00",
+  "generatedAt": "2026-10-02T12:36:03.593966+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -25884,6 +25884,25 @@
             "zhuā"
           ],
           "hanzi": "抓"
+        },
+        {
+          "id": "c_76cbb14322cb",
+          "front": "túpiàn",
+          "pinyin": "túpiàn",
+          "meaning": "picture / image / photo",
+          "emoji": "",
+          "example": "我们今天用图片学习一个故事。",
+          "examplePinyin": "wǒmen jīntiān yòng túpiàn xuéxí yí ge gùshi.",
+          "notes": "[weekly]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "tú",
+            "piàn"
+          ],
+          "hanzi": "图片"
         }
       ]
     }
