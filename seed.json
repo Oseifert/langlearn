@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T12:36:03.593966+00:00",
+  "generatedAt": "2026-10-02T12:46:55.401691+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -151,12 +151,10 @@
           "notes": "",
           "tones": [
             3,
-            5,
             2
           ],
           "syllables": [
             "qǐ",
-            "'",
             "é"
           ],
           "hanzi": "企鹅"
@@ -342,23 +340,27 @@
           "hanzi": "饿"
         },
         {
-          "id": "c_cf087c40fa41",
-          "front": "mòjìng",
-          "pinyin": "mòjìng",
+          "id": "c_0de670dd3e8f",
+          "front": "tàiyáng yǎnjìng",
+          "pinyin": "tàiyáng yǎnjìng",
           "meaning": "sunglasses",
           "emoji": "",
-          "example": "夏天我戴墨镜。",
-          "examplePinyin": "Xiàtiān wǒ dài mòjìng.",
-          "notes": "墨镜 or 太阳镜 tàiyángjìng both mean sunglasses",
+          "example": "出去的时候别忘了戴太阳眼镜。",
+          "examplePinyin": "chūqù de shíhou bié wàng le dài tàiyáng yǎnjìng.",
+          "notes": "Taiwan everyday term (vs 墨镜 mòjìng)",
           "tones": [
             4,
+            2,
+            3,
             4
           ],
           "syllables": [
-            "mò",
+            "tài",
+            "yáng",
+            "yǎn",
             "jìng"
           ],
-          "hanzi": "墨镜"
+          "hanzi": "太阳眼镜"
         },
         {
           "id": "c_6604ffb8e295",
@@ -460,12 +462,10 @@
           "notes": "",
           "tones": [
             1,
-            5,
             4
           ],
           "syllables": [
             "qīn",
-            "'",
             "ài"
           ],
           "hanzi": "亲爱"
@@ -23168,20 +23168,20 @@
           "hanzi": "舒服"
         },
         {
-          "id": "c_9e503cee3ac6",
-          "front": "wēixiǎn",
-          "pinyin": "wēixiǎn",
+          "id": "c_9af2626ba2eb",
+          "front": "wéixiǎn",
+          "pinyin": "wéixiǎn",
           "meaning": "dangerous",
           "emoji": "",
-          "example": "yǒu yìdiǎnr wēixiǎn",
-          "examplePinyin": "",
-          "notes": "",
+          "example": "过马路的时候要小心，有一点儿危险。",
+          "examplePinyin": "guò mǎlù de shíhou yào xiǎoxīn, yǒu yìdiǎnr wéixiǎn.",
+          "notes": "Taiwan reading: 危 = wéi (2nd tone)",
           "tones": [
-            1,
+            2,
             3
           ],
           "syllables": [
-            "wēi",
+            "wéi",
             "xiǎn"
           ],
           "hanzi": "危险"
@@ -23252,12 +23252,10 @@
           "notes": "",
           "tones": [
             3,
-            5,
             3
           ],
           "syllables": [
             "ǒu",
-            "'",
             "ěr"
           ],
           "hanzi": "偶尔"

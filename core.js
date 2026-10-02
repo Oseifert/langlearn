@@ -172,7 +172,8 @@
   function _cleanPinyin(p) {
     p = (p || '').trim();
     p = p.replace(/\([^)]*\)/g, ' ');                  // remove (male)/(female)
-    p = p.replace(/[^\w\u00c0-\u024f\s'üÜ]/g, ' ');    // keep letters/diacritics/space
+    p = p.replace(/['\u2019\u02bc]/g, ' ');            // pinyin syllable-separator apostrophe -> boundary (qǐ'é, nǚ'ér, Xī'ān)
+    p = p.replace(/[^\w\u00c0-\u024f\süÜ]/g, ' ');     // keep letters/diacritics/space
     return p.replace(/\s+/g, ' ').trim();
   }
   function deriveTones(pinyin) {
