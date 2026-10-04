@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T21:06:12.696429+00:00",
+  "generatedAt": "2026-10-04T23:58:38.363189+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -26054,6 +26054,40 @@
             "rén"
           ],
           "hanzi": "烦人"
+        },
+        {
+          "id": "c_d8c7abf123a9",
+          "front": "rēng",
+          "pinyin": "rēng",
+          "meaning": "to throw",
+          "emoji": "",
+          "example": "他把球扔给我。",
+          "examplePinyin": "Tā bǎ qiú rēng gěi wǒ.",
+          "notes": "to throw/toss; 扔掉 rēngdiào = to throw away",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "rēng"
+          ],
+          "hanzi": "扔"
+        },
+        {
+          "id": "c_8b278aa3a338",
+          "front": "diào",
+          "pinyin": "diào",
+          "meaning": "to fall (object falling down)",
+          "emoji": "",
+          "example": "苹果从树上掉下来了。",
+          "examplePinyin": "Píngguǒ cóng shù shàng diào xiàlái le.",
+          "notes": "掉下来 = to fall down; for a person falling use 摔倒 shuāidǎo",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "diào"
+          ],
+          "hanzi": "掉"
         }
       ]
     }
