@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T14:29:17.866000+00:00",
+  "generatedAt": "2026-10-04T21:06:12.696429+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -26018,6 +26018,42 @@
             "tī"
           ],
           "hanzi": "楼梯"
+        },
+        {
+          "id": "c_8fb6e7663caf",
+          "front": "guài",
+          "pinyin": "guài",
+          "meaning": "weird (of a person)",
+          "emoji": "",
+          "example": "他这个人很怪。",
+          "examplePinyin": "Tā zhège rén hěn guài.",
+          "notes": "奇怪 qíguài = strange/odd; 怪 describes a person being weird",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guài"
+          ],
+          "hanzi": "怪"
+        },
+        {
+          "id": "c_a8d456495082",
+          "front": "fánrén",
+          "pinyin": "fánrén",
+          "meaning": "annoying (of a person)",
+          "emoji": "",
+          "example": "他真的很烦人。",
+          "examplePinyin": "Tā zhēnde hěn fánrén.",
+          "notes": "烦人 = annoying; 讨厌 tǎoyàn also = annoying/to dislike",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "fán",
+            "rén"
+          ],
+          "hanzi": "烦人"
         }
       ]
     }
