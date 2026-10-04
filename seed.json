@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T12:46:55.401691+00:00",
+  "generatedAt": "2026-10-04T14:29:17.866000+00:00",
   "decks": [
     {
       "id": "wk_2026_39",
@@ -25901,6 +25901,123 @@
             "piàn"
           ],
           "hanzi": "图片"
+        },
+        {
+          "id": "c_e8c7fdab1f84",
+          "front": "liànxí",
+          "pinyin": "liànxí",
+          "meaning": "to practice",
+          "emoji": "",
+          "example": "我每天练习中文。",
+          "examplePinyin": "Wǒ měitiān liànxí Zhōngwén.",
+          "notes": "to practice (e.g. Chinese)",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "liàn",
+            "xí"
+          ],
+          "hanzi": "练习"
+        },
+        {
+          "id": "c_bdd9f5c07e83",
+          "front": "pāizhào",
+          "pinyin": "pāizhào",
+          "meaning": "to take a picture",
+          "emoji": "",
+          "example": "我们一起拍照吧！",
+          "examplePinyin": "Wǒmen yìqǐ pāizhào ba!",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "pāi",
+            "zhào"
+          ],
+          "hanzi": "拍照"
+        },
+        {
+          "id": "c_b9ae842bc3f1",
+          "front": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
+          "pinyin": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
+          "meaning": "excuse me, could you take a picture of us?",
+          "emoji": "",
+          "example": "不好意思，可以帮我们拍张照吗？",
+          "examplePinyin": "",
+          "notes": "polite request to a stranger",
+          "tones": [
+            4,
+            3,
+            4,
+            5,
+            3,
+            3,
+            1,
+            3,
+            5,
+            1,
+            1,
+            4,
+            5
+          ],
+          "syllables": [
+            "bù",
+            "hǎo",
+            "yì",
+            "si",
+            "kě",
+            "yǐ",
+            "bāng",
+            "wǒ",
+            "men",
+            "pāi",
+            "zhāng",
+            "zhào",
+            "ma"
+          ],
+          "hanzi": "不好意思，可以帮我们拍张照吗？"
+        },
+        {
+          "id": "c_2958ea6d1759",
+          "front": "xiǎoxīn",
+          "pinyin": "xiǎoxīn",
+          "meaning": "watch out / be careful",
+          "emoji": "",
+          "example": "小心！地上很滑。",
+          "examplePinyin": "Xiǎoxīn! Dìshàng hěn huá.",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "xiǎo",
+            "xīn"
+          ],
+          "hanzi": "小心"
+        },
+        {
+          "id": "c_b1e7313a2bcb",
+          "front": "lóutī",
+          "pinyin": "lóutī",
+          "meaning": "stairs",
+          "emoji": "",
+          "example": "我们走楼梯吧。",
+          "examplePinyin": "Wǒmen zǒu lóutī ba.",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "lóu",
+            "tī"
+          ],
+          "hanzi": "楼梯"
         }
       ]
     }
