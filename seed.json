@@ -1,7 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T23:58:38.363189+00:00",
+  "generatedAt": "2026-10-05T00:00:44.418646+00:00",
   "decks": [
+    {
+      "id": "wk_2026_41",
+      "title": "Week of Oct 05 – 11",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-10-05T00:00:43.868967+00:00",
+      "cards": [
+        {
+          "id": "c_d6c022dec98b",
+          "front": "shùzhī",
+          "pinyin": "shùzhī",
+          "meaning": "branch (of a tree)",
+          "emoji": "",
+          "example": "鸟站在树枝上。",
+          "examplePinyin": "Niǎo zhàn zài shùzhī shàng.",
+          "notes": "树 shù = tree, 枝 zhī = branch",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shù",
+            "zhī"
+          ],
+          "hanzi": "树枝"
+        }
+      ]
+    },
     {
       "id": "wk_2026_39",
       "title": "Week of Sep 21 – 27",
