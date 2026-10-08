@@ -1,7 +1,98 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T00:02:35.165372+00:00",
+  "generatedAt": "2026-10-08T07:01:46.787460+00:00",
   "decks": [
+    {
+      "id": "wk_2026_41",
+      "title": "Week of Oct 05 – 11",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-10-08T07:01:41.956752+00:00",
+      "cards": [
+        {
+          "id": "c_766650e520a7",
+          "front": "sānmíngzhì",
+          "pinyin": "sānmíngzhì",
+          "meaning": "sandwich",
+          "emoji": "",
+          "example": "我想吃一个三明治。",
+          "examplePinyin": "wǒ xiǎng chī yí ge sānmíngzhì.",
+          "notes": "",
+          "tones": [
+            1,
+            2,
+            4
+          ],
+          "syllables": [
+            "sān",
+            "míng",
+            "zhì"
+          ],
+          "hanzi": "三明治"
+        },
+        {
+          "id": "c_3b8834c47e13",
+          "front": "shǔtiáo",
+          "pinyin": "shǔtiáo",
+          "meaning": "french fries",
+          "emoji": "",
+          "example": "我要一份薯条。",
+          "examplePinyin": "wǒ yào yí fèn shǔtiáo.",
+          "notes": "炸薯条 zhá shǔtiáo = fried fries",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "shǔ",
+            "tiáo"
+          ],
+          "hanzi": "薯条"
+        },
+        {
+          "id": "c_a1944bede965",
+          "front": "hànbǎobāo",
+          "pinyin": "hànbǎobāo",
+          "meaning": "hamburger",
+          "emoji": "",
+          "example": "这个汉堡包很好吃。",
+          "examplePinyin": "zhège hànbǎobāo hěn hǎochī.",
+          "notes": "often shortened to 汉堡 hànbǎo",
+          "tones": [
+            4,
+            3,
+            1
+          ],
+          "syllables": [
+            "hàn",
+            "bǎo",
+            "bāo"
+          ],
+          "hanzi": "汉堡包"
+        },
+        {
+          "id": "c_1f718458c0e1",
+          "front": "yǎnchànghuì",
+          "pinyin": "yǎnchànghuì",
+          "meaning": "concert",
+          "emoji": "",
+          "example": "我们去看演唱会。",
+          "examplePinyin": "wǒmen qù kàn yǎnchànghuì.",
+          "notes": "演唱会 = pop/vocal concert; 音乐会 yīnyuèhuì = classical concert",
+          "tones": [
+            3,
+            4,
+            4
+          ],
+          "syllables": [
+            "yǎn",
+            "chàng",
+            "huì"
+          ],
+          "hanzi": "演唱会"
+        }
+      ]
+    },
     {
       "id": "wk_2026_39",
       "title": "Week of Sep 21 – 27",
