@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T07:01:46.787460+00:00",
+  "generatedAt": "2026-10-09T11:52:51.311991+00:00",
   "decks": [
     {
       "id": "wk_2026_41",
@@ -90,6 +90,352 @@
             "huì"
           ],
           "hanzi": "演唱会"
+        },
+        {
+          "id": "c_9d34b872d2fa",
+          "front": "níngméng",
+          "pinyin": "níngméng",
+          "meaning": "lemon",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "níng",
+            "méng"
+          ],
+          "hanzi": "柠檬"
+        },
+        {
+          "id": "c_0413b39794bd",
+          "front": "chéngzi",
+          "pinyin": "chéngzi",
+          "meaning": "orange (fruit)",
+          "emoji": "🟠",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "chéng",
+            "zi"
+          ],
+          "hanzi": "橙子"
+        },
+        {
+          "id": "c_d41aefd9d6cd",
+          "front": "bōcài",
+          "pinyin": "bōcài",
+          "meaning": "spinach",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "bō",
+            "cài"
+          ],
+          "hanzi": "菠菜"
+        },
+        {
+          "id": "c_bd41234c096f",
+          "front": "xīlánhuā",
+          "pinyin": "xīlánhuā",
+          "meaning": "broccoli",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            2,
+            1
+          ],
+          "syllables": [
+            "xī",
+            "lán",
+            "huā"
+          ],
+          "hanzi": "西兰花"
+        },
+        {
+          "id": "c_83d97744358e",
+          "front": "yùmǐ",
+          "pinyin": "yùmǐ",
+          "meaning": "corn",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "yù",
+            "mǐ"
+          ],
+          "hanzi": "玉米"
+        },
+        {
+          "id": "c_9388d21c192d",
+          "front": "xiā",
+          "pinyin": "xiā",
+          "meaning": "shrimp",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "xiā"
+          ],
+          "hanzi": "虾"
+        },
+        {
+          "id": "c_6681821a8348",
+          "front": "hǎixiān",
+          "pinyin": "hǎixiān",
+          "meaning": "seafood",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "hǎi",
+            "xiān"
+          ],
+          "hanzi": "海鲜"
+        },
+        {
+          "id": "c_0677fb035626",
+          "front": "sìjìdòu",
+          "pinyin": "sìjìdòu",
+          "meaning": "green beans (string beans)",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            4,
+            4,
+            4
+          ],
+          "syllables": [
+            "sì",
+            "jì",
+            "dòu"
+          ],
+          "hanzi": "四季豆"
+        },
+        {
+          "id": "c_4b3092098d39",
+          "front": "shūcài",
+          "pinyin": "shūcài",
+          "meaning": "vegetable",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shū",
+            "cài"
+          ],
+          "hanzi": "蔬菜"
+        },
+        {
+          "id": "c_b78f5907f24f",
+          "front": "sùshízhě",
+          "pinyin": "sùshízhě",
+          "meaning": "vegetarian",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            4,
+            2,
+            3
+          ],
+          "syllables": [
+            "sù",
+            "shí",
+            "zhě"
+          ],
+          "hanzi": "素食者"
+        },
+        {
+          "id": "c_b55f31c565ca",
+          "front": "niúpái",
+          "pinyin": "niúpái",
+          "meaning": "steak",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "niú",
+            "pái"
+          ],
+          "hanzi": "牛排"
+        },
+        {
+          "id": "c_a147e9ea9eaf",
+          "front": "zhūpái",
+          "pinyin": "zhūpái",
+          "meaning": "pork chop / roast pork",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "zhū",
+            "pái"
+          ],
+          "hanzi": "猪排"
+        },
+        {
+          "id": "c_74fcd8e199ea",
+          "front": "yāròu",
+          "pinyin": "yāròu",
+          "meaning": "duck (meat)",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "yā",
+            "ròu"
+          ],
+          "hanzi": "鸭肉"
+        },
+        {
+          "id": "c_0e24f1de2f8b",
+          "front": "yángròu",
+          "pinyin": "yángròu",
+          "meaning": "lamb meat",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yáng",
+            "ròu"
+          ],
+          "hanzi": "羊肉"
+        },
+        {
+          "id": "c_f760299e24c1",
+          "front": "xiāngjiāo",
+          "pinyin": "xiāngjiāo",
+          "meaning": "banana",
+          "emoji": "🍌",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "xiāng",
+            "jiāo"
+          ],
+          "hanzi": "香蕉"
+        },
+        {
+          "id": "c_c2a1cb5770c8",
+          "front": "táozi",
+          "pinyin": "táozi",
+          "meaning": "peach",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "táo",
+            "zi"
+          ],
+          "hanzi": "桃子"
+        },
+        {
+          "id": "c_e18531182f4a",
+          "front": "yànmài",
+          "pinyin": "yànmài",
+          "meaning": "oatmeal",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "yàn",
+            "mài"
+          ],
+          "hanzi": "燕麦"
+        },
+        {
+          "id": "c_5010624c82a9",
+          "front": "màipiàn",
+          "pinyin": "màipiàn",
+          "meaning": "granola",
+          "emoji": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "mài",
+            "piàn"
+          ],
+          "hanzi": "麦片"
         }
       ]
     },
