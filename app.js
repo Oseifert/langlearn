@@ -437,7 +437,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v74 · emoji pass 2 — 672 cards now have pictures';
+const BUILD = 'v75 · POS badges (N)(V)(Adj) always shown on picture prompt';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -658,11 +658,17 @@ function shuffle(a) { return YC.shuffle(a); }
 // Chinese/pinyin front, with a trailing emoji when the word has an obvious
 // concrete fit (memory aid). Emoji comes from the seed (build_seed.py).
 function frontText(c) { return c.emoji ? `${c.front} ${c.emoji}` : c.front; }
-// Human-readable POS tag for the picture-prompt face. Empty when unknown.
-const POS_LABEL = { verb: 'verb', adj: 'adjective', adv: 'adverb', noun: 'noun' };
-function posTag(c) { const p = c && c.pos; return p && POS_LABEL[p] ? POS_LABEL[p] : (p || ''); }
+// Compact POS badge for the picture-prompt face, e.g. (N) (V) (Adj) (Adv).
+// Shown on the EN→中 picture prompt so e.g. the 🍬 card reads as (Adj) "sweet",
+// not misread as the noun "candy". A card that HAS a picture but no explicit
+// pos defaults to (N) — emoji'd words are overwhelmingly concrete nouns.
+const POS_LABEL = { verb: 'V', adj: 'Adj', adv: 'Adv', noun: 'N' };
+function posTag(c, { defaultNoun = false } = {}) {
+  const p = (c && c.pos) || (defaultNoun ? 'noun' : '');
+  return POS_LABEL[p] ? `(${POS_LABEL[p]})` : '';
+}
 // Build the en2zh ("produce the Chinese") PROMPT face.
-//   - When the card has an emoji/emoji-chain: show the picture big + a POS tag,
+//   - When the card has an emoji/emoji-chain: show the picture big + a POS badge,
 //     plus a small "reveal English" button for when the picture is ambiguous.
 //     This forces direct meaning->Chinese mapping instead of translating English.
 //   - When there is NO usable visual (grammar words, abstract adverbs, etc.):
@@ -675,7 +681,8 @@ function appendEn2zhPrompt(mount, c) {
     return;
   }
   mount.append(el('div', { class: 'pic-prompt' }, c.emoji));
-  const tag = posTag(c);
+  // Always show a badge on the picture prompt (default to noun when unclassified).
+  const tag = posTag(c, { defaultNoun: true });
   if (tag) mount.append(el('div', { class: 'pos-tag' }, tag));
   // Reveal-English affordance: hidden until tapped; stops propagation so it
   // doesn't flip the whole card to the answer.

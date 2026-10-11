@@ -89,7 +89,7 @@ body{
 
 /* Picture-prompt (en2zh "produce the Chinese" face) */
 .card .pic-prompt{font-size:4.5rem;line-height:1.15;letter-spacing:.1rem;text-align:center}
-.card .pos-tag{font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:.12rem .55rem}
+.card .pos-tag{font-size:.8rem;font-weight:700;letter-spacing:.03em;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:.14rem .6rem}
 .card .reveal-en-btn{background:transparent;border:1px dashed var(--muted);color:var(--muted);font-size:.78rem;border-radius:999px;padding:.3rem .8rem;cursor:pointer}
 .card .reveal-en-btn:active{transform:scale(.95)}
 .card .reveal-en{font-size:1.1rem;color:var(--accent);font-weight:600}
