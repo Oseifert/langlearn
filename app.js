@@ -437,7 +437,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v73 · flat nav (no deck↔learn bounce on back)';
+const BUILD = 'v74 · emoji pass 2 — 672 cards now have pictures';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
