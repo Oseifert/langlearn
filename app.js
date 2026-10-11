@@ -337,9 +337,38 @@ const app = {
     this.stack.push({ view, params });
     await render();
   },
+  // Navigate to a view that logically lives ABOVE the current one in the nav
+  // hierarchy (e.g. a "Back to deck" / "Back to home" button). Instead of
+  // PUSHING another frame (which bloats the stack with duplicates and makes the
+  // hardware/▹ back button bounce between stale copies), unwind the stack to the
+  // nearest existing matching frame. Match by view + deckId so re-entering the
+  // same deck collapses rather than stacks. Falls back to a normal push when no
+  // matching ancestor exists.
+  async goBackTo(view, params = {}) {
+    const want = params.deckId;
+    for (let k = this.stack.length - 2; k >= 0; k--) {
+      const f = this.stack[k];
+      if (f.view === view && (want === undefined || (f.params && f.params.deckId) === want)) {
+        this.stack.length = k + 1;        // truncate everything above the match
+        await render();
+        return;
+      }
+    }
+    // No ancestor to return to — replace the current frame rather than push,
+    // so transient screens (learn/done) don't linger in history.
+    this.stack[this.stack.length - 1] = { view, params };
+    await render();
+  },
   async back() {
     this.stack.pop();
     if (!this.stack.length) this.stack.push({ view: 'home' });
+    await render();
+  },
+  // Swap the current frame in place (no depth change). Used when a transient
+  // screen hands off to another transient screen at the same level (e.g. the
+  // Learn done-screen starting the next Learn batch) so history stays flat.
+  async replace(view, params = {}) {
+    this.stack[this.stack.length - 1] = { view, params };
     await render();
   },
   cur() { return this.stack[this.stack.length - 1] || { view: 'home' }; },
@@ -408,7 +437,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v72 · picture-prompt mode (emoji + POS tag for EN→中)';
+const BUILD = 'v73 · flat nav (no deck↔learn bounce on back)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -789,7 +818,7 @@ async function renderLearn(root, params) {
       el('div', { class: 'big' }, '🎉'),
       el('h2', {}, 'You’ve met every word in this deck!'),
       el('div', { class: 'hint', style: 'margin:.4rem 0 1rem' }, `All ${ms.total} words are in your review rotation. Keep them fresh with Practice.`),
-      el('button', { class: 'btn primary', onclick: () => app.go('deck', { deckId: params.deckId }) }, 'Back to deck'));
+      el('button', { class: 'btn primary', onclick: () => app.goBackTo('deck', { deckId: params.deckId }) }, 'Back to deck'));
     root.append(wrap); return;
   }
 
@@ -822,11 +851,11 @@ async function renderLearn(root, params) {
       el('div', { class: 'hint', style: 'margin:.4rem 0 1rem' },
         `${after.met} / ${after.total} met · ${after.unseen} left. These are now in your review rotation — practice them to lock them in.`));
     if (after.unseen > 0) {
-      wrap.append(el('button', { class: 'btn primary', onclick: () => app.go('learn', { deckId: params.deckId }) },
+      wrap.append(el('button', { class: 'btn primary', onclick: () => app.replace('learn', { deckId: params.deckId }) },
         `Learn next ${Math.min(LEARN_BATCH, after.unseen)} →`));
     }
     wrap.append(el('button', { class: 'btn', onclick: () => app.go('practice', { mode: 'deck', deckId: params.deckId, dir: 'zh2en' }) }, 'Practice these now'));
-    wrap.append(el('button', { class: 'btn', onclick: () => app.go('deck', { deckId: params.deckId }) }, 'Back to deck'));
+    wrap.append(el('button', { class: 'btn', onclick: () => app.goBackTo('deck', { deckId: params.deckId }) }, 'Back to deck'));
     stage.replaceWith(wrap);
   }
 
