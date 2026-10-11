@@ -187,6 +187,26 @@
     const out = []; for (const t of toks) if (t) out.push(..._tokenSyllables(t)); return out;
   }
 
+  // ---------- part-of-speech derivation ----------
+  // Infer a coarse POS from the English meaning, used to tag the picture-prompt
+  // (en2zh) face so near-identical visuals (e.g. 🏃 run vs jogger) disambiguate.
+  // Conservative: returns '' when unsure rather than guessing wrong. A seed-
+  // supplied `pos` always wins over this (see app: makeCardRecord).
+  const _ADJ_HINTS = ['convenient','hungry','full','happy','sad','tired','busy','beautiful','pretty','expensive','cheap','fast','slow','hot','cold','warm','cool','big','small','long','short','tall','new','old','young','clean','dirty','easy','difficult','hard','important','interesting','delicious','comfortable','quiet','noisy','safe','dangerous','healthy','sick','ill','ready','free','angry','afraid','scared','pregnant','polite','lucky','simple'];
+  const _ADV_HINTS = ['already','just','often','always','usually','sometimes','never','really','very','too','also','maybe','perhaps','suddenly','finally','together','again','still','almost','probably','especially','immediately','recently'];
+  function derivePos(meaning) {
+    if (!meaning) return '';
+    let m = meaning.trim().toLowerCase();
+    m = m.replace(/\([^)]*\)/g, ' ').trim();           // drop parentheticals
+    const first = m.split(/[,;/]/)[0].trim();          // primary sense
+    if (!first) return '';
+    if (/^to\s+\w/.test(first)) return 'verb';          // "to borrow"
+    const w0 = first.split(/\s+/)[0];
+    if (_ADJ_HINTS.includes(first) || _ADJ_HINTS.includes(w0)) return 'adj';
+    if (_ADV_HINTS.includes(first) || _ADV_HINTS.includes(w0)) return 'adv';
+    return ''; // default: unknown (most are concrete nouns; leave untagged)
+  }
+
   // ---------- shuffle (Fisher-Yates) ----------
   function shuffle(a, rng) {
     rng = rng || Math.random;
@@ -203,7 +223,7 @@
     isMet, nextUnseen, introduce, metStats,
     reverseCreditedModes,
     stateForMode, modesFor, fullyMastered, modeMastery, deckStatsModes,
-    deriveTones, deriveSyllables,
+    deriveTones, deriveSyllables, derivePos,
     shuffle,
   };
 });

@@ -121,6 +121,7 @@ function makeCardRecord(raw, deckId) {
     meaning: raw.meaning || '',
     hanzi: raw.hanzi || '',
     emoji: raw.emoji || '',
+    pos: raw.pos || YC.derivePos(raw.meaning || ''),
     example: raw.example || '',
     examplePinyin: raw.examplePinyin || '',
     notes: raw.notes || '',
@@ -407,7 +408,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v53 · orphan sweep on boot (remove deleted cards now)';
+const BUILD = 'v72 · picture-prompt mode (emoji + POS tag for EN→中)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -628,6 +629,34 @@ function shuffle(a) { return YC.shuffle(a); }
 // Chinese/pinyin front, with a trailing emoji when the word has an obvious
 // concrete fit (memory aid). Emoji comes from the seed (build_seed.py).
 function frontText(c) { return c.emoji ? `${c.front} ${c.emoji}` : c.front; }
+// Human-readable POS tag for the picture-prompt face. Empty when unknown.
+const POS_LABEL = { verb: 'verb', adj: 'adjective', adv: 'adverb', noun: 'noun' };
+function posTag(c) { const p = c && c.pos; return p && POS_LABEL[p] ? POS_LABEL[p] : (p || ''); }
+// Build the en2zh ("produce the Chinese") PROMPT face.
+//   - When the card has an emoji/emoji-chain: show the picture big + a POS tag,
+//     plus a small "reveal English" button for when the picture is ambiguous.
+//     This forces direct meaning->Chinese mapping instead of translating English.
+//   - When there is NO usable visual (grammar words, abstract adverbs, etc.):
+//     fall back to the English meaning text exactly as before.
+// `mount` is the card element to append into. Returns nothing.
+function appendEn2zhPrompt(mount, c) {
+  if (!c.emoji) {
+    // No visual: plain English prompt (grammar/abstract words).
+    mount.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));
+    return;
+  }
+  mount.append(el('div', { class: 'pic-prompt' }, c.emoji));
+  const tag = posTag(c);
+  if (tag) mount.append(el('div', { class: 'pos-tag' }, tag));
+  // Reveal-English affordance: hidden until tapped; stops propagation so it
+  // doesn't flip the whole card to the answer.
+  const eng = el('div', { class: 'reveal-en', hidden: true }, c.meaning);
+  const btn = el('button', {
+    class: 'reveal-en-btn',
+    onclick: (ev) => { ev.stopPropagation(); eng.hidden = false; btn.hidden = true; },
+  }, 'reveal English');
+  mount.append(btn, eng);
+}
 // Example sentence block: hanzi line + (optional) pinyin line beneath it.
 function appendExample(card, c) {
   if (!c.example) return;
@@ -858,7 +887,7 @@ async function renderPractice(root, params) {
       el('span', {}, `${dirLabel} · next ${fmtDue(stateForMode(c, dir).due)}`)));
     const card = el('div', { class: 'card', onclick: reveal });
     if (dir === 'en2zh') {
-      card.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));
+      appendEn2zhPrompt(card, c);
       _currentAudioCard = null; // Chinese not shown yet on this face
     } else {
       // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
@@ -1110,11 +1139,11 @@ async function renderMixedReview(root, params) {
         el('span', {}, `${dirLabel} · next ${fmtDue(stateForMode(c, dir).due)}`)));
       const card = el('div', { class: 'card', onclick: reveal });
       if (!revealed) {
-        card.append(dir === 'en2zh'
-          ? el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning)
-          : el('div', { class: 'front' }, c.front)); // face-down 中→EN: no emoji (would spoil answer)
-        if (dir !== 'en2zh') { card.append(audioBtn(c)); _currentAudioCard = c; maybeAutoplay(c); }
-        else { _currentAudioCard = null; }
+        if (dir === 'en2zh') { appendEn2zhPrompt(card, c); _currentAudioCard = null; }
+        else {
+          card.append(el('div', { class: 'front' }, c.front)); // face-down 中→EN: no emoji (would spoil answer)
+          card.append(audioBtn(c)); _currentAudioCard = c; maybeAutoplay(c);
+        }
         card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
         stage.append(card);
       } else {
