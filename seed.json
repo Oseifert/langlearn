@@ -1,7 +1,130 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T15:05:08.423429+00:00",
+  "generatedAt": "2026-10-12T21:48:24.529680+00:00",
   "decks": [
+    {
+      "id": "wk_2026_42",
+      "title": "Week of Oct 12 – 18",
+      "source": "Week Deck",
+      "summary": "Real-world words captured this week.",
+      "createdAt": "2026-10-12T21:48:11.297518+00:00",
+      "cards": [
+        {
+          "id": "c_4a68f3817e30",
+          "front": "qǐng kè",
+          "pinyin": "qǐng kè",
+          "meaning": "to treat someone (to a meal) / to pick up the bill / to host",
+          "emoji": "",
+          "pos": "verb",
+          "example": "今天我请客，你别跟我抢着付钱。",
+          "examplePinyin": "jīntiān wǒ qǐng kè, nǐ bié gēn wǒ qiǎngzhe fù qián.",
+          "notes": "lit. 'invite guest' — the one treating pays.",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "qǐng",
+            "kè"
+          ],
+          "hanzi": "请客"
+        },
+        {
+          "id": "c_bcc942c9109c",
+          "front": "bù hǎo yìsi, ràng nǐ pò fèi le",
+          "pinyin": "bù hǎo yìsi, ràng nǐ pò fèi le",
+          "meaning": "sorry to make you spend so much (polite phrase when someone treats you or gives a gift)",
+          "emoji": "",
+          "pos": "",
+          "example": "这顿饭太丰盛了，不好意思，让你破费了。",
+          "examplePinyin": "zhè dùn fàn tài fēngshèng le, bù hǎo yìsi, ràng nǐ pò fèi le.",
+          "notes": "破费 = to go to great expense. Said by the person being treated/gifted.",
+          "tones": [
+            4,
+            3,
+            4,
+            5,
+            4,
+            3,
+            4,
+            4,
+            5
+          ],
+          "syllables": [
+            "bù",
+            "hǎo",
+            "yì",
+            "si",
+            "ràng",
+            "nǐ",
+            "pò",
+            "fèi",
+            "le"
+          ],
+          "hanzi": "不好意思，让你破费了"
+        },
+        {
+          "id": "c_5df1020e4e6d",
+          "front": "wèidào",
+          "pinyin": "wèidào",
+          "meaning": "flavor / taste",
+          "emoji": "",
+          "pos": "",
+          "example": "这道菜的味道很好。",
+          "examplePinyin": "zhè dào cài de wèidào hěn hǎo.",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "wèi",
+            "dào"
+          ],
+          "hanzi": "味道"
+        },
+        {
+          "id": "c_33802385153d",
+          "front": "kāi huì",
+          "pinyin": "kāi huì",
+          "meaning": "to have a meeting / to hold a meeting",
+          "emoji": "",
+          "pos": "verb",
+          "example": "我们下午三点开会。",
+          "examplePinyin": "wǒmen xiàwǔ sān diǎn kāi huì.",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "kāi",
+            "huì"
+          ],
+          "hanzi": "开会"
+        },
+        {
+          "id": "c_98119dc57bac",
+          "front": "duō zhī",
+          "pinyin": "duō zhī",
+          "meaning": "juicy (of fruit)",
+          "emoji": "",
+          "pos": "",
+          "example": "这个橙子又甜又多汁。",
+          "examplePinyin": "zhège chéngzi yòu tián yòu duō zhī.",
+          "notes": "lit. 'much juice'. 汁 (zhī) = juice.",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "duō",
+            "zhī"
+          ],
+          "hanzi": "多汁"
+        }
+      ]
+    },
     {
       "id": "wk_2026_41",
       "title": "Week of Oct 05 – 11",
