@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T21:48:24.529680+00:00",
+  "generatedAt": "2026-10-13T04:29:45.110671+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -122,6 +122,278 @@
             "zhī"
           ],
           "hanzi": "多汁"
+        },
+        {
+          "id": "c_7d09f228d445",
+          "front": "kāixīn",
+          "pinyin": "kāixīn",
+          "meaning": "happy",
+          "emoji": "😄",
+          "pos": "adj",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "kāi",
+            "xīn"
+          ],
+          "hanzi": "开心"
+        },
+        {
+          "id": "c_e3b0d776e215",
+          "front": "jiànyì",
+          "pinyin": "jiànyì",
+          "meaning": "suggestion; advice",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jiàn",
+            "yì"
+          ],
+          "hanzi": "建议"
+        },
+        {
+          "id": "c_cba55117caeb",
+          "front": "bǐrú",
+          "pinyin": "bǐrú",
+          "meaning": "for example",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "bǐ",
+            "rú"
+          ],
+          "hanzi": "比如"
+        },
+        {
+          "id": "c_454a97f5b440",
+          "front": "mànmàn kāishǐ",
+          "pinyin": "mànmàn kāishǐ",
+          "meaning": "start slowly",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            4,
+            1,
+            3
+          ],
+          "syllables": [
+            "màn",
+            "màn",
+            "kāi",
+            "shǐ"
+          ],
+          "hanzi": "慢慢开始"
+        },
+        {
+          "id": "c_86f59b99812b",
+          "front": "bùfen",
+          "pinyin": "bùfen",
+          "meaning": "part; section",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            5
+          ],
+          "syllables": [
+            "bù",
+            "fen"
+          ],
+          "hanzi": "部分"
+        },
+        {
+          "id": "c_609a3bdbc3dd",
+          "front": "zuì hǎo",
+          "pinyin": "zuì hǎo",
+          "meaning": "best",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "zuì",
+            "hǎo"
+          ],
+          "hanzi": "最好"
+        },
+        {
+          "id": "c_8505f5bd59e9",
+          "front": "gǎnjué",
+          "pinyin": "gǎnjué",
+          "meaning": "to feel; feeling",
+          "emoji": "🤚",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "gǎn",
+            "jué"
+          ],
+          "hanzi": "感觉"
+        },
+        {
+          "id": "c_badd14811694",
+          "front": "jiànshēnfáng",
+          "pinyin": "jiànshēnfáng",
+          "meaning": "gym",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            1,
+            2
+          ],
+          "syllables": [
+            "jiàn",
+            "shēn",
+            "fáng"
+          ],
+          "hanzi": "健身房"
+        },
+        {
+          "id": "c_256709c42448",
+          "front": "yǒushàn",
+          "pinyin": "yǒushàn",
+          "meaning": "friendly",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "yǒu",
+            "shàn"
+          ],
+          "hanzi": "友善"
+        },
+        {
+          "id": "c_d70ef6c5e78c",
+          "front": "shòu huānyíng",
+          "pinyin": "shòu huānyíng",
+          "meaning": "to be welcomed; popular",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            4,
+            1,
+            2
+          ],
+          "syllables": [
+            "shòu",
+            "huān",
+            "yíng"
+          ],
+          "hanzi": "受欢迎"
+        },
+        {
+          "id": "c_8f6462bed58a",
+          "front": "kōngjiān",
+          "pinyin": "kōngjiān",
+          "meaning": "space; room",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "kōng",
+            "jiān"
+          ],
+          "hanzi": "空间"
+        },
+        {
+          "id": "c_9935235ce5c9",
+          "front": "zhǔnbèi shuìjiào",
+          "pinyin": "zhǔnbèi shuìjiào",
+          "meaning": "get ready for bed",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "syllables": [
+            "zhǔn",
+            "bèi",
+            "shuì",
+            "jiào"
+          ],
+          "hanzi": "准备睡觉"
+        },
+        {
+          "id": "c_f21645c33c07",
+          "front": "wǎn'ān",
+          "pinyin": "wǎn'ān",
+          "meaning": "good night",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-13",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "wǎn",
+            "ān"
+          ],
+          "hanzi": "晚安"
         }
       ]
     },
