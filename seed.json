@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T04:29:45.110671+00:00",
+  "generatedAt": "2026-10-14T00:16:47.579694+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -394,6 +394,174 @@
             "ān"
           ],
           "hanzi": "晚安"
+        },
+        {
+          "id": "c_178478c3ffff",
+          "front": "fàngsōng",
+          "pinyin": "fàngsōng",
+          "meaning": "to relax",
+          "emoji": "😌",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "fàng",
+            "sōng"
+          ],
+          "hanzi": "放松"
+        },
+        {
+          "id": "c_13ef935af1d1",
+          "front": "tōngcháng",
+          "pinyin": "tōngcháng",
+          "meaning": "usually",
+          "emoji": "",
+          "pos": "adv",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "tōng",
+            "cháng"
+          ],
+          "hanzi": "通常"
+        },
+        {
+          "id": "c_26c09d3f3c69",
+          "front": "shénme dōu bú zuò",
+          "pinyin": "shénme dōu bú zuò",
+          "meaning": "to do nothing",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            2,
+            5,
+            1,
+            2,
+            4
+          ],
+          "syllables": [
+            "shén",
+            "me",
+            "dōu",
+            "bú",
+            "zuò"
+          ],
+          "hanzi": "什么都不做"
+        },
+        {
+          "id": "c_ef13206a1a35",
+          "front": "tuìhuò",
+          "pinyin": "tuìhuò",
+          "meaning": "to return merchandise",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "tuì",
+            "huò"
+          ],
+          "hanzi": "退货"
+        },
+        {
+          "id": "c_a9dc0a064790",
+          "front": "bāoguǒ",
+          "pinyin": "bāoguǒ",
+          "meaning": "package; parcel",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "bāo",
+            "guǒ"
+          ],
+          "hanzi": "包裹"
+        },
+        {
+          "id": "c_e1cdc44b558d",
+          "front": "xùnxí",
+          "pinyin": "xùnxí",
+          "meaning": "message; text message",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "xùn",
+            "xí"
+          ],
+          "hanzi": "讯息"
+        },
+        {
+          "id": "c_18b1b7819371",
+          "front": "chá kàn xùnxí",
+          "pinyin": "chá kàn xùnxí",
+          "meaning": "to check messages",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            2,
+            4,
+            4,
+            2
+          ],
+          "syllables": [
+            "chá",
+            "kàn",
+            "xùn",
+            "xí"
+          ],
+          "hanzi": "查看讯息"
+        },
+        {
+          "id": "c_4dd557b7f61e",
+          "front": "jiā",
+          "pinyin": "jiā",
+          "meaning": "to add (an ingredient)",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "jiā"
+          ],
+          "hanzi": "加"
         }
       ]
     },
