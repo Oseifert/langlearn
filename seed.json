@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T00:17:40.053594+00:00",
+  "generatedAt": "2026-10-14T03:51:56.259720+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -562,6 +562,144 @@
             "jiā"
           ],
           "hanzi": "加"
+        },
+        {
+          "id": "c_7d7babe355c7",
+          "front": "shēngqì",
+          "pinyin": "shēngqì",
+          "meaning": "angry; to get angry",
+          "emoji": "",
+          "pos": "adj",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "shēng",
+            "qì"
+          ],
+          "hanzi": "生气"
+        },
+        {
+          "id": "c_2e783ac858cd",
+          "front": "yángcōng",
+          "pinyin": "yángcōng",
+          "meaning": "onion",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "yáng",
+            "cōng"
+          ],
+          "hanzi": "洋葱"
+        },
+        {
+          "id": "c_a20b5b6e27ff",
+          "front": "dǎjià",
+          "pinyin": "dǎjià",
+          "meaning": "to fight (with someone); brawl",
+          "emoji": "",
+          "pos": "verb",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "dǎ",
+            "jià"
+          ],
+          "hanzi": "打架"
+        },
+        {
+          "id": "c_92767dd840dc",
+          "front": "guāngtóu",
+          "pinyin": "guāngtóu",
+          "meaning": "bald head; shaved head",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "guāng",
+            "tóu"
+          ],
+          "hanzi": "光头"
+        },
+        {
+          "id": "c_4f751c4cada2",
+          "front": "shǒubì",
+          "pinyin": "shǒubì",
+          "meaning": "arm",
+          "emoji": "",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "shǒu",
+            "bì"
+          ],
+          "hanzi": "手臂"
+        },
+        {
+          "id": "c_ee93aeb5614c",
+          "front": "tuǐ",
+          "pinyin": "tuǐ",
+          "meaning": "leg",
+          "emoji": "🦵",
+          "pos": "",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "tuǐ"
+          ],
+          "hanzi": "腿"
+        },
+        {
+          "id": "c_a38a4454196c",
+          "front": "zǒngshì",
+          "pinyin": "zǒngshì",
+          "meaning": "always",
+          "emoji": "",
+          "pos": "adv",
+          "example": "",
+          "examplePinyin": "",
+          "notes": "from tutor session recap 2026-10-14 (b)",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "zǒng",
+            "shì"
+          ],
+          "hanzi": "总是"
         }
       ]
     },
