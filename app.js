@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v87 · immersive prompts: Classroom + Song vocab';
+const BUILD = 'v88 · +11 new words (cooking/misc) in Week Oct 12-18';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';

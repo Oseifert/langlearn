@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T15:52:28.168818+00:00",
+  "generatedAt": "2026-10-16T16:20:01.738698+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -831,6 +831,272 @@
           "promptZh": "他每天都来得很晚，____来得很晚。",
           "promptPinyin": "tā měitiān dōu lái de hěn wǎn, ____ lái de hěn wǎn.",
           "promptEn": "He comes very late every day, ____ (always) late.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_b431c35e70ec",
+          "front": "guā",
+          "pinyin": "guā",
+          "meaning": "to shave; to scrape",
+          "emoji": "",
+          "pos": "verb",
+          "example": "爸爸每天早上刮脸。",
+          "examplePinyin": "bàba měitiān zǎoshang guā liǎn.",
+          "notes": "e.g. 刮脸 = to shave the face.",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "guā"
+          ],
+          "hanzi": "刮",
+          "promptZh": "爸爸每天早上把脸上的毛____掉。",
+          "promptPinyin": "bàba měitiān zǎoshang bǎ liǎn shàng de máo ____ diào.",
+          "promptEn": "Dad ____ (shaves) the hair off his face every morning.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_5e06f749df98",
+          "front": "yāoqǐng",
+          "pinyin": "yāoqǐng",
+          "meaning": "to invite",
+          "emoji": "",
+          "pos": "verb",
+          "example": "我想邀请你来我家吃饭。",
+          "examplePinyin": "wǒ xiǎng yāoqǐng nǐ lái wǒ jiā chī fàn.",
+          "notes": "more formal than 请.",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "yāo",
+            "qǐng"
+          ],
+          "hanzi": "邀请",
+          "promptZh": "我想____你来我家吃饭。",
+          "promptPinyin": "wǒ xiǎng ____ nǐ lái wǒ jiā chī fàn.",
+          "promptEn": "I'd like to ____ (invite) you to my home for a meal.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e1fe7bac691c",
+          "front": "lìngwài yí ge rén",
+          "pinyin": "lìngwài yí ge rén",
+          "meaning": "one more person; another person",
+          "emoji": "",
+          "pos": "",
+          "example": "我们还要等另外一个人。",
+          "examplePinyin": "wǒmen hái yào děng lìngwài yí ge rén.",
+          "notes": "另外 = besides / another.",
+          "tones": [
+            4,
+            4,
+            2,
+            5,
+            2
+          ],
+          "syllables": [
+            "lìng",
+            "wài",
+            "yí",
+            "ge",
+            "rén"
+          ],
+          "hanzi": "另外一个人",
+          "promptZh": "我们还要等____，他还没来。",
+          "promptPinyin": "wǒmen hái yào děng ____, tā hái méi lái.",
+          "promptEn": "We still have to wait for ____ (another person), he hasn't come yet.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_3887722b8350",
+          "front": "wán pái",
+          "pinyin": "wán pái",
+          "meaning": "to play cards",
+          "emoji": "",
+          "pos": "verb",
+          "example": "晚上我们一起玩牌吧。",
+          "examplePinyin": "wǎnshang wǒmen yìqǐ wán pái ba.",
+          "notes": "牌 = cards/tiles.",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "wán",
+            "pái"
+          ],
+          "hanzi": "玩牌",
+          "promptZh": "晚上没事，我们一起____吧。",
+          "promptPinyin": "wǎnshang méi shì, wǒmen yìqǐ ____ ba.",
+          "promptEn": "Nothing to do tonight, let's ____ (play cards) together.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_cd894538c83c",
+          "front": "mǎlíngshǔ",
+          "pinyin": "mǎlíngshǔ",
+          "meaning": "potato",
+          "emoji": "🥔",
+          "pos": "",
+          "example": "我喜欢吃马铃薯。",
+          "examplePinyin": "wǒ xǐhuan chī mǎlíngshǔ.",
+          "notes": "also 土豆 in mainland China.",
+          "tones": [
+            3,
+            2,
+            3
+          ],
+          "syllables": [
+            "mǎ",
+            "líng",
+            "shǔ"
+          ],
+          "hanzi": "马铃薯",
+          "promptZh": "一种长在地里、可以做菜吃的东西是____。",
+          "promptPinyin": "yì zhǒng zhǎng zài dì lǐ, kěyǐ zuò cài chī de dōngxi shì ____.",
+          "promptEn": "A thing that grows in the ground and can be cooked is a ____ (potato).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_114d3028a057",
+          "front": "xiāngcháng",
+          "pinyin": "xiāngcháng",
+          "meaning": "sausage",
+          "emoji": "",
+          "pos": "",
+          "example": "早上我吃了两根香肠。",
+          "examplePinyin": "zǎoshang wǒ chī le liǎng gēn xiāngcháng.",
+          "notes": "",
+          "tones": [
+            1,
+            2
+          ],
+          "syllables": [
+            "xiāng",
+            "cháng"
+          ],
+          "hanzi": "香肠",
+          "promptZh": "早上我吃了用肉做的、长长的____。",
+          "promptPinyin": "zǎoshang wǒ chī le yòng ròu zuò de, chángcháng de ____.",
+          "promptEn": "In the morning I ate a long thing made of meat, a ____ (sausage).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_16cb9f838018",
+          "front": "qiē",
+          "pinyin": "qiē",
+          "meaning": "to cut",
+          "emoji": "",
+          "pos": "verb",
+          "example": "请你帮我切一下菜。",
+          "examplePinyin": "qǐng nǐ bāng wǒ qiē yíxià cài.",
+          "notes": "切菜 = to cut vegetables.",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "qiē"
+          ],
+          "hanzi": "切",
+          "promptZh": "做菜以前，要先把菜____好。",
+          "promptPinyin": "zuò cài yǐqián, yào xiān bǎ cài ____ hǎo.",
+          "promptEn": "Before cooking, first ____ (cut) the vegetables.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_311eb59508c7",
+          "front": "guōzi",
+          "pinyin": "guōzi",
+          "meaning": "pan; pot",
+          "emoji": "",
+          "pos": "",
+          "example": "妈妈用锅子做菜。",
+          "examplePinyin": "māma yòng guōzi zuò cài.",
+          "notes": "also just 锅.",
+          "tones": [
+            1,
+            5
+          ],
+          "syllables": [
+            "guō",
+            "zi"
+          ],
+          "hanzi": "锅子",
+          "promptZh": "妈妈用____在炉子上做菜。",
+          "promptPinyin": "māma yòng ____ zài lúzi shàng zuò cài.",
+          "promptEn": "Mom uses a ____ (pan) on the stove to cook.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_72b465276c07",
+          "front": "lúzi",
+          "pinyin": "lúzi",
+          "meaning": "stove",
+          "emoji": "",
+          "pos": "",
+          "example": "锅子放在炉子上。",
+          "examplePinyin": "guōzi fàng zài lúzi shàng.",
+          "notes": "",
+          "tones": [
+            2,
+            5
+          ],
+          "syllables": [
+            "lú",
+            "zi"
+          ],
+          "hanzi": "炉子",
+          "promptZh": "在家里做饭、做菜的那个东西是____。",
+          "promptPinyin": "zài jiā lǐ zuò fàn, zuò cài de nàge dōngxi shì ____.",
+          "promptEn": "The thing at home you cook food on is the ____ (stove).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_0f89b487bd73",
+          "front": "yóu",
+          "pinyin": "yóu",
+          "meaning": "cooking oil",
+          "emoji": "",
+          "pos": "",
+          "example": "做菜要放一点油。",
+          "examplePinyin": "zuò cài yào fàng yìdiǎn yóu.",
+          "notes": "",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "yóu"
+          ],
+          "hanzi": "油",
+          "promptZh": "做菜要放一点____，菜会更好吃。",
+          "promptPinyin": "zuò cài yào fàng yìdiǎn ____, cài huì gèng hǎochī.",
+          "promptEn": "When cooking you add a little ____ (oil) to make food tastier.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_14851c16f515",
+          "front": "jìnbù",
+          "pinyin": "jìnbù",
+          "meaning": "to improve; make progress",
+          "emoji": "",
+          "pos": "verb",
+          "example": "你的中文进步了很多。",
+          "examplePinyin": "nǐ de zhōngwén jìnbù le hěn duō.",
+          "notes": "",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jìn",
+            "bù"
+          ],
+          "hanzi": "进步",
+          "promptZh": "你的中文比以前好多了，____了很多。",
+          "promptPinyin": "nǐ de zhōngwén bǐ yǐqián hǎo duō le, ____ le hěn duō.",
+          "promptEn": "Your Chinese is much better than before, you've ____ (improved) a lot.",
           "promptStyle": "cloze"
         }
       ]
