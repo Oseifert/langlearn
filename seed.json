@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T13:37:21.733042+00:00",
+  "generatedAt": "2026-10-16T15:14:01.169447+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -27,7 +27,11 @@
             "qǐng",
             "kè"
           ],
-          "hanzi": "请客"
+          "hanzi": "请客",
+          "promptZh": "今天的饭钱我来付，我____。",
+          "promptPinyin": "jīntiān de fàn qián wǒ lái fù, wǒ ____.",
+          "promptEn": "I'll pay for today's meal, it's my ____ (treat).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_bcc942c9109c",
@@ -61,7 +65,11 @@
             "fèi",
             "le"
           ],
-          "hanzi": "不好意思，让你破费了"
+          "hanzi": "不好意思，让你破费了",
+          "promptZh": "朋友请你吃了很好的饭，你想客气地谢谢他，可以说什么？",
+          "promptPinyin": "péngyou qǐng nǐ chī le hěn hǎo de fàn, nǐ xiǎng kèqi de xièxie tā, kěyǐ shuō shénme?",
+          "promptEn": "A friend treated you to a nice meal — how do you politely thank them? (sorry to make you spend so much)",
+          "promptStyle": "q"
         },
         {
           "id": "c_5df1020e4e6d",
@@ -81,7 +89,11 @@
             "wèi",
             "dào"
           ],
-          "hanzi": "味道"
+          "hanzi": "味道",
+          "promptZh": "这个菜的____很好，很好吃。",
+          "promptPinyin": "zhège cài de ____ hěn hǎo, hěn hǎochī.",
+          "promptEn": "This dish's ____ (flavor) is great, very tasty.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_33802385153d",
@@ -101,7 +113,11 @@
             "kāi",
             "huì"
           ],
-          "hanzi": "开会"
+          "hanzi": "开会",
+          "promptZh": "我现在不能说话，我在____。",
+          "promptPinyin": "wǒ xiànzài bù néng shuōhuà, wǒ zài ____.",
+          "promptEn": "I can't talk now, I'm in a ____ (meeting).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_98119dc57bac",
@@ -121,7 +137,11 @@
             "duō",
             "zhī"
           ],
-          "hanzi": "多汁"
+          "hanzi": "多汁",
+          "promptZh": "这个水果里面水很多，很____。",
+          "promptPinyin": "zhège shuǐguǒ lǐmiàn shuǐ hěn duō, hěn ____.",
+          "promptEn": "This fruit has a lot of liquid inside, very ____ (juicy).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7d09f228d445",
@@ -141,7 +161,11 @@
             "kāi",
             "xīn"
           ],
-          "hanzi": "开心"
+          "hanzi": "开心",
+          "promptZh": "今天是我的生日，我很____。",
+          "promptPinyin": "jīntiān shì wǒ de shēngrì, wǒ hěn ____.",
+          "promptEn": "Today is my birthday, I'm very ____ (happy).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e3b0d776e215",
@@ -161,7 +185,11 @@
             "jiàn",
             "yì"
           ],
-          "hanzi": "建议"
+          "hanzi": "建议",
+          "promptZh": "我不知道买哪个好，你能给我一点____吗？",
+          "promptPinyin": "wǒ bù zhīdào mǎi nǎge hǎo, nǐ néng gěi wǒ yìdiǎn ____ ma?",
+          "promptEn": "I don't know which to buy, can you give me some ____ (advice)?",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_cba55117caeb",
@@ -181,7 +209,11 @@
             "bǐ",
             "rú"
           ],
-          "hanzi": "比如"
+          "hanzi": "比如",
+          "promptZh": "我喜欢很多水果，____苹果、橙子和香蕉。",
+          "promptPinyin": "wǒ xǐhuan hěn duō shuǐguǒ, ____ píngguǒ, chéngzi hé xiāngjiāo.",
+          "promptEn": "I like many fruits, ____ (for example) apples, oranges and bananas.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_454a97f5b440",
@@ -205,7 +237,11 @@
             "kāi",
             "shǐ"
           ],
-          "hanzi": "慢慢开始"
+          "hanzi": "慢慢开始",
+          "promptZh": "不要太快，我们____，慢慢来。",
+          "promptPinyin": "bú yào tài kuài, wǒmen ____, mànmàn lái.",
+          "promptEn": "Not too fast, let's ____ (start slowly).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_86f59b99812b",
@@ -225,7 +261,11 @@
             "bù",
             "fen"
           ],
-          "hanzi": "部分"
+          "hanzi": "部分",
+          "promptZh": "这本书我只看了一____，还没看完。",
+          "promptPinyin": "zhè běn shū wǒ zhǐ kàn le yí ____, hái méi kàn wán.",
+          "promptEn": "I've only read one ____ (part) of this book, not finished yet.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_609a3bdbc3dd",
@@ -245,7 +285,11 @@
             "zuì",
             "hǎo"
           ],
-          "hanzi": "最好"
+          "hanzi": "最好",
+          "promptZh": "这几个东西里面，这个____。",
+          "promptPinyin": "zhè jǐ ge dōngxi lǐmiàn, zhège ____.",
+          "promptEn": "Among these few things, this one is the ____ (best).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8505f5bd59e9",
@@ -265,7 +309,11 @@
             "gǎn",
             "jué"
           ],
-          "hanzi": "感觉"
+          "hanzi": "感觉",
+          "promptZh": "今天休息了一天，我____好多了。",
+          "promptPinyin": "jīntiān xiūxi le yì tiān, wǒ ____ hǎo duō le.",
+          "promptEn": "I rested all day today, I ____ (feel) much better.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_badd14811694",
@@ -287,7 +335,11 @@
             "shēn",
             "fáng"
           ],
-          "hanzi": "健身房"
+          "hanzi": "健身房",
+          "promptZh": "想要身体好，我每天都去____运动。",
+          "promptPinyin": "xiǎng yào shēntǐ hǎo, wǒ měitiān dōu qù ____ yùndòng.",
+          "promptEn": "To be healthy, I go to the ____ (gym) to work out every day.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_256709c42448",
@@ -307,7 +359,11 @@
             "yǒu",
             "shàn"
           ],
-          "hanzi": "友善"
+          "hanzi": "友善",
+          "promptZh": "这里的人对我都很好，很____。",
+          "promptPinyin": "zhèlǐ de rén duì wǒ dōu hěn hǎo, hěn ____.",
+          "promptEn": "People here are all nice to me, very ____ (friendly).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d70ef6c5e78c",
@@ -329,7 +385,11 @@
             "huān",
             "yíng"
           ],
-          "hanzi": "受欢迎"
+          "hanzi": "受欢迎",
+          "promptZh": "这个歌手很多人都喜欢，很____。",
+          "promptPinyin": "zhège gēshǒu hěn duō rén dōu xǐhuan, hěn ____.",
+          "promptEn": "Many people like this singer, he's very ____ (popular).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8f6462bed58a",
@@ -349,7 +409,11 @@
             "kōng",
             "jiān"
           ],
-          "hanzi": "空间"
+          "hanzi": "空间",
+          "promptZh": "这个房间很大，有很多____。",
+          "promptPinyin": "zhège fángjiān hěn dà, yǒu hěn duō ____.",
+          "promptEn": "This room is big, it has a lot of ____ (space).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9935235ce5c9",
@@ -373,7 +437,11 @@
             "shuì",
             "jiào"
           ],
-          "hanzi": "准备睡觉"
+          "hanzi": "准备睡觉",
+          "promptZh": "已经很晚了，我要____了。",
+          "promptPinyin": "yǐjīng hěn wǎn le, wǒ yào ____ le.",
+          "promptEn": "It's already late, I'm going to ____ (get ready for bed).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f21645c33c07",
@@ -393,7 +461,11 @@
             "wǎn",
             "ān"
           ],
-          "hanzi": "晚安"
+          "hanzi": "晚安",
+          "promptZh": "要睡觉了，睡觉以前我们会说____。",
+          "promptPinyin": "yào shuìjiào le, shuìjiào yǐqián wǒmen huì shuō ____.",
+          "promptEn": "Time to sleep; before bed we say ____ (good night).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_178478c3ffff",
@@ -413,7 +485,11 @@
             "fàng",
             "sōng"
           ],
-          "hanzi": "放松"
+          "hanzi": "放松",
+          "promptZh": "工作了一天，晚上在家听听音乐，____一下。",
+          "promptPinyin": "gōngzuò le yì tiān, wǎnshang zài jiā tīngting yīnyuè, ____ yíxià.",
+          "promptEn": "After a day's work, listen to music at home to ____ (relax) a bit.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_13ef935af1d1",
@@ -433,7 +509,11 @@
             "tōng",
             "cháng"
           ],
-          "hanzi": "通常"
+          "hanzi": "通常",
+          "promptZh": "我____早上七点起床。",
+          "promptPinyin": "wǒ ____ zǎoshang qī diǎn qǐchuáng.",
+          "promptEn": "I ____ (usually) get up at seven in the morning.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_26c09d3f3c69",
@@ -459,7 +539,11 @@
             "bú",
             "zuò"
           ],
-          "hanzi": "什么都不做"
+          "hanzi": "什么都不做",
+          "promptZh": "今天是星期天，我想在家____，好好休息。",
+          "promptPinyin": "jīntiān shì xīngqītiān, wǒ xiǎng zài jiā ____, hǎohǎo xiūxi.",
+          "promptEn": "It's Sunday, I want to ____ (do nothing) at home and rest well.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ef13206a1a35",
@@ -479,7 +563,11 @@
             "tuì",
             "huò"
           ],
-          "hanzi": "退货"
+          "hanzi": "退货",
+          "promptZh": "这件衣服太小了，我想拿回店里____。",
+          "promptPinyin": "zhè jiàn yīfu tài xiǎo le, wǒ xiǎng ná huí diàn lǐ ____.",
+          "promptEn": "This garment is too small, I want to take it back to the store to ____ (return it).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a9dc0a064790",
@@ -499,7 +587,11 @@
             "bāo",
             "guǒ"
           ],
-          "hanzi": "包裹"
+          "hanzi": "包裹",
+          "promptZh": "我在网上买的东西，今天到了一个____。",
+          "promptPinyin": "wǒ zài wǎng shàng mǎi de dōngxi, jīntiān dào le yí ge ____.",
+          "promptEn": "The thing I bought online — a ____ (package) arrived today.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e1cdc44b558d",
@@ -519,7 +611,11 @@
             "xùn",
             "xí"
           ],
-          "hanzi": "讯息"
+          "hanzi": "讯息",
+          "promptZh": "他用手机给我发了一个____。",
+          "promptPinyin": "tā yòng shǒujī gěi wǒ fā le yí ge ____.",
+          "promptEn": "He sent me a ____ (message) using his phone.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_18b1b7819371",
@@ -543,7 +639,11 @@
             "xùn",
             "xí"
           ],
-          "hanzi": "查看讯息"
+          "hanzi": "查看讯息",
+          "promptZh": "有人给我发了讯息，我拿起手机____。",
+          "promptPinyin": "yǒu rén gěi wǒ fā le xùnxí, wǒ ná qǐ shǒujī ____.",
+          "promptEn": "Someone sent me a message, I pick up my phone to ____ (check messages).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4dd557b7f61e",
@@ -561,7 +661,11 @@
           "syllables": [
             "jiā"
           ],
-          "hanzi": "加"
+          "hanzi": "加",
+          "promptZh": "这个菜没有味道，要____一点盐。",
+          "promptPinyin": "zhège cài méiyǒu wèidào, yào ____ yìdiǎn yán.",
+          "promptEn": "This dish is bland, you need to ____ (add) a little salt.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7d7babe355c7",
@@ -581,7 +685,11 @@
             "shēng",
             "qì"
           ],
-          "hanzi": "生气"
+          "hanzi": "生气",
+          "promptZh": "他做错了事，妈妈很____。",
+          "promptPinyin": "tā zuò cuò le shì, māma hěn ____.",
+          "promptEn": "He did something wrong, mom is very ____ (angry).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2e783ac858cd",
@@ -601,7 +709,11 @@
             "yáng",
             "cōng"
           ],
-          "hanzi": "洋葱"
+          "hanzi": "洋葱",
+          "promptZh": "一种做菜用的、让人想哭的白色蔬菜是____。",
+          "promptPinyin": "yì zhǒng zuò cài yòng de, ràng rén xiǎng kū de báisè shūcài shì ____.",
+          "promptEn": "A white vegetable used in cooking that makes people want to cry is an ____ (onion).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a20b5b6e27ff",
@@ -621,7 +733,11 @@
             "dǎ",
             "jià"
           ],
-          "hanzi": "打架"
+          "hanzi": "打架",
+          "promptZh": "两个人很生气，然后____了。",
+          "promptPinyin": "liǎng ge rén hěn shēngqì, ránhòu ____ le.",
+          "promptEn": "The two got angry, then started to ____ (fight).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_92767dd840dc",
@@ -641,7 +757,11 @@
             "guāng",
             "tóu"
           ],
-          "hanzi": "光头"
+          "hanzi": "光头",
+          "promptZh": "那个人头上没有头发，是个____。",
+          "promptPinyin": "nàge rén tóu shàng méiyǒu tóufa, shì ge ____.",
+          "promptEn": "That person has no hair on their head, a ____ (bald head).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4f751c4cada2",
@@ -661,7 +781,11 @@
             "shǒu",
             "bì"
           ],
-          "hanzi": "手臂"
+          "hanzi": "手臂",
+          "promptZh": "我们用两条____抱东西。",
+          "promptPinyin": "wǒmen yòng liǎng tiáo ____ bào dōngxi.",
+          "promptEn": "We use our two ____ (arms) to hold things.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ee93aeb5614c",
@@ -679,7 +803,11 @@
           "syllables": [
             "tuǐ"
           ],
-          "hanzi": "腿"
+          "hanzi": "腿",
+          "promptZh": "我们用两条____走路。",
+          "promptPinyin": "wǒmen yòng liǎng tiáo ____ zǒulù.",
+          "promptEn": "We walk using our two ____ (legs).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a38a4454196c",
@@ -699,7 +827,11 @@
             "zǒng",
             "shì"
           ],
-          "hanzi": "总是"
+          "hanzi": "总是",
+          "promptZh": "他每天都来得很晚，____来得很晚。",
+          "promptPinyin": "tā měitiān dōu lái de hěn wǎn, ____ lái de hěn wǎn.",
+          "promptEn": "He comes very late every day, ____ (always) late.",
+          "promptStyle": "cloze"
         }
       ]
     },
@@ -1275,7 +1407,11 @@
             "mó",
             "gū"
           ],
-          "hanzi": "蘑菇"
+          "hanzi": "蘑菇",
+          "promptZh": "这种长在地里的东西，很多人喜欢放在菜里，叫____。",
+          "promptPinyin": "zhè zhǒng zhǎng zài dì lǐ de dōngxi, hěn duō rén xǐhuan fàng zài cài lǐ, jiào ____.",
+          "promptEn": "This thing that grows in the ground and is often put in dishes is a ____ (mushroom).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_82851953ecfc",
@@ -1295,7 +1431,11 @@
             "qiáng",
             "zhuàng"
           ],
-          "hanzi": "强壮"
+          "hanzi": "强壮",
+          "promptZh": "他每天运动，身体很____。",
+          "promptPinyin": "tā měitiān yùndòng, shēntǐ hěn ____.",
+          "promptEn": "He exercises every day, his body is very ____ (strong).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_dbab8eea8e43",
@@ -1315,7 +1455,11 @@
             "hú",
             "zi"
           ],
-          "hanzi": "胡子"
+          "hanzi": "胡子",
+          "promptZh": "很多男人脸上有____。",
+          "promptPinyin": "hěn duō nánrén liǎn shàng yǒu ____.",
+          "promptEn": "Many men have a ____ (beard) on their face.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a752b3c6d2d1",
@@ -1335,7 +1479,11 @@
             "sháo",
             "zi"
           ],
-          "hanzi": "勺子"
+          "hanzi": "勺子",
+          "promptZh": "喝汤的时候要用____。",
+          "promptPinyin": "hē tāng de shíhou yào yòng ____.",
+          "promptEn": "When drinking soup you use a ____ (spoon).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1ce099a59b04",
@@ -1355,7 +1503,11 @@
             "chā",
             "zi"
           ],
-          "hanzi": "叉子"
+          "hanzi": "叉子",
+          "promptZh": "吃牛排的时候，一只手拿刀，一只手拿____。",
+          "promptPinyin": "chī niúpái de shíhou, yì zhī shǒu ná dāo, yì zhī shǒu ná ____.",
+          "promptEn": "Eating steak, one hand holds the knife, the other holds the ____ (fork).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_edac149a66b9",
@@ -1373,7 +1525,11 @@
           "syllables": [
             "dāo"
           ],
-          "hanzi": "刀"
+          "hanzi": "刀",
+          "promptZh": "吃牛排的时候，一只手拿叉子，一只手拿____。",
+          "promptPinyin": "chī niúpái de shíhou, yì zhī shǒu ná chāzi, yì zhī shǒu ná ____.",
+          "promptEn": "Eating steak, one hand holds the fork, the other holds the ____ (knife).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_6ccac01b93b6",
@@ -1393,7 +1549,11 @@
             "jiào",
             "táng"
           ],
-          "hanzi": "教堂"
+          "hanzi": "教堂",
+          "promptZh": "星期天很多人去____做礼拜。",
+          "promptPinyin": "xīngqītiān hěn duō rén qù ____ zuò lǐbài.",
+          "promptEn": "On Sundays many people go to ____ (church) to worship.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8da999247474",
@@ -1413,7 +1573,11 @@
             "qǐ",
             "é"
           ],
-          "hanzi": "企鹅"
+          "hanzi": "企鹅",
+          "promptZh": "一种黑白色、住在很冷的地方、不会飞的鸟是____。",
+          "promptPinyin": "yì zhǒng hēibáisè, zhù zài hěn lěng de dìfang, bú huì fēi de niǎo shì ____.",
+          "promptEn": "A black-and-white bird that lives where it's very cold and can't fly is a ____ (penguin).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_fff68fc199e4",
@@ -1433,7 +1597,11 @@
             "qì",
             "qiú"
           ],
-          "hanzi": "气球"
+          "hanzi": "气球",
+          "promptZh": "过生日的时候，很多人在家里放很多____。",
+          "promptPinyin": "guò shēngrì de shíhou, hěn duō rén zài jiā lǐ fàng hěn duō ____.",
+          "promptEn": "At a birthday, people put up lots of ____ (balloons) at home.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a9e7b29d063c",
@@ -1455,7 +1623,11 @@
             "kè",
             "pái"
           ],
-          "hanzi": "扑克牌"
+          "hanzi": "扑克牌",
+          "promptZh": "几个朋友一起玩的那种牌叫____。",
+          "promptPinyin": "jǐ ge péngyou yìqǐ wán de nà zhǒng pái jiào ____.",
+          "promptEn": "The kind of cards friends play together is called ____ (playing cards).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f5c57147285f",
@@ -1475,7 +1647,11 @@
             "chú",
             "fáng"
           ],
-          "hanzi": "厨房"
+          "hanzi": "厨房",
+          "promptZh": "妈妈在____里做饭。",
+          "promptPinyin": "māma zài ____ lǐ zuò fàn.",
+          "promptEn": "Mom is cooking in the ____ (kitchen).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d52deac0d86a",
@@ -1493,7 +1669,11 @@
           "syllables": [
             "yán"
           ],
-          "hanzi": "盐"
+          "hanzi": "盐",
+          "promptZh": "菜没有味道，要加一点____。",
+          "promptPinyin": "cài méiyǒu wèidào, yào jiā yìdiǎn ____.",
+          "promptEn": "The dish is bland, add a little ____ (salt).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_67807242466c",
@@ -1511,7 +1691,11 @@
           "syllables": [
             "xián"
           ],
-          "hanzi": "咸"
+          "hanzi": "咸",
+          "promptZh": "盐放太多了，这个菜很____。",
+          "promptPinyin": "yán fàng tài duō le, zhège cài hěn ____.",
+          "promptEn": "Too much salt was added, this dish is very ____ (salty).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_adcc9d2297f9",
@@ -1531,7 +1715,11 @@
             "hú",
             "jiāo"
           ],
-          "hanzi": "胡椒"
+          "hanzi": "胡椒",
+          "promptZh": "一种黑色的、让菜更有味道的东西是____。",
+          "promptPinyin": "yì zhǒng hēisè de, ràng cài gèng yǒu wèidào de dōngxi shì ____.",
+          "promptEn": "A black thing that makes dishes more flavorful is ____ (pepper).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4007214ea65d",
@@ -1549,7 +1737,11 @@
           "syllables": [
             "tián"
           ],
-          "hanzi": "甜"
+          "hanzi": "甜",
+          "promptZh": "水果吃起来很____。",
+          "promptPinyin": "shuǐguǒ chī qǐlái hěn ____.",
+          "promptEn": "Fruit tastes very ____ (sweet).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3dff52aef275",
@@ -1567,7 +1759,11 @@
           "syllables": [
             "kǔ"
           ],
-          "hanzi": "苦"
+          "hanzi": "苦",
+          "promptZh": "咖啡不甜，喝起来很____。",
+          "promptPinyin": "kāfēi bù tián, hē qǐlái hěn ____.",
+          "promptEn": "Coffee isn't sweet, it tastes very ____ (bitter).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_6466c55b63ad",
@@ -1585,7 +1781,11 @@
           "syllables": [
             "bǎo"
           ],
-          "hanzi": "饱"
+          "hanzi": "饱",
+          "promptZh": "我吃了很多饭，现在很____。",
+          "promptPinyin": "wǒ chī le hěn duō fàn, xiànzài hěn ____.",
+          "promptEn": "I ate a lot, now I'm very ____ (full).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d152bc80f196",
@@ -1603,7 +1803,11 @@
           "syllables": [
             "è"
           ],
-          "hanzi": "饿"
+          "hanzi": "饿",
+          "promptZh": "我一天没吃东西了，很____。",
+          "promptPinyin": "wǒ yì tiān méi chī dōngxi le, hěn ____.",
+          "promptEn": "I haven't eaten all day, I'm very ____ (hungry).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0de670dd3e8f",
@@ -1627,7 +1831,11 @@
             "yǎn",
             "jìng"
           ],
-          "hanzi": "太阳眼镜"
+          "hanzi": "太阳眼镜",
+          "promptZh": "太阳很大的时候，出门要戴____。",
+          "promptPinyin": "tàiyáng hěn dà de shíhou, chūmén yào dài ____.",
+          "promptEn": "When the sun is strong, you wear ____ (sunglasses) when going out.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_6604ffb8e295",
@@ -1651,7 +1859,11 @@
             "jiě",
             "mèi"
           ],
-          "hanzi": "兄弟姐妹"
+          "hanzi": "兄弟姐妹",
+          "promptZh": "我有一个哥哥和一个妹妹，我们是____。",
+          "promptPinyin": "wǒ yǒu yí ge gēge hé yí ge mèimei, wǒmen shì ____.",
+          "promptEn": "I have an older brother and a younger sister; we are ____ (siblings).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2441cfd55c0c",
@@ -1671,7 +1883,11 @@
             "xiōng",
             "dì"
           ],
-          "hanzi": "兄弟"
+          "hanzi": "兄弟",
+          "promptZh": "哥哥和弟弟都是男的，他们是____。",
+          "promptPinyin": "gēge hé dìdi dōu shì nán de, tāmen shì ____.",
+          "promptEn": "Older and younger brother are both male; they are ____ (brothers).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0bd5006347a0",
@@ -1691,7 +1907,11 @@
             "jiě",
             "mèi"
           ],
-          "hanzi": "姐妹"
+          "hanzi": "姐妹",
+          "promptZh": "姐姐和妹妹都是女的，她们是____。",
+          "promptPinyin": "jiějie hé mèimei dōu shì nǚ de, tāmen shì ____.",
+          "promptEn": "Older and younger sister are both female; they are ____ (sisters).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_163a3955266f",
@@ -1711,7 +1931,11 @@
             "fān",
             "qié"
           ],
-          "hanzi": "番茄"
+          "hanzi": "番茄",
+          "promptZh": "一种红色的、可以做菜也可以生吃的东西是____。",
+          "promptPinyin": "yì zhǒng hóngsè de, kěyǐ zuò cài yě kěyǐ shēng chī de dōngxi shì ____.",
+          "promptEn": "A red thing you can cook or eat raw is a ____ (tomato).",
+          "promptStyle": "cloze"
         }
       ]
     },
@@ -5302,7 +5526,11 @@
           "syllables": [
             "qiáng"
           ],
-          "hanzi": "墙"
+          "hanzi": "墙",
+          "promptZh": "房间的四____都是白色的。",
+          "promptPinyin": "fángjiān de sì ____ dōu shì báisè de.",
+          "promptEn": "The four ____ (walls) of the room are all white.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8fff8a0ca695",
@@ -5322,7 +5550,11 @@
             "chuāng",
             "hu"
           ],
-          "hanzi": "窗户"
+          "hanzi": "窗户",
+          "promptZh": "房间很热，请打开____。",
+          "promptPinyin": "fángjiān hěn rè, qǐng dǎkāi ____.",
+          "promptEn": "The room is hot, please open the ____ (window).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_65aa5adcaaf5",
@@ -5342,7 +5574,11 @@
             "dì",
             "bǎn"
           ],
-          "hanzi": "地板"
+          "hanzi": "地板",
+          "promptZh": "房间最下面、我们走在上面的那个是____。",
+          "promptPinyin": "fángjiān zuì xiàmiàn, wǒmen zǒu zài shàngmiàn de nàge shì ____.",
+          "promptEn": "The lowest part of the room, that we walk on, is the ____ (floor).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_77ff72df9ae3",
@@ -5362,7 +5598,11 @@
             "yào",
             "shi"
           ],
-          "hanzi": "钥匙"
+          "hanzi": "钥匙",
+          "promptZh": "出门以前别忘了拿____，不然回不了家。",
+          "promptPinyin": "chūmén yǐqián bié wàng le ná ____, bùrán huí bù liǎo jiā.",
+          "promptEn": "Don't forget to take your ____ (keys) before going out, or you can't get back home.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1f7f61a936eb",
@@ -5382,7 +5622,11 @@
             "diàn",
             "tī"
           ],
-          "hanzi": "电梯"
+          "hanzi": "电梯",
+          "promptZh": "我家在十楼，上去要坐____。",
+          "promptPinyin": "wǒ jiā zài shí lóu, shàngqù yào zuò ____.",
+          "promptEn": "My home is on the 10th floor, you take the ____ (elevator) up.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3d833e724dba",
@@ -5402,7 +5646,11 @@
             "yá",
             "shuā"
           ],
-          "hanzi": "牙刷"
+          "hanzi": "牙刷",
+          "promptZh": "刷牙的时候要用____。",
+          "promptPinyin": "shuā yá de shíhou yào yòng ____.",
+          "promptEn": "When brushing your teeth you use a ____ (toothbrush).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e70b69162f23",
@@ -5420,7 +5668,11 @@
           "syllables": [
             "liǎn"
           ],
-          "hanzi": "脸"
+          "hanzi": "脸",
+          "promptZh": "早上起床以后，我先去洗____。",
+          "promptPinyin": "zǎoshang qǐchuáng yǐhòu, wǒ xiān qù xǐ ____.",
+          "promptEn": "After getting up, I first go wash my ____ (face).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_dc7b63f42639",
@@ -5440,7 +5692,11 @@
             "yá",
             "chǐ"
           ],
-          "hanzi": "牙齿"
+          "hanzi": "牙齿",
+          "promptZh": "吃完东西要刷____。",
+          "promptPinyin": "chī wán dōngxi yào shuā ____.",
+          "promptEn": "After eating you should brush your ____ (teeth).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_54d36b10eb88",
@@ -5460,7 +5716,11 @@
             "bīng",
             "xiāng"
           ],
-          "hanzi": "冰箱"
+          "hanzi": "冰箱",
+          "promptZh": "牛奶和菜要放在____里面。",
+          "promptPinyin": "niúnǎi hé cài yào fàng zài ____ lǐmiàn.",
+          "promptEn": "Milk and food should be kept in the ____ (fridge).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ef18ef3fafab",
@@ -5482,7 +5742,11 @@
             "bō",
             "lú"
           ],
-          "hanzi": "微波炉"
+          "hanzi": "微波炉",
+          "promptZh": "想让饭快一点变热，可以用____。",
+          "promptPinyin": "xiǎng ràng fàn kuài yìdiǎn biàn rè, kěyǐ yòng ____.",
+          "promptEn": "To heat food up quickly, you can use the ____ (microwave).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9a297a56ba5f",
@@ -5502,7 +5766,11 @@
             "shā",
             "fā"
           ],
-          "hanzi": "沙发"
+          "hanzi": "沙发",
+          "promptZh": "看电视的时候，我喜欢坐在____上。",
+          "promptPinyin": "kàn diànshì de shíhou, wǒ xǐhuan zuò zài ____ shàng.",
+          "promptEn": "When watching TV, I like to sit on the ____ (sofa).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f5951937a7b0",
@@ -5522,7 +5790,11 @@
             "zhí",
             "wù"
           ],
-          "hanzi": "植物"
+          "hanzi": "植物",
+          "promptZh": "树和花都是____。",
+          "promptPinyin": "shù hé huā dōu shì ____.",
+          "promptEn": "Trees and flowers are both ____ (plants).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a46d7a88ada6",
@@ -5540,7 +5812,11 @@
           "syllables": [
             "dēng"
           ],
-          "hanzi": "灯"
+          "hanzi": "灯",
+          "promptZh": "房间太黑了，请开一下____。",
+          "promptPinyin": "fángjiān tài hēi le, qǐng kāi yíxià ____.",
+          "promptEn": "The room is too dark, please turn on the ____ (light).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7e18ee595098",
@@ -5560,7 +5836,11 @@
             "kāi",
             "dēng"
           ],
-          "hanzi": "开灯"
+          "hanzi": "开灯",
+          "promptZh": "房间很黑，我要____。",
+          "promptPinyin": "fángjiān hěn hēi, wǒ yào ____.",
+          "promptEn": "The room is dark, I'll ____ (turn on the light).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b95c8a8d06ba",
@@ -5580,7 +5860,11 @@
             "guān",
             "dēng"
           ],
-          "hanzi": "关灯"
+          "hanzi": "关灯",
+          "promptZh": "要睡觉了，请____。",
+          "promptPinyin": "yào shuìjiào le, qǐng ____.",
+          "promptEn": "Time to sleep, please ____ (turn off the light).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e9bc076b407b",
@@ -5602,7 +5886,11 @@
             "chén",
             "qì"
           ],
-          "hanzi": "吸尘器"
+          "hanzi": "吸尘器",
+          "promptZh": "地上要打扫的时候，要用____。",
+          "promptPinyin": "dì shàng yào dǎsǎo de shíhou, yào yòng ____.",
+          "promptEn": "When the floor needs cleaning, you use a ____ (vacuum).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_16c2f4f82939",
@@ -5622,7 +5910,11 @@
             "xī",
             "chén"
           ],
-          "hanzi": "吸尘"
+          "hanzi": "吸尘",
+          "promptZh": "我每个星期都会在家里____一次。",
+          "promptPinyin": "wǒ měi ge xīngqī dōu huì zài jiā lǐ ____ yí cì.",
+          "promptEn": "I ____ (vacuum) at home once every week.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_63595ed40441",
@@ -5642,7 +5934,11 @@
             "chōu",
             "ti"
           ],
-          "hanzi": "抽屉"
+          "hanzi": "抽屉",
+          "promptZh": "我的袜子放在桌子下面的____里。",
+          "promptPinyin": "wǒ de wàzi fàng zài zhuōzi xiàmiàn de ____ lǐ.",
+          "promptEn": "My socks are in the ____ (drawer) under the desk.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_53342b2908bf",
@@ -5662,7 +5958,11 @@
             "máo",
             "jīn"
           ],
-          "hanzi": "毛巾"
+          "hanzi": "毛巾",
+          "promptZh": "洗完脸以后，用____把脸吹干。",
+          "promptPinyin": "xǐ wán liǎn yǐhòu, yòng ____ bǎ liǎn chuī gān.",
+          "promptEn": "After washing your face, dry it with a ____ (towel).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_086a84c2ab64",
@@ -5684,7 +5984,11 @@
             "fēng",
             "jī"
           ],
-          "hanzi": "吹风机"
+          "hanzi": "吹风机",
+          "promptZh": "洗完头发以后，我用____把头发吹干。",
+          "promptPinyin": "xǐ wán tóufa yǐhòu, wǒ yòng ____ bǎ tóufa chuī gān.",
+          "promptEn": "After washing my hair, I dry it with a ____ (hair dryer).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_eed5f0742a6c",
@@ -5704,7 +6008,11 @@
             "kǎo",
             "xiāng"
           ],
-          "hanzi": "烤箱"
+          "hanzi": "烤箱",
+          "promptZh": "做蛋糕的时候，要把它放进____里。",
+          "promptPinyin": "zuò dàngāo de shíhou, yào bǎ tā fàng jìn ____ lǐ.",
+          "promptEn": "When making a cake, you put it into the ____ (oven).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9f9f8354e769",
@@ -5726,7 +6034,11 @@
             "wǎn",
             "jī"
           ],
-          "hanzi": "洗碗机"
+          "hanzi": "洗碗机",
+          "promptZh": "吃完饭，碗可以放进____里洗。",
+          "promptPinyin": "chī wán fàn, wǎn kěyǐ fàng jìn ____ lǐ xǐ.",
+          "promptEn": "After eating, dishes can go in the ____ (dishwasher) to be washed.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7c4d3455262e",
@@ -5746,7 +6058,11 @@
             "shuǐ",
             "cáo"
           ],
-          "hanzi": "水槽"
+          "hanzi": "水槽",
+          "promptZh": "厨房里洗菜、洗碗的那个地方是____。",
+          "promptPinyin": "chúfáng lǐ xǐ cài, xǐ wǎn de nàge dìfang shì ____.",
+          "promptEn": "The place in the kitchen for washing veg and dishes is the ____ (sink).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3a39bc2406d4",
@@ -5766,7 +6082,11 @@
             "yù",
             "shì"
           ],
-          "hanzi": "浴室"
+          "hanzi": "浴室",
+          "promptZh": "我在____里洗澡。",
+          "promptPinyin": "wǒ zài ____ lǐ xǐzǎo.",
+          "promptEn": "I shower in the ____ (bathroom).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1a5cf3853d31",
@@ -5786,7 +6106,11 @@
             "xǐ",
             "zǎo"
           ],
-          "hanzi": "洗澡"
+          "hanzi": "洗澡",
+          "promptZh": "运动完以后，我要去____。",
+          "promptPinyin": "yùndòng wán yǐhòu, wǒ yào qù ____.",
+          "promptEn": "After exercising, I'm going to ____ (take a shower).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c13438c078f3",
@@ -5810,7 +6134,11 @@
             "shuā",
             "yá"
           ],
-          "hanzi": "我在刷牙"
+          "hanzi": "我在刷牙",
+          "promptZh": "你早上拿着牙刷，在洗手间里，你在做什么？",
+          "promptPinyin": "nǐ zǎoshang ná zhe yáshuā, zài xǐshǒujiān lǐ, nǐ zài zuò shénme?",
+          "promptEn": "You're holding a toothbrush in the bathroom in the morning — what are you doing? (I'm brushing my teeth)",
+          "promptStyle": "q"
         },
         {
           "id": "c_2845a4d2e51b",
@@ -5836,7 +6164,11 @@
             "tóu",
             "fa"
           ],
-          "hanzi": "我在吹头发"
+          "hanzi": "我在吹头发",
+          "promptZh": "你洗完头，拿着吹风机，你在做什么？",
+          "promptPinyin": "nǐ xǐ wán tóu, ná zhe chuīfēngjī, nǐ zài zuò shénme?",
+          "promptEn": "You've washed your hair and are holding a hair dryer — what are you doing? (I'm drying my hair)",
+          "promptStyle": "q"
         },
         {
           "id": "c_28784a7c7837",
@@ -5860,7 +6192,11 @@
             "xǐ",
             "liǎn"
           ],
-          "hanzi": "我在洗脸"
+          "hanzi": "我在洗脸",
+          "promptZh": "你早上在水槽前面，用水和毛巾，你在做什么？",
+          "promptPinyin": "nǐ zǎoshang zài shuǐcáo qiánmiàn, yòng shuǐ hé máojīn, nǐ zài zuò shénme?",
+          "promptEn": "You're at the sink in the morning with water and a towel — what are you doing? (I'm washing my face)",
+          "promptStyle": "q"
         },
         {
           "id": "c_cd64bece196e",
@@ -5880,7 +6216,11 @@
             "gōng",
             "yù"
           ],
-          "hanzi": "公寓"
+          "hanzi": "公寓",
+          "promptZh": "我不住在大房子里，我住在一个____里。",
+          "promptPinyin": "wǒ bú zhù zài dà fángzi lǐ, wǒ zhù zài yí ge ____ lǐ.",
+          "promptEn": "I don't live in a big house, I live in an ____ (apartment).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_086b5146fac1",
@@ -5900,7 +6240,11 @@
             "dǎ",
             "sǎo"
           ],
-          "hanzi": "打扫"
+          "hanzi": "打扫",
+          "promptZh": "家里东西太多了，星期天我要好好____一下。",
+          "promptPinyin": "jiā lǐ dōngxi tài duō le, xīngqītiān wǒ yào hǎohǎo ____ yíxià.",
+          "promptEn": "There's too much stuff at home, on Sunday I'll ____ (clean/tidy) it up well.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_938140b1b1e8",
@@ -5928,7 +6272,11 @@
             "gōng",
             "yù"
           ],
-          "hanzi": "我在打扫公寓"
+          "hanzi": "我在打扫公寓",
+          "promptZh": "你拿着吸尘器，在家里打扫，你在做什么？",
+          "promptPinyin": "nǐ ná zhe xīchénqì, zài jiā lǐ dǎsǎo, nǐ zài zuò shénme?",
+          "promptEn": "You're holding a vacuum, cleaning at home — what are you doing? (I'm cleaning the apartment)",
+          "promptStyle": "q"
         },
         {
           "id": "c_4044f800f7a0",
@@ -5948,7 +6296,11 @@
             "zhěn",
             "tou"
           ],
-          "hanzi": "枕头"
+          "hanzi": "枕头",
+          "promptZh": "睡觉的时候，头下面放着____。",
+          "promptPinyin": "shuìjiào de shíhou, tóu xiàmiàn fàng zhe ____.",
+          "promptEn": "When sleeping, there's a ____ (pillow) under your head.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2ea045ce5f3a",
@@ -5968,7 +6320,11 @@
             "tǎn",
             "zi"
           ],
-          "hanzi": "毯子"
+          "hanzi": "毯子",
+          "promptZh": "天冷的时候，睡觉身上要放一张____。",
+          "promptPinyin": "tiān lěng de shíhou, shuìjiào shēn shàng yào fàng yì zhāng ____.",
+          "promptEn": "When it's cold, you put a ____ (blanket) over you when sleeping.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3e40fbe38aaf",
@@ -5988,7 +6344,11 @@
             "kè",
             "tīng"
           ],
-          "hanzi": "客厅"
+          "hanzi": "客厅",
+          "promptZh": "家里放沙发、看电视的那个房间是____。",
+          "promptPinyin": "jiā lǐ fàng shāfā, kàn diànshì de nàge fángjiān shì ____.",
+          "promptEn": "The room with the sofa where you watch TV is the ____ (living room).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_77b5e7a62b7f",
@@ -6008,7 +6368,11 @@
             "wò",
             "shì"
           ],
-          "hanzi": "卧室"
+          "hanzi": "卧室",
+          "promptZh": "放床、睡觉的那个房间是____。",
+          "promptPinyin": "fàng chuáng, shuìjiào de nàge fángjiān shì ____.",
+          "promptEn": "The room with the bed where you sleep is the ____ (bedroom).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_6f6183b9d877",
@@ -6028,7 +6392,11 @@
             "yī",
             "guì"
           ],
-          "hanzi": "衣柜"
+          "hanzi": "衣柜",
+          "promptZh": "我的衣服都放在卧室的____里。",
+          "promptPinyin": "wǒ de yīfu dōu fàng zài wòshì de ____ lǐ.",
+          "promptEn": "My clothes are all kept in the ____ (closet) in the bedroom.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3792114053d8",
@@ -6066,7 +6434,11 @@
             "gōng",
             "yù"
           ],
-          "hanzi": "我们住在一个两房的公寓"
+          "hanzi": "我们住在一个两房的公寓",
+          "promptZh": "你家有两个卧室，不是大房子，你怎么说你住的地方？",
+          "promptPinyin": "nǐ jiā yǒu liǎng ge wòshì, bú shì dà fángzi, nǐ zěnme shuō nǐ zhù de dìfang?",
+          "promptEn": "Your home has two bedrooms, not a big house — how do you say where you live? (we live in a two-bedroom apartment)",
+          "promptStyle": "q"
         },
         {
           "id": "c_5c7e73ba5fee",
@@ -6088,7 +6460,11 @@
             "shí",
             "hou"
           ],
-          "hanzi": "有时候"
+          "hanzi": "有时候",
+          "promptZh": "我常常喝茶，____也喝咖啡。",
+          "promptPinyin": "wǒ chángcháng hē chá, ____ yě hē kāfēi.",
+          "promptEn": "I often drink tea, and ____ (sometimes) coffee too.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1210f7429599",
@@ -6108,7 +6484,11 @@
             "yīng",
             "gāi"
           ],
-          "hanzi": "应该"
+          "hanzi": "应该",
+          "promptZh": "你病了，____去看医生。",
+          "promptPinyin": "nǐ bìng le, ____ qù kàn yīshēng.",
+          "promptEn": "You're sick, you ____ (should) go see a doctor.",
+          "promptStyle": "cloze"
         }
       ]
     },
@@ -28499,7 +28879,11 @@
             "pá",
             "shān"
           ],
-          "hanzi": "爬山"
+          "hanzi": "爬山",
+          "promptZh": "星期天天气好，我们一起去____。",
+          "promptPinyin": "xīngqītiān tiānqì hǎo, wǒmen yìqǐ qù ____.",
+          "promptEn": "The weather's good on Sunday, let's go ____ (hiking) together.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_563bdb3c601e",
@@ -28519,7 +28903,11 @@
             "qián",
             "bāo"
           ],
-          "hanzi": "钱包"
+          "hanzi": "钱包",
+          "promptZh": "我的钱都放在____里。",
+          "promptPinyin": "wǒ de qián dōu fàng zài ____ lǐ.",
+          "promptEn": "All my money is kept in my ____ (wallet).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0586b86c418e",
@@ -28539,7 +28927,11 @@
             "yóu",
             "xì"
           ],
-          "hanzi": "游戏"
+          "hanzi": "游戏",
+          "promptZh": "很多小孩子喜欢用手机玩____。",
+          "promptPinyin": "hěn duō xiǎo háizi xǐhuan yòng shǒujī wán ____.",
+          "promptEn": "Many kids like to play ____ (games) on their phone.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f3aa3ef59ce6",
@@ -28557,7 +28949,11 @@
           "syllables": [
             "xióng"
           ],
-          "hanzi": "熊"
+          "hanzi": "熊",
+          "promptZh": "一种很大、很强壮、住在山里的动物是____。",
+          "promptPinyin": "yì zhǒng hěn dà, hěn qiángzhuàng, zhù zài shān lǐ de dòngwù shì ____.",
+          "promptEn": "A big, strong animal that lives in the mountains is a ____ (bear).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_398d37ff13d4",
@@ -28577,7 +28973,11 @@
             "huá",
             "xuě"
           ],
-          "hanzi": "滑雪"
+          "hanzi": "滑雪",
+          "promptZh": "天冷、山上有雪的时候，很多人去____。",
+          "promptPinyin": "tiān lěng, shān shàng yǒu xuě de shíhou, hěn duō rén qù ____.",
+          "promptEn": "When it's cold and there's snow on the mountain, many people go ____ (skiing).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_fdfbacfbac6b",
@@ -28595,7 +28995,11 @@
           "syllables": [
             "tōu"
           ],
-          "hanzi": "偷"
+          "hanzi": "偷",
+          "promptZh": "那个人把别人的钱包____走了。",
+          "promptPinyin": "nàge rén bǎ biéren de qiánbāo ____ zǒu le.",
+          "promptEn": "That person ____ (stole) someone else's wallet.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7835646c7972",
@@ -28615,7 +29019,11 @@
             "shì",
             "pín"
           ],
-          "hanzi": "视频"
+          "hanzi": "视频",
+          "promptZh": "我在手机上看了一个很好笑的____。",
+          "promptPinyin": "wǒ zài shǒujī shàng kàn le yí ge hěn hǎoxiào de ____.",
+          "promptEn": "I watched a very funny ____ (video) on my phone.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_afb8c3e0a18d",
@@ -28635,7 +29043,11 @@
             "fù",
             "qián"
           ],
-          "hanzi": "付钱"
+          "hanzi": "付钱",
+          "promptZh": "吃完饭以后，我们要去____。",
+          "promptPinyin": "chī wán fàn yǐhòu, wǒmen yào qù ____.",
+          "promptEn": "After eating, we need to go ____ (pay).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ac31f61d9a81",
@@ -28653,7 +29065,11 @@
           "syllables": [
             "zhuā"
           ],
-          "hanzi": "抓"
+          "hanzi": "抓",
+          "promptZh": "东西要掉了，快用手____住。",
+          "promptPinyin": "dōngxi yào diào le, kuài yòng shǒu ____ zhù.",
+          "promptEn": "The thing is about to fall, quickly ____ (grab) it with your hand.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_76cbb14322cb",
@@ -28673,7 +29089,11 @@
             "tú",
             "piàn"
           ],
-          "hanzi": "图片"
+          "hanzi": "图片",
+          "promptZh": "这本书里有很多好看的____。",
+          "promptPinyin": "zhè běn shū lǐ yǒu hěn duō hǎokàn de ____.",
+          "promptEn": "This book has many nice ____ (pictures).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e8c7fdab1f84",
@@ -28693,7 +29113,11 @@
             "liàn",
             "xí"
           ],
-          "hanzi": "练习"
+          "hanzi": "练习",
+          "promptZh": "想说好中文，每天都要____。",
+          "promptPinyin": "xiǎng shuō hǎo zhōngwén, měitiān dōu yào ____.",
+          "promptEn": "To speak Chinese well, you must ____ (practice) every day.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_bdd9f5c07e83",
@@ -28713,7 +29137,11 @@
             "pāi",
             "zhào"
           ],
-          "hanzi": "拍照"
+          "hanzi": "拍照",
+          "promptZh": "这个地方很好看，我想在这里____。",
+          "promptPinyin": "zhège dìfang hěn hǎokàn, wǒ xiǎng zài zhèlǐ ____.",
+          "promptEn": "This place is beautiful, I want to ____ (take a photo) here.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b9ae842bc3f1",
@@ -28755,7 +29183,11 @@
             "zhào",
             "ma"
           ],
-          "hanzi": "不好意思，可以帮我们拍张照吗？"
+          "hanzi": "不好意思，可以帮我们拍张照吗？",
+          "promptZh": "你想请一个人帮你和朋友拍照，可以客气地问他什么？",
+          "promptPinyin": "nǐ xiǎng qǐng yí ge rén bāng nǐ hé péngyou pāizhào, kěyǐ kèqi de wèn tā shénme?",
+          "promptEn": "You want to ask someone to take a photo of you and your friend — how do you politely ask?",
+          "promptStyle": "q"
         },
         {
           "id": "c_2958ea6d1759",
@@ -28775,7 +29207,11 @@
             "xiǎo",
             "xīn"
           ],
-          "hanzi": "小心"
+          "hanzi": "小心",
+          "promptZh": "地上有水，走路要____。",
+          "promptPinyin": "dì shàng yǒu shuǐ, zǒulù yào ____.",
+          "promptEn": "There's water on the floor, be ____ (careful) when walking.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b1e7313a2bcb",
@@ -28795,7 +29231,11 @@
             "lóu",
             "tī"
           ],
-          "hanzi": "楼梯"
+          "hanzi": "楼梯",
+          "promptZh": "电梯坏了，我们只能走____上去。",
+          "promptPinyin": "diàntī huài le, wǒmen zhǐ néng zǒu ____ shàngqù.",
+          "promptEn": "The elevator is broken, we can only take the ____ (stairs) up.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8fb6e7663caf",
@@ -28813,7 +29253,11 @@
           "syllables": [
             "guài"
           ],
-          "hanzi": "怪"
+          "hanzi": "怪",
+          "promptZh": "那个人做事很____，我不太懂他。",
+          "promptPinyin": "nàge rén zuò shì hěn ____, wǒ bú tài dǒng tā.",
+          "promptEn": "That person acts very ____ (weird), I don't quite get him.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a8d456495082",
@@ -28833,7 +29277,11 @@
             "fán",
             "rén"
           ],
-          "hanzi": "烦人"
+          "hanzi": "烦人",
+          "promptZh": "他一直说一样的话，真____。",
+          "promptPinyin": "tā yìzhí shuō yíyàng de huà, zhēn ____.",
+          "promptEn": "He keeps saying the same thing, so ____ (annoying).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d8c7abf123a9",
@@ -28851,7 +29299,11 @@
           "syllables": [
             "rēng"
           ],
-          "hanzi": "扔"
+          "hanzi": "扔",
+          "promptZh": "不要的东西，可以____到外面去。",
+          "promptPinyin": "bú yào de dōngxi, kěyǐ ____ dào wàimiàn qù.",
+          "promptEn": "Things you don't want, you can ____ (throw) outside.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8b278aa3a338",
@@ -28869,7 +29321,11 @@
           "syllables": [
             "diào"
           ],
-          "hanzi": "掉"
+          "hanzi": "掉",
+          "promptZh": "我的手机从桌子上____到地上了。",
+          "promptPinyin": "wǒ de shǒujī cóng zhuōzi shàng ____ dào dì shàng le.",
+          "promptEn": "My phone ____ (fell) from the table onto the floor.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_811732184c95",
@@ -28889,7 +29345,11 @@
             "shù",
             "zhī"
           ],
-          "hanzi": "树枝"
+          "hanzi": "树枝",
+          "promptZh": "鸟站在树上的____上面。",
+          "promptPinyin": "niǎo zhàn zài shù shàng de ____ shàngmiàn.",
+          "promptEn": "The bird stands on the tree's ____ (branch).",
+          "promptStyle": "cloze"
         }
       ]
     }

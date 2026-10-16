@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v84 · immersive prompts: +wk41 +wk38 decks';
+const BUILD = 'v85 · immersive prompts: all 6 weekly decks';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
