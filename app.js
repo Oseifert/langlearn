@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v88 · +11 new words (cooking/misc) in Week Oct 12-18';
+const BUILD = 'v89 · example sentences + notes now pinyin-only (no hanzi)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -714,12 +714,36 @@ function appendEn2zhPrompt(mount, c) {
   }, 'reveal English');
   mount.append(btn, eng);
 }
-// Example sentence block: hanzi line + (optional) pinyin line beneath it.
+// Example sentence block: PINYIN ONLY (Oliver learns pinyin, no hanzi).
 function appendExample(card, c) {
-  if (!c.example) return;
-  const box = el('div', { class: 'example' }, c.example);
-  if (c.examplePinyin) box.append(el('div', { class: 'example-pinyin' }, c.examplePinyin));
+  // Prefer the pinyin line; never display hanzi. If there's no pinyin, show nothing.
+  if (!c.examplePinyin) return;
+  const box = el('div', { class: 'example' },
+    el('div', { class: 'example-pinyin' }, c.examplePinyin));
   card.append(box);
+}
+
+// Oliver learns PINYIN ONLY — strip any hanzi (CJK) from free-text notes before
+// display. Removes CJK chars and tidies now-dangling punctuation/quotes; returns
+// '' if nothing meaningful remains.
+function cleanNotes(t) {
+  if (!t) return '';
+  let s = String(t).replace(/[\u4e00-\u9fff\u3400-\u4dbf]/g, '');
+  // collapse empty quotes/brackets left behind, tidy spaces/punctuation
+  s = s.replace(/[‘’'“”"]\s*[‘’'“”"]/g, '');
+  s = s.replace(/\(\s*\)/g, '').replace(/\s{2,}/g, ' ');
+  s = s.replace(/\s+([,.;:)])/g, '$1');
+  s = s.replace(/[=＝]\s*(?=[,.;]|$)/g, '');
+  s = s.replace(/^[\s—\-:=,.;]+|[\s—\-:=,.;]+$/g, '').trim();
+  // if what's left is just a label with no content (e.g. 'lit.'), drop it
+  if (/^(lit\.?|e\.g\.?|also|also just)$/i.test(s)) return '';
+  return s;
+}
+
+// Append a notes line only if there's non-hanzi content worth showing.
+function appendNotes(card, c) {
+  const n = cleanNotes(c.notes);
+  if (n) card.append(el('div', { class: 'notes' }, n));
 }
 
 // ---- Audio playback ----
@@ -900,7 +924,7 @@ async function renderLearn(root, params) {
     card.append(el('div', { class: 'divider' }));
     card.append(el('div', { class: 'meaning' }, c.meaning));
     appendExample(card, c);
-    if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
+    appendNotes(card, c);
     stage.append(card);
     _currentAudioCard = c;
     maybeAutoplay(c);
@@ -980,7 +1004,7 @@ async function renderPractice(root, params) {
       _currentAudioCard = c;
     }
     appendExample(card, c);
-    if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
+    appendNotes(card, c);
     stage.append(card);
     const grade = el('div', { class: 'grade grade2' });
     grade.append(gradeBtn('again', '✗ Didn’t know', '', 0));
@@ -1218,7 +1242,7 @@ async function renderMixedReview(root, params) {
           _currentAudioCard = c; // already played on front; don't replay
         }
         appendExample(card, c);
-        if (c.notes) card.append(el('div', { class: 'notes' }, c.notes));
+        appendNotes(card, c);
         stage.append(card);
         const grade = el('div', { class: 'grade grade2' });
         grade.append(el('button', { class: 'again', onclick: () => grade0(0) }, el('span', {}, '✗ Didn’t know')));
