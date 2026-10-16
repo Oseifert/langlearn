@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v83 · immersive prompts PINYIN-ONLY (no hanzi)';
+const BUILD = 'v84 · immersive prompts: +wk41 +wk38 decks';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T13:24:04.617649+00:00",
+  "generatedAt": "2026-10-16T13:37:21.733042+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -730,7 +730,11 @@
             "míng",
             "zhì"
           ],
-          "hanzi": "三明治"
+          "hanzi": "三明治",
+          "promptZh": "两片面包中间加肉和菜，就是____。",
+          "promptPinyin": "liǎng piàn miànbāo zhōngjiān jiā ròu hé cài, jiùshì ____.",
+          "promptEn": "Two slices of bread with meat and veg in the middle is a ____ (sandwich).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3b8834c47e13",
@@ -750,7 +754,11 @@
             "shǔ",
             "tiáo"
           ],
-          "hanzi": "薯条"
+          "hanzi": "薯条",
+          "promptZh": "吃汉堡的时候，很多人也点____。",
+          "promptPinyin": "chī hànbǎo de shíhou, hěn duō rén yě diǎn ____.",
+          "promptEn": "When eating a burger, many people also order ____ (fries).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a1944bede965",
@@ -772,7 +780,11 @@
             "bǎo",
             "bāo"
           ],
-          "hanzi": "汉堡包"
+          "hanzi": "汉堡包",
+          "promptZh": "两片面包中间加一块牛肉，就是____。",
+          "promptPinyin": "liǎng piàn miànbāo zhōngjiān jiā yí kuài niúròu, jiùshì ____.",
+          "promptEn": "Two slices of bread with a beef patty in the middle is a ____ (hamburger).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1f718458c0e1",
@@ -794,7 +806,11 @@
             "chàng",
             "huì"
           ],
-          "hanzi": "演唱会"
+          "hanzi": "演唱会",
+          "promptZh": "我很喜欢这个歌手，想去听他的____。",
+          "promptPinyin": "wǒ hěn xǐhuan zhège gēshǒu, xiǎng qù tīng tā de ____.",
+          "promptEn": "I like this singer and want to go to his ____ (concert).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9d34b872d2fa",
@@ -814,7 +830,11 @@
             "níng",
             "méng"
           ],
-          "hanzi": "柠檬"
+          "hanzi": "柠檬",
+          "promptZh": "茶里有时候会加一片黄色的____。",
+          "promptPinyin": "chá lǐ yǒu shíhou huì jiā yí piàn huángsè de ____.",
+          "promptEn": "Tea sometimes has a slice of yellow ____ (lemon) added.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0413b39794bd",
@@ -834,7 +854,11 @@
             "chéng",
             "zi"
           ],
-          "hanzi": "橙子"
+          "hanzi": "橙子",
+          "promptZh": "橙色的那种水果叫什么？",
+          "promptPinyin": "chéngsè de nà zhǒng shuǐguǒ jiào shénme?",
+          "promptEn": "What's that orange-colored fruit called? (orange)",
+          "promptStyle": "q"
         },
         {
           "id": "c_d41aefd9d6cd",
@@ -854,7 +878,11 @@
             "bō",
             "cài"
           ],
-          "hanzi": "菠菜"
+          "hanzi": "菠菜",
+          "promptZh": "这种绿色的蔬菜叫____。",
+          "promptPinyin": "zhè zhǒng lǜsè de shūcài jiào ____.",
+          "promptEn": "This green vegetable is called ____ (spinach).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_bd41234c096f",
@@ -876,7 +904,11 @@
             "lán",
             "huā"
           ],
-          "hanzi": "西兰花"
+          "hanzi": "西兰花",
+          "promptZh": "像小树一样的绿色蔬菜是____。",
+          "promptPinyin": "xiàng xiǎo shù yíyàng de lǜsè shūcài shì ____.",
+          "promptEn": "The green vegetable that looks like a little tree is ____ (broccoli).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_83d97744358e",
@@ -896,7 +928,11 @@
             "yù",
             "mǐ"
           ],
-          "hanzi": "玉米"
+          "hanzi": "玉米",
+          "promptZh": "黄色的、长在地里的那种蔬菜是____。",
+          "promptPinyin": "huángsè de, zhǎng zài dì lǐ de nà zhǒng shūcài shì ____.",
+          "promptEn": "The yellow vegetable that grows in the ground/field is ____ (corn).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9388d21c192d",
@@ -914,7 +950,11 @@
           "syllables": [
             "xiā"
           ],
-          "hanzi": "虾"
+          "hanzi": "虾",
+          "promptZh": "这种粉红色的海鲜，很多人很爱吃____。",
+          "promptPinyin": "zhè zhǒng fěnhóngsè de hǎixiān, hěn duō rén hěn ài chī ____.",
+          "promptEn": "This pink seafood that many love to eat is ____ (shrimp).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_6681821a8348",
@@ -934,7 +974,11 @@
             "hǎi",
             "xiān"
           ],
-          "hanzi": "海鲜"
+          "hanzi": "海鲜",
+          "promptZh": "鱼和虾都是____。",
+          "promptPinyin": "yú hé xiā dōu shì ____.",
+          "promptEn": "Fish and shrimp are both ____ (seafood).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0677fb035626",
@@ -956,7 +1000,11 @@
             "jì",
             "dòu"
           ],
-          "hanzi": "四季豆"
+          "hanzi": "四季豆",
+          "promptZh": "又长又绿的那种豆子叫____。",
+          "promptPinyin": "yòu cháng yòu lǜ de nà zhǒng dòuzi jiào ____.",
+          "promptEn": "The long green beans are called ____ (green beans).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4b3092098d39",
@@ -976,7 +1024,11 @@
             "shū",
             "cài"
           ],
-          "hanzi": "蔬菜"
+          "hanzi": "蔬菜",
+          "promptZh": "菠菜和玉米都是____。",
+          "promptPinyin": "bōcài hé yùmǐ dōu shì ____.",
+          "promptEn": "Spinach and corn are both ____ (vegetables).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b78f5907f24f",
@@ -998,7 +1050,11 @@
             "shí",
             "zhě"
           ],
-          "hanzi": "素食者"
+          "hanzi": "素食者",
+          "promptZh": "不吃肉，只吃蔬菜的人叫____。",
+          "promptPinyin": "bù chī ròu, zhǐ chī shūcài de rén jiào ____.",
+          "promptEn": "A person who eats no meat, only vegetables, is a ____ (vegetarian).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b55f31c565ca",
@@ -1018,7 +1074,11 @@
             "niú",
             "pái"
           ],
-          "hanzi": "牛排"
+          "hanzi": "牛排",
+          "promptZh": "用牛肉做的那种排是____。",
+          "promptPinyin": "yòng niúròu zuò de nà zhǒng pái shì ____.",
+          "promptEn": "The chop/steak made from beef is ____ (steak).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a147e9ea9eaf",
@@ -1038,7 +1098,11 @@
             "zhū",
             "pái"
           ],
-          "hanzi": "猪排"
+          "hanzi": "猪排",
+          "promptZh": "用猪肉做的那种排是____。",
+          "promptPinyin": "yòng zhūròu zuò de nà zhǒng pái shì ____.",
+          "promptEn": "The chop made from pork is ____ (pork chop).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_74fcd8e199ea",
@@ -1058,7 +1122,11 @@
             "yā",
             "ròu"
           ],
-          "hanzi": "鸭肉"
+          "hanzi": "鸭肉",
+          "promptZh": "鸭身上的肉叫____。",
+          "promptPinyin": "yā shēnshang de ròu jiào ____.",
+          "promptEn": "The meat from a duck is called ____ (duck meat).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0e24f1de2f8b",
@@ -1078,7 +1146,11 @@
             "yáng",
             "ròu"
           ],
-          "hanzi": "羊肉"
+          "hanzi": "羊肉",
+          "promptZh": "羊身上的肉叫____。",
+          "promptPinyin": "yáng shēnshang de ròu jiào ____.",
+          "promptEn": "The meat from a sheep is ____ (lamb).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f760299e24c1",
@@ -1098,7 +1170,11 @@
             "xiāng",
             "jiāo"
           ],
-          "hanzi": "香蕉"
+          "hanzi": "香蕉",
+          "promptZh": "猴子最爱吃的那种黄色水果是____。",
+          "promptPinyin": "hóuzi zuì ài chī de nà zhǒng huángsè shuǐguǒ shì ____.",
+          "promptEn": "The yellow fruit monkeys love most is a ____ (banana).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c2a1cb5770c8",
@@ -1118,7 +1194,11 @@
             "táo",
             "zi"
           ],
-          "hanzi": "桃子"
+          "hanzi": "桃子",
+          "promptZh": "一种粉红色、很甜的水果叫____。",
+          "promptPinyin": "yì zhǒng fěnhóngsè, hěn tián de shuǐguǒ jiào ____.",
+          "promptEn": "A pink, very sweet fruit is called ____ (peach).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e18531182f4a",
@@ -1138,7 +1218,11 @@
             "yàn",
             "mài"
           ],
-          "hanzi": "燕麦"
+          "hanzi": "燕麦",
+          "promptZh": "很多人早上用牛奶和____一起吃。",
+          "promptPinyin": "hěn duō rén zǎoshang yòng niúnǎi hé ____ yìqǐ chī.",
+          "promptEn": "Many people eat ____ (oatmeal) together with milk in the morning.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_5010624c82a9",
@@ -1158,7 +1242,11 @@
             "mài",
             "piàn"
           ],
-          "hanzi": "麦片"
+          "hanzi": "麦片",
+          "promptZh": "早饭吃的那种一片一片的干燕麦是____。",
+          "promptPinyin": "zǎofàn chī de nà zhǒng yí piàn yí piàn de gān yànmài shì ____.",
+          "promptEn": "The dry flaked oats eaten for breakfast is ____ (granola/cereal).",
+          "promptStyle": "cloze"
         }
       ]
     },
@@ -3539,7 +3627,11 @@
             "chéng",
             "shì"
           ],
-          "hanzi": "城市"
+          "hanzi": "城市",
+          "promptZh": "上海是中国很大的____。",
+          "promptPinyin": "shànghǎi shì zhōngguó hěn dà de ____.",
+          "promptEn": "Shanghai is a very big ____ (city) in China.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8c048461d701",
@@ -3559,7 +3651,11 @@
             "zuì",
             "hòu"
           ],
-          "hanzi": "最后"
+          "hanzi": "最后",
+          "promptZh": "我们先吃饭，____再看电影。",
+          "promptPinyin": "wǒmen xiān chī fàn, ____ zài kàn diànyǐng.",
+          "promptEn": "We eat first, and ____ (finally/last) watch a movie.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_aa970b806b79",
@@ -3579,7 +3675,11 @@
             "suǒ",
             "yǒu"
           ],
-          "hanzi": "所有"
+          "hanzi": "所有",
+          "promptZh": "____的人都来了，一个也没少。",
+          "promptPinyin": "____ de rén dōu lái le, yí ge yě méi shǎo.",
+          "promptEn": "____ (all) the people came, not one missing.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_35cbe000ebf2",
@@ -3597,7 +3697,11 @@
           "syllables": [
             "xiān"
           ],
-          "hanzi": "先"
+          "hanzi": "先",
+          "promptZh": "我们____吃饭，然后再工作。",
+          "promptPinyin": "wǒmen ____ chī fàn, ránhòu zài gōngzuò.",
+          "promptEn": "We eat ____ (first), then work.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a519f564aeac",
@@ -3617,7 +3721,11 @@
             "dōng",
             "bian"
           ],
-          "hanzi": "东边"
+          "hanzi": "东边",
+          "promptZh": "太阳从____出来。",
+          "promptPinyin": "tàiyáng cóng ____ chūlái.",
+          "promptEn": "The sun comes up from the ____ (east).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_073c4cdc2720",
@@ -3637,7 +3745,11 @@
             "běi",
             "bian"
           ],
-          "hanzi": "北边"
+          "hanzi": "北边",
+          "promptZh": "太阳从东边出来，不是从____出来。",
+          "promptPinyin": "tàiyáng cóng dōngbian chūlái, bú shì cóng ____ chūlái.",
+          "promptEn": "The sun comes up from the east, not from the ____ (north).",
+          "promptStyle": "cloze"
         }
       ]
     },
