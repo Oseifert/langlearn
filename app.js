@@ -124,6 +124,10 @@ function makeCardRecord(raw, deckId) {
     pos: raw.pos || YC.derivePos(raw.meaning || ''),
     example: raw.example || '',
     examplePinyin: raw.examplePinyin || '',
+    promptZh: raw.promptZh || '',
+    promptPinyin: raw.promptPinyin || '',
+    promptEn: raw.promptEn || '',
+    promptStyle: raw.promptStyle || '',
     notes: raw.notes || '',
     tones: Array.isArray(raw.tones) ? raw.tones : deriveTones(raw.pinyin || ''),
     syllables: Array.isArray(raw.syllables) && raw.syllables.length ? raw.syllables : deriveSyllables(raw.pinyin || ''),
@@ -437,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v75 · POS badges (N)(V)(Adj) always shown on picture prompt';
+const BUILD = 'v81 · immersive EN→中 prompts (Colors deck)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -675,6 +679,23 @@ function posTag(c, { defaultNoun = false } = {}) {
 //     fall back to the English meaning text exactly as before.
 // `mount` is the card element to append into. Returns nothing.
 function appendEn2zhPrompt(mount, c) {
+  // Immersive prompt (Chinese cloze/question) takes priority when present:
+  // show the hanzi prompt big + pinyin beneath, both with the ____ blank, so
+  // the whole prompt face is in Chinese. A "reveal English" button reveals the
+  // English gloss only when you're stuck — default stays fully immersive.
+  if (c.promptZh) {
+    mount.append(el('div', { class: 'prompt-zh' }, c.promptZh));
+    if (c.promptPinyin) mount.append(el('div', { class: 'prompt-pinyin' }, c.promptPinyin));
+    if (c.promptEn) {
+      const eng = el('div', { class: 'reveal-en', hidden: true }, c.promptEn);
+      const btn = el('button', {
+        class: 'reveal-en-btn',
+        onclick: (ev) => { ev.stopPropagation(); eng.hidden = false; btn.hidden = true; },
+      }, 'reveal English');
+      mount.append(btn, eng);
+    }
+    return;
+  }
   if (!c.emoji) {
     // No visual: plain English prompt (grammar/abstract words).
     mount.append(el('div', { class: 'meaning', style: 'font-size:1.7rem' }, c.meaning));

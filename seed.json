@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T03:51:56.259720+00:00",
+  "generatedAt": "2026-10-16T13:13:57.914351+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -26504,7 +26504,11 @@
             "yán",
             "sè"
           ],
-          "hanzi": "颜色"
+          "hanzi": "颜色",
+          "promptZh": "红、蓝、黄 —— 这些都是什么？",
+          "promptPinyin": "hóng, lán, huáng —— zhèxiē dōu shì shénme?",
+          "promptEn": "Red, blue, yellow — these are all what (kinds of ___)?",
+          "promptStyle": "q"
         },
         {
           "id": "c_fd6d2282f1c6",
@@ -26524,7 +26528,11 @@
             "bái",
             "sè"
           ],
-          "hanzi": "白色"
+          "hanzi": "白色",
+          "promptZh": "雪的颜色是____。",
+          "promptPinyin": "xuě de yánsè shì ____.",
+          "promptEn": "The color of snow is ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_deaeabcdf272",
@@ -26544,7 +26552,11 @@
             "hēi",
             "sè"
           ],
-          "hanzi": "黑色"
+          "hanzi": "黑色",
+          "promptZh": "夜晚的天空是____的。",
+          "promptPinyin": "yèwǎn de tiānkōng shì ____ de.",
+          "promptEn": "The night sky is ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_152e2f103fa4",
@@ -26564,7 +26576,11 @@
             "hóng",
             "sè"
           ],
-          "hanzi": "红色"
+          "hanzi": "红色",
+          "promptZh": "苹果和草莓是什么颜色？",
+          "promptPinyin": "píngguǒ hé cǎoméi shì shénme yánsè?",
+          "promptEn": "What color are apples and strawberries?",
+          "promptStyle": "q"
         },
         {
           "id": "c_fa944b64e4be",
@@ -26586,7 +26602,11 @@
             "hóng",
             "sè"
           ],
-          "hanzi": "粉红色"
+          "hanzi": "粉红色",
+          "promptZh": "红色加白色就是____。",
+          "promptPinyin": "hóngsè jiā báisè jiùshì ____.",
+          "promptEn": "Red plus white equals ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_56cfa168eff8",
@@ -26606,7 +26626,11 @@
             "chéng",
             "sè"
           ],
-          "hanzi": "橙色"
+          "hanzi": "橙色",
+          "promptZh": "橙子是什么颜色？",
+          "promptPinyin": "chéngzi shì shénme yánsè?",
+          "promptEn": "What color is an orange (the fruit)?",
+          "promptStyle": "q"
         },
         {
           "id": "c_810e0bdd03af",
@@ -26626,7 +26650,11 @@
             "lán",
             "sè"
           ],
-          "hanzi": "蓝色"
+          "hanzi": "蓝色",
+          "promptZh": "晴天的天空是____的。",
+          "promptPinyin": "qíngtiān de tiānkōng shì ____ de.",
+          "promptEn": "On a clear day the sky is ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7fa58cb5daeb",
@@ -26646,7 +26674,11 @@
             "zǐ",
             "sè"
           ],
-          "hanzi": "紫色"
+          "hanzi": "紫色",
+          "promptZh": "红色加蓝色就是____。",
+          "promptPinyin": "hóngsè jiā lánsè jiùshì ____.",
+          "promptEn": "Red plus blue equals ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ac344aae697a",
@@ -26668,7 +26700,11 @@
             "fēi",
             "sè"
           ],
-          "hanzi": "咖啡色"
+          "hanzi": "咖啡色",
+          "promptZh": "咖啡是什么颜色？",
+          "promptPinyin": "kāfēi shì shénme yánsè?",
+          "promptEn": "What color is coffee?",
+          "promptStyle": "q"
         },
         {
           "id": "c_a9d892d489bd",
@@ -26688,7 +26724,11 @@
             "huī",
             "sè"
           ],
-          "hanzi": "灰色"
+          "hanzi": "灰色",
+          "promptZh": "黑色加白色就是____。",
+          "promptPinyin": "hēisè jiā báisè jiùshì ____.",
+          "promptEn": "Black plus white equals ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c92b0c05951f",
@@ -26708,7 +26748,11 @@
             "huáng",
             "sè"
           ],
-          "hanzi": "黄色"
+          "hanzi": "黄色",
+          "promptZh": "香蕉和太阳是什么颜色？",
+          "promptPinyin": "xiāngjiāo hé tàiyáng shì shénme yánsè?",
+          "promptEn": "What color are bananas and the sun?",
+          "promptStyle": "q"
         },
         {
           "id": "c_98d4af8d364b",
@@ -26728,7 +26772,11 @@
             "lǜ",
             "sè"
           ],
-          "hanzi": "绿色"
+          "hanzi": "绿色",
+          "promptZh": "树叶和草是什么颜色？",
+          "promptPinyin": "shùyè hé cǎo shì shénme yánsè?",
+          "promptEn": "What color are leaves and grass?",
+          "promptStyle": "q"
         },
         {
           "id": "c_6e43f997b38c",
@@ -26748,7 +26796,11 @@
             "yī",
             "fu"
           ],
-          "hanzi": "衣服"
+          "hanzi": "衣服",
+          "promptZh": "早上起床以后，我要穿____。",
+          "promptPinyin": "zǎoshang qǐchuáng yǐhòu, wǒ yào chuān ____.",
+          "promptEn": "After I get up in the morning, I put on ____.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4a9d175f1c75",
@@ -26766,7 +26818,11 @@
           "syllables": [
             "chuān"
           ],
-          "hanzi": "穿"
+          "hanzi": "穿",
+          "promptZh": "天气冷，你要多____点衣服。",
+          "promptPinyin": "tiānqì lěng, nǐ yào duō ____ diǎn yīfu.",
+          "promptEn": "It's cold, you should ____ (wear) more clothes.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_21b6fdc7e5b1",
@@ -26786,7 +26842,11 @@
             "chuān",
             "shàng"
           ],
-          "hanzi": "穿上"
+          "hanzi": "穿上",
+          "promptZh": "外面下雨了，____你的外套吧。",
+          "promptPinyin": "wàimiàn xià yǔ le, ____ nǐ de wàitào ba.",
+          "promptEn": "It's raining outside, ____ (put on) your coat.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f5b97432c6c1",
@@ -26804,7 +26864,11 @@
           "syllables": [
             "dài"
           ],
-          "hanzi": "戴"
+          "hanzi": "戴",
+          "promptZh": "太阳很大，我要____帽子和墨镜。",
+          "promptPinyin": "tàiyáng hěn dà, wǒ yào ____ màozi hé mòjìng.",
+          "promptEn": "The sun is strong, I'll ____ (wear) a hat and sunglasses.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ff6f4dc8a887",
@@ -26824,7 +26888,11 @@
             "tuō",
             "xià"
           ],
-          "hanzi": "脱下"
+          "hanzi": "脱下",
+          "promptZh": "进屋以后，请____你的鞋子。",
+          "promptPinyin": "jìn wū yǐhòu, qǐng ____ nǐ de xiézi.",
+          "promptEn": "After coming inside, please ____ (take off) your shoes.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0c78d11aa3ca",
@@ -26844,7 +26912,11 @@
             "chèn",
             "shān"
           ],
-          "hanzi": "衬衫"
+          "hanzi": "衬衫",
+          "promptZh": "他穿了一件白色的____，很正式。",
+          "promptPinyin": "tā chuān le yí jiàn báisè de ____, hěn zhèngshì.",
+          "promptEn": "He's wearing a white ____ (shirt), very formal.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_268ccf619a5a",
@@ -26864,7 +26936,11 @@
             "qún",
             "zi"
           ],
-          "hanzi": "裙子"
+          "hanzi": "裙子",
+          "promptZh": "女孩子常常穿____，不穿裤子。",
+          "promptPinyin": "nǚ háizi chángcháng chuān ____, bù chuān kùzi.",
+          "promptEn": "Girls often wear a ____ (skirt), not pants.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_aa88fe622c67",
@@ -26884,7 +26960,11 @@
             "wài",
             "tào"
           ],
-          "hanzi": "外套"
+          "hanzi": "外套",
+          "promptZh": "冬天出门要穿一件厚____。",
+          "promptPinyin": "dōngtiān chūmén yào chuān yí jiàn hòu ____.",
+          "promptEn": "In winter you wear a thick ____ (coat) when going out.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b82314895f98",
@@ -26904,7 +26984,11 @@
             "kù",
             "zi"
           ],
-          "hanzi": "裤子"
+          "hanzi": "裤子",
+          "promptZh": "他下半身穿的是____，不是裙子。",
+          "promptPinyin": "tā xià bànshēn chuān de shì ____, bú shì qúnzi.",
+          "promptEn": "On his lower half he's wearing ____ (pants), not a skirt.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0b23613ab69a",
@@ -26924,7 +27008,11 @@
             "xié",
             "zi"
           ],
-          "hanzi": "鞋子"
+          "hanzi": "鞋子",
+          "promptZh": "出门以前要先穿好____。",
+          "promptPinyin": "chūmén yǐqián yào xiān chuān hǎo ____.",
+          "promptEn": "Before going out you first put on your ____ (shoes).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_fb7582728f06",
@@ -26944,7 +27032,11 @@
             "mào",
             "zi"
           ],
-          "hanzi": "帽子"
+          "hanzi": "帽子",
+          "promptZh": "天气很冷，他头上戴着一顶____。",
+          "promptPinyin": "tiānqì hěn lěng, tā tóu shàng dài zhe yì dǐng ____.",
+          "promptEn": "It's cold, he's wearing a ____ (hat) on his head.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4cf94a31b1f5",
@@ -26964,7 +27056,11 @@
             "wà",
             "zi"
           ],
-          "hanzi": "袜子"
+          "hanzi": "袜子",
+          "promptZh": "穿鞋子以前要先穿____。",
+          "promptPinyin": "chuān xiézi yǐqián yào xiān chuān ____.",
+          "promptEn": "Before putting on shoes you first put on ____ (socks).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2ec4791ecb24",
@@ -26984,7 +27080,11 @@
             "jiā",
             "kè"
           ],
-          "hanzi": "夹克"
+          "hanzi": "夹克",
+          "promptZh": "他穿了一件绿色的皮____。",
+          "promptPinyin": "tā chuān le yí jiàn lǜsè de pí ____.",
+          "promptEn": "He's wearing a green leather ____ (jacket).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9cafafcf52fa",
@@ -27004,7 +27104,11 @@
             "shǒu",
             "tào"
           ],
-          "hanzi": "手套"
+          "hanzi": "手套",
+          "promptZh": "冬天手冷，要戴____。",
+          "promptPinyin": "dōngtiān shǒu lěng, yào dài ____.",
+          "promptEn": "In winter your hands are cold, so you wear ____ (gloves).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d12e6fea9d56",
@@ -27024,7 +27128,11 @@
             "nèi",
             "kù"
           ],
-          "hanzi": "内裤"
+          "hanzi": "内裤",
+          "promptZh": "最贴身穿的那件是____。",
+          "promptPinyin": "zuì tiēshēn chuān de nà jiàn shì ____.",
+          "promptEn": "The most inner (closest to body) garment is ____ (underwear).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_761b1e9b59e0",
@@ -27046,7 +27154,11 @@
             "shao",
             "qián"
           ],
-          "hanzi": "多少钱"
+          "hanzi": "多少钱",
+          "promptZh": "你想买这件衣服，要问店员什么？",
+          "promptPinyin": "nǐ xiǎng mǎi zhè jiàn yīfu, yào wèn diànyuán shénme?",
+          "promptEn": "You want to buy this garment — what do you ask the clerk? (how much ___)",
+          "promptStyle": "q"
         },
         {
           "id": "c_89ed63d1aa18",
@@ -27064,7 +27176,11 @@
           "syllables": [
             "kuài"
           ],
-          "hanzi": "块"
+          "hanzi": "块",
+          "promptZh": "这件衣服二十五____钱。",
+          "promptPinyin": "zhè jiàn yīfu èrshíwǔ ____ qián.",
+          "promptEn": "This garment costs twenty-five ____ (kuai/dollars).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0e214f3f53f7",
@@ -27082,7 +27198,11 @@
           "syllables": [
             "máo"
           ],
-          "hanzi": "毛"
+          "hanzi": "毛",
+          "promptZh": "一块钱等于十____。",
+          "promptPinyin": "yí kuài qián děngyú shí ____.",
+          "promptEn": "One kuai equals ten ____ (mao/dimes).",
+          "promptStyle": "cloze"
         }
       ]
     },
