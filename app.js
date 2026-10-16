@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v82 · immersive prompts constrained to known vocab (Colors)';
+const BUILD = 'v83 · immersive prompts PINYIN-ONLY (no hanzi)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
@@ -679,13 +679,13 @@ function posTag(c, { defaultNoun = false } = {}) {
 //     fall back to the English meaning text exactly as before.
 // `mount` is the card element to append into. Returns nothing.
 function appendEn2zhPrompt(mount, c) {
-  // Immersive prompt (Chinese cloze/question) takes priority when present:
-  // show the hanzi prompt big + pinyin beneath, both with the ____ blank, so
-  // the whole prompt face is in Chinese. A "reveal English" button reveals the
-  // English gloss only when you're stuck — default stays fully immersive.
-  if (c.promptZh) {
-    mount.append(el('div', { class: 'prompt-zh' }, c.promptZh));
-    if (c.promptPinyin) mount.append(el('div', { class: 'prompt-pinyin' }, c.promptPinyin));
+  // Immersive prompt (Chinese cloze/question) takes priority when present.
+  // Oliver learns PINYIN ONLY (no hanzi), so the prompt face shows the PINYIN
+  // sentence as the big primary line and never renders hanzi. A "reveal English"
+  // button reveals the English gloss only when stuck — default stays immersive.
+  if (c.promptPinyin || c.promptZh) {
+    const primary = c.promptPinyin || c.promptZh; // pinyin preferred; zh only as last resort
+    mount.append(el('div', { class: 'prompt-pinyin-main' }, primary));
     if (c.promptEn) {
       const eng = el('div', { class: 'reveal-en', hidden: true }, c.promptEn);
       const btn = el('button', {
