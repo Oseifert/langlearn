@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T15:28:06.721133+00:00",
+  "generatedAt": "2026-10-16T15:52:28.168818+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -4002,7 +4002,11 @@
             "gù",
             "shi"
           ],
-          "hanzi": "故事"
+          "hanzi": "故事",
+          "promptZh": "妈妈晚上给孩子讲一个____。",
+          "promptPinyin": "māma wǎnshang gěi háizi jiǎng yí ge ____.",
+          "promptEn": "At night mom tells the child a ____ (story).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ba08e01d397f",
@@ -4022,7 +4026,11 @@
             "zhǎn",
             "kāi"
           ],
-          "hanzi": "展开"
+          "hanzi": "展开",
+          "promptZh": "把这本书____，看里面写了什么。",
+          "promptPinyin": "bǎ zhè běn shū ____, kàn lǐmiàn xiě le shénme.",
+          "promptEn": "____ (Unfold) the paper and see what's written inside.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f16daaf7b805",
@@ -4042,7 +4050,11 @@
             "rěn",
             "nài"
           ],
-          "hanzi": "忍耐"
+          "hanzi": "忍耐",
+          "promptZh": "事情不好做，但是我们要____。",
+          "promptPinyin": "shìqing bù hǎo zuò, dànshì wǒmen yào ____.",
+          "promptEn": "Things are hard, but we must ____ (endure).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_397805cf2d86",
@@ -4062,7 +4074,11 @@
             "xí",
             "guàn"
           ],
-          "hanzi": "习惯"
+          "hanzi": "习惯",
+          "promptZh": "我每天早上喝茶，这是我的____。",
+          "promptPinyin": "wǒ měitiān zǎoshang hē chá, zhè shì wǒ de ____.",
+          "promptEn": "I drink tea every morning, it's my ____ (habit).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_96d635a6c5f1",
@@ -4082,7 +4098,11 @@
             "mǎn",
             "zú"
           ],
-          "hanzi": "满足"
+          "hanzi": "满足",
+          "promptZh": "有家人、有朋友，我很____。",
+          "promptPinyin": "yǒu jiārén, yǒu péngyou, wǒ hěn ____.",
+          "promptEn": "With family and friends, I'm very ____ (satisfied).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e49799f67397",
@@ -4102,7 +4122,11 @@
             "qí",
             "dài"
           ],
-          "hanzi": "期待"
+          "hanzi": "期待",
+          "promptZh": "我很____明天的旅行。",
+          "promptPinyin": "wǒ hěn ____ míngtiān de lǚxíng.",
+          "promptEn": "I really ____ (look forward to) tomorrow's trip.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_65cf28224666",
@@ -4122,7 +4146,11 @@
             "kū",
             "qì"
           ],
-          "hanzi": "哭泣"
+          "hanzi": "哭泣",
+          "promptZh": "她很不开心，一个人在____。",
+          "promptPinyin": "tā hěn bù kāixīn, yí ge rén zài ____.",
+          "promptEn": "She's sad, ____ (weeping) alone.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c7cdc54b2554",
@@ -4142,7 +4170,11 @@
             "suí",
             "shí"
           ],
-          "hanzi": "随时"
+          "hanzi": "随时",
+          "promptZh": "有事____给我打电话。",
+          "promptPinyin": "yǒu shì ____ gěi wǒ dǎ diànhuà.",
+          "promptEn": "Call me ____ (anytime) if you need anything.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a4ff37e25e03",
@@ -4162,7 +4194,11 @@
             "dān",
             "xīn"
           ],
-          "hanzi": "担心"
+          "hanzi": "担心",
+          "promptZh": "妈妈很____孩子，怕他生病。",
+          "promptPinyin": "māma hěn ____ háizi, pà tā shēngbìng.",
+          "promptEn": "Mom ____ (worries) about her child, afraid he'll get sick.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_63c38df05548",
@@ -4182,7 +4218,11 @@
             "qí",
             "shí"
           ],
-          "hanzi": "其实"
+          "hanzi": "其实",
+          "promptZh": "大家觉得他很忙，____他有很多时间。",
+          "promptPinyin": "dàjiā juéde tā hěn máng, ____ tā yǒu hěn duō shíjiān.",
+          "promptEn": "Everyone thinks he's busy, ____ (actually) he has lots of time.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_014b95cc96ad",
@@ -4202,7 +4242,11 @@
             "yī",
             "lài"
           ],
-          "hanzi": "依赖"
+          "hanzi": "依赖",
+          "promptZh": "孩子还小，很____爸爸妈妈。",
+          "promptPinyin": "háizi hái xiǎo, hěn ____ bàba māma.",
+          "promptEn": "The child is young and ____ (depends on) his parents.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9da276d37f79",
@@ -4222,7 +4266,11 @@
             "xū",
             "yào"
           ],
-          "hanzi": "需要"
+          "hanzi": "需要",
+          "promptZh": "你____帮忙吗？我可以帮你。",
+          "promptPinyin": "nǐ ____ bāngmáng ma? wǒ kěyǐ bāng nǐ.",
+          "promptEn": "Do you ____ (need) help? I can help you.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b10d3e7fca9d",
@@ -4242,7 +4290,11 @@
             "kǒu",
             "dài"
           ],
-          "hanzi": "口袋"
+          "hanzi": "口袋",
+          "promptZh": "我把钱放在裤子的____里。",
+          "promptPinyin": "wǒ bǎ qián fàng zài kùzi de ____ lǐ.",
+          "promptEn": "I put the money in my trouser ____ (pocket).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0a806e755d11",
@@ -4262,7 +4314,11 @@
             "yǎn",
             "shén"
           ],
-          "hanzi": "眼神"
+          "hanzi": "眼神",
+          "promptZh": "她看我的____很好，很让人开心。",
+          "promptPinyin": "tā kàn wǒ de ____ hěn hǎo, hěn ràng rén kāixīn.",
+          "promptEn": "The ____ (look) in her eyes is gentle.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_dca8ee1ca5f9",
@@ -4282,7 +4338,11 @@
             "shāng",
             "hài"
           ],
-          "hanzi": "伤害"
+          "hanzi": "伤害",
+          "promptZh": "说话要小心，不要____别人。",
+          "promptPinyin": "shuōhuà yào xiǎoxīn, bú yào ____ biéren.",
+          "promptEn": "Speak carefully, don't ____ (hurt) others.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_49f121bd6d86",
@@ -4302,7 +4362,11 @@
             "chóng",
             "bài"
           ],
-          "hanzi": "崇拜"
+          "hanzi": "崇拜",
+          "promptZh": "他很会打球，很多孩子____他。",
+          "promptPinyin": "tā hěn huì dǎ qiú, hěn duō háizi ____ tā.",
+          "promptEn": "He's great at ball; many kids ____ (look up to) him.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_cb25b832543d",
@@ -4320,7 +4384,11 @@
           "syllables": [
             "guài"
           ],
-          "hanzi": "怪"
+          "hanzi": "怪",
+          "promptZh": "这件事不是你做的，别人不会____你。",
+          "promptPinyin": "zhè jiàn shì bú shì nǐ zuò de, biéren bú huì ____ nǐ.",
+          "promptEn": "You didn't do this, no one will ____ (blame) you.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e51e1f3c5cac",
@@ -4340,7 +4408,11 @@
             "shēng",
             "yīn"
           ],
-          "hanzi": "声音"
+          "hanzi": "声音",
+          "promptZh": "外面有很大的____，是什么？",
+          "promptPinyin": "wàimiàn yǒu hěn dà de ____, shì shénme?",
+          "promptEn": "There's a loud ____ (sound) outside, what is it?",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3152225575eb",
@@ -4360,7 +4432,11 @@
             "dà",
             "shù"
           ],
-          "hanzi": "大树"
+          "hanzi": "大树",
+          "promptZh": "门外面有一个很高的____。",
+          "promptPinyin": "mén wàimiàn yǒu yí ge hěn gāo de ____.",
+          "promptEn": "There's a tall ____ (big tree) outside the door.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ce78d141475e",
@@ -4380,7 +4456,11 @@
             "wéi",
             "jīn"
           ],
-          "hanzi": "围巾"
+          "hanzi": "围巾",
+          "promptZh": "天气冷，出门要戴____。",
+          "promptPinyin": "tiānqì lěng, chūmén yào dài ____.",
+          "promptEn": "It's cold, wear a ____ (scarf) when going out.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_74b4776baf7a",
@@ -4400,7 +4480,11 @@
             "shǒu",
             "xīn"
           ],
-          "hanzi": "手心"
+          "hanzi": "手心",
+          "promptZh": "他把小鸟放在____里。",
+          "promptPinyin": "tā bǎ xiǎo niǎo fàng zài ____ lǐ.",
+          "promptEn": "He holds the little bird in his ____ (palm).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_463cf346db43",
@@ -4418,7 +4502,11 @@
           "syllables": [
             "kū"
           ],
-          "hanzi": "哭"
+          "hanzi": "哭",
+          "promptZh": "孩子很不开心，一直在____。",
+          "promptPinyin": "háizi hěn bù kāixīn, yìzhí zài ____.",
+          "promptEn": "The child is sad and keeps ____ (crying).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_bdedf2264ed5",
@@ -4438,7 +4526,11 @@
             "cuò",
             "guò"
           ],
-          "hanzi": "错过"
+          "hanzi": "错过",
+          "promptZh": "我来晚了，____了那班火车。",
+          "promptPinyin": "wǒ lái wǎn le, ____ le nà bān huǒchē.",
+          "promptEn": "I came late and ____ (missed) that train.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_1742df023de5",
@@ -4456,7 +4548,11 @@
           "syllables": [
             "qiān"
           ],
-          "hanzi": "牵"
+          "hanzi": "牵",
+          "promptZh": "妈妈____着孩子的手过街。",
+          "promptPinyin": "māma ____ zhe háizi de shǒu guò jiē.",
+          "promptEn": "Mom ____ (holds) the child's hand across the road.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f927ecb4f179",
@@ -4476,7 +4572,11 @@
             "jì",
             "mò"
           ],
-          "hanzi": "寂寞"
+          "hanzi": "寂寞",
+          "promptZh": "一个人在家，我觉得很____。",
+          "promptPinyin": "yí ge rén zài jiā, wǒ juéde hěn ____.",
+          "promptEn": "Alone at home, I feel very ____ (lonely).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0245551f9c90",
@@ -4496,7 +4596,11 @@
             "děng",
             "dài"
           ],
-          "hanzi": "等待"
+          "hanzi": "等待",
+          "promptZh": "我在车站____朋友来。",
+          "promptPinyin": "wǒ zài chēzhàn ____ péngyou lái.",
+          "promptEn": "I'm at the station ____ (waiting) for my friend.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_967753d96db9",
@@ -4516,7 +4620,11 @@
             "huí",
             "dào"
           ],
-          "hanzi": "回到"
+          "hanzi": "回到",
+          "promptZh": "下班以后，我____家里。",
+          "promptPinyin": "xiàbān yǐhòu, wǒ ____ jiā lǐ.",
+          "promptEn": "After work, I ____ (return to) home.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b2b5d4d4486a",
@@ -4536,7 +4644,11 @@
             "nà",
             "tiān"
           ],
-          "hanzi": "那天"
+          "hanzi": "那天",
+          "promptZh": "____下雨，我们没有出门。",
+          "promptPinyin": "____ xià yǔ, wǒmen méiyǒu chūmén.",
+          "promptEn": "____ (That day) it rained, we didn't go out.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c02720ae4508",
@@ -4556,7 +4668,11 @@
             "xiāng",
             "yù"
           ],
-          "hanzi": "相遇"
+          "hanzi": "相遇",
+          "promptZh": "我们是在学校____的。",
+          "promptPinyin": "wǒmen shì zài xuéxiào ____ de.",
+          "promptEn": "We ____ (met) each other at school.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_210839a1c179",
@@ -4576,7 +4692,11 @@
             "tíng",
             "zhǐ"
           ],
-          "hanzi": "停止"
+          "hanzi": "停止",
+          "promptZh": "雨____了，我们可以出门了。",
+          "promptPinyin": "yǔ ____ le, wǒmen kěyǐ chūmén le.",
+          "promptEn": "The rain has ____ (stopped), we can go out now.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_37de1257d240",
@@ -4596,7 +4716,11 @@
             "yōng",
             "bào"
           ],
-          "hanzi": "拥抱"
+          "hanzi": "拥抱",
+          "promptZh": "很多天没见，他们高兴地____。",
+          "promptPinyin": "hěn duō tiān méi jiàn, tāmen gāoxìng de ____.",
+          "promptEn": "After a long time apart, they happily ____ (hug).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3d39f536a1e7",
@@ -4616,7 +4740,11 @@
             "shēn",
             "biān"
           ],
-          "hanzi": "身边"
+          "hanzi": "身边",
+          "promptZh": "有你在我____，我很开心。",
+          "promptPinyin": "yǒu nǐ zài wǒ ____, wǒ hěn kāixīn.",
+          "promptEn": "With you ____ (by my side), I'm happy.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_c272525c85c5",
@@ -4634,7 +4762,11 @@
           "syllables": [
             "wěn"
           ],
-          "hanzi": "吻"
+          "hanzi": "吻",
+          "promptZh": "妈妈____了一下孩子的脸。",
+          "promptPinyin": "māma ____ le yíxià háizi de liǎn.",
+          "promptEn": "Mom gave the child's cheek a ____ (kiss).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9c5ae3798ffc",
@@ -4654,7 +4786,11 @@
             "hū",
             "xī"
           ],
-          "hanzi": "呼吸"
+          "hanzi": "呼吸",
+          "promptZh": "跑步以后，我的____很快。",
+          "promptPinyin": "pǎobù yǐhòu, wǒ de ____ hěn kuài.",
+          "promptEn": "After running, my ____ (breathing) is fast.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_92b209672f29",
@@ -4674,7 +4810,11 @@
             "yǒng",
             "yuǎn"
           ],
-          "hanzi": "永远"
+          "hanzi": "永远",
+          "promptZh": "我会____爱你。",
+          "promptPinyin": "wǒ huì ____ ài nǐ.",
+          "promptEn": "I will ____ (forever) love you.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_7690a9155d84",
@@ -4692,7 +4832,11 @@
           "syllables": [
             "biàn"
           ],
-          "hanzi": "变"
+          "hanzi": "变",
+          "promptZh": "天气____冷了，要多穿衣服。",
+          "promptPinyin": "tiānqì ____ lěng le, yào duō chuān yīfu.",
+          "promptEn": "The weather has ____ (become) cold, dress warmly.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_95001b4a6060",
@@ -4712,7 +4856,11 @@
             "zhuǎn",
             "shēn"
           ],
-          "hanzi": "转身"
+          "hanzi": "转身",
+          "promptZh": "她____走了，没有说话。",
+          "promptPinyin": "tā ____ zǒu le, méiyǒu shuōhuà.",
+          "promptEn": "She ____ (turned around) and left without a word.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b69241e75214",
@@ -4732,7 +4880,11 @@
             "yuè",
             "guāng"
           ],
-          "hanzi": "月光"
+          "hanzi": "月光",
+          "promptZh": "晚上没有灯，只有____。",
+          "promptPinyin": "wǎnshang méiyǒu dēng, zhǐyǒu ____.",
+          "promptEn": "At night with no lights, only ____ (moonlight).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_8d901b79eca4",
@@ -4752,7 +4904,11 @@
             "mì",
             "mì"
           ],
-          "hanzi": "秘密"
+          "hanzi": "秘密",
+          "promptZh": "这件事别告诉别人，是我们的____。",
+          "promptPinyin": "zhè jiàn shì bié gàosu biéren, shì wǒmen de ____.",
+          "promptEn": "Don't tell anyone, it's our ____ (secret).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f64cad7c108a",
@@ -4772,7 +4928,11 @@
             "yùn",
             "qì"
           ],
-          "hanzi": "运气"
+          "hanzi": "运气",
+          "promptZh": "今天我很好____，做什么都很好。",
+          "promptPinyin": "jīntiān wǒ hěn hǎo ____, zuò shénme dōu hěn hǎo.",
+          "promptEn": "Today I have good ____ (luck), everything goes well.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_450eada7e4aa",
@@ -4792,7 +4952,11 @@
             "xiāng",
             "xìn"
           ],
-          "hanzi": "相信"
+          "hanzi": "相信",
+          "promptZh": "他说的是真的，我____他。",
+          "promptPinyin": "tā shuō de shì zhēn de, wǒ ____ tā.",
+          "promptEn": "What he said is true, I ____ (believe) him.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_9a42e17a2f3a",
@@ -4812,7 +4976,11 @@
             "kào",
             "jìn"
           ],
-          "hanzi": "靠近"
+          "hanzi": "靠近",
+          "promptZh": "别____那只狗，它会疼。",
+          "promptPinyin": "bié ____ nà zhī gǒu, tā huì téng.",
+          "promptEn": "Don't ____ (get close to) that dog, it bites.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_3c011d011cd5",
@@ -4832,7 +5000,11 @@
             "hài",
             "pà"
           ],
-          "hanzi": "害怕"
+          "hanzi": "害怕",
+          "promptZh": "天黑了，孩子有点____。",
+          "promptPinyin": "tiān hēi le, háizi yǒudiǎn ____.",
+          "promptEn": "It's dark, the child is a little ____ (scared).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f13faa2b4991",
@@ -4852,7 +5024,11 @@
             "bào",
             "yǔ"
           ],
-          "hanzi": "暴雨"
+          "hanzi": "暴雨",
+          "promptZh": "外面下____，不能出门。",
+          "promptPinyin": "wàimiàn xià ____, bù néng chūmén.",
+          "promptEn": "There's a ____ (rainstorm) outside, can't go out.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b5b37ce54085",
@@ -4872,7 +5048,11 @@
             "shì",
             "jiè"
           ],
-          "hanzi": "世界"
+          "hanzi": "世界",
+          "promptZh": "我想去很多国家，看看这个____。",
+          "promptPinyin": "wǒ xiǎng qù hěn duō guójiā, kànkan zhège ____.",
+          "promptEn": "I want to visit many countries and see the ____ (world).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a73e4f2cd3f9",
@@ -4892,7 +5072,11 @@
             "jué",
             "dìng"
           ],
-          "hanzi": "决定"
+          "hanzi": "决定",
+          "promptZh": "我已经____了，明天就走。",
+          "promptPinyin": "wǒ yǐjīng ____ le, míngtiān jiù zǒu.",
+          "promptEn": "I've already ____ (decided), I'll leave tomorrow.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_bfb56bfef0eb",
@@ -4912,7 +5096,11 @@
             "hǎi",
             "yáng"
           ],
-          "hanzi": "海洋"
+          "hanzi": "海洋",
+          "promptZh": "鱼住在很大的____里。",
+          "promptPinyin": "yú zhù zài hěn dà de ____ lǐ.",
+          "promptEn": "Fish live in the vast ____ (ocean).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_240d914334a9",
@@ -4932,7 +5120,11 @@
             "shòu",
             "shāng"
           ],
-          "hanzi": "受伤"
+          "hanzi": "受伤",
+          "promptZh": "他踢球的时候____了，去了医院。",
+          "promptPinyin": "tā tī qiú de shíhou ____ le, qù le yīyuàn.",
+          "promptEn": "He got ____ (injured) playing ball and went to hospital.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_a96038df82f6",
@@ -4952,7 +5144,11 @@
             "wēi",
             "xiào"
           ],
-          "hanzi": "微笑"
+          "hanzi": "微笑",
+          "promptZh": "她看着我，开心地____。",
+          "promptPinyin": "tā kàn zhe wǒ, kāixīn de ____.",
+          "promptEn": "She looks at me and gently ____ (smiles).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_b8902e9f514b",
@@ -4970,7 +5166,11 @@
           "syllables": [
             "wù"
           ],
-          "hanzi": "雾"
+          "hanzi": "雾",
+          "promptZh": "早上有很大的____，看不见路。",
+          "promptPinyin": "zǎoshang yǒu hěn dà de ____, kàn bú jiàn lù.",
+          "promptEn": "There's thick ____ (fog) in the morning, can't see the road.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_807bd9e87661",
@@ -4988,7 +5188,11 @@
           "syllables": [
             "yún"
           ],
-          "hanzi": "云"
+          "hanzi": "云",
+          "promptZh": "天上有很多白色的____。",
+          "promptPinyin": "tiān shàng yǒu hěn duō báisè de ____.",
+          "promptEn": "There are many white ____ (clouds) in the sky.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2cf1a81f43de",
@@ -5008,7 +5212,11 @@
             "tài",
             "yáng"
           ],
-          "hanzi": "太阳"
+          "hanzi": "太阳",
+          "promptZh": "早上____出来了，天气很好。",
+          "promptPinyin": "zǎoshang ____ chūlái le, tiānqì hěn hǎo.",
+          "promptEn": "The ____ (sun) came out this morning, nice weather.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_ecc668782928",
@@ -5028,7 +5236,11 @@
             "chóng",
             "fù"
           ],
-          "hanzi": "重复"
+          "hanzi": "重复",
+          "promptZh": "我没听懂，请你____一遍。",
+          "promptPinyin": "wǒ méi tīng dǒng, qǐng nǐ ____ yí biàn.",
+          "promptEn": "I didn't understand, please ____ (repeat) it once.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_273003a1bb33",
@@ -5046,7 +5258,11 @@
           "syllables": [
             "mèng"
           ],
-          "hanzi": "梦"
+          "hanzi": "梦",
+          "promptZh": "昨天晚上我做了一个____。",
+          "promptPinyin": "zuótiān wǎnshang wǒ zuò le yí ge ____.",
+          "promptEn": "Last night I had a ____ (dream).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_d1092801c957",
@@ -5066,7 +5282,11 @@
             "xìng",
             "fú"
           ],
-          "hanzi": "幸福"
+          "hanzi": "幸福",
+          "promptZh": "有家人在身边，我很____。",
+          "promptPinyin": "yǒu jiārén zài shēnbiān, wǒ hěn ____.",
+          "promptEn": "With family by my side, I'm very ____ (happy).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_11ce27890fa7",
@@ -5086,7 +5306,11 @@
             "yuǎn",
             "fāng"
           ],
-          "hanzi": "远方"
+          "hanzi": "远方",
+          "promptZh": "他去了很远的____，很多天没回来。",
+          "promptPinyin": "tā qù le hěn yuǎn de ____, hěn duō tiān méi huílái.",
+          "promptEn": "He went to a faraway ____ (place) and hasn't come back.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4dfe8525342d",
@@ -5104,7 +5328,11 @@
           "syllables": [
             "chuāng"
           ],
-          "hanzi": "窗"
+          "hanzi": "窗",
+          "promptZh": "房间太热了，打开____吧。",
+          "promptPinyin": "fángjiān tài rè le, dǎkāi ____ ba.",
+          "promptEn": "The room's too hot, open the ____ (window).",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_f1b501c29a95",
@@ -5124,7 +5352,11 @@
             "yuàn",
             "wàng"
           ],
-          "hanzi": "愿望"
+          "hanzi": "愿望",
+          "promptZh": "我有一个____，想去中国。",
+          "promptPinyin": "wǒ yǒu yí ge ____, xiǎng qù zhōngguó.",
+          "promptEn": "I have a ____ (wish): to go to China.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_e9cac98e3f28",
@@ -5144,7 +5376,11 @@
             "gǎn",
             "shòu"
           ],
-          "hanzi": "感受"
+          "hanzi": "感受",
+          "promptZh": "听这个歌，我____到了快乐。",
+          "promptPinyin": "tīng zhège gē, wǒ ____ dào le kuàilè.",
+          "promptEn": "Listening to this song, I ____ (feel) happy.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_2ad78228bbaa",
@@ -5162,7 +5398,11 @@
           "syllables": [
             "hèn"
           ],
-          "hanzi": "恨"
+          "hanzi": "恨",
+          "promptZh": "他做了坏事，但我不____他。",
+          "promptPinyin": "tā zuò le huài shì, dàn wǒ bú ____ tā.",
+          "promptEn": "He did bad things, but I don't ____ (hate) him.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_19d2a5e748b9",
@@ -5182,7 +5422,11 @@
             "yuán",
             "liàng"
           ],
-          "hanzi": "原谅"
+          "hanzi": "原谅",
+          "promptZh": "他跟我说对不起，我____了他。",
+          "promptPinyin": "tā gēn wǒ shuō duìbuqǐ, wǒ ____ le tā.",
+          "promptEn": "He said sorry, and I ____ (forgave) him.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_4075a95238f9",
@@ -5202,7 +5446,11 @@
             "shēng",
             "mìng"
           ],
-          "hanzi": "生命"
+          "hanzi": "生命",
+          "promptZh": "每个人的____都很重要。",
+          "promptPinyin": "měi ge rén de ____ dōu hěn zhòngyào.",
+          "promptEn": "Everyone's ____ (life) is important.",
+          "promptStyle": "cloze"
         },
         {
           "id": "c_0a496f285742",
@@ -5222,7 +5470,11 @@
             "chōng",
             "mǎn"
           ],
-          "hanzi": "充满"
+          "hanzi": "充满",
+          "promptZh": "她的生活____了快乐。",
+          "promptPinyin": "tā de shēnghuó ____ le kuàilè.",
+          "promptEn": "Her life is ____ (full of) joy.",
+          "promptStyle": "cloze"
         }
       ]
     },
@@ -5263,7 +5515,11 @@
             "yì",
             "diǎn"
           ],
-          "hanzi": "请再说一遍，慢一点"
+          "hanzi": "请再说一遍，慢一点",
+          "promptZh": "老师说得太快，你没听懂，想请他再说一次、说慢一点，可以说什么？",
+          "promptPinyin": "lǎoshī shuō de tài kuài, nǐ méi tīng dǒng, xiǎng qǐng tā zài shuō yí cì, shuō màn yìdiǎn, kěyǐ shuō shénme?",
+          "promptEn": "The teacher spoke too fast and you didn't catch it — ask them to repeat it more slowly. (please say it again, more slowly)",
+          "promptStyle": "q"
         },
         {
           "id": "c_4d45b37f152e",
@@ -5289,7 +5545,11 @@
             "yì",
             "si"
           ],
-          "hanzi": "……是什么意思？"
+          "hanzi": "……是什么意思？",
+          "promptZh": "你听到一个词，不知道它的意思，想问老师，可以怎么问？",
+          "promptPinyin": "nǐ tīng dào yí ge cí, bù zhīdào tā de yìsi, xiǎng wèn lǎoshī, kěyǐ zěnme wèn?",
+          "promptEn": "You heard a word but don't know its meaning — ask the teacher. (what does ... mean?)",
+          "promptStyle": "q"
         },
         {
           "id": "c_c0c8f53622b4",
@@ -5319,7 +5579,11 @@
             "biàn",
             "ma"
           ],
-          "hanzi": "可以再听一遍吗？"
+          "hanzi": "可以再听一遍吗？",
+          "promptZh": "你没听懂那段话，想再听一次，可以客气地问什么？",
+          "promptPinyin": "nǐ méi tīng dǒng nà duàn huà, xiǎng zài tīng yí cì, kěyǐ kèqi de wèn shénme?",
+          "promptEn": "You didn't hear that clearly and want to hear it once more — how do you ask? (can we listen one more time?)",
+          "promptStyle": "q"
         },
         {
           "id": "c_1de4ffb17d45",
@@ -5349,7 +5613,11 @@
             "rèn",
             "shi"
           ],
-          "hanzi": "这个词我不认识"
+          "hanzi": "这个词我不认识",
+          "promptZh": "你看到一个词，完全不知道是什么，想告诉老师，可以说什么？",
+          "promptPinyin": "nǐ kàn dào yí ge cí, wánquán bù zhīdào shì shénme, xiǎng gàosu lǎoshī, kěyǐ shuō shénme?",
+          "promptEn": "You see a word and have no idea what it is — tell the teacher. (I don't know that word)",
+          "promptStyle": "q"
         },
         {
           "id": "c_5d4b30ff7382",
@@ -5377,7 +5645,11 @@
             "jǐ",
             "shēng"
           ],
-          "hanzi": "这个词是几声？"
+          "hanzi": "这个词是几声？",
+          "promptZh": "你想知道一个词是第几声，可以问老师什么？",
+          "promptPinyin": "nǐ xiǎng zhīdào yí ge cí shì dì jǐ shēng, kěyǐ wèn lǎoshī shénme?",
+          "promptEn": "You want to know what tone a word is — ask the teacher. (what tone is that word?)",
+          "promptStyle": "q"
         },
         {
           "id": "c_8f5c189882ef",
@@ -5411,7 +5683,11 @@
             "sān",
             "shēng"
           ],
-          "hanzi": "这个是一声还是三声？"
+          "hanzi": "这个是一声还是三声？",
+          "promptZh": "你不知道一个词是第一声还是第三声，想知道是哪个，可以怎么问？",
+          "promptPinyin": "nǐ bù zhīdào yí ge cí shì dì yī shēng háishì dì sān shēng, xiǎng wèn qīngchu, kěyǐ zěnme wèn?",
+          "promptEn": "You're unsure if a word is first or third tone — ask to clarify. (is it first or third tone?)",
+          "promptStyle": "q"
         },
         {
           "id": "c_f736c67ebb06",
@@ -5441,7 +5717,11 @@
             "bú",
             "huì"
           ],
-          "hanzi": "这个词我还不会"
+          "hanzi": "这个词我还不会",
+          "promptZh": "有一个词你还没学会，想告诉老师你现在还不会，可以说什么？",
+          "promptPinyin": "yǒu yí ge cí nǐ hái méi xué huì, xiǎng gàosu lǎoshī nǐ xiànzài hái bú huì, kěyǐ shuō shénme?",
+          "promptEn": "There's a word you haven't learned yet — tell the teacher you don't know it yet. (I don't know that word yet)",
+          "promptStyle": "q"
         },
         {
           "id": "c_53c0925d5174",
@@ -5469,7 +5749,11 @@
             "me",
             "shuō"
           ],
-          "hanzi": "……用中文怎么说？"
+          "hanzi": "……用中文怎么说？",
+          "promptZh": "你知道一个东西的英文，但不知道中文，想问老师，可以怎么问？",
+          "promptPinyin": "nǐ zhīdào yí ge dōngxi de yīngwén, dàn bù zhīdào zhōngwén, xiǎng wèn lǎoshī, kěyǐ zěnme wèn?",
+          "promptEn": "You know something's English name but not the Chinese — ask the teacher. (how do you say ... in Chinese?)",
+          "promptStyle": "q"
         },
         {
           "id": "c_6da7ead73f0c",
@@ -5499,7 +5783,11 @@
             "rèn",
             "shi"
           ],
-          "hanzi": "这个字我不认识"
+          "hanzi": "这个字我不认识",
+          "promptZh": "你看到一个字，不知道怎么读，想告诉老师，可以说什么？",
+          "promptPinyin": "nǐ kàn dào yí ge zì, bù zhīdào zěnme dú, xiǎng gàosu lǎoshī, kěyǐ shuō shénme?",
+          "promptEn": "You see a character and don't know how to read it — tell the teacher. (I don't know how to read this)",
+          "promptStyle": "q"
         }
       ]
     },

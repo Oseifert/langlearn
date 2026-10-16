@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v86 · immersive prompts: Jobs/Directions/Transport/Shopping/Restaurant/Intro';
+const BUILD = 'v87 · immersive prompts: Classroom + Song vocab';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
