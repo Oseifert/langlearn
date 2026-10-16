@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v81 · immersive EN→中 prompts (Colors deck)';
+const BUILD = 'v82 · immersive prompts constrained to known vocab (Colors)';
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';

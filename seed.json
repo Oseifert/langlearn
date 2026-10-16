@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T13:13:57.914351+00:00",
+  "generatedAt": "2026-10-16T13:24:04.617649+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -26553,9 +26553,9 @@
             "sè"
           ],
           "hanzi": "黑色",
-          "promptZh": "夜晚的天空是____的。",
-          "promptPinyin": "yèwǎn de tiānkōng shì ____ de.",
-          "promptEn": "The night sky is ____.",
+          "promptZh": "晚上没有灯的时候，房间是____的。",
+          "promptPinyin": "wǎnshang méiyǒu dēng de shíhou, fángjiān shì ____ de.",
+          "promptEn": "At night with no light on, the room is ____.",
           "promptStyle": "cloze"
         },
         {
@@ -26577,9 +26577,9 @@
             "sè"
           ],
           "hanzi": "红色",
-          "promptZh": "苹果和草莓是什么颜色？",
-          "promptPinyin": "píngguǒ hé cǎoméi shì shénme yánsè?",
-          "promptEn": "What color are apples and strawberries?",
+          "promptZh": "苹果是什么颜色？",
+          "promptPinyin": "píngguǒ shì shénme yánsè?",
+          "promptEn": "What color is an apple?",
           "promptStyle": "q"
         },
         {
@@ -26773,9 +26773,9 @@
             "sè"
           ],
           "hanzi": "绿色",
-          "promptZh": "树叶和草是什么颜色？",
-          "promptPinyin": "shùyè hé cǎo shì shénme yánsè?",
-          "promptEn": "What color are leaves and grass?",
+          "promptZh": "草是什么颜色？",
+          "promptPinyin": "cǎo shì shénme yánsè?",
+          "promptEn": "What color is grass?",
           "promptStyle": "q"
         },
         {
@@ -26865,9 +26865,9 @@
             "dài"
           ],
           "hanzi": "戴",
-          "promptZh": "太阳很大，我要____帽子和墨镜。",
-          "promptPinyin": "tàiyáng hěn dà, wǒ yào ____ màozi hé mòjìng.",
-          "promptEn": "The sun is strong, I'll ____ (wear) a hat and sunglasses.",
+          "promptZh": "天气很冷，我要____帽子和手套。",
+          "promptPinyin": "tiānqì hěn lěng, wǒ yào ____ màozi hé shǒutào.",
+          "promptEn": "It's cold, I'll ____ (wear) a hat and gloves.",
           "promptStyle": "cloze"
         },
         {
@@ -26889,9 +26889,9 @@
             "xià"
           ],
           "hanzi": "脱下",
-          "promptZh": "进屋以后，请____你的鞋子。",
-          "promptPinyin": "jìn wū yǐhòu, qǐng ____ nǐ de xiézi.",
-          "promptEn": "After coming inside, please ____ (take off) your shoes.",
+          "promptZh": "回家以后，请____你的鞋子。",
+          "promptPinyin": "huí jiā yǐhòu, qǐng ____ nǐ de xiézi.",
+          "promptEn": "After getting home, please ____ (take off) your shoes.",
           "promptStyle": "cloze"
         },
         {
@@ -26913,9 +26913,9 @@
             "shān"
           ],
           "hanzi": "衬衫",
-          "promptZh": "他穿了一件白色的____，很正式。",
-          "promptPinyin": "tā chuān le yí jiàn báisè de ____, hěn zhèngshì.",
-          "promptEn": "He's wearing a white ____ (shirt), very formal.",
+          "promptZh": "他上身穿了一件白色的____。",
+          "promptPinyin": "tā shàngshēn chuān le yí jiàn báisè de ____.",
+          "promptEn": "On his upper body he's wearing a white ____ (shirt).",
           "promptStyle": "cloze"
         },
         {
@@ -26961,9 +26961,9 @@
             "tào"
           ],
           "hanzi": "外套",
-          "promptZh": "冬天出门要穿一件厚____。",
-          "promptPinyin": "dōngtiān chūmén yào chuān yí jiàn hòu ____.",
-          "promptEn": "In winter you wear a thick ____ (coat) when going out.",
+          "promptZh": "天气冷，出门要穿一件____。",
+          "promptPinyin": "tiānqì lěng, chūmén yào chuān yí jiàn ____.",
+          "promptEn": "It's cold, you wear a ____ (coat) when going out.",
           "promptStyle": "cloze"
         },
         {
@@ -27081,9 +27081,9 @@
             "kè"
           ],
           "hanzi": "夹克",
-          "promptZh": "他穿了一件绿色的皮____。",
-          "promptPinyin": "tā chuān le yí jiàn lǜsè de pí ____.",
-          "promptEn": "He's wearing a green leather ____ (jacket).",
+          "promptZh": "他穿了一件绿色的____。",
+          "promptPinyin": "tā chuān le yí jiàn lǜsè de ____.",
+          "promptEn": "He's wearing a green ____ (jacket).",
           "promptStyle": "cloze"
         },
         {
@@ -27105,9 +27105,9 @@
             "tào"
           ],
           "hanzi": "手套",
-          "promptZh": "冬天手冷，要戴____。",
-          "promptPinyin": "dōngtiān shǒu lěng, yào dài ____.",
-          "promptEn": "In winter your hands are cold, so you wear ____ (gloves).",
+          "promptZh": "天气冷，手冷的时候要戴____。",
+          "promptPinyin": "tiānqì lěng, shǒu lěng de shíhou yào dài ____.",
+          "promptEn": "When it's cold and your hands are cold, you wear ____ (gloves).",
           "promptStyle": "cloze"
         },
         {
@@ -27129,9 +27129,9 @@
             "kù"
           ],
           "hanzi": "内裤",
-          "promptZh": "最贴身穿的那件是____。",
-          "promptPinyin": "zuì tiēshēn chuān de nà jiàn shì ____.",
-          "promptEn": "The most inner (closest to body) garment is ____ (underwear).",
+          "promptZh": "穿在裤子里面的那件是____。",
+          "promptPinyin": "chuān zài kùzi lǐmiàn de nà jiàn shì ____.",
+          "promptEn": "The garment worn inside/under your pants is ____ (underwear).",
           "promptStyle": "cloze"
         },
         {
