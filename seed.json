@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T16:33:05.615390+00:00",
+  "generatedAt": "2026-10-22T19:52:48.597323+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -1644,6 +1644,505 @@
           "promptZh": "早饭吃的那种一片一片的干燕麦是____。",
           "promptPinyin": "zǎofàn chī de nà zhǒng yí piàn yí piàn de gān yànmài shì ____.",
           "promptEn": "The dry flaked oats eaten for breakfast is ____ (granola/cereal).",
+          "promptStyle": "cloze"
+        }
+      ]
+    },
+    {
+      "id": "wk_2026_40",
+      "title": "Week of Sep 28 – Oct 04",
+      "source": "",
+      "summary": "",
+      "createdAt": "2026-09-28T12:00:00+00:00",
+      "cards": [
+        {
+          "id": "c_dd38c4bc91c1",
+          "front": "páshān",
+          "pinyin": "páshān",
+          "meaning": "to hike / climb a mountain",
+          "emoji": "🧗",
+          "pos": "verb",
+          "example": "周末我们一起去爬山吧。",
+          "examplePinyin": "zhōumò wǒmen yìqǐ qù páshān ba.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "pá",
+            "shān"
+          ],
+          "hanzi": "爬山",
+          "promptZh": "星期天天气好，我们一起去____。",
+          "promptPinyin": "xīngqītiān tiānqì hǎo, wǒmen yìqǐ qù ____.",
+          "promptEn": "The weather's good on Sunday, let's go ____ (hiking) together.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_563bdb3c601e",
+          "front": "qiánbāo",
+          "pinyin": "qiánbāo",
+          "meaning": "wallet / purse",
+          "emoji": "👛",
+          "pos": "",
+          "example": "我的钱包不见了。",
+          "examplePinyin": "wǒ de qiánbāo bújiàn le.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "qián",
+            "bāo"
+          ],
+          "hanzi": "钱包",
+          "promptZh": "我的钱都放在____里。",
+          "promptPinyin": "wǒ de qián dōu fàng zài ____ lǐ.",
+          "promptEn": "All my money is kept in my ____ (wallet).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_0586b86c418e",
+          "front": "yóuxì",
+          "pinyin": "yóuxì",
+          "meaning": "game (esp. video game)",
+          "emoji": "🎮",
+          "pos": "",
+          "example": "他每天晚上玩游戏。",
+          "examplePinyin": "tā měitiān wǎnshang wán yóuxì.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "yóu",
+            "xì"
+          ],
+          "hanzi": "游戏",
+          "promptZh": "很多小孩子喜欢用手机玩____。",
+          "promptPinyin": "hěn duō xiǎo háizi xǐhuan yòng shǒujī wán ____.",
+          "promptEn": "Many kids like to play ____ (games) on their phone.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_f3aa3ef59ce6",
+          "front": "xióng",
+          "pinyin": "xióng",
+          "meaning": "bear",
+          "emoji": "🐻",
+          "pos": "",
+          "example": "森林里有一只大熊。",
+          "examplePinyin": "sēnlín lǐ yǒu yì zhī dà xióng.",
+          "notes": "[from weekly]",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "xióng"
+          ],
+          "hanzi": "熊",
+          "promptZh": "一种很大、很强壮、住在山里的动物是____。",
+          "promptPinyin": "yì zhǒng hěn dà, hěn qiángzhuàng, zhù zài shān lǐ de dòngwù shì ____.",
+          "promptEn": "A big, strong animal that lives in the mountains is a ____ (bear).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_398d37ff13d4",
+          "front": "huáxuě",
+          "pinyin": "huáxuě",
+          "meaning": "to ski",
+          "emoji": "⛷️",
+          "pos": "verb",
+          "example": "冬天我喜欢去滑雪。",
+          "examplePinyin": "dōngtiān wǒ xǐhuan qù huáxuě.",
+          "notes": "[from weekly]",
+          "tones": [
+            2,
+            3
+          ],
+          "syllables": [
+            "huá",
+            "xuě"
+          ],
+          "hanzi": "滑雪",
+          "promptZh": "天冷、山上有雪的时候，很多人去____。",
+          "promptPinyin": "tiān lěng, shān shàng yǒu xuě de shíhou, hěn duō rén qù ____.",
+          "promptEn": "When it's cold and there's snow on the mountain, many people go ____ (skiing).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_fdfbacfbac6b",
+          "front": "tōu",
+          "pinyin": "tōu",
+          "meaning": "to steal",
+          "emoji": "",
+          "pos": "verb",
+          "example": "有人偷了我的自行车。",
+          "examplePinyin": "yǒurén tōu le wǒ de zìxíngchē.",
+          "notes": "[from weekly]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "tōu"
+          ],
+          "hanzi": "偷",
+          "promptZh": "那个人把别人的钱包____走了。",
+          "promptPinyin": "nàge rén bǎ biéren de qiánbāo ____ zǒu le.",
+          "promptEn": "That person ____ (stole) someone else's wallet.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_7835646c7972",
+          "front": "shìpín",
+          "pinyin": "shìpín",
+          "meaning": "video / video clip",
+          "emoji": "📹",
+          "pos": "",
+          "example": "我在看一个中文视频。",
+          "examplePinyin": "wǒ zài kàn yí ge zhōngwén shìpín.",
+          "notes": "[from weekly]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "shì",
+            "pín"
+          ],
+          "hanzi": "视频",
+          "promptZh": "我在手机上看了一个很好笑的____。",
+          "promptPinyin": "wǒ zài shǒujī shàng kàn le yí ge hěn hǎoxiào de ____.",
+          "promptEn": "I watched a very funny ____ (video) on my phone.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_afb8c3e0a18d",
+          "front": "fùqián",
+          "pinyin": "fùqián",
+          "meaning": "to pay (money)",
+          "emoji": "💳",
+          "pos": "verb",
+          "example": "请在这里付钱。",
+          "examplePinyin": "qǐng zài zhèlǐ fùqián.",
+          "notes": "[from weekly]",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "fù",
+            "qián"
+          ],
+          "hanzi": "付钱",
+          "promptZh": "吃完饭以后，我们要去____。",
+          "promptPinyin": "chī wán fàn yǐhòu, wǒmen yào qù ____.",
+          "promptEn": "After eating, we need to go ____ (pay).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_ac31f61d9a81",
+          "front": "zhuā",
+          "pinyin": "zhuā",
+          "meaning": "to grab / hold on to / grasp",
+          "emoji": "✊",
+          "pos": "verb",
+          "example": "在地铁上要抓住扶手。",
+          "examplePinyin": "zài dìtiě shàng yào zhuā zhù fúshǒu.",
+          "notes": "抓住 zhuāzhù = grab and hold on (e.g. a subway handle) [from weekly]",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "zhuā"
+          ],
+          "hanzi": "抓",
+          "promptZh": "东西要掉了，快用手____住。",
+          "promptPinyin": "dōngxi yào diào le, kuài yòng shǒu ____ zhù.",
+          "promptEn": "The thing is about to fall, quickly ____ (grab) it with your hand.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_76cbb14322cb",
+          "front": "túpiàn",
+          "pinyin": "túpiàn",
+          "meaning": "picture / image / photo",
+          "emoji": "",
+          "pos": "",
+          "example": "我们今天用图片学习一个故事。",
+          "examplePinyin": "wǒmen jīntiān yòng túpiàn xuéxí yí ge gùshi.",
+          "notes": "[weekly]",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "tú",
+            "piàn"
+          ],
+          "hanzi": "图片",
+          "promptZh": "这本书里有很多好看的____。",
+          "promptPinyin": "zhè běn shū lǐ yǒu hěn duō hǎokàn de ____.",
+          "promptEn": "This book has many nice ____ (pictures).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e8c7fdab1f84",
+          "front": "liànxí",
+          "pinyin": "liànxí",
+          "meaning": "to practice",
+          "emoji": "📝",
+          "pos": "verb",
+          "example": "我每天练习中文。",
+          "examplePinyin": "Wǒ měitiān liànxí Zhōngwén.",
+          "notes": "to practice (e.g. Chinese)",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "liàn",
+            "xí"
+          ],
+          "hanzi": "练习",
+          "promptZh": "想说好中文，每天都要____。",
+          "promptPinyin": "xiǎng shuō hǎo zhōngwén, měitiān dōu yào ____.",
+          "promptEn": "To speak Chinese well, you must ____ (practice) every day.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_bdd9f5c07e83",
+          "front": "pāizhào",
+          "pinyin": "pāizhào",
+          "meaning": "to take a picture",
+          "emoji": "📸",
+          "pos": "verb",
+          "example": "我们一起拍照吧！",
+          "examplePinyin": "Wǒmen yìqǐ pāizhào ba!",
+          "notes": "",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "pāi",
+            "zhào"
+          ],
+          "hanzi": "拍照",
+          "promptZh": "这个地方很好看，我想在这里____。",
+          "promptPinyin": "zhège dìfang hěn hǎokàn, wǒ xiǎng zài zhèlǐ ____.",
+          "promptEn": "This place is beautiful, I want to ____ (take a photo) here.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_b9ae842bc3f1",
+          "front": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
+          "pinyin": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
+          "meaning": "excuse me, could you take a picture of us?",
+          "emoji": "",
+          "pos": "",
+          "example": "不好意思，可以帮我们拍张照吗？",
+          "examplePinyin": "",
+          "notes": "polite request to a stranger",
+          "tones": [
+            4,
+            3,
+            4,
+            5,
+            3,
+            3,
+            1,
+            3,
+            5,
+            1,
+            1,
+            4,
+            5
+          ],
+          "syllables": [
+            "bù",
+            "hǎo",
+            "yì",
+            "si",
+            "kě",
+            "yǐ",
+            "bāng",
+            "wǒ",
+            "men",
+            "pāi",
+            "zhāng",
+            "zhào",
+            "ma"
+          ],
+          "hanzi": "不好意思，可以帮我们拍张照吗？",
+          "promptZh": "你想请一个人帮你和朋友拍照，可以客气地问他什么？",
+          "promptPinyin": "nǐ xiǎng qǐng yí ge rén bāng nǐ hé péngyou pāizhào, kěyǐ kèqi de wèn tā shénme?",
+          "promptEn": "You want to ask someone to take a photo of you and your friend — how do you politely ask?",
+          "promptStyle": "q"
+        },
+        {
+          "id": "c_2958ea6d1759",
+          "front": "xiǎoxīn",
+          "pinyin": "xiǎoxīn",
+          "meaning": "watch out / be careful",
+          "emoji": "",
+          "pos": "",
+          "example": "小心！地上很滑。",
+          "examplePinyin": "Xiǎoxīn! Dìshàng hěn huá.",
+          "notes": "",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "xiǎo",
+            "xīn"
+          ],
+          "hanzi": "小心",
+          "promptZh": "地上有水，走路要____。",
+          "promptPinyin": "dì shàng yǒu shuǐ, zǒulù yào ____.",
+          "promptEn": "There's water on the floor, be ____ (careful) when walking.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_b1e7313a2bcb",
+          "front": "lóutī",
+          "pinyin": "lóutī",
+          "meaning": "stairs",
+          "emoji": "🪜",
+          "pos": "",
+          "example": "我们走楼梯吧。",
+          "examplePinyin": "Wǒmen zǒu lóutī ba.",
+          "notes": "",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "lóu",
+            "tī"
+          ],
+          "hanzi": "楼梯",
+          "promptZh": "电梯坏了，我们只能走____上去。",
+          "promptPinyin": "diàntī huài le, wǒmen zhǐ néng zǒu ____ shàngqù.",
+          "promptEn": "The elevator is broken, we can only take the ____ (stairs) up.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_8fb6e7663caf",
+          "front": "guài",
+          "pinyin": "guài",
+          "meaning": "weird (of a person)",
+          "emoji": "",
+          "pos": "adj",
+          "example": "他这个人很怪。",
+          "examplePinyin": "Tā zhège rén hěn guài.",
+          "notes": "奇怪 qíguài = strange/odd; 怪 describes a person being weird",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "guài"
+          ],
+          "hanzi": "怪",
+          "promptZh": "那个人做事很____，我不太懂他。",
+          "promptPinyin": "nàge rén zuò shì hěn ____, wǒ bú tài dǒng tā.",
+          "promptEn": "That person acts very ____ (weird), I don't quite get him.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_a8d456495082",
+          "front": "fánrén",
+          "pinyin": "fánrén",
+          "meaning": "annoying (of a person)",
+          "emoji": "",
+          "pos": "adj",
+          "example": "他真的很烦人。",
+          "examplePinyin": "Tā zhēnde hěn fánrén.",
+          "notes": "烦人 = annoying; 讨厌 tǎoyàn also = annoying/to dislike",
+          "tones": [
+            2,
+            2
+          ],
+          "syllables": [
+            "fán",
+            "rén"
+          ],
+          "hanzi": "烦人",
+          "promptZh": "他一直说一样的话，真____。",
+          "promptPinyin": "tā yìzhí shuō yíyàng de huà, zhēn ____.",
+          "promptEn": "He keeps saying the same thing, so ____ (annoying).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_d8c7abf123a9",
+          "front": "rēng",
+          "pinyin": "rēng",
+          "meaning": "to throw",
+          "emoji": "🏀",
+          "pos": "verb",
+          "example": "他把球扔给我。",
+          "examplePinyin": "Tā bǎ qiú rēng gěi wǒ.",
+          "notes": "to throw/toss; 扔掉 rēngdiào = to throw away",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "rēng"
+          ],
+          "hanzi": "扔",
+          "promptZh": "不要的东西，可以____到外面去。",
+          "promptPinyin": "bú yào de dōngxi, kěyǐ ____ dào wàimiàn qù.",
+          "promptEn": "Things you don't want, you can ____ (throw) outside.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_8b278aa3a338",
+          "front": "diào",
+          "pinyin": "diào",
+          "meaning": "to fall (object falling down)",
+          "emoji": "📉",
+          "pos": "verb",
+          "example": "苹果从树上掉下来了。",
+          "examplePinyin": "Píngguǒ cóng shù shàng diào xiàlái le.",
+          "notes": "掉下来 = to fall down; for a person falling use 摔倒 shuāidǎo",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "diào"
+          ],
+          "hanzi": "掉",
+          "promptZh": "我的手机从桌子上____到地上了。",
+          "promptPinyin": "wǒ de shǒujī cóng zhuōzi shàng ____ dào dì shàng le.",
+          "promptEn": "My phone ____ (fell) from the table onto the floor.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_811732184c95",
+          "front": "shùzhī",
+          "pinyin": "shùzhī",
+          "meaning": "branch (of a tree)",
+          "emoji": "🌳",
+          "pos": "",
+          "example": "鸟站在树枝上。",
+          "examplePinyin": "Niǎo zhàn zài shùzhī shàng.",
+          "notes": "树 shù = tree, 枝 zhī = branch",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "shù",
+            "zhī"
+          ],
+          "hanzi": "树枝",
+          "promptZh": "鸟站在树上的____上面。",
+          "promptPinyin": "niǎo zhàn zài shù shàng de ____ shàngmiàn.",
+          "promptEn": "The bird stands on the tree's ____ (branch).",
           "promptStyle": "cloze"
         }
       ]
@@ -30048,505 +30547,6 @@
           "promptZh": "在学校教书、教学生的人叫____。",
           "promptPinyin": "zài xuéxiào jiāo shū, jiāo xuéshēng de rén jiào ____.",
           "promptEn": "A person who teaches students at school is a ____ (teacher).",
-          "promptStyle": "cloze"
-        }
-      ]
-    },
-    {
-      "id": "wk_2026_40",
-      "title": "Week of Sep 28 – Oct 04",
-      "source": "",
-      "summary": "",
-      "createdAt": "",
-      "cards": [
-        {
-          "id": "c_dd38c4bc91c1",
-          "front": "páshān",
-          "pinyin": "páshān",
-          "meaning": "to hike / climb a mountain",
-          "emoji": "🧗",
-          "pos": "verb",
-          "example": "周末我们一起去爬山吧。",
-          "examplePinyin": "zhōumò wǒmen yìqǐ qù páshān ba.",
-          "notes": "[from weekly]",
-          "tones": [
-            2,
-            1
-          ],
-          "syllables": [
-            "pá",
-            "shān"
-          ],
-          "hanzi": "爬山",
-          "promptZh": "星期天天气好，我们一起去____。",
-          "promptPinyin": "xīngqītiān tiānqì hǎo, wǒmen yìqǐ qù ____.",
-          "promptEn": "The weather's good on Sunday, let's go ____ (hiking) together.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_563bdb3c601e",
-          "front": "qiánbāo",
-          "pinyin": "qiánbāo",
-          "meaning": "wallet / purse",
-          "emoji": "👛",
-          "pos": "",
-          "example": "我的钱包不见了。",
-          "examplePinyin": "wǒ de qiánbāo bújiàn le.",
-          "notes": "[from weekly]",
-          "tones": [
-            2,
-            1
-          ],
-          "syllables": [
-            "qián",
-            "bāo"
-          ],
-          "hanzi": "钱包",
-          "promptZh": "我的钱都放在____里。",
-          "promptPinyin": "wǒ de qián dōu fàng zài ____ lǐ.",
-          "promptEn": "All my money is kept in my ____ (wallet).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_0586b86c418e",
-          "front": "yóuxì",
-          "pinyin": "yóuxì",
-          "meaning": "game (esp. video game)",
-          "emoji": "🎮",
-          "pos": "",
-          "example": "他每天晚上玩游戏。",
-          "examplePinyin": "tā měitiān wǎnshang wán yóuxì.",
-          "notes": "[from weekly]",
-          "tones": [
-            2,
-            4
-          ],
-          "syllables": [
-            "yóu",
-            "xì"
-          ],
-          "hanzi": "游戏",
-          "promptZh": "很多小孩子喜欢用手机玩____。",
-          "promptPinyin": "hěn duō xiǎo háizi xǐhuan yòng shǒujī wán ____.",
-          "promptEn": "Many kids like to play ____ (games) on their phone.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_f3aa3ef59ce6",
-          "front": "xióng",
-          "pinyin": "xióng",
-          "meaning": "bear",
-          "emoji": "🐻",
-          "pos": "",
-          "example": "森林里有一只大熊。",
-          "examplePinyin": "sēnlín lǐ yǒu yì zhī dà xióng.",
-          "notes": "[from weekly]",
-          "tones": [
-            2
-          ],
-          "syllables": [
-            "xióng"
-          ],
-          "hanzi": "熊",
-          "promptZh": "一种很大、很强壮、住在山里的动物是____。",
-          "promptPinyin": "yì zhǒng hěn dà, hěn qiángzhuàng, zhù zài shān lǐ de dòngwù shì ____.",
-          "promptEn": "A big, strong animal that lives in the mountains is a ____ (bear).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_398d37ff13d4",
-          "front": "huáxuě",
-          "pinyin": "huáxuě",
-          "meaning": "to ski",
-          "emoji": "⛷️",
-          "pos": "verb",
-          "example": "冬天我喜欢去滑雪。",
-          "examplePinyin": "dōngtiān wǒ xǐhuan qù huáxuě.",
-          "notes": "[from weekly]",
-          "tones": [
-            2,
-            3
-          ],
-          "syllables": [
-            "huá",
-            "xuě"
-          ],
-          "hanzi": "滑雪",
-          "promptZh": "天冷、山上有雪的时候，很多人去____。",
-          "promptPinyin": "tiān lěng, shān shàng yǒu xuě de shíhou, hěn duō rén qù ____.",
-          "promptEn": "When it's cold and there's snow on the mountain, many people go ____ (skiing).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_fdfbacfbac6b",
-          "front": "tōu",
-          "pinyin": "tōu",
-          "meaning": "to steal",
-          "emoji": "",
-          "pos": "verb",
-          "example": "有人偷了我的自行车。",
-          "examplePinyin": "yǒurén tōu le wǒ de zìxíngchē.",
-          "notes": "[from weekly]",
-          "tones": [
-            1
-          ],
-          "syllables": [
-            "tōu"
-          ],
-          "hanzi": "偷",
-          "promptZh": "那个人把别人的钱包____走了。",
-          "promptPinyin": "nàge rén bǎ biéren de qiánbāo ____ zǒu le.",
-          "promptEn": "That person ____ (stole) someone else's wallet.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_7835646c7972",
-          "front": "shìpín",
-          "pinyin": "shìpín",
-          "meaning": "video / video clip",
-          "emoji": "📹",
-          "pos": "",
-          "example": "我在看一个中文视频。",
-          "examplePinyin": "wǒ zài kàn yí ge zhōngwén shìpín.",
-          "notes": "[from weekly]",
-          "tones": [
-            4,
-            2
-          ],
-          "syllables": [
-            "shì",
-            "pín"
-          ],
-          "hanzi": "视频",
-          "promptZh": "我在手机上看了一个很好笑的____。",
-          "promptPinyin": "wǒ zài shǒujī shàng kàn le yí ge hěn hǎoxiào de ____.",
-          "promptEn": "I watched a very funny ____ (video) on my phone.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_afb8c3e0a18d",
-          "front": "fùqián",
-          "pinyin": "fùqián",
-          "meaning": "to pay (money)",
-          "emoji": "💳",
-          "pos": "verb",
-          "example": "请在这里付钱。",
-          "examplePinyin": "qǐng zài zhèlǐ fùqián.",
-          "notes": "[from weekly]",
-          "tones": [
-            4,
-            2
-          ],
-          "syllables": [
-            "fù",
-            "qián"
-          ],
-          "hanzi": "付钱",
-          "promptZh": "吃完饭以后，我们要去____。",
-          "promptPinyin": "chī wán fàn yǐhòu, wǒmen yào qù ____.",
-          "promptEn": "After eating, we need to go ____ (pay).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_ac31f61d9a81",
-          "front": "zhuā",
-          "pinyin": "zhuā",
-          "meaning": "to grab / hold on to / grasp",
-          "emoji": "✊",
-          "pos": "verb",
-          "example": "在地铁上要抓住扶手。",
-          "examplePinyin": "zài dìtiě shàng yào zhuā zhù fúshǒu.",
-          "notes": "抓住 zhuāzhù = grab and hold on (e.g. a subway handle) [from weekly]",
-          "tones": [
-            1
-          ],
-          "syllables": [
-            "zhuā"
-          ],
-          "hanzi": "抓",
-          "promptZh": "东西要掉了，快用手____住。",
-          "promptPinyin": "dōngxi yào diào le, kuài yòng shǒu ____ zhù.",
-          "promptEn": "The thing is about to fall, quickly ____ (grab) it with your hand.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_76cbb14322cb",
-          "front": "túpiàn",
-          "pinyin": "túpiàn",
-          "meaning": "picture / image / photo",
-          "emoji": "",
-          "pos": "",
-          "example": "我们今天用图片学习一个故事。",
-          "examplePinyin": "wǒmen jīntiān yòng túpiàn xuéxí yí ge gùshi.",
-          "notes": "[weekly]",
-          "tones": [
-            2,
-            4
-          ],
-          "syllables": [
-            "tú",
-            "piàn"
-          ],
-          "hanzi": "图片",
-          "promptZh": "这本书里有很多好看的____。",
-          "promptPinyin": "zhè běn shū lǐ yǒu hěn duō hǎokàn de ____.",
-          "promptEn": "This book has many nice ____ (pictures).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_e8c7fdab1f84",
-          "front": "liànxí",
-          "pinyin": "liànxí",
-          "meaning": "to practice",
-          "emoji": "📝",
-          "pos": "verb",
-          "example": "我每天练习中文。",
-          "examplePinyin": "Wǒ měitiān liànxí Zhōngwén.",
-          "notes": "to practice (e.g. Chinese)",
-          "tones": [
-            4,
-            2
-          ],
-          "syllables": [
-            "liàn",
-            "xí"
-          ],
-          "hanzi": "练习",
-          "promptZh": "想说好中文，每天都要____。",
-          "promptPinyin": "xiǎng shuō hǎo zhōngwén, měitiān dōu yào ____.",
-          "promptEn": "To speak Chinese well, you must ____ (practice) every day.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_bdd9f5c07e83",
-          "front": "pāizhào",
-          "pinyin": "pāizhào",
-          "meaning": "to take a picture",
-          "emoji": "📸",
-          "pos": "verb",
-          "example": "我们一起拍照吧！",
-          "examplePinyin": "Wǒmen yìqǐ pāizhào ba!",
-          "notes": "",
-          "tones": [
-            1,
-            4
-          ],
-          "syllables": [
-            "pāi",
-            "zhào"
-          ],
-          "hanzi": "拍照",
-          "promptZh": "这个地方很好看，我想在这里____。",
-          "promptPinyin": "zhège dìfang hěn hǎokàn, wǒ xiǎng zài zhèlǐ ____.",
-          "promptEn": "This place is beautiful, I want to ____ (take a photo) here.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_b9ae842bc3f1",
-          "front": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
-          "pinyin": "bùhǎoyìsi, kěyǐ bāng wǒmen pāi zhāng zhào ma?",
-          "meaning": "excuse me, could you take a picture of us?",
-          "emoji": "",
-          "pos": "",
-          "example": "不好意思，可以帮我们拍张照吗？",
-          "examplePinyin": "",
-          "notes": "polite request to a stranger",
-          "tones": [
-            4,
-            3,
-            4,
-            5,
-            3,
-            3,
-            1,
-            3,
-            5,
-            1,
-            1,
-            4,
-            5
-          ],
-          "syllables": [
-            "bù",
-            "hǎo",
-            "yì",
-            "si",
-            "kě",
-            "yǐ",
-            "bāng",
-            "wǒ",
-            "men",
-            "pāi",
-            "zhāng",
-            "zhào",
-            "ma"
-          ],
-          "hanzi": "不好意思，可以帮我们拍张照吗？",
-          "promptZh": "你想请一个人帮你和朋友拍照，可以客气地问他什么？",
-          "promptPinyin": "nǐ xiǎng qǐng yí ge rén bāng nǐ hé péngyou pāizhào, kěyǐ kèqi de wèn tā shénme?",
-          "promptEn": "You want to ask someone to take a photo of you and your friend — how do you politely ask?",
-          "promptStyle": "q"
-        },
-        {
-          "id": "c_2958ea6d1759",
-          "front": "xiǎoxīn",
-          "pinyin": "xiǎoxīn",
-          "meaning": "watch out / be careful",
-          "emoji": "",
-          "pos": "",
-          "example": "小心！地上很滑。",
-          "examplePinyin": "Xiǎoxīn! Dìshàng hěn huá.",
-          "notes": "",
-          "tones": [
-            3,
-            1
-          ],
-          "syllables": [
-            "xiǎo",
-            "xīn"
-          ],
-          "hanzi": "小心",
-          "promptZh": "地上有水，走路要____。",
-          "promptPinyin": "dì shàng yǒu shuǐ, zǒulù yào ____.",
-          "promptEn": "There's water on the floor, be ____ (careful) when walking.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_b1e7313a2bcb",
-          "front": "lóutī",
-          "pinyin": "lóutī",
-          "meaning": "stairs",
-          "emoji": "🪜",
-          "pos": "",
-          "example": "我们走楼梯吧。",
-          "examplePinyin": "Wǒmen zǒu lóutī ba.",
-          "notes": "",
-          "tones": [
-            2,
-            1
-          ],
-          "syllables": [
-            "lóu",
-            "tī"
-          ],
-          "hanzi": "楼梯",
-          "promptZh": "电梯坏了，我们只能走____上去。",
-          "promptPinyin": "diàntī huài le, wǒmen zhǐ néng zǒu ____ shàngqù.",
-          "promptEn": "The elevator is broken, we can only take the ____ (stairs) up.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_8fb6e7663caf",
-          "front": "guài",
-          "pinyin": "guài",
-          "meaning": "weird (of a person)",
-          "emoji": "",
-          "pos": "adj",
-          "example": "他这个人很怪。",
-          "examplePinyin": "Tā zhège rén hěn guài.",
-          "notes": "奇怪 qíguài = strange/odd; 怪 describes a person being weird",
-          "tones": [
-            4
-          ],
-          "syllables": [
-            "guài"
-          ],
-          "hanzi": "怪",
-          "promptZh": "那个人做事很____，我不太懂他。",
-          "promptPinyin": "nàge rén zuò shì hěn ____, wǒ bú tài dǒng tā.",
-          "promptEn": "That person acts very ____ (weird), I don't quite get him.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_a8d456495082",
-          "front": "fánrén",
-          "pinyin": "fánrén",
-          "meaning": "annoying (of a person)",
-          "emoji": "",
-          "pos": "adj",
-          "example": "他真的很烦人。",
-          "examplePinyin": "Tā zhēnde hěn fánrén.",
-          "notes": "烦人 = annoying; 讨厌 tǎoyàn also = annoying/to dislike",
-          "tones": [
-            2,
-            2
-          ],
-          "syllables": [
-            "fán",
-            "rén"
-          ],
-          "hanzi": "烦人",
-          "promptZh": "他一直说一样的话，真____。",
-          "promptPinyin": "tā yìzhí shuō yíyàng de huà, zhēn ____.",
-          "promptEn": "He keeps saying the same thing, so ____ (annoying).",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_d8c7abf123a9",
-          "front": "rēng",
-          "pinyin": "rēng",
-          "meaning": "to throw",
-          "emoji": "🏀",
-          "pos": "verb",
-          "example": "他把球扔给我。",
-          "examplePinyin": "Tā bǎ qiú rēng gěi wǒ.",
-          "notes": "to throw/toss; 扔掉 rēngdiào = to throw away",
-          "tones": [
-            1
-          ],
-          "syllables": [
-            "rēng"
-          ],
-          "hanzi": "扔",
-          "promptZh": "不要的东西，可以____到外面去。",
-          "promptPinyin": "bú yào de dōngxi, kěyǐ ____ dào wàimiàn qù.",
-          "promptEn": "Things you don't want, you can ____ (throw) outside.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_8b278aa3a338",
-          "front": "diào",
-          "pinyin": "diào",
-          "meaning": "to fall (object falling down)",
-          "emoji": "📉",
-          "pos": "verb",
-          "example": "苹果从树上掉下来了。",
-          "examplePinyin": "Píngguǒ cóng shù shàng diào xiàlái le.",
-          "notes": "掉下来 = to fall down; for a person falling use 摔倒 shuāidǎo",
-          "tones": [
-            4
-          ],
-          "syllables": [
-            "diào"
-          ],
-          "hanzi": "掉",
-          "promptZh": "我的手机从桌子上____到地上了。",
-          "promptPinyin": "wǒ de shǒujī cóng zhuōzi shàng ____ dào dì shàng le.",
-          "promptEn": "My phone ____ (fell) from the table onto the floor.",
-          "promptStyle": "cloze"
-        },
-        {
-          "id": "c_811732184c95",
-          "front": "shùzhī",
-          "pinyin": "shùzhī",
-          "meaning": "branch (of a tree)",
-          "emoji": "🌳",
-          "pos": "",
-          "example": "鸟站在树枝上。",
-          "examplePinyin": "Niǎo zhàn zài shùzhī shàng.",
-          "notes": "树 shù = tree, 枝 zhī = branch",
-          "tones": [
-            4,
-            1
-          ],
-          "syllables": [
-            "shù",
-            "zhī"
-          ],
-          "hanzi": "树枝",
-          "promptZh": "鸟站在树上的____上面。",
-          "promptPinyin": "niǎo zhàn zài shù shàng de ____ shàngmiàn.",
-          "promptEn": "The bird stands on the tree's ____ (branch).",
           "promptStyle": "cloze"
         }
       ]

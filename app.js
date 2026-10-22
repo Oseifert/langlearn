@@ -441,13 +441,34 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v89 · example sentences + notes now pinyin-only (no hanzi)';
+const BUILD = 'v90 · weekly decks sorted newest-first';
+
+// Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
+// weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
+// from the week number so they always land in the right chronological slot.
+function sortKey(d) {
+  const created = String(d && d.createdAt || '').trim();
+  if (created) return created;
+  const m = /^wk_(\d{4})_(\d{1,2})$/.exec(d && d.id || '');
+  if (m) {
+    const year = +m[1], week = +m[2];
+    // Monday of the given ISO week (approx; good enough for ordering).
+    const jan4 = new Date(Date.UTC(year, 0, 4));
+    const dayOfWeek = (jan4.getUTCDay() + 6) % 7; // Mon=0
+    const monday = new Date(jan4);
+    monday.setUTCDate(jan4.getUTCDate() - dayOfWeek + (week - 1) * 7);
+    return monday.toISOString();
+  }
+  return '';
+}
 
 async function renderHome(root) {
   $('#title').textContent = '语卡 Flashcards';
   const decks = await DB.getAllDecks();
-  // Most recently uploaded deck first.
-  decks.sort((a, b) => String(b.createdAt || '').localeCompare(String(a.createdAt || '')));
+  // Most recently uploaded deck first. Weekly decks (id wk_YYYY_NN) fall back to
+  // an ISO-week-derived date so they always sort correctly even if createdAt is
+  // missing or malformed at the source.
+  decks.sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
   const arch = await getArchived();
   const all = await DB.allCards();
   const activeAll = arch.size ? all.filter(c => !arch.has(c.deckId)) : all;
