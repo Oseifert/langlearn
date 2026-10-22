@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T19:52:48.597323+00:00",
+  "generatedAt": "2026-10-22T20:12:43.929091+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -1097,6 +1097,248 @@
           "promptZh": "你的中文比以前好多了，____了很多。",
           "promptPinyin": "nǐ de zhōngwén bǐ yǐqián hǎo duō le, ____ le hěn duō.",
           "promptEn": "Your Chinese is much better than before, you've ____ (improved) a lot.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_1ac7eca78481",
+          "front": "kè rén",
+          "pinyin": "kè rén",
+          "meaning": "guest / customer (e.g. a restaurant guest)",
+          "emoji": "",
+          "pos": "",
+          "example": "这位客人想要一杯茶。",
+          "examplePinyin": "zhè wèi kè rén xiǎng yào yì bēi chá.",
+          "notes": "客 guest + 人 person. Used for guests and customers alike.",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "kè",
+            "rén"
+          ],
+          "hanzi": "客人",
+          "promptZh": "这位____想要一杯茶。",
+          "promptPinyin": "zhè wèi ____ xiǎng yào yì bēi chá.",
+          "promptEn": "This ____ (guest/customer) wants a cup of tea.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_130b9cdc0ae5",
+          "front": "miàn bāo fáng",
+          "pinyin": "miàn bāo fáng",
+          "meaning": "bakery",
+          "emoji": "",
+          "pos": "",
+          "example": "面包房的面包很好吃。",
+          "examplePinyin": "miàn bāo fáng de miàn bāo hěn hǎo chī.",
+          "notes": "面包 bread + 房 room/shop. Also 面包店 (diàn).",
+          "tones": [
+            4,
+            1,
+            2
+          ],
+          "syllables": [
+            "miàn",
+            "bāo",
+            "fáng"
+          ],
+          "hanzi": "面包房",
+          "promptZh": "我去____买面包。",
+          "promptPinyin": "wǒ qù ____ mǎi miànbāo.",
+          "promptEn": "I'm going to the ____ (bakery) to buy bread.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_6f9f85f6390d",
+          "front": "kā fēi guǎn",
+          "pinyin": "kā fēi guǎn",
+          "meaning": "cafe / coffee shop",
+          "emoji": "☕",
+          "pos": "",
+          "example": "我们在咖啡馆见面吧。",
+          "examplePinyin": "wǒ men zài kā fēi guǎn jiàn miàn ba.",
+          "notes": "咖啡 coffee + 馆 establishment.",
+          "tones": [
+            1,
+            1,
+            3
+          ],
+          "syllables": [
+            "kā",
+            "fēi",
+            "guǎn"
+          ],
+          "hanzi": "咖啡馆",
+          "promptZh": "我们在____喝咖啡。",
+          "promptPinyin": "wǒmen zài ____ hē kāfēi.",
+          "promptEn": "We drink coffee at the ____ (cafe).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_aaf26cb8c066",
+          "front": "huā diàn",
+          "pinyin": "huā diàn",
+          "meaning": "flower shop / florist",
+          "emoji": "",
+          "pos": "",
+          "example": "花店里的花很漂亮。",
+          "examplePinyin": "huā diàn lǐ de huā hěn piào liang.",
+          "notes": "花 flower + 店 shop.",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "huā",
+            "diàn"
+          ],
+          "hanzi": "花店",
+          "promptZh": "我在____买了很多花。",
+          "promptPinyin": "wǒ zài ____ mǎi le hěn duō huā.",
+          "promptEn": "I bought a lot of flowers at the ____ (flower shop).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_75a7a811ceae",
+          "front": "zá zhì",
+          "pinyin": "zá zhì",
+          "meaning": "magazine",
+          "emoji": "",
+          "pos": "",
+          "example": "我买了一本杂志。",
+          "examplePinyin": "wǒ mǎi le yì běn zá zhì.",
+          "notes": "杂 miscellaneous + 志 record. Measure word 本 běn.",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "zá",
+            "zhì"
+          ],
+          "hanzi": "杂志",
+          "promptZh": "我买了一本____看。",
+          "promptPinyin": "wǒ mǎi le yì běn ____ kàn.",
+          "promptEn": "I bought a ____ (magazine) to read.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_aeb07d0ecf91",
+          "front": "lǐng dài",
+          "pinyin": "lǐng dài",
+          "meaning": "necktie / tie",
+          "emoji": "",
+          "pos": "",
+          "example": "他今天打了一条红色的领带。",
+          "examplePinyin": "tā jīn tiān dǎ le yì tiáo hóng sè de lǐng dài.",
+          "notes": "领 collar + 带 band. Verb for wearing a tie is 打 dǎ.",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "lǐng",
+            "dài"
+          ],
+          "hanzi": "领带",
+          "promptZh": "他今天打了一条红色的____。",
+          "promptPinyin": "tā jīntiān dǎ le yì tiáo hóngsè de ____.",
+          "promptEn": "He put on a red ____ (tie) today.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_2f9fb955ccdf",
+          "front": "sǎn",
+          "pinyin": "sǎn",
+          "meaning": "umbrella",
+          "emoji": "☂️",
+          "pos": "",
+          "example": "下雨了，别忘了带伞。",
+          "examplePinyin": "xià yǔ le, bié wàng le dài sǎn.",
+          "notes": "Measure word 把 bǎ. 雨伞 yǔsǎn = rain umbrella.",
+          "tones": [
+            3
+          ],
+          "syllables": [
+            "sǎn"
+          ],
+          "hanzi": "伞",
+          "promptZh": "下雨了，你要拿一把____。",
+          "promptPinyin": "xià yǔ le, nǐ yào ná yì bǎ ____.",
+          "promptEn": "It is raining, you need to take an ____ (umbrella).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_d4b8e49d5b9a",
+          "front": "pí dài",
+          "pinyin": "pí dài",
+          "meaning": "belt (for trousers)",
+          "emoji": "",
+          "pos": "",
+          "example": "这条皮带是黑色的。",
+          "examplePinyin": "zhè tiáo pí dài shì hēi sè de.",
+          "notes": "皮 leather + 带 band. Measure word 条 tiáo.",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "pí",
+            "dài"
+          ],
+          "hanzi": "皮带",
+          "promptZh": "这条黑色的____是新的。",
+          "promptPinyin": "zhè tiáo hēisè de ____ shì xīn de.",
+          "promptEn": "This black ____ (belt) is new.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_97f23832a7a2",
+          "front": "máo yī",
+          "pinyin": "máo yī",
+          "meaning": "sweater / jumper",
+          "emoji": "",
+          "pos": "",
+          "example": "天气冷，你穿毛衣吧。",
+          "examplePinyin": "tiān qì lěng, nǐ chuān máo yī ba.",
+          "notes": "毛 wool + 衣 clothing. Verb to wear is 穿 chuān.",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "máo",
+            "yī"
+          ],
+          "hanzi": "毛衣",
+          "promptZh": "天气冷，你穿____吧。",
+          "promptPinyin": "tiānqì lěng, nǐ chuān ____ ba.",
+          "promptEn": "It's cold, put on a ____ (sweater).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_824d706e29f8",
+          "front": "xī zhuāng",
+          "pinyin": "xī zhuāng",
+          "meaning": "(Western-style) suit",
+          "emoji": "",
+          "pos": "",
+          "example": "他上班的时候穿西装。",
+          "examplePinyin": "tā shàng bān de shí hou chuān xī zhuāng.",
+          "notes": "西 west + 装 attire. A business suit. (A blouse is 衬衫 chènshān.)",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "xī",
+            "zhuāng"
+          ],
+          "hanzi": "西装",
+          "promptZh": "他上班的时候穿____。",
+          "promptPinyin": "tā shàng bān de shíhou chuān ____.",
+          "promptEn": "He wears a ____ (suit) to work.",
           "promptStyle": "cloze"
         }
       ]
