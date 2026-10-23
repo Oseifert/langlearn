@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T20:12:43.929091+00:00",
+  "generatedAt": "2026-10-23T04:07:46.298261+00:00",
   "decks": [
     {
       "id": "wk_2026_42",
@@ -1339,6 +1339,516 @@
           "promptZh": "他上班的时候穿____。",
           "promptPinyin": "tā shàng bān de shíhou chuān ____.",
           "promptEn": "He wears a ____ (suit) to work.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e56bc6a39a4a",
+          "front": "jiàgé",
+          "pinyin": "jiàgé",
+          "meaning": "price",
+          "emoji": "",
+          "pos": "",
+          "example": "这件毛衣的价格太高了。",
+          "examplePinyin": "zhè jiàn máoyī de jiàgé tài gāo le.",
+          "notes": "jià (price) + gé (standard).",
+          "tones": [
+            4,
+            2
+          ],
+          "syllables": [
+            "jià",
+            "gé"
+          ],
+          "hanzi": "价格",
+          "promptZh": "这件毛衣的____太高了。",
+          "promptPinyin": "zhè jiàn máoyī de ____ tài gāo le.",
+          "promptEn": "This sweater's ____ (price) is too high.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_dc705a017fc3",
+          "front": "chángdù",
+          "pinyin": "chángdù",
+          "meaning": "length",
+          "emoji": "",
+          "pos": "",
+          "example": "这条裤子的长度正好。",
+          "examplePinyin": "zhè tiáo kùzi de chángdù zhènghǎo.",
+          "notes": "cháng (long) + dù (degree/measure).",
+          "tones": [
+            2,
+            4
+          ],
+          "syllables": [
+            "cháng",
+            "dù"
+          ],
+          "hanzi": "长度",
+          "promptZh": "这条裤子的____正好。",
+          "promptPinyin": "zhè tiáo kùzi de ____ zhènghǎo.",
+          "promptEn": "These trousers' ____ (length) is just right.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_badd6c579386",
+          "front": "dàxiǎo",
+          "pinyin": "dàxiǎo",
+          "meaning": "size",
+          "emoji": "",
+          "pos": "",
+          "example": "这双鞋的大小合适吗？",
+          "examplePinyin": "zhè shuāng xié de dàxiǎo héshì ma?",
+          "notes": "lit. 'big-small' = size.",
+          "tones": [
+            4,
+            3
+          ],
+          "syllables": [
+            "dà",
+            "xiǎo"
+          ],
+          "hanzi": "大小",
+          "promptZh": "这件衣服的____对吗？",
+          "promptPinyin": "zhè jiàn yīfu de ____ duì ma?",
+          "promptEn": "Is the ____ (size) of this garment right?",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_8b0fc2f2fdfa",
+          "front": "jiǎoluò",
+          "pinyin": "jiǎoluò",
+          "meaning": "corner; nook (of a room)",
+          "emoji": "",
+          "pos": "",
+          "example": "猫在房间的角落里睡觉。",
+          "examplePinyin": "māo zài fángjiān de jiǎoluò lǐ shuìjiào.",
+          "notes": "INDOOR corner / nook (matches your 'jiao luo'). A street corner is 街角 jiējiǎo.",
+          "tones": [
+            3,
+            4
+          ],
+          "syllables": [
+            "jiǎo",
+            "luò"
+          ],
+          "hanzi": "角落",
+          "promptZh": "猫在房间的____里睡觉。",
+          "promptPinyin": "māo zài fángjiān de ____ lǐ shuìjiào.",
+          "promptEn": "The cat is sleeping in the ____ (corner/nook) of the room.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_bad2e3e20ced",
+          "front": "kāiguān",
+          "pinyin": "kāiguān",
+          "meaning": "switch; power button",
+          "emoji": "",
+          "pos": "",
+          "example": "灯的开关在门旁边。",
+          "examplePinyin": "dēng de kāiguān zài mén pángbiān.",
+          "notes": "kāi (open/on) + guān (close/off) = switch.",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "kāi",
+            "guān"
+          ],
+          "hanzi": "开关",
+          "promptZh": "灯的____在门旁边。",
+          "promptPinyin": "dēng de ____ zài mén pángbiān.",
+          "promptEn": "The light's ____ (switch) is next to the door.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_2d72145833b1",
+          "front": "niúzǎikù",
+          "pinyin": "niúzǎikù",
+          "meaning": "jeans",
+          "emoji": "",
+          "pos": "",
+          "example": "他喜欢穿蓝色的牛仔裤。",
+          "examplePinyin": "tā xǐhuān chuān lánsè de niúzǎikù.",
+          "notes": "niúzǎi (cowboy) + kù (trousers).",
+          "tones": [
+            2,
+            3,
+            4
+          ],
+          "syllables": [
+            "niú",
+            "zǎi",
+            "kù"
+          ],
+          "hanzi": "牛仔裤",
+          "promptZh": "他喜欢穿蓝色的____。",
+          "promptPinyin": "tā xǐhuān chuān lánsè de ____.",
+          "promptEn": "He likes to wear blue ____ (jeans).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_76f8711f2f2f",
+          "front": "lánqiúchǎng",
+          "pinyin": "lánqiúchǎng",
+          "meaning": "basketball court",
+          "emoji": "",
+          "pos": "",
+          "example": "学校有一个很大的篮球场。",
+          "examplePinyin": "xuéxiào yǒu yí gè hěn dà de lánqiúchǎng.",
+          "notes": "lánqiú (basketball) + chǎng (field/court).",
+          "tones": [
+            2,
+            2,
+            3
+          ],
+          "syllables": [
+            "lán",
+            "qiú",
+            "chǎng"
+          ],
+          "hanzi": "篮球场",
+          "promptZh": "学校有一个很大的____。",
+          "promptPinyin": "xuéxiào yǒu yí gè hěn dà de ____.",
+          "promptEn": "The school has a very big ____ (basketball court).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_3dde3b14b0fb",
+          "front": "yóulèqū",
+          "pinyin": "yóulèqū",
+          "meaning": "playground",
+          "emoji": "",
+          "pos": "",
+          "example": "孩子们在游乐区玩得很开心。",
+          "examplePinyin": "háizimen zài yóulèqū wán de hěn kāixīn.",
+          "notes": "yóulè (recreation) + qū (zone/area).",
+          "tones": [
+            2,
+            4,
+            1
+          ],
+          "syllables": [
+            "yóu",
+            "lè",
+            "qū"
+          ],
+          "hanzi": "游乐区",
+          "promptZh": "孩子们在____玩。",
+          "promptPinyin": "háizimen zài ____ wán.",
+          "promptEn": "The kids are playing in the ____ (playground).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_4f7536126a82",
+          "front": "mō",
+          "pinyin": "mō",
+          "meaning": "to pet (an animal); to touch/stroke",
+          "emoji": "",
+          "pos": "verb",
+          "example": "我可以摸一下你的狗吗？",
+          "examplePinyin": "wǒ kěyǐ mō yíxià nǐ de gǒu ma?",
+          "notes": "soft touch/stroke, e.g. petting an animal.",
+          "tones": [
+            1
+          ],
+          "syllables": [
+            "mō"
+          ],
+          "hanzi": "摸",
+          "promptZh": "我可以____一下你的狗吗？",
+          "promptPinyin": "wǒ kěyǐ ____ yíxià nǐ de gǒu ma?",
+          "promptEn": "Can I ____ (pet) your dog for a sec?",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_005bc6b89bbe",
+          "front": "gānggāng",
+          "pinyin": "gānggāng",
+          "meaning": "just now",
+          "emoji": "",
+          "pos": "adv",
+          "example": "他刚刚出去了。",
+          "examplePinyin": "tā gānggāng chūqù le.",
+          "notes": "you wrote 'danggang' — standard is gānggāng = just now / a moment ago.",
+          "tones": [
+            1,
+            1
+          ],
+          "syllables": [
+            "gāng",
+            "gāng"
+          ],
+          "hanzi": "刚刚",
+          "promptZh": "他____出去了。",
+          "promptPinyin": "tā ____ chūqù le.",
+          "promptEn": "He went out ____ (just now).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_d1db3979bc8e",
+          "front": "píjiǔchǎng",
+          "pinyin": "píjiǔchǎng",
+          "meaning": "brewery",
+          "emoji": "",
+          "pos": "",
+          "example": "这家啤酒厂很有名。",
+          "examplePinyin": "zhè jiā píjiǔchǎng hěn yǒumíng.",
+          "notes": "píjiǔ (beer) + chǎng (factory).",
+          "tones": [
+            2,
+            3,
+            3
+          ],
+          "syllables": [
+            "pí",
+            "jiǔ",
+            "chǎng"
+          ],
+          "hanzi": "啤酒厂",
+          "promptZh": "这家____很有名。",
+          "promptPinyin": "zhè jiā ____ hěn yǒumíng.",
+          "promptEn": "This ____ (brewery) is very famous.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_dcb322c451de",
+          "front": "jìxù",
+          "pinyin": "jìxù",
+          "meaning": "to continue",
+          "emoji": "",
+          "pos": "verb",
+          "example": "我们继续往前走吧。",
+          "examplePinyin": "wǒmen jìxù wǎng qián zǒu ba.",
+          "notes": "e.g. 继续走 = to continue walking.",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "jì",
+            "xù"
+          ],
+          "hanzi": "继续",
+          "promptZh": "我们____往前走吧。",
+          "promptPinyin": "wǒmen ____ wǎng qián zǒu ba.",
+          "promptEn": "Let's ____ (continue) walking forward.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e66adb6b5842",
+          "front": "shǒuzhǐ",
+          "pinyin": "shǒuzhǐ",
+          "meaning": "finger",
+          "emoji": "",
+          "pos": "",
+          "example": "我的手指有点疼。",
+          "examplePinyin": "wǒ de shǒuzhǐ yǒudiǎn téng.",
+          "notes": "shǒu (hand) + zhǐ (finger).",
+          "tones": [
+            3,
+            3
+          ],
+          "syllables": [
+            "shǒu",
+            "zhǐ"
+          ],
+          "hanzi": "手指",
+          "promptZh": "我的____有点疼。",
+          "promptPinyin": "wǒ de ____ yǒudiǎn téng.",
+          "promptEn": "My ____ (finger) hurts a little.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_dab5338f6eaf",
+          "front": "shāngkǒu",
+          "pinyin": "shāngkǒu",
+          "meaning": "cut; wound",
+          "emoji": "",
+          "pos": "",
+          "example": "他手上的伤口还没好。",
+          "examplePinyin": "tā shǒu shàng de shāngkǒu hái méi hǎo.",
+          "notes": "shāng (injury) + kǒu (opening) = wound.",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "shāng",
+            "kǒu"
+          ],
+          "hanzi": "伤口",
+          "promptZh": "他手上的____还没好。",
+          "promptPinyin": "tā shǒu shàng de ____ hái méi hǎo.",
+          "promptEn": "The ____ (wound) on his hand hasn't healed yet.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_f1273d890c04",
+          "front": "pèng dào",
+          "pinyin": "pèng dào",
+          "meaning": "to touch; to bump into; to run into",
+          "emoji": "",
+          "pos": "verb",
+          "example": "小心别碰到那个伤口。",
+          "examplePinyin": "xiǎoxīn bié pèng dào nàge shāngkǒu.",
+          "notes": "pèng (bump/touch) + dào (reach); also 'to run into (someone)'.",
+          "tones": [
+            4,
+            4
+          ],
+          "syllables": [
+            "pèng",
+            "dào"
+          ],
+          "hanzi": "碰到",
+          "promptZh": "小心别____那个杯子。",
+          "promptPinyin": "xiǎoxīn bié ____ nàge bēizi.",
+          "promptEn": "Careful not to ____ (touch/bump) that cup.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_734214f6cf5e",
+          "front": "duō zǒuzou",
+          "pinyin": "duō zǒuzou",
+          "meaning": "to walk more",
+          "emoji": "",
+          "pos": "verb",
+          "example": "医生说你应该多走走。",
+          "examplePinyin": "yīshēng shuō nǐ yīnggāi duō zǒuzou.",
+          "notes": "duō (more) + reduplicated 走走 (walk a bit) = walk more.",
+          "tones": [
+            1,
+            3,
+            5
+          ],
+          "syllables": [
+            "duō",
+            "zǒu",
+            "zou"
+          ],
+          "hanzi": "多走走",
+          "promptZh": "医生说你应该____。",
+          "promptPinyin": "yīshēng shuō nǐ yīnggāi ____.",
+          "promptEn": "The doctor says you should ____ (walk more).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_0c9187a2804b",
+          "front": "liàng",
+          "pinyin": "liàng",
+          "meaning": "bright",
+          "emoji": "",
+          "pos": "adj",
+          "example": "这个房间很亮。",
+          "examplePinyin": "zhège fángjiān hěn liàng.",
+          "notes": "bright / light (of a room, light, etc.).",
+          "tones": [
+            4
+          ],
+          "syllables": [
+            "liàng"
+          ],
+          "hanzi": "亮",
+          "promptZh": "这个房间很____。",
+          "promptPinyin": "zhège fángjiān hěn ____.",
+          "promptEn": "This room is very ____ (bright).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_d764eb4501f5",
+          "front": "tīnglì",
+          "pinyin": "tīnglì",
+          "meaning": "listening comprehension",
+          "emoji": "",
+          "pos": "",
+          "example": "我的中文听力还不太好。",
+          "examplePinyin": "wǒ de zhōngwén tīnglì hái bú tài hǎo.",
+          "notes": "tīng (listen) + lì (ability).",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "tīng",
+            "lì"
+          ],
+          "hanzi": "听力",
+          "promptZh": "我的中文____还不太好。",
+          "promptPinyin": "wǒ de zhōngwén ____ hái bú tài hǎo.",
+          "promptEn": "My Chinese ____ (listening) still isn't very good.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_da966f66e64b",
+          "front": "zhèngzài gài",
+          "pinyin": "zhèngzài gài",
+          "meaning": "under construction; being built",
+          "emoji": "",
+          "pos": "",
+          "example": "那座楼正在盖，还没盖好。",
+          "examplePinyin": "nà zuò lóu zhèngzài gài, hái méi gài hǎo.",
+          "notes": "zhèngzài (in the process of) + gài (build) = being built.",
+          "tones": [
+            4,
+            4,
+            4
+          ],
+          "syllables": [
+            "zhèng",
+            "zài",
+            "gài"
+          ],
+          "hanzi": "正在盖",
+          "promptZh": "那座楼____，还没好。",
+          "promptPinyin": "nà zuò lóu ____, hái méi hǎo.",
+          "promptEn": "That building is ____ (being built), not done yet.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_05f1dcaffa4b",
+          "front": "céng",
+          "pinyin": "céng",
+          "meaning": "floor; story (of a building)",
+          "emoji": "🪜",
+          "pos": "",
+          "example": "我家在第三层。",
+          "examplePinyin": "wǒ jiā zài dì sān céng.",
+          "notes": "measure word for floors/stories of a building.",
+          "tones": [
+            2
+          ],
+          "syllables": [
+            "céng"
+          ],
+          "hanzi": "层",
+          "promptZh": "我家在第三____。",
+          "promptPinyin": "wǒ jiā zài dì sān ____.",
+          "promptEn": "My home is on the third ____ (floor).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e7b541a35fd2",
+          "front": "fēngjǐng",
+          "pinyin": "fēngjǐng",
+          "meaning": "scenery; view",
+          "emoji": "",
+          "pos": "",
+          "example": "这里的风景很美。",
+          "examplePinyin": "zhèlǐ de fēngjǐng hěn měi.",
+          "notes": "fēng (wind) + jǐng (view) = scenery.",
+          "tones": [
+            1,
+            3
+          ],
+          "syllables": [
+            "fēng",
+            "jǐng"
+          ],
+          "hanzi": "风景",
+          "promptZh": "这里的____很美。",
+          "promptPinyin": "zhèlǐ de ____ hěn měi.",
+          "promptEn": "The ____ (scenery) here is beautiful.",
           "promptStyle": "cloze"
         }
       ]
