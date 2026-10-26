@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v92 · +21 words (Oct 12-18 week)';
+const BUILD = 'v93 · split Oct 19-25 into own deck';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
@@ -1396,8 +1396,36 @@ $('#fileInput').addEventListener('change', async (e) => {
 
 $('#backBtn').addEventListener('click', () => app.back());
 
+// One-time (idempotent) card-id remap: the Oct 19-25 words were mistakenly added
+// to deck wk_2026_42 (Oct 12-18) and later split into their own deck wk_2026_43.
+// Splitting changes each card id (id = sha1(deckId|front)), which would orphan
+// the locally-stored SR progress. This rewrites the 42 affected cards in place
+// (new id + new deckId) BEFORE ensureSeeded re-imports and BEFORE sweepOrphans
+// runs, so review history is preserved on-device.
+async function remapOct19Split() {
+  if (await DB.getMeta('remapOct19Split')) return;
+  const MAP = {'c_b431c35e70ec':'c_98ae1a27cf91','c_5e06f749df98':'c_33466d256bc6','c_e1fe7bac691c':'c_6ee873017ecd','c_3887722b8350':'c_6be47f908166','c_cd894538c83c':'c_5032cf9aa9bf','c_114d3028a057':'c_0d11896ae966','c_16cb9f838018':'c_9233e2df04b7','c_311eb59508c7':'c_2d94d9241de9','c_72b465276c07':'c_d4ef976cef70','c_0f89b487bd73':'c_4f061a05e6b4','c_14851c16f515':'c_98841f0f22d5','c_1ac7eca78481':'c_c81b6d1ec97e','c_130b9cdc0ae5':'c_ed950594c727','c_6f9f85f6390d':'c_e8d09f9c118f','c_aaf26cb8c066':'c_55e36544b762','c_75a7a811ceae':'c_4d2143a0d81d','c_aeb07d0ecf91':'c_e571d68d0fb0','c_2f9fb955ccdf':'c_195d12939275','c_d4b8e49d5b9a':'c_d9f600f0e5bb','c_97f23832a7a2':'c_0c3df5725208','c_824d706e29f8':'c_d801d94f05ee','c_e56bc6a39a4a':'c_fd9c320560e7','c_dc705a017fc3':'c_c26fdc4231d5','c_badd6c579386':'c_ca8d72f86f97','c_8b0fc2f2fdfa':'c_3933a252c9e9','c_bad2e3e20ced':'c_336f7740fe98','c_2d72145833b1':'c_7d3825aadd02','c_76f8711f2f2f':'c_0f1cce87941f','c_3dde3b14b0fb':'c_77c1c6bc949f','c_4f7536126a82':'c_413da9067a0c','c_005bc6b89bbe':'c_520754733f57','c_d1db3979bc8e':'c_a5bbdb480fbd','c_dcb322c451de':'c_fbc17b2266a3','c_e66adb6b5842':'c_cca008375a6c','c_dab5338f6eaf':'c_a6f8c1bc9ae1','c_f1273d890c04':'c_728fbdee81a3','c_734214f6cf5e':'c_b66c89d8a77a','c_0c9187a2804b':'c_c8bc0645e1b6','c_d764eb4501f5':'c_0eb6de187a41','c_da966f66e64b':'c_0a126fdb735f','c_05f1dcaffa4b':'c_5276d6fe3a0c','c_e7b541a35fd2':'c_bac62797ede4'};
+  try {
+    const all = await DB.allCards();
+    const byId = new Map(all.map(c => [c.id, c]));
+    const toPut = [];
+    const toDelete = [];
+    for (const [oldId, newId] of Object.entries(MAP)) {
+      const c = byId.get(oldId);
+      if (!c) continue;            // never practiced on this device -> nothing to carry
+      if (byId.has(newId)) continue; // already remapped / seed already created it
+      const moved = { ...c, id: newId, deckId: 'wk_2026_43' };
+      toPut.push(moved);
+      toDelete.push(oldId);
+    }
+    if (toPut.length) { await DB.putCards(toPut); await DB.deleteCards(toDelete); console.log('remapped', toPut.length, 'cards to wk_2026_43'); }
+  } catch (e) { console.error('remapOct19Split failed', e); return; } // don't set flag -> retry next load
+  await DB.setMeta('remapOct19Split', true);
+}
+
 // ---------- boot ----------
 (async function boot() {
+  try { await remapOct19Split(); } catch (e) { console.error(e); }
   try { await ensureSeeded(); } catch (e) { console.error(e); }
   try { await migrateCards(); } catch (e) { console.error(e); }
   try { await sweepOrphans(); } catch (e) { console.error('orphan sweep failed', e); }
