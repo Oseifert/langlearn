@@ -441,7 +441,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v93 · split Oct 19-25 into own deck';
+const BUILD = 'v94 · add Week Nov 02-08 deck (6 words)';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date

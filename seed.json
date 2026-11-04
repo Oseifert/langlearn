@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T15:31:34.500406+00:00",
+  "generatedAt": "2026-11-04T18:00:53.907925+00:00",
   "decks": [
+    {
+      "id": "wk_2026_45",
+      "title": "Week of Nov 02 – 08",
+      "source": "Week Deck",
+      "summary": "",
+      "createdAt": "2026-11-02T00:00:00+00:00",
+      "cards": [
+        {
+          "id": "c_470974770dc1",
+          "front": "dǔchē",
+          "pinyin": "dǔchē",
+          "meaning": "traffic jam",
+          "emoji": "",
+          "pos": "",
+          "example": "今天路上堵车，我晚了。",
+          "examplePinyin": "jīntiān lùshang dǔchē, wǒ wǎn le.",
+          "notes": "dǔ = to block; chē = car/vehicle.",
+          "tones": [
+            3,
+            1
+          ],
+          "syllables": [
+            "dǔ",
+            "chē"
+          ],
+          "hanzi": "堵车",
+          "promptZh": "今天路上车很多，很____，所以我晚了。",
+          "promptPinyin": "jīntiān lùshang chē hěn duō, hěn ____, suǒyǐ wǒ wǎn le.",
+          "promptEn": "Lots of cars on the road today, big ____ (traffic jam), so I was late.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_94cc4cc2698e",
+          "front": "yáyī",
+          "pinyin": "yáyī",
+          "meaning": "dentist",
+          "emoji": "",
+          "pos": "",
+          "example": "我下午去看牙医。",
+          "examplePinyin": "wǒ xiàwǔ qù kàn yáyī.",
+          "notes": "yá = tooth; yī = doctor.",
+          "tones": [
+            2,
+            1
+          ],
+          "syllables": [
+            "yá",
+            "yī"
+          ],
+          "hanzi": "牙医",
+          "promptZh": "我的牙不好，下午要去看____。",
+          "promptPinyin": "wǒ de yá bù hǎo, xiàwǔ yào qù kàn ____.",
+          "promptEn": "My tooth hurts, this afternoon I need to go see the ____ (dentist).",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_7a4f315bc3d8",
+          "front": "yùyuē",
+          "pinyin": "yùyuē",
+          "meaning": "appointment; to make an appointment",
+          "emoji": "",
+          "pos": "",
+          "example": "我想预约明天上午。",
+          "examplePinyin": "wǒ xiǎng yùyuē míngtiān shàngwǔ.",
+          "notes": "Verb or noun.",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "yù",
+            "yuē"
+          ],
+          "hanzi": "预约",
+          "promptZh": "去看医生以前，我想先____明天上午。",
+          "promptPinyin": "qù kàn yīshēng yǐqián, wǒ xiǎng xiān ____ míngtiān shàngwǔ.",
+          "promptEn": "Before seeing the doctor, I want to first ____ (make an appointment for) tomorrow morning.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_d949dd13a59a",
+          "front": "jiǎnchá",
+          "pinyin": "jiǎnchá",
+          "meaning": "check-up; examination; to examine",
+          "emoji": "",
+          "pos": "",
+          "example": "医生给我检查了身体。",
+          "examplePinyin": "yīshēng gěi wǒ jiǎnchá le shēntǐ.",
+          "notes": "Also to inspect/check.",
+          "tones": [
+            3,
+            2
+          ],
+          "syllables": [
+            "jiǎn",
+            "chá"
+          ],
+          "hanzi": "检查",
+          "promptZh": "医生给我的身体做了一个____。",
+          "promptPinyin": "yīshēng gěi wǒ de shēntǐ zuò le yí ge ____.",
+          "promptEn": "The doctor did a ____ (check-up) on my body.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_e6bc694a9846",
+          "front": "fāxiàn",
+          "pinyin": "fāxiàn",
+          "meaning": "to discover; to find (a problem)",
+          "emoji": "",
+          "pos": "verb",
+          "example": "医生发现一个小问题。",
+          "examplePinyin": "yīshēng fāxiàn yí ge xiǎo wèntí.",
+          "notes": "to find/notice/discover.",
+          "tones": [
+            1,
+            4
+          ],
+          "syllables": [
+            "fā",
+            "xiàn"
+          ],
+          "hanzi": "发现",
+          "promptZh": "医生____了一个小问题。",
+          "promptPinyin": "yīshēng ____ le yí ge xiǎo wèntí.",
+          "promptEn": "The doctor ____ (discovered) a small problem.",
+          "promptStyle": "cloze"
+        },
+        {
+          "id": "c_6fb9a92fe84d",
+          "front": "jiànkāng",
+          "pinyin": "jiànkāng",
+          "meaning": "healthy; health",
+          "emoji": "",
+          "pos": "adj",
+          "example": "他的身体很健康。",
+          "examplePinyin": "tā de shēntǐ hěn jiànkāng.",
+          "notes": "Adjective or noun.",
+          "tones": [
+            4,
+            1
+          ],
+          "syllables": [
+            "jiàn",
+            "kāng"
+          ],
+          "hanzi": "健康",
+          "promptZh": "他每天运动，身体很____。",
+          "promptPinyin": "tā měitiān yùndòng, shēntǐ hěn ____.",
+          "promptEn": "He exercises every day, his body is very ____ (healthy).",
+          "promptStyle": "cloze"
+        }
+      ]
+    },
     {
       "id": "wk_2026_43",
       "title": "Week of Oct 19 – 25",
