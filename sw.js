@@ -1,5 +1,5 @@
 /* 语卡 service worker — network-first for app code so updates land immediately */
-const CACHE = 'yuka-v96';
+const CACHE = 'yuka-v97';
 const ASSETS = [
   './',
   './index.html',
