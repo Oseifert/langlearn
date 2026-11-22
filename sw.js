@@ -1,5 +1,5 @@
 /* 语卡 service worker — network-first for app code so updates land immediately */
-const CACHE = 'yuka-v94';
+const CACHE = 'yuka-v95';
 const ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,8 @@ const ASSETS = [
   './core.js',
   './sync.js',
   './app.js',
+  './movies.js',
+  './movie-path.json',
   './manifest.webmanifest',
   './seed.json',
   './icons/icon-192.png',

@@ -41,6 +41,7 @@
     const cards = await DB.allCards();
     const out = {};
     for (const c of cards) {
+      if (c.deckId === MOVIE_DECK_ID && !c.updatedAt) continue;
       out[c.id] = {
         zhEnState: c.zhEnState,
         enZhState: c.enZhState,

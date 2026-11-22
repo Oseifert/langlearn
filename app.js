@@ -77,6 +77,15 @@ const DB = (() => {
     async cardsFor(deckId) { const o = []; await tx('cards', 'readonly', t => { const idx = t.objectStore('cards').index('deckId'); idx.openCursor(IDBKeyRange.only(deckId)).onsuccess = e => { const c = e.target.result; if (c) { o.push(c.value); c.continue(); } }; }); return o; },
     async allCards() { const o = []; await tx('cards', 'readonly', t => { t.objectStore('cards').openCursor().onsuccess = e => { const c = e.target.result; if (c) { o.push(c.value); c.continue(); } }; }); return o; },
     async putCards(cards) { return tx('cards', 'readwrite', t => { const s = t.objectStore('cards'); cards.forEach(c => s.put(c)); }); },
+    async addMissingCards(cards) {
+      return tx('cards', 'readwrite', t => {
+        const store = t.objectStore('cards');
+        for (const card of cards) {
+          const request = store.getKey(card.id);
+          request.onsuccess = () => { if (request.result === undefined) store.add(card); };
+        }
+      });
+    },
     async putCard(c) { return tx('cards', 'readwrite', t => t.objectStore('cards').put(c)); },
     async deleteCards(ids) { return tx('cards', 'readwrite', t => { const s = t.objectStore('cards'); ids.forEach(id => s.delete(id)); }); },
     async getMeta(k) { let v; await tx('meta', 'readonly', t => { t.objectStore('meta').get(k).onsuccess = e => (v = e.target.result); }); return v ? v.v : undefined; },
@@ -99,7 +108,7 @@ async function isArchivedDeck(id) { return (await getArchived()).has(id); }
 async function activeCards() {
   const arch = await getArchived();
   const all = await DB.allCards();
-  return arch.size ? all.filter(c => !arch.has(c.deckId)) : all;
+  return all.filter(c => c.deckId !== MOVIE_DECK_ID && !arch.has(c.deckId));
 }
 
 // ---------- SM-2 scheduler (per mastery dimension) ----------
@@ -382,10 +391,12 @@ async function render() {
   const { view, params } = app.cur();
   const root = $('#view');
   root.innerHTML = '';
+  renderMainTabs(view);
   $('#backBtn').hidden = app.stack.length <= 1;
   // ＋ upload button only makes sense on the home screen.
   $('#uploadBtn').hidden = view !== 'home';
-  updateAutoplayBtn(view);
+  updateAutoplayBtn(params?.movie ? 'movie' : view);
+  if (view === 'movies' || view === 'movie') return renderMovies(root, params?.step);
   if (view === 'home') return renderHome(root);
   if (view === 'deck') return renderDeck(root, params.deckId);
   if (view === 'practice') return renderPractice(root, params);
@@ -441,7 +452,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v94 · add Week Nov 02-08 deck (6 words)';
+const BUILD = 'v95 · movie learning path';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
@@ -463,15 +474,17 @@ function sortKey(d) {
 }
 
 async function renderHome(root) {
+  const frame = app.cur();
   $('#title').textContent = '语卡 Flashcards';
-  const decks = await DB.getAllDecks();
+  const decks = (await DB.getAllDecks()).filter(deck => deck.id !== MOVIE_DECK_ID);
   // Most recently uploaded deck first. Weekly decks (id wk_YYYY_NN) fall back to
   // an ISO-week-derived date so they always sort correctly even if createdAt is
   // missing or malformed at the source.
   decks.sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
   const arch = await getArchived();
   const all = await DB.allCards();
-  const activeAll = arch.size ? all.filter(c => !arch.has(c.deckId)) : all;
+  if (app.cur() !== frame) return;
+  const activeAll = all.filter(c => c.deckId !== MOVIE_DECK_ID && !arch.has(c.deckId));
   const byDeck = new Map();
   for (const c of all) { if (!byDeck.has(c.deckId)) byDeck.set(c.deckId, []); byDeck.get(c.deckId).push(c); }
 
@@ -963,9 +976,9 @@ async function renderLearn(root, params) {
 
 async function renderPractice(root, params) {
   const dir = params.dir === 'en2zh' ? 'en2zh' : 'zh2en';
-  const dirLabel = dir === 'en2zh' ? 'EN→中' : '中→EN';
+  const dirLabel = params.movie ? 'Pinyin → English' : dir === 'en2zh' ? 'EN→中' : '中→EN';
   $('#title').textContent = (params.mode === 'all' ? 'Review All' : 'Practice') + ' · ' + dirLabel;
-  const { queue, aheadUsed } = await buildQueue(params);
+  const { queue, aheadUsed } = params.movie ? { queue: [...params.queue] } : await buildQueue(params);
   if (!queue.length) { root.append(doneScreen('Nothing to practice 🎉', {})); return; }
   // If nothing was due and we're in "get ahead" mode, tell the user up front so
   // they know these cards weren't actually due yet.
@@ -973,14 +986,15 @@ async function renderPractice(root, params) {
     root.append(el('div', { class: 'hint', style: 'text-align:center;color:var(--accent)' },
       `Nothing due right now — practicing ${queue.length} card${queue.length > 1 ? 's' : ''} to get ahead.`));
   }
-  let i = 0, revealed = false, correct = 0, again = 0;
+  let i = 0, revealed = false, correct = 0, again = 0, saving = false;
+  const sessionSize = queue.length;
 
   const stage = el('div', { class: 'stage' });
   root.append(stage);
   draw();
 
   function draw() {
-    if (i >= queue.length) { stage.replaceWith(doneScreen('Session complete!', { Reviewed: queue.length, Good: correct, Again: again })); return; }
+    if (i >= queue.length) { stage.replaceWith(doneScreen('Session complete!', { Reviewed: params.movie ? sessionSize : queue.length, Good: correct, Again: again })); return; }
     const c = queue[i];
     revealed = false;
     stage.innerHTML = '';
@@ -995,9 +1009,11 @@ async function renderPractice(root, params) {
       // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
       card.append(el('div', { class: 'front' }, c.front));
       // Audio is safe here — hearing the Mandarin is the point of the prompt.
-      card.append(audioBtn(c));
-      _currentAudioCard = c;
-      maybeAutoplay(c);
+      if (!params.movie) {
+        card.append(audioBtn(c));
+        _currentAudioCard = c;
+        maybeAutoplay(c);
+      }
     }
     card.append(el('div', { class: 'flip-hint' }, 'tap to reveal'));
     stage.append(card);
@@ -1018,7 +1034,7 @@ async function renderPractice(root, params) {
       maybeAutoplay(c);
     } else {
       card.append(el('div', { class: 'front' }, frontText(c)));
-      card.append(audioBtn(c));
+      if (!params.movie) card.append(audioBtn(c));
       card.append(el('div', { class: 'divider' }));
       card.append(el('div', { class: 'meaning' }, c.meaning));
       // 中→EN: Chinese already played on the front face; don't replay.
@@ -1036,14 +1052,23 @@ async function renderPractice(root, params) {
     return el('button', { class: cls, onclick: () => grade(g) }, el('span', {}, label), sub ? el('small', {}, sub) : null);
   }
   async function grade(g) {
+    if (saving) return;
+    saving = true;
     const c = queue[i];
     if (dir === 'en2zh') c.enZhState = schedule(c.enZhState, g);
     else c.zhEnState = schedule(c.zhEnState, g);
     // Passing the harder EN→中 direction also credits the easier 中→EN (if due),
     // so you don't have to redundantly drill the reverse of a word you can produce.
     applyReverseCredit(c, dir, g);
-    await saveGraded(c);
-    if (g === 0) { again++; queue.push(c); } else correct++;
+    try {
+      await saveGraded(c);
+    } finally {
+      saving = false;
+    }
+    if (g === 0) {
+      again++;
+      if (!params.movie) queue.push(c);
+    } else correct++;
     i++; draw();
   }
 }
@@ -1429,6 +1454,7 @@ async function remapOct19Split() {
   try { await ensureSeeded(); } catch (e) { console.error(e); }
   try { await migrateCards(); } catch (e) { console.error(e); }
   try { await sweepOrphans(); } catch (e) { console.error('orphan sweep failed', e); }
+  try { await seedMovieCards(); } catch (e) { console.error('movie vocabulary setup failed', e); }
   try { await loadAutoplay(); } catch (e) { console.error(e); }
   // Pull latest progress from GitHub (if this device has a token) before render,
   // so a fresh install / new device restores prior progress automatically.

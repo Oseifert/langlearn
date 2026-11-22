@@ -20,6 +20,10 @@
     <button id="uploadBtn" class="icon-btn" title="Upload homework">＋</button>
   </header>
 
+  <nav id="mainTabs" class="main-tabs" aria-label="App sections" hidden>
+    <button class="btn ghost" type="button" data-view="home">Flashcards</button>
+    <button class="btn ghost" type="button" data-view="movies">Movies</button>
+  </nav>
   <main id="view"></main>
 
   <input type="file" id="fileInput" accept=".json,.txt,.md,application/json,text/plain" hidden multiple />
@@ -28,6 +32,7 @@
 
   <script src="core.js"></script>
   <script src="sync.js"></script>
+  <script src="movies.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

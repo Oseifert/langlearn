@@ -181,3 +181,22 @@ body{
 /* Vocab-list mastery markers */
 .mastered-check{color:#22c55e;flex:none;display:block}
 .mode-badge{flex:none;font-size:.72rem;font-weight:600;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:.08rem .4rem;line-height:1.3}
+
+/* Movie learning path */
+.main-tabs{display:flex;gap:.5rem;max-width:640px;margin:.8rem auto 0;padding:0 .9rem}
+.main-tabs[hidden]{display:none}
+.main-tabs .btn,.movie-filters .btn{padding:.55rem .75rem}
+.main-tabs [aria-pressed=true],.movie-filters [aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:var(--panel)}
+.movie-list{list-style:none;margin:0;padding:0}
+.movie-entry,.movie-word{display:flex;width:100%;align-items:center;gap:.8rem;text-align:left;color:var(--text);font:inherit}
+.movie-entry .sub,.movie-word .sub{display:block;color:var(--muted);margin:.2rem 0 0;font-size:.82rem}
+.movie-step{flex:0 0 2.2rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.movie-title{margin:0}
+.movie-link{display:inline-block;color:var(--accent);margin:.5rem 0}
+.movie-progress{width:100%;accent-color:var(--accent)}
+.movie-filters{display:flex;gap:.5rem;margin:1rem 0 .5rem}
+.movie-word{justify-content:space-between;border:0;border-bottom:1px solid var(--line);padding:.7rem .25rem;background:transparent}
+button.movie-word{cursor:pointer}
+button.movie-word:hover{background:var(--panel)}
+.movie-status,.movie-known{flex:none;font-size:.82rem;color:var(--muted)}
+.movie-known{color:var(--good)}
