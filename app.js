@@ -452,7 +452,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v95 · movie learning path';
+const BUILD = 'v96 · movie word marking';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
@@ -1060,6 +1060,9 @@ async function renderPractice(root, params) {
     // Passing the harder EN→中 direction also credits the easier 中→EN (if due),
     // so you don't have to redundantly drill the reverse of a word you can produce.
     applyReverseCredit(c, dir, g);
+    if (params.movie && c.movieKnowledge?.known === false && isMastered(c.zhEnState)) {
+      c.movieKnowledge = { known: null, updatedAt: Math.max(now(), c.movieKnowledge.updatedAt + 1) };
+    }
     try {
       await saveGraded(c);
     } finally {
