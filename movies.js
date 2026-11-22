@@ -54,10 +54,10 @@ function movieVocabulary(cards, path) {
     const key = moviePinyinKey(word.pinyin);
     const matches = [...(byHanzi.get(word.hanzi) || [])];
     if (readings.get(key)?.size === 1) matches.push(...(byPinyin.get(key) || []));
-    const known = matches.some(card => isMastered(card.zhEnState || card.meaningState)
+    const mastered = matches.some(card => isMastered(card.zhEnState || card.meaningState)
       || isMastered(card.enZhState || card.meaningState));
     const card = matches.find(card => card.deckId === MOVIE_DECK_ID && card.id === word.id);
-    return { ...word, known, card };
+    return { ...word, mastered, known: card?.movieKnowledge?.known ?? mastered, card };
   };
 }
 
@@ -125,47 +125,117 @@ function renderMovieDetail(root, title, resolveWord) {
     root.append(el('p', { class: 'hint' }, 'Coverage pending. Word counts are needed for this title.'));
     return;
   }
-  const unknown = words.filter(word => !word.known);
-  const study = unknown.filter(word => word.card);
-  root.append(
-    el('h3', {}, `${moviePercent(coverage)} known${coverage >= MOVIE_READY ? ' · Ready to watch' : ''}`),
-    el('progress', { class: 'movie-progress', max: 100, value: coverage, 'aria-label': 'Estimated dialogue word coverage' }),
-    el('p', { class: 'hint' }, `${words.length - unknown.length} of ${words.length} distinct words known. Coverage counts repeated words and uses mastery in either meaning direction.`));
-  if (study.length) {
-    const batch = study.slice(0, 20);
-    root.append(el('button', { class: 'btn primary', type: 'button',
-      onclick: () => app.go('practice', { movie: true, dir: 'zh2en', queue: batch.map(word => word.card) }) },
-    `Study ${batch.length} unfamiliar words`));
-  }
+  const summary = el('div', { 'aria-live': 'polite' });
+  const batchButton = el('button', { class: 'btn primary', type: 'button', onclick: () => {
+    const batch = words.filter(word => !word.known && word.card).slice(0, 20);
+    if (batch.length) startStudy(batch);
+  } });
   const controls = el('div', { class: 'movie-filters' });
   const list = el('ul', { class: 'movie-list' });
-  const filters = [
-    ['All', words],
-    ['To study', unknown],
-    ['Known', words.filter(word => word.known)],
-  ];
-  for (const [label, items] of filters) {
-    const button = el('button', { class: 'btn ghost', type: 'button', onclick: () => show(button, items) }, label);
+  const undo = el('button', { class: 'movie-undo', type: 'button', disabled: '' }, 'Undo last mark');
+  let filter = 'All';
+  let lastMark;
+  let saving = false;
+  for (const label of ['All', 'To study', 'Known']) {
+    const button = el('button', { class: 'btn ghost', type: 'button', onclick: () => {
+      filter = label;
+      show();
+    } }, label);
     controls.append(button);
   }
-  function show(button, items) {
-    for (const control of controls.children) control.setAttribute('aria-pressed', String(control === button));
-    const rows = items.map(word => {
-      const detail = el('span', {},
-        el('strong', {}, word.pinyin),
-        el('span', { class: 'sub' }, word.meaning || 'Definition pending'));
-      const status = el('span', { class: word.known ? 'movie-known' : 'movie-status' },
-        `${word.known ? 'Known' : 'To study'} · ${word.count}×`);
-      const studyable = !word.known && word.card;
-      return el('li', {}, studyable
-        ? el('button', { class: 'movie-word', type: 'button',
-          onclick: () => app.go('practice', { movie: true, dir: 'zh2en', queue: [word.card] }) }, detail, status)
-        : el('div', { class: 'movie-word' }, detail, status));
-    });
-    list.replaceChildren(...(rows.length ? rows : [el('li', { class: 'hint' }, 'No words in this view.')]));
+  undo.addEventListener('click', async () => {
+    if (lastMark && !saving && await setKnowledge(lastMark.word, lastMark.previous)) lastMark = undefined;
+    undo.disabled = !lastMark;
+  });
+
+  function startStudy(items) {
+    if (!saving) app.go('practice', { movie: true, dir: 'zh2en', queue: items.map(word => word.card) });
   }
-  root.append(controls, list, movieLink(title.transcriptSource, 'Vocabulary source'));
-  show(controls.firstElementChild, words);
+
+  async function setKnowledge(word, known) {
+    if (saving || !word.card) return false;
+    saving = true;
+    const movieKnowledge = { known, updatedAt: Math.max(now(), (word.card.movieKnowledge?.updatedAt || 0) + 1) };
+    try {
+      const card = { ...word.card, movieKnowledge };
+      await DB.putCard(card);
+      word.card = card;
+      word.known = known ?? word.mastered;
+      if (window.YukaSync) YukaSync.scheduleBackup();
+      show(word.id);
+      return true;
+    } catch (error) {
+      console.error(error);
+      toast('Could not save word status.');
+      return false;
+    } finally {
+      saving = false;
+    }
+  }
+
+  async function mark(word, known) {
+    if (word.known === known) return;
+    const previous = word.card?.movieKnowledge?.known ?? null;
+    if (await setKnowledge(word, known)) {
+      lastMark = { word, previous };
+      undo.disabled = false;
+    }
+  }
+
+  function wordRow(word) {
+    const detail = el('span', {}, el('strong', {}, word.pinyin),
+      el('span', { class: 'sub' }, word.meaning || 'Definition pending'));
+    const status = el('span', { class: word.known ? 'movie-known' : 'movie-status' },
+      `${word.known ? 'Known' : 'To study'} · ${word.count}×`);
+    const content = !word.known && word.card
+      ? el('button', { class: 'movie-word-content', type: 'button', onclick: () => startStudy([word]) }, detail, status)
+      : el('div', { class: 'movie-word-content' }, detail, status);
+    const action = word.card && el('button', { class: 'movie-mark', type: 'button', 'data-word': word.id,
+      'aria-label': `Mark ${word.pinyin} as ${word.known ? 'unfamiliar' : 'known'}`,
+      onclick: () => mark(word, !word.known) }, word.known ? 'Mark unfamiliar' : 'Mark known');
+    const row = el('li', { class: 'movie-word' }, content, action || null);
+    if (word.card) {
+      let start;
+      row.addEventListener('pointerdown', event => {
+        if (event.pointerType !== 'mouse' && !event.target.closest('.movie-mark')) {
+          start = { id: event.pointerId, x: event.clientX, y: event.clientY };
+        }
+      });
+      row.addEventListener('pointercancel', () => { start = undefined; });
+      row.addEventListener('pointerup', event => {
+        if (start?.id !== event.pointerId) return;
+        const horizontal = event.clientX - start.x;
+        const vertical = event.clientY - start.y;
+        start = undefined;
+        if (Math.abs(horizontal) < 55 || Math.abs(horizontal) < 1.5 * Math.abs(vertical)) return;
+        row.addEventListener('click', click => click.stopImmediatePropagation(), { capture: true, once: true });
+        mark(word, horizontal > 0);
+      });
+    }
+    return row;
+  }
+
+  function show(focusId) {
+    const coverage = movieCoverage(words);
+    const unknown = words.filter(word => !word.known);
+    const count = Math.min(20, unknown.filter(word => word.card).length);
+    summary.replaceChildren(
+      el('h3', {}, `${moviePercent(coverage)} known${coverage >= MOVIE_READY ? ' · Ready to watch' : ''}`),
+      el('progress', { class: 'movie-progress', max: 100, value: coverage, 'aria-label': 'Estimated dialogue word coverage' }),
+      el('p', { class: 'hint' }, `${words.length - unknown.length} of ${words.length} distinct words known. Coverage counts repeated words.`));
+    batchButton.hidden = !count;
+    batchButton.textContent = `Study ${count} unfamiliar words`;
+    for (const control of controls.children) control.setAttribute('aria-pressed', String(control.textContent === filter));
+    const items = filter === 'All' ? words : filter === 'Known' ? words.filter(word => word.known) : unknown;
+    const focused = focusId && document.activeElement?.dataset.word === focusId;
+    list.replaceChildren(...(items.length ? items.map(wordRow) : [el('li', { class: 'hint' }, 'No words in this view.')]));
+    if (focused) list.querySelector(`[data-word="${focusId}"]`)?.focus({ preventScroll: true });
+  }
+
+  root.append(summary, batchButton, controls,
+    el('div', { class: 'movie-mark-help' }, el('p', { class: 'hint' }, 'Swipe right for known, left for unfamiliar, or tap a mark button.'), undo),
+    list, movieLink(title.transcriptSource, 'Vocabulary source'));
+  show();
 }
 
 for (const button of document.querySelectorAll('#mainTabs button')) {

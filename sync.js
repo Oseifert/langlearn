@@ -41,13 +41,14 @@
     const cards = await DB.allCards();
     const out = {};
     for (const c of cards) {
-      if (c.deckId === MOVIE_DECK_ID && !c.updatedAt) continue;
+      if (c.deckId === MOVIE_DECK_ID && !c.updatedAt && !c.movieKnowledge) continue;
       out[c.id] = {
         zhEnState: c.zhEnState,
         enZhState: c.enZhState,
         toneState: c.toneState,
         introduced: c.introduced || 0,
         updatedAt: c.updatedAt || 0,
+        ...(c.movieKnowledge && { movieKnowledge: c.movieKnowledge }),
       };
     }
     return {
@@ -77,6 +78,10 @@
         if (r.toneState) local.toneState = r.toneState;
         local.updatedAt = rt;
         toWrite.push(local);
+      }
+      if (local.deckId === MOVIE_DECK_ID && r.movieKnowledge?.updatedAt > (local.movieKnowledge?.updatedAt || 0)) {
+        local.movieKnowledge = r.movieKnowledge;
+        if (!toWrite.includes(local)) toWrite.push(local);
       }
       // "met" is sticky: once a card was introduced on ANY device it should never
       // revert to "new". Restore it independent of the updatedAt race so a stale

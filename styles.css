@@ -200,3 +200,13 @@ button.movie-word{cursor:pointer}
 button.movie-word:hover{background:var(--panel)}
 .movie-status,.movie-known{flex:none;font-size:.82rem;color:var(--muted)}
 .movie-known{color:var(--good)}
+.movie-word{touch-action:pan-y}
+.movie-word-content{display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex:1;min-width:0;text-align:left;background:transparent;border:0;color:inherit;font:inherit;padding:0}
+button.movie-word-content{cursor:pointer}
+.movie-word-content strong,.movie-word-content .sub{overflow-wrap:anywhere}
+.movie-mark{flex:none;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:.5rem;padding:.35rem .5rem;min-height:2.5rem;font:inherit;font-size:.75rem;cursor:pointer}
+.movie-mark-help{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem}
+.movie-mark-help .hint{margin-bottom:.5rem}
+.movie-undo{flex:none;background:none;border:0;color:var(--accent);font:inherit;font-size:.8rem;cursor:pointer;padding:.5rem 0}
+.movie-undo:disabled{visibility:hidden}
+.btn[hidden]{display:none}
