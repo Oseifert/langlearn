@@ -1,14 +1,14 @@
 /* 语卡 service worker — network-first for app code so updates land immediately */
-const CACHE = 'yuka-v97';
+const CACHE = 'yuka-v98';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css',
-  './core.js',
-  './sync.js',
-  './app.js',
-  './movies.js',
-  './movie-path.json',
+  './styles.css?v=98',
+  './core.js?v=98',
+  './sync.js?v=98',
+  './app.js?v=98',
+  './movies.js?v=98',
+  './movie-path.json?v=98',
   './manifest.webmanifest',
   './seed.json',
   './icons/icon-192.png',
@@ -16,12 +16,12 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(url => new Request(url, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())
+    caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith('yuka-v') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())
   );
 });
 
@@ -35,11 +35,21 @@ self.addEventListener('fetch', (e) => {
   const { request } = e;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
+  if (url.origin !== self.location.origin || !url.href.startsWith(self.registration.scope)) return;
   const isCode = /\.(html|css|js|webmanifest|json)$/.test(url.pathname) || url.pathname.endsWith('/');
   if (isCode) {
     e.respondWith(
-      fetch(request).then(r => { const cp = r.clone(); caches.open(CACHE).then(c => c.put(request, cp)); return r; })
-        .catch(() => caches.match(request).then(c => c || caches.match('./index.html')))
+      fetch(request, { cache: 'no-cache' }).then(async response => {
+        if (!response.ok) throw new Error(`App asset returned ${response.status}`);
+        const cache = await caches.open(CACHE);
+        await cache.put(request, response.clone()).catch(() => {});
+        return response;
+      }).catch(async () => {
+        const cache = await caches.open(CACHE);
+        return (await cache.match(request))
+          || (request.mode === 'navigate' && await cache.match('./index.html'))
+          || Response.error();
+      })
     );
     return;
   }

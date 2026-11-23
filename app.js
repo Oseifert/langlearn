@@ -452,7 +452,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v97 · movie path steps 2–4';
+const BUILD = 'v98 · reliable app updates';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
@@ -1468,7 +1468,7 @@ async function remapOct19Split() {
   await render();
   if ('serviceWorker' in navigator) {
     try {
-      const reg = await navigator.serviceWorker.register('sw.js');
+      const reg = await navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' });
       let refreshed = false;
       navigator.serviceWorker.addEventListener('controllerchange', () => {
         if (refreshed) return; refreshed = true; location.reload();
@@ -1485,7 +1485,11 @@ async function remapOct19Split() {
           }
         });
       });
-      reg.update();
+      const checkForUpdate = () => { reg.update().catch(() => {}); };
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') checkForUpdate();
+      });
+      checkForUpdate();
     } catch (e) { /* ok offline */ }
   }
 })();
