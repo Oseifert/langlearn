@@ -5,7 +5,7 @@ const MOVIE_READY = 90;
 let moviePathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json').then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=98', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
