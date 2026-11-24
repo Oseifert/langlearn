@@ -453,7 +453,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v102 · Lydia';
+const BUILD = 'v103 · coverage bars and movie steps 5–7';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date

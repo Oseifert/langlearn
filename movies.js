@@ -6,7 +6,7 @@ let moviePathPromise;
 let songPathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=102', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=103', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -17,7 +17,7 @@ function loadMoviePath() {
 }
 
 function loadSongPath() {
-  songPathPromise ||= fetch('./song-path.json?v=102', { cache: 'no-cache' }).then(response => {
+  songPathPromise ||= fetch('./song-path.json?v=103', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the songs');
     return response.json();
   }).catch(error => {
@@ -85,6 +85,16 @@ function moviePercent(value) {
   return Math.floor(value * 10) / 10 + '%';
 }
 
+function mediaProgress(coverage, label) {
+  if (coverage === null) return null;
+  return el('progress', {
+    class: coverage >= MOVIE_READY ? 'movie-progress ready' : 'movie-progress',
+    max: 100,
+    value: coverage,
+    'aria-label': label,
+  });
+}
+
 function renderMainTabs(view) {
   const section = view === 'songs' || view === 'song' || app.cur().params?.song ? 'songs'
     : view === 'movies' || view === 'movie' || app.cur().params?.movie ? 'movies' : 'home';
@@ -121,8 +131,9 @@ async function renderMovies(root, step) {
     list.append(el('li', {},
       el('button', { class: 'deck movie-entry', type: 'button', onclick: () => app.go('movie', { step: title.step }) },
         el('span', { class: 'movie-step' }, title.step),
-        el('span', {}, el('strong', {}, title.title),
-          el('span', { class: 'sub' }, status, coverage >= MOVIE_READY ? ' · Ready to watch' : '')))));
+        el('span', { class: 'media-entry-copy' }, el('strong', {}, title.title),
+          el('span', { class: 'sub' }, status, coverage >= MOVIE_READY ? ' · Ready to watch' : ''),
+          mediaProgress(coverage, 'Estimated dialogue word coverage')))));
   }
   root.append(list, movieLink('https://hanzimatic.com/blog/posts/chinese-media-difficulty-and-learning-paths/', 'Original learning path'));
 }
@@ -149,7 +160,8 @@ async function renderSongs(root, id) {
     const coverage = movieCoverage(song.words.map(resolveWord));
     list.append(el('li', {}, el('button', { class: 'deck movie-entry', type: 'button',
       onclick: () => app.go('song', { id: song.id }) },
-    el('span', {}, el('strong', {}, song.title), el('span', { class: 'sub' }, `${song.artist} · ${moviePercent(coverage)} known`)))));
+    el('span', { class: 'media-entry-copy' }, el('strong', {}, song.title), el('span', { class: 'sub' }, `${song.artist} · ${moviePercent(coverage)} known`),
+      mediaProgress(coverage, 'Estimated lyric word coverage')))));
   }
   root.append(list);
 }
@@ -177,13 +189,18 @@ function renderMovieDetail(root, title, resolveWord) {
     const readingButton = el('button', { class: 'btn ghost', type: 'button', 'aria-pressed': 'false',
       onclick: () => selectView(true) }, isSong ? 'Lyrics' : 'Reading');
     let reader;
+    let refreshReader;
     function selectView(showReading) {
       if (!showReading) reading.querySelector(':popover-open')?.hidePopover();
       reading.hidden = !showReading;
       vocabulary.hidden = showReading;
       vocabularyButton.setAttribute('aria-pressed', String(!showReading));
       readingButton.setAttribute('aria-pressed', String(showReading));
-      if (showReading && (isSong || !reader)) reader = renderMovieReading(reading, title, words, startStudy);
+      if (showReading && !reader) {
+        reader = renderMovieReading(reading, title, words, startStudy).then(refresh => { refreshReader = refresh; });
+      } else if (showReading) {
+        refreshReader?.();
+      }
     }
     switcher.append(vocabularyButton, readingButton);
     root.append(switcher, vocabulary, reading);
@@ -288,7 +305,7 @@ function renderMovieDetail(root, title, resolveWord) {
     const count = Math.min(20, unknown.filter(word => word.card).length);
     summary.replaceChildren(
       el('h3', {}, `${moviePercent(coverage)} known${!isSong && coverage >= MOVIE_READY ? ' · Ready to watch' : ''}`),
-      el('progress', { class: 'movie-progress', max: 100, value: coverage, 'aria-label': isSong ? 'Estimated lyric word coverage' : 'Estimated dialogue word coverage' }),
+      mediaProgress(coverage, isSong ? 'Estimated lyric word coverage' : 'Estimated dialogue word coverage'),
       el('p', { class: 'hint' }, `${words.length - unknown.length} of ${words.length} distinct words known. Coverage counts repeated words.`));
     batchButton.hidden = !count;
     batchButton.textContent = `Study ${count} unfamiliar words`;
@@ -311,7 +328,7 @@ async function renderMovieReading(root, title, words, startStudy) {
   let data = isSong ? title.reading : null;
   try {
     if (!data) {
-      const response = await fetch(`./reading/${title.step}.json?v=102`, { cache: 'no-cache' });
+      const response = await fetch(`./reading/${title.step}.json?v=103`, { cache: 'no-cache' });
       if (!response.ok) throw new Error('Transcript unavailable');
       data = await response.json();
     }
@@ -382,18 +399,34 @@ async function renderMovieReading(root, title, words, startStudy) {
     }
   }
   const instructions = el('p', { class: 'hint' }, 'Highlighted words are unfamiliar. Tap any word for its meaning.');
+  const coverage = movieCoverage(words);
+  const readingCoverage = el('p', { class: 'sub reading-coverage' }, `${moviePercent(coverage)} known`);
+  const progress = mediaProgress(coverage, isSong ? 'Estimated lyric word coverage' : 'Estimated dialogue word coverage');
   if (isSong) {
     const studyCount = words.filter(word => !word.known && word.card).slice(0, 20).length;
-    root.replaceChildren(heading, el('p', { class: 'hint' }, `${moviePercent(movieCoverage(words))} known`), instructions, passage, definition);
-    if (studyCount) root.insertBefore(el('button', { class: 'btn primary song-study', type: 'button',
+    root.replaceChildren(heading, readingCoverage, progress, instructions, passage, definition);
+    root.insertBefore(el('button', { class: 'btn primary song-study', type: 'button', hidden: studyCount ? null : '',
       onclick: () => {
         const batch = words.filter(word => !word.known && word.card).slice(0, 20);
         if (batch.length) startStudy(batch);
       } }, `Study ${studyCount} unfamiliar words`), passage);
   } else {
-    root.replaceChildren(heading, instructions, top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
+    root.replaceChildren(heading, readingCoverage, progress, instructions, top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
   }
   show(0);
+  return () => {
+    const updated = movieCoverage(words);
+    readingCoverage.textContent = `${moviePercent(updated)} known`;
+    progress.value = updated;
+    progress.classList.toggle('ready', updated >= MOVIE_READY);
+    if (isSong) {
+      const studyButton = root.querySelector('.song-study');
+      const count = Math.min(20, words.filter(word => !word.known && word.card).length);
+      studyButton.hidden = !count;
+      studyButton.textContent = `Study ${count} unfamiliar words`;
+    }
+    show(page);
+  };
 }
 
 for (const button of document.querySelectorAll('#mainTabs button')) {
