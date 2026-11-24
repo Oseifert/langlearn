@@ -1,0 +1,1098 @@
+[
+  {
+    "id": "weibird-nuhai",
+    "title": "Nǚhái",
+    "artist": "Wéibird",
+    "video": "https://www.youtube.com/watch?v=ZPALMaXLfIw",
+    "words": [
+      {
+        "id": "mv_5630b886f9cd31",
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "meaning": "you (informal)",
+        "count": 35
+      },
+      {
+        "id": "mv_0746bd624955e2",
+        "hanzi": "的",
+        "pinyin": "de",
+        "meaning": "possessive or descriptive particle",
+        "count": 21
+      },
+      {
+        "id": "mv_95fd8be0d9916d",
+        "hanzi": "再",
+        "pinyin": "zài",
+        "meaning": "again; repeatedly",
+        "count": 19
+      },
+      {
+        "id": "mv_fca82746e870f8",
+        "hanzi": "而",
+        "pinyin": "ér",
+        "meaning": "and; linking particle",
+        "count": 15
+      },
+      {
+        "id": "mv_34f201bc507e33",
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "meaning": "I / me",
+        "count": 15
+      },
+      {
+        "id": "mv_823c6652e467ed",
+        "hanzi": "为了",
+        "pinyin": "wèile",
+        "meaning": "for the sake of",
+        "count": 12
+      },
+      {
+        "id": "mv_20f6b35b772080",
+        "hanzi": "女孩",
+        "pinyin": "nǚhái",
+        "meaning": "girl",
+        "count": 8
+      },
+      {
+        "id": "mv_3373f220715c1d",
+        "hanzi": "学会",
+        "pinyin": "xuéhuì",
+        "meaning": "to learn how to",
+        "count": 7
+      },
+      {
+        "id": "mv_8fa7401e9077e3",
+        "hanzi": "不",
+        "pinyin": "bù",
+        "meaning": "not",
+        "count": 6
+      },
+      {
+        "id": "mv_a48f3ad06d5e69",
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "meaning": "to think; to want",
+        "count": 6
+      },
+      {
+        "id": "mv_0379570a31da1a",
+        "hanzi": "眼神",
+        "pinyin": "yǎnshén",
+        "meaning": "look in one’s eyes; gaze",
+        "count": 6
+      },
+      {
+        "id": "mv_c5a8f40bc028c0",
+        "hanzi": "里",
+        "pinyin": "lǐ",
+        "meaning": "in; inside",
+        "count": 6
+      },
+      {
+        "id": "mv_b7a385ec00d6bb",
+        "hanzi": "为",
+        "pinyin": "wèi",
+        "meaning": "for; on behalf of",
+        "count": 6
+      },
+      {
+        "id": "mv_60d4059cd28a22",
+        "hanzi": "一样",
+        "pinyin": "yíyàng",
+        "meaning": "the same; alike",
+        "count": 5
+      },
+      {
+        "id": "mv_5f386ebdbb5c62",
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "meaning": "to see, to look",
+        "count": 4
+      },
+      {
+        "id": "mv_41eba472b4f4e4",
+        "hanzi": "受",
+        "pinyin": "shòu",
+        "meaning": "to suffer; to experience",
+        "count": 4
+      },
+      {
+        "id": "mv_69ace645512d1b",
+        "hanzi": "伤害",
+        "pinyin": "shānghài",
+        "meaning": "hurt; harm",
+        "count": 4
+      },
+      {
+        "id": "mv_2bfd44a44994c0",
+        "hanzi": "所以",
+        "pinyin": "suǒyǐ",
+        "meaning": "so, therefore",
+        "count": 4
+      },
+      {
+        "id": "mv_03c658a9599311",
+        "hanzi": "溺爱",
+        "pinyin": "nì’ài",
+        "meaning": "to love too indulgently; to spoil",
+        "count": 4
+      },
+      {
+        "id": "mv_d274eee8a17506",
+        "hanzi": "一",
+        "pinyin": "yī",
+        "meaning": "one",
+        "count": 4
+      },
+      {
+        "id": "mv_49ddb069d5b835",
+        "hanzi": "三",
+        "pinyin": "sān",
+        "meaning": "three",
+        "count": 4
+      },
+      {
+        "id": "mv_5f93b9af6d2abd",
+        "hanzi": "错怪",
+        "pinyin": "cuòguài",
+        "meaning": "to blame unfairly; to misjudge",
+        "count": 4
+      },
+      {
+        "id": "mv_93e27107a133fb",
+        "hanzi": "要",
+        "pinyin": "yào",
+        "meaning": "to want, to need",
+        "count": 4
+      },
+      {
+        "id": "mv_bcd5b598a3d305",
+        "hanzi": "因为",
+        "pinyin": "yīnwèi",
+        "meaning": "because; because of",
+        "count": 4
+      },
+      {
+        "id": "mv_db73d8577b4b93",
+        "hanzi": "也",
+        "pinyin": "yě",
+        "meaning": "also, too",
+        "count": 4
+      },
+      {
+        "id": "mv_d51dd8d130ce46",
+        "hanzi": "都",
+        "pinyin": "dōu",
+        "meaning": "all; both",
+        "count": 4
+      },
+      {
+        "id": "mv_686b703f41f3d5",
+        "hanzi": "在",
+        "pinyin": "zài",
+        "meaning": "to be at; at, in",
+        "count": 3
+      },
+      {
+        "id": "mv_f26513a2868374",
+        "hanzi": "上山下海",
+        "pinyin": "shàngshān xiàhǎi",
+        "meaning": "to go to great lengths; literally, climb mountains and go into the sea",
+        "count": 3
+      },
+      {
+        "id": "mv_a21db21a490db0",
+        "hanzi": "掏空",
+        "pinyin": "tāokōng",
+        "meaning": "to empty out",
+        "count": 3
+      },
+      {
+        "id": "mv_737960744348e7",
+        "hanzi": "口袋",
+        "pinyin": "kǒudài",
+        "meaning": "pocket",
+        "count": 3
+      },
+      {
+        "id": "mv_3a31adc3b5a778",
+        "hanzi": "满足",
+        "pinyin": "mǎnzú",
+        "meaning": "to satisfy / satisfied",
+        "count": 3
+      },
+      {
+        "id": "mv_9755bd0fb1c325",
+        "hanzi": "期待",
+        "pinyin": "qīdài",
+        "meaning": "to look forward to; expectation",
+        "count": 3
+      },
+      {
+        "id": "mv_a8cb285e95579c",
+        "hanzi": "不敢",
+        "pinyin": "bùgǎn",
+        "meaning": "to not dare",
+        "count": 3
+      },
+      {
+        "id": "mv_4d84a1b1374242",
+        "hanzi": "懈怠",
+        "pinyin": "xièdài",
+        "meaning": "to slack off; to let one’s effort slip",
+        "count": 3
+      },
+      {
+        "id": "mv_867939de0ea57e",
+        "hanzi": "累",
+        "pinyin": "lèi",
+        "meaning": "tired",
+        "count": 3
+      },
+      {
+        "id": "mv_461bb05fc20930",
+        "hanzi": "伪装",
+        "pinyin": "wěizhuāng",
+        "meaning": "to disguise; to pretend",
+        "count": 3
+      },
+      {
+        "id": "mv_514d3f649b09c0",
+        "hanzi": "起来",
+        "pinyin": "qǐlai",
+        "meaning": "complement indicating that an action begins",
+        "count": 3
+      },
+      {
+        "id": "mv_f926028f66eef4",
+        "hanzi": "崇拜",
+        "pinyin": "chóngbài",
+        "meaning": "admiration; to idolize",
+        "count": 3
+      },
+      {
+        "id": "mv_b8bfe646d432f6",
+        "hanzi": "故事",
+        "pinyin": "gùshi",
+        "meaning": "story",
+        "count": 3
+      },
+      {
+        "id": "mv_b0e24833f752e8",
+        "hanzi": "展开",
+        "pinyin": "zhǎnkāi",
+        "meaning": "to unfold / begin / spread out",
+        "count": 3
+      },
+      {
+        "id": "mv_4f2eca596b872b",
+        "hanzi": "忍耐",
+        "pinyin": "rěnnài",
+        "meaning": "to endure; to be patient",
+        "count": 3
+      },
+      {
+        "id": "mv_e831b96e10347a",
+        "hanzi": "坏",
+        "pinyin": "huài",
+        "meaning": "bad, broken",
+        "count": 3
+      },
+      {
+        "id": "mv_0c5992442bf181",
+        "hanzi": "习惯",
+        "pinyin": "xíguàn",
+        "meaning": "habit / to be used to",
+        "count": 3
+      },
+      {
+        "id": "mv_798f95db5d312d",
+        "hanzi": "改",
+        "pinyin": "gǎi",
+        "meaning": "to change; to alter",
+        "count": 3
+      },
+      {
+        "id": "mv_08819c1294b192",
+        "hanzi": "还",
+        "pinyin": "hái",
+        "meaning": "still; also",
+        "count": 3
+      },
+      {
+        "id": "mv_30160a21b92a04",
+        "hanzi": "是",
+        "pinyin": "shì",
+        "meaning": "to be (am, are, is)",
+        "count": 3
+      },
+      {
+        "id": "mv_1d57c0fe68f233",
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "meaning": "what",
+        "count": 2
+      },
+      {
+        "id": "mv_b27790d8cdf799",
+        "hanzi": "才",
+        "pinyin": "cái",
+        "meaning": "just, only",
+        "count": 2
+      },
+      {
+        "id": "mv_0b0dc50c8483e5",
+        "hanzi": "真正",
+        "pinyin": "zhēnzhèng",
+        "meaning": "genuine; real; true; really; indeed",
+        "count": 2
+      },
+      {
+        "id": "mv_d6e5de1933b45d",
+        "hanzi": "需要",
+        "pinyin": "xūyào",
+        "meaning": "to need / need",
+        "count": 2
+      },
+      {
+        "id": "mv_18f5d6e11ca769",
+        "hanzi": "请",
+        "pinyin": "qǐng",
+        "meaning": "please",
+        "count": 2
+      },
+      {
+        "id": "mv_7a842b7833a419",
+        "hanzi": "原谅",
+        "pinyin": "yuánliàng",
+        "meaning": "to forgive",
+        "count": 2
+      },
+      {
+        "id": "mv_ab83326d7961ac",
+        "hanzi": "那么",
+        "pinyin": "nàme",
+        "meaning": "so; to that extent",
+        "count": 2
+      },
+      {
+        "id": "mv_e6e99d0e57a6ae",
+        "hanzi": "快",
+        "pinyin": "kuài",
+        "meaning": "fast; soon",
+        "count": 2
+      },
+      {
+        "id": "mv_9a3eb340971ffc",
+        "hanzi": "和",
+        "pinyin": "hé",
+        "meaning": "and, with",
+        "count": 2
+      },
+      {
+        "id": "mv_89fc1bee57d599",
+        "hanzi": "分开",
+        "pinyin": "fēnkāi",
+        "meaning": "to separate",
+        "count": 2
+      },
+      {
+        "id": "mv_9ff5f422ac6f00",
+        "hanzi": "到底",
+        "pinyin": "dàodǐ",
+        "meaning": "after all; exactly, in a question",
+        "count": 1
+      },
+      {
+        "id": "mv_1f7ff96c351423",
+        "hanzi": "姿态",
+        "pinyin": "zītài",
+        "meaning": "stance; attitude",
+        "count": 1
+      },
+      {
+        "id": "mv_c70ef50a35f1ca",
+        "hanzi": "不会",
+        "pinyin": "búhuì",
+        "meaning": "cannot; will not",
+        "count": 1
+      },
+      {
+        "id": "mv_6854660ab3369f",
+        "hanzi": "显得",
+        "pinyin": "xiǎnde",
+        "meaning": "to seem; to appear",
+        "count": 1
+      },
+      {
+        "id": "mv_c151e77296d152",
+        "hanzi": "使坏",
+        "pinyin": "shǐhuài",
+        "meaning": "to act maliciously; to cause trouble",
+        "count": 1
+      },
+      {
+        "id": "mv_9730747d91424c",
+        "hanzi": "来者不善",
+        "pinyin": "láizhě bù shàn",
+        "meaning": "those who come have ill intentions",
+        "count": 1
+      },
+      {
+        "id": "mv_6e076e9f4e852a",
+        "hanzi": "善者不来",
+        "pinyin": "shànzhě bù lái",
+        "meaning": "those with good intentions do not come",
+        "count": 1
+      },
+      {
+        "id": "mv_683f9e9236f291",
+        "hanzi": "曾经",
+        "pinyin": "céngjīng",
+        "meaning": "once; previously",
+        "count": 1
+      },
+      {
+        "id": "mv_bc07b7b167d7ed",
+        "hanzi": "站",
+        "pinyin": "zhàn",
+        "meaning": "to stand; station",
+        "count": 1
+      },
+      {
+        "id": "mv_e71d913bf13a46",
+        "hanzi": "门外",
+        "pinyin": "ménwài",
+        "meaning": "outside the door",
+        "count": 1
+      },
+      {
+        "id": "mv_7b8ef4b58a3377",
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "meaning": "to love",
+        "count": 1
+      },
+      {
+        "id": "mv_db3e9429aea2ee",
+        "hanzi": "胸怀",
+        "pinyin": "xiōnghuái",
+        "meaning": "bosom; an embrace, in this lyric",
+        "count": 1
+      },
+      {
+        "id": "mv_cf04aa215e7de3",
+        "hanzi": "夜里",
+        "pinyin": "yèlǐ",
+        "meaning": "at night",
+        "count": 1
+      },
+      {
+        "id": "mv_488ba5bc44d803",
+        "hanzi": "哭泣",
+        "pinyin": "kūqì",
+        "meaning": "to cry / weep",
+        "count": 1
+      },
+      {
+        "id": "mv_344bc5902c1361",
+        "hanzi": "像",
+        "pinyin": "xiàng",
+        "meaning": "to resemble, to be like; (as if, such as); (image, statue, portrait)",
+        "count": 1
+      },
+      {
+        "id": "mv_f7b2a6ee68ec1a",
+        "hanzi": "个",
+        "pinyin": "ge",
+        "meaning": "general measure word",
+        "count": 1
+      },
+      {
+        "id": "mv_c5a869ae105b89",
+        "hanzi": "小孩",
+        "pinyin": "xiǎohái",
+        "meaning": "child",
+        "count": 1
+      },
+      {
+        "id": "mv_78ac1ae08fe6ce",
+        "hanzi": "不用",
+        "pinyin": "búyòng",
+        "meaning": "no need to",
+        "count": 1
+      },
+      {
+        "id": "mv_60f0393ca016da",
+        "hanzi": "担心",
+        "pinyin": "dānxīn",
+        "meaning": "to worry",
+        "count": 1
+      },
+      {
+        "id": "mv_aaf051d0fb015a",
+        "hanzi": "随时",
+        "pinyin": "suíshí",
+        "meaning": "anytime / at any moment",
+        "count": 1
+      },
+      {
+        "id": "mv_b533bc82709e0c",
+        "hanzi": "其实",
+        "pinyin": "qíshí",
+        "meaning": "actually / in fact",
+        "count": 1
+      },
+      {
+        "id": "mv_02b83ec7ccc3e0",
+        "hanzi": "对",
+        "pinyin": "duì",
+        "meaning": "correct, right; toward",
+        "count": 1
+      },
+      {
+        "id": "mv_601a1d0eb55e54",
+        "hanzi": "依赖",
+        "pinyin": "yīlài",
+        "meaning": "to rely on; to depend on",
+        "count": 1
+      },
+      {
+        "id": "mv_cc4858af41b5ce",
+        "hanzi": "就",
+        "pinyin": "jiù",
+        "meaning": "just, then; (as early as, only, as soon as)",
+        "count": 1
+      }
+    ],
+    "reading": {
+      "wordIds": [
+        "mv_5630b886f9cd31",
+        "mv_0746bd624955e2",
+        "mv_95fd8be0d9916d",
+        "mv_fca82746e870f8",
+        "mv_34f201bc507e33",
+        "mv_823c6652e467ed",
+        "mv_20f6b35b772080",
+        "mv_3373f220715c1d",
+        "mv_8fa7401e9077e3",
+        "mv_a48f3ad06d5e69",
+        "mv_0379570a31da1a",
+        "mv_c5a8f40bc028c0",
+        "mv_b7a385ec00d6bb",
+        "mv_60d4059cd28a22",
+        "mv_5f386ebdbb5c62",
+        "mv_41eba472b4f4e4",
+        "mv_69ace645512d1b",
+        "mv_2bfd44a44994c0",
+        "mv_03c658a9599311",
+        "mv_d274eee8a17506",
+        "mv_49ddb069d5b835",
+        "mv_5f93b9af6d2abd",
+        "mv_93e27107a133fb",
+        "mv_bcd5b598a3d305",
+        "mv_db73d8577b4b93",
+        "mv_d51dd8d130ce46",
+        "mv_686b703f41f3d5",
+        "mv_f26513a2868374",
+        "mv_a21db21a490db0",
+        "mv_737960744348e7",
+        "mv_3a31adc3b5a778",
+        "mv_9755bd0fb1c325",
+        "mv_a8cb285e95579c",
+        "mv_4d84a1b1374242",
+        "mv_867939de0ea57e",
+        "mv_461bb05fc20930",
+        "mv_514d3f649b09c0",
+        "mv_f926028f66eef4",
+        "mv_b8bfe646d432f6",
+        "mv_b0e24833f752e8",
+        "mv_4f2eca596b872b",
+        "mv_e831b96e10347a",
+        "mv_0c5992442bf181",
+        "mv_798f95db5d312d",
+        "mv_08819c1294b192",
+        "mv_30160a21b92a04",
+        "mv_1d57c0fe68f233",
+        "mv_b27790d8cdf799",
+        "mv_0b0dc50c8483e5",
+        "mv_d6e5de1933b45d",
+        "mv_18f5d6e11ca769",
+        "mv_7a842b7833a419",
+        "mv_ab83326d7961ac",
+        "mv_e6e99d0e57a6ae",
+        "mv_9a3eb340971ffc",
+        "mv_89fc1bee57d599",
+        "mv_9ff5f422ac6f00",
+        "mv_1f7ff96c351423",
+        "mv_c70ef50a35f1ca",
+        "mv_6854660ab3369f",
+        "mv_c151e77296d152",
+        "mv_9730747d91424c",
+        "mv_6e076e9f4e852a",
+        "mv_683f9e9236f291",
+        "mv_bc07b7b167d7ed",
+        "mv_e71d913bf13a46",
+        "mv_7b8ef4b58a3377",
+        "mv_db3e9429aea2ee",
+        "mv_cf04aa215e7de3",
+        "mv_488ba5bc44d803",
+        "mv_344bc5902c1361",
+        "mv_f7b2a6ee68ec1a",
+        "mv_c5a869ae105b89",
+        "mv_78ac1ae08fe6ce",
+        "mv_60f0393ca016da",
+        "mv_aaf051d0fb015a",
+        "mv_b533bc82709e0c",
+        "mv_02b83ec7ccc3e0",
+        "mv_601a1d0eb55e54",
+        "mv_cc4858af41b5ce"
+      ],
+      "lines": [
+        [
+          6,
+          8,
+          9,
+          14,
+          0,
+          15,
+          13,
+          1,
+          16
+        ],
+        [
+          17,
+          7,
+          18
+        ],
+        [
+          19,
+          3,
+          2,
+          ",",
+          2,
+          3,
+          2,
+          ",",
+          20,
+          3,
+          2,
+          1,
+          21
+        ],
+        [],
+        [
+          56,
+          22,
+          46,
+          57
+        ],
+        [
+          47,
+          58,
+          59,
+          4,
+          26,
+          60
+        ],
+        [
+          61,
+          ",",
+          62
+        ],
+        [
+          23,
+          4,
+          24,
+          63,
+          64,
+          26,
+          65
+        ],
+        [],
+        [
+          5,
+          0,
+          27,
+          ",",
+          5,
+          0,
+          28,
+          29
+        ],
+        [
+          30,
+          0,
+          10,
+          11,
+          1,
+          31
+        ],
+        [
+          5,
+          0,
+          32,
+          33,
+          ",",
+          2,
+          34,
+          24,
+          35,
+          36
+        ],
+        [
+          5,
+          0,
+          10,
+          11,
+          1,
+          37
+        ],
+        [],
+        [
+          6,
+          ",",
+          4,
+          1,
+          38,
+          23,
+          0,
+          3,
+          39
+        ],
+        [
+          12,
+          0,
+          7,
+          40,
+          ",",
+          12,
+          0,
+          41,
+          42,
+          4,
+          25,
+          43
+        ],
+        [
+          6,
+          ",",
+          8,
+          9,
+          14,
+          0,
+          15,
+          13,
+          1,
+          16
+        ],
+        [
+          17,
+          7,
+          18,
+          ",",
+          21,
+          0,
+          48,
+          22,
+          1,
+          66
+        ],
+        [],
+        [
+          5,
+          0,
+          27,
+          ",",
+          5,
+          0,
+          28,
+          29
+        ],
+        [
+          30,
+          0,
+          10,
+          11,
+          1,
+          31
+        ],
+        [
+          5,
+          0,
+          32,
+          33,
+          ",",
+          2,
+          34,
+          24,
+          35,
+          36
+        ],
+        [
+          5,
+          0,
+          10,
+          11,
+          1,
+          37
+        ],
+        [],
+        [
+          6,
+          ",",
+          4,
+          1,
+          38,
+          23,
+          0,
+          3,
+          39
+        ],
+        [
+          12,
+          0,
+          7,
+          40,
+          ",",
+          12,
+          0,
+          41,
+          42,
+          4,
+          25,
+          43
+        ],
+        [
+          6,
+          ",",
+          8,
+          9,
+          14,
+          0,
+          15,
+          13,
+          1,
+          16
+        ],
+        [
+          17,
+          7,
+          18
+        ],
+        [
+          19,
+          3,
+          2,
+          ",",
+          2,
+          3,
+          2,
+          ",",
+          20,
+          3,
+          2,
+          1,
+          21
+        ],
+        [],
+        [
+          0,
+          44,
+          49,
+          4,
+          1,
+          67,
+          "(",
+          68,
+          69,
+          70,
+          71,
+          72,
+          ")"
+        ],
+        [
+          0,
+          44,
+          13,
+          45,
+          4,
+          1,
+          6,
+          "(",
+          73,
+          74,
+          4,
+          75,
+          25,
+          26,
+          ")"
+        ],
+        [
+          76,
+          45,
+          4,
+          44,
+          49,
+          0,
+          77,
+          4,
+          78
+        ],
+        [],
+        [
+          5,
+          0,
+          27,
+          ",",
+          5,
+          0,
+          28,
+          29
+        ],
+        [
+          30,
+          0,
+          10,
+          11,
+          1,
+          31
+        ],
+        [
+          5,
+          0,
+          32,
+          33,
+          ",",
+          2,
+          34,
+          24,
+          35,
+          36
+        ],
+        [
+          5,
+          0,
+          10,
+          11,
+          1,
+          37
+        ],
+        [],
+        [
+          6,
+          ",",
+          4,
+          1,
+          38,
+          23,
+          0,
+          3,
+          39
+        ],
+        [
+          12,
+          0,
+          7,
+          40,
+          ",",
+          12,
+          0,
+          41,
+          42,
+          4,
+          25,
+          43
+        ],
+        [
+          6,
+          ",",
+          8,
+          9,
+          14,
+          0,
+          15,
+          13,
+          1,
+          16
+        ],
+        [
+          17,
+          7,
+          18
+        ],
+        [
+          19,
+          3,
+          2,
+          ",",
+          2,
+          3,
+          2,
+          ",",
+          20,
+          3,
+          2,
+          1,
+          21
+        ],
+        [],
+        [
+          50,
+          51,
+          ",",
+          4,
+          8,
+          9,
+          52,
+          53,
+          54,
+          0,
+          55
+        ],
+        [],
+        [
+          19,
+          3,
+          2,
+          ",",
+          2,
+          3,
+          2,
+          ",",
+          20,
+          3,
+          2,
+          1
+        ],
+        [
+          46,
+          47,
+          45,
+          0,
+          48,
+          22,
+          1
+        ],
+        [
+          50,
+          51,
+          ",",
+          4,
+          8,
+          9,
+          22
+        ],
+        [
+          52,
+          53,
+          79,
+          54,
+          0,
+          55
+        ]
+      ]
+    }
+  }
+]

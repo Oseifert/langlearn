@@ -3,9 +3,10 @@
 const MOVIE_DECK_ID = 'movie-vocabulary';
 const MOVIE_READY = 90;
 let moviePathPromise;
+let songPathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=99', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=100', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -15,9 +16,22 @@ function loadMoviePath() {
   return moviePathPromise;
 }
 
+function loadSongPath() {
+  songPathPromise ||= fetch('./song-path.json?v=100', { cache: 'no-cache' }).then(response => {
+    if (!response.ok) throw new Error('Could not load the songs');
+    return response.json();
+  }).catch(error => {
+    songPathPromise = undefined;
+    throw error;
+  });
+  return songPathPromise;
+}
+
 async function seedMovieCards() {
-  const path = await loadMoviePath();
-  const words = new Map(path.flatMap(title => (title.words || []).map(word => [word.id, word])));
+  const paths = await Promise.allSettled([loadMoviePath(), loadSongPath()]);
+  const words = new Map(paths.reverse().flatMap(result => result.value || []).flatMap(title =>
+    (title.words || []).map(word => [word.id, word])));
+
   if (!words.size) return;
   await DB.putDeck({ id: MOVIE_DECK_ID, title: 'Movie vocabulary' });
   await DB.addMissingCards([...words.values()].filter(word => word.meaning)
@@ -72,11 +86,12 @@ function moviePercent(value) {
 }
 
 function renderMainTabs(view) {
-  const isMovies = view === 'movies' || view === 'movie' || app.cur().params?.movie;
+  const section = view === 'songs' || view === 'song' || app.cur().params?.song ? 'songs'
+    : view === 'movies' || view === 'movie' || app.cur().params?.movie ? 'movies' : 'home';
   const tabs = $('#mainTabs');
-  tabs.hidden = view !== 'home' && !isMovies;
+  tabs.hidden = view !== 'home' && section === 'home';
   for (const button of tabs.querySelectorAll('button')) {
-    const current = isMovies ? button.dataset.view === 'movies' : button.dataset.view === 'home';
+    const current = button.dataset.view === section;
     button.setAttribute('aria-pressed', String(current));
   }
 }
@@ -112,15 +127,43 @@ async function renderMovies(root, step) {
   root.append(list, movieLink('https://hanzimatic.com/blog/posts/chinese-media-difficulty-and-learning-paths/', 'Original learning path'));
 }
 
+async function renderSongs(root, id) {
+  $('#title').textContent = 'Songs';
+  const frame = app.cur();
+  let songs, cards;
+  try {
+    [songs, cards] = await Promise.all([loadSongPath(), DB.allCards()]);
+  } catch (error) {
+    if (app.cur() === frame) root.append(el('p', { class: 'hint' }, 'Could not load the songs. Try again when online.'));
+    return;
+  }
+  if (app.cur() !== frame) return;
+  const resolveWord = movieVocabulary(cards, songs);
+  if (id) {
+    const song = songs.find(entry => entry.id === id);
+    if (song) renderMovieDetail(root, song, resolveWord);
+    return;
+  }
+  const list = el('ul', { class: 'movie-list' });
+  for (const song of songs) {
+    const coverage = movieCoverage(song.words.map(resolveWord));
+    list.append(el('li', {}, el('button', { class: 'deck movie-entry', type: 'button',
+      onclick: () => app.go('song', { id: song.id }) },
+    el('span', {}, el('strong', {}, song.title), el('span', { class: 'sub' }, `${song.artist} · ${moviePercent(coverage)} known`)))));
+  }
+  root.append(list);
+}
+
 function movieLink(url, label) {
   return el('a', { class: 'movie-link', href: url, target: '_blank', rel: 'noopener noreferrer' }, label);
 }
 
 function renderMovieDetail(root, title, resolveWord) {
+  const isSong = !!title.artist;
   const words = (title.words || []).map(resolveWord);
   const coverage = movieCoverage(words);
-  root.append(el('h2', { class: 'movie-title' }, title.title), el('p', { class: 'hint' }, `Step ${title.step} of 41`));
-  if (title.video) root.append(movieLink(title.video, title.video.includes('youtube.com') ? 'Watch on YouTube' : 'Open episode'));
+  root.append(el('h2', { class: 'movie-title' }, title.title), el('p', { class: 'hint' }, isSong ? title.artist : `Step ${title.step} of 41`));
+  if (title.video) root.append(movieLink(title.video, isSong ? 'Listen on YouTube' : title.video.includes('youtube.com') ? 'Watch on YouTube' : 'Open episode'));
   if (coverage === null) {
     root.append(el('p', { class: 'hint' }, 'Coverage pending. Word counts are needed for this title.'));
     return;
@@ -128,11 +171,11 @@ function renderMovieDetail(root, title, resolveWord) {
   if (title.reading) {
     const vocabulary = el('section');
     const reading = el('section', { hidden: '' });
-    const switcher = el('div', { class: 'movie-filters', role: 'group', 'aria-label': 'Movie view' });
+    const switcher = el('div', { class: 'movie-filters', role: 'group', 'aria-label': isSong ? 'Song view' : 'Movie view' });
     const vocabularyButton = el('button', { class: 'btn ghost', type: 'button', 'aria-pressed': 'true',
       onclick: () => selectView(false) }, 'Vocabulary');
     const readingButton = el('button', { class: 'btn ghost', type: 'button', 'aria-pressed': 'false',
-      onclick: () => selectView(true) }, 'Reading');
+      onclick: () => selectView(true) }, isSong ? 'Lyrics' : 'Reading');
     let reader;
     function selectView(showReading) {
       if (!showReading) reading.querySelector(':popover-open')?.hidePopover();
@@ -140,10 +183,11 @@ function renderMovieDetail(root, title, resolveWord) {
       vocabulary.hidden = showReading;
       vocabularyButton.setAttribute('aria-pressed', String(!showReading));
       readingButton.setAttribute('aria-pressed', String(showReading));
-      if (showReading && !reader) reader = renderMovieReading(reading, title, words);
+      if (showReading && (isSong || !reader)) reader = renderMovieReading(reading, title, words, startStudy);
     }
     switcher.append(vocabularyButton, readingButton);
     root.append(switcher, vocabulary, reading);
+    if (isSong) selectView(true);
     root = vocabulary;
   }
   const summary = el('div', { 'aria-live': 'polite' });
@@ -170,7 +214,9 @@ function renderMovieDetail(root, title, resolveWord) {
   });
 
   function startStudy(items) {
-    if (!saving) app.go('practice', { movie: true, dir: 'zh2en', queue: items.map(word => word.card) });
+    if (saving) return;
+    app.go('practice', { movie: true, song: isSong, dir: 'zh2en', queue: items.map(word => word.card),
+      studyWords: isSong ? new Map(items.map(word => [word.id, word])) : undefined });
   }
 
   async function setKnowledge(word, known) {
@@ -241,8 +287,8 @@ function renderMovieDetail(root, title, resolveWord) {
     const unknown = words.filter(word => !word.known);
     const count = Math.min(20, unknown.filter(word => word.card).length);
     summary.replaceChildren(
-      el('h3', {}, `${moviePercent(coverage)} known${coverage >= MOVIE_READY ? ' · Ready to watch' : ''}`),
-      el('progress', { class: 'movie-progress', max: 100, value: coverage, 'aria-label': 'Estimated dialogue word coverage' }),
+      el('h3', {}, `${moviePercent(coverage)} known${!isSong && coverage >= MOVIE_READY ? ' · Ready to watch' : ''}`),
+      el('progress', { class: 'movie-progress', max: 100, value: coverage, 'aria-label': isSong ? 'Estimated lyric word coverage' : 'Estimated dialogue word coverage' }),
       el('p', { class: 'hint' }, `${words.length - unknown.length} of ${words.length} distinct words known. Coverage counts repeated words.`));
     batchButton.hidden = !count;
     batchButton.textContent = `Study ${count} unfamiliar words`;
@@ -255,30 +301,33 @@ function renderMovieDetail(root, title, resolveWord) {
 
   root.append(summary, batchButton, controls,
     el('div', { class: 'movie-mark-help' }, el('p', { class: 'hint' }, 'Swipe right for known, left for unfamiliar, or tap a mark button.'), undo),
-    list, movieLink(title.transcriptSource, 'Vocabulary source'));
+    list, title.transcriptSource ? movieLink(title.transcriptSource, 'Vocabulary source') : null);
   show();
 }
 
-async function renderMovieReading(root, title, words) {
+async function renderMovieReading(root, title, words, startStudy) {
   root.replaceChildren(el('p', { class: 'hint', role: 'status' }, 'Loading transcript…'));
-  let data;
+  const isSong = !!title.artist;
+  let data = isSong ? title.reading : null;
   try {
-    const response = await fetch(`./reading/${title.step}.json?v=99`, { cache: 'no-cache' });
-    if (!response.ok) throw new Error('Transcript unavailable');
-    data = await response.json();
+    if (!data) {
+      const response = await fetch(`./reading/${title.step}.json?v=100`, { cache: 'no-cache' });
+      if (!response.ok) throw new Error('Transcript unavailable');
+      data = await response.json();
+    }
   } catch (error) {
     root.replaceChildren(
       el('p', { class: 'hint', role: 'status' }, 'Could not load the transcript.'),
-      el('button', { class: 'btn', type: 'button', onclick: () => renderMovieReading(root, title, words) }, 'Try again'));
+      el('button', { class: 'btn', type: 'button', onclick: () => renderMovieReading(root, title, words, startStudy) }, 'Try again'));
     return;
   }
 
   const vocabulary = new Map(words.map(word => [word.id, word]));
   const byIndex = data.wordIds.map(id => vocabulary.get(id));
-  const linesPerPage = 24;
+  const linesPerPage = isSong ? data.lines.length : 24;
   const pageCount = Math.ceil(data.lines.length / linesPerPage);
   let page = 0;
-  const heading = el('h3', { tabindex: '-1' }, 'Pinyin transcript');
+  const heading = el('h3', { tabindex: '-1' }, isSong ? 'Pinyin lyrics' : 'Pinyin transcript');
   const passage = el('div', { class: 'reading-passage' });
   const top = el('nav', { class: 'reading-pages', 'aria-label': 'Transcript pages' });
   const bottom = el('nav', { class: 'reading-pages', 'aria-label': 'Transcript pages' });
@@ -312,6 +361,7 @@ async function renderMovieReading(root, title, words) {
     }
     const start = page * linesPerPage;
     passage.replaceChildren(...data.lines.slice(start, start + linesPerPage).map(tokens => {
+      if (!tokens.length) return el('div', { class: 'lyric-break', 'aria-hidden': 'true' });
       const line = el('p', { lang: 'zh-Latn' });
       for (const token of tokens) {
         if (typeof token === 'string') {
@@ -331,8 +381,18 @@ async function renderMovieReading(root, title, words) {
       heading.scrollIntoView({ block: 'start' });
     }
   }
-  root.replaceChildren(heading, el('p', { class: 'hint' }, 'Highlighted words are unfamiliar. Tap any word for its meaning.'),
-    top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
+  const instructions = el('p', { class: 'hint' }, 'Highlighted words are unfamiliar. Tap any word for its meaning.');
+  if (isSong) {
+    const studyCount = words.filter(word => !word.known && word.card).slice(0, 20).length;
+    root.replaceChildren(heading, el('p', { class: 'hint' }, `${moviePercent(movieCoverage(words))} known`), instructions, passage, definition);
+    if (studyCount) root.insertBefore(el('button', { class: 'btn primary song-study', type: 'button',
+      onclick: () => {
+        const batch = words.filter(word => !word.known && word.card).slice(0, 20);
+        if (batch.length) startStudy(batch);
+      } }, `Study ${studyCount} unfamiliar words`), passage);
+  } else {
+    root.replaceChildren(heading, instructions, top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
+  }
   show(0);
 }
 

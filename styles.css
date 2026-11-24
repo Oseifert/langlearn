@@ -223,3 +223,5 @@ button.movie-word-content{cursor:pointer}
 .reading-definition:popover-open{display:flex;align-items:flex-start;gap:.8rem}
 .reading-definition .icon-btn{flex:none;width:1.7rem;height:1.7rem}
 #view h3[tabindex="-1"]{scroll-margin-top:5rem}
+.lyric-break{height:.85rem}
+.song-study{margin-bottom:.9rem}
