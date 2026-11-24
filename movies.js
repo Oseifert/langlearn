@@ -6,7 +6,7 @@ let moviePathPromise;
 let songPathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=103', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=104', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -17,7 +17,7 @@ function loadMoviePath() {
 }
 
 function loadSongPath() {
-  songPathPromise ||= fetch('./song-path.json?v=103', { cache: 'no-cache' }).then(response => {
+  songPathPromise ||= fetch('./song-path.json?v=104', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the songs');
     return response.json();
   }).catch(error => {
@@ -175,7 +175,11 @@ function renderMovieDetail(root, title, resolveWord) {
   const words = (title.words || []).map(resolveWord);
   const coverage = movieCoverage(words);
   root.append(el('h2', { class: 'movie-title' }, title.title), el('p', { class: 'hint' }, isSong ? title.artist : `Step ${title.step} of 41`));
-  if (title.video) root.append(movieLink(title.video, isSong ? 'Listen on YouTube' : title.video.includes('youtube.com') ? 'Watch on YouTube' : 'Open episode'));
+  if (title.video) {
+    const label = title.videoLabel || (isSong ? 'Listen on YouTube'
+      : title.video.includes('youtube.com') ? 'Watch on YouTube' : 'Open video page');
+    root.append(movieLink(title.video, label));
+  }
   if (coverage === null) {
     root.append(el('p', { class: 'hint' }, 'Coverage pending. Word counts are needed for this title.'));
     return;
@@ -328,7 +332,7 @@ async function renderMovieReading(root, title, words, startStudy) {
   let data = isSong ? title.reading : null;
   try {
     if (!data) {
-      const response = await fetch(`./reading/${title.step}.json?v=103`, { cache: 'no-cache' });
+      const response = await fetch(`./reading/${title.step}.json?v=104`, { cache: 'no-cache' });
       if (!response.ok) throw new Error('Transcript unavailable');
       data = await response.json();
     }
