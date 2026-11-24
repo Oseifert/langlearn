@@ -1,14 +1,15 @@
 /* 语卡 service worker — network-first for app code so updates land immediately */
-const CACHE = 'yuka-v98';
+const CACHE = 'yuka-v99';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css?v=98',
-  './core.js?v=98',
-  './sync.js?v=98',
-  './app.js?v=98',
-  './movies.js?v=98',
-  './movie-path.json?v=98',
+  './styles.css?v=99',
+  './core.js?v=99',
+  './sync.js?v=99',
+  './app.js?v=99',
+  './movies.js?v=99',
+  './movie-path.json?v=99',
+  ...[1, 2, 3, 4].map(step => `./reading/${step}.json?v=99`),
   './manifest.webmanifest',
   './seed.json',
   './icons/icon-192.png',
