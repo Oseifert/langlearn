@@ -5,7 +5,7 @@ const MOVIE_READY = 90;
 let moviePathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=98', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=99', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -125,6 +125,27 @@ function renderMovieDetail(root, title, resolveWord) {
     root.append(el('p', { class: 'hint' }, 'Coverage pending. Word counts are needed for this title.'));
     return;
   }
+  if (title.reading) {
+    const vocabulary = el('section');
+    const reading = el('section', { hidden: '' });
+    const switcher = el('div', { class: 'movie-filters', role: 'group', 'aria-label': 'Movie view' });
+    const vocabularyButton = el('button', { class: 'btn ghost', type: 'button', 'aria-pressed': 'true',
+      onclick: () => selectView(false) }, 'Vocabulary');
+    const readingButton = el('button', { class: 'btn ghost', type: 'button', 'aria-pressed': 'false',
+      onclick: () => selectView(true) }, 'Reading');
+    let reader;
+    function selectView(showReading) {
+      if (!showReading) reading.querySelector(':popover-open')?.hidePopover();
+      reading.hidden = !showReading;
+      vocabulary.hidden = showReading;
+      vocabularyButton.setAttribute('aria-pressed', String(!showReading));
+      readingButton.setAttribute('aria-pressed', String(showReading));
+      if (showReading && !reader) reader = renderMovieReading(reading, title, words);
+    }
+    switcher.append(vocabularyButton, readingButton);
+    root.append(switcher, vocabulary, reading);
+    root = vocabulary;
+  }
   const summary = el('div', { 'aria-live': 'polite' });
   const batchButton = el('button', { class: 'btn primary', type: 'button', onclick: () => {
     const batch = words.filter(word => !word.known && word.card).slice(0, 20);
@@ -236,6 +257,83 @@ function renderMovieDetail(root, title, resolveWord) {
     el('div', { class: 'movie-mark-help' }, el('p', { class: 'hint' }, 'Swipe right for known, left for unfamiliar, or tap a mark button.'), undo),
     list, movieLink(title.transcriptSource, 'Vocabulary source'));
   show();
+}
+
+async function renderMovieReading(root, title, words) {
+  root.replaceChildren(el('p', { class: 'hint', role: 'status' }, 'Loading transcript…'));
+  let data;
+  try {
+    const response = await fetch(`./reading/${title.step}.json?v=99`, { cache: 'no-cache' });
+    if (!response.ok) throw new Error('Transcript unavailable');
+    data = await response.json();
+  } catch (error) {
+    root.replaceChildren(
+      el('p', { class: 'hint', role: 'status' }, 'Could not load the transcript.'),
+      el('button', { class: 'btn', type: 'button', onclick: () => renderMovieReading(root, title, words) }, 'Try again'));
+    return;
+  }
+
+  const vocabulary = new Map(words.map(word => [word.id, word]));
+  const byIndex = data.wordIds.map(id => vocabulary.get(id));
+  const linesPerPage = 24;
+  const pageCount = Math.ceil(data.lines.length / linesPerPage);
+  let page = 0;
+  const heading = el('h3', { tabindex: '-1' }, 'Pinyin transcript');
+  const passage = el('div', { class: 'reading-passage' });
+  const top = el('nav', { class: 'reading-pages', 'aria-label': 'Transcript pages' });
+  const bottom = el('nav', { class: 'reading-pages', 'aria-label': 'Transcript pages' });
+  const definition = el('div', { class: 'reading-definition', popover: 'auto', role: 'status' });
+  function showDefinition(button, word) {
+    if (definition.matches(':popover-open')) definition.hidePopover();
+    definition.replaceChildren(
+      el('div', {}, el('strong', { lang: 'zh-Latn' }, word.pinyin), el('div', {}, word.meaning || 'Definition unavailable')),
+      el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Close definition',
+        onclick: () => definition.hidePopover() }, '×'));
+    definition.showPopover();
+    const anchor = button.getBoundingClientRect();
+    const box = definition.getBoundingClientRect();
+    const left = Math.max(8, Math.min(anchor.left, document.documentElement.clientWidth - box.width - 8));
+    const top = anchor.bottom + box.height + 16 < window.innerHeight
+      ? anchor.bottom + 6 : Math.max(8, anchor.top - box.height - 6);
+    definition.style.left = `${left}px`;
+    definition.style.top = `${top}px`;
+  }
+
+  function show(next, moveFocus = false) {
+    page = next;
+    if (definition.matches(':popover-open')) definition.hidePopover();
+    for (const controls of [top, bottom]) {
+      controls.replaceChildren(
+        el('button', { class: 'btn ghost', type: 'button', disabled: page === 0 ? '' : null,
+          onclick: () => show(page - 1, true) }, 'Previous'),
+        el('span', { role: 'status' }, `Page ${page + 1} of ${pageCount}`),
+        el('button', { class: 'btn ghost', type: 'button', disabled: page + 1 >= pageCount ? '' : null,
+          onclick: () => show(page + 1, true) }, 'Next'));
+    }
+    const start = page * linesPerPage;
+    passage.replaceChildren(...data.lines.slice(start, start + linesPerPage).map(tokens => {
+      const line = el('p', { lang: 'zh-Latn' });
+      for (const token of tokens) {
+        if (typeof token === 'string') {
+          line.append(token, ' ');
+          continue;
+        }
+        const word = byIndex[token];
+        if (!word) continue;
+        const button = el('button', { class: word.known ? 'reading-word' : 'reading-word unfamiliar',
+          type: 'button', onclick: () => showDefinition(button, word) }, word.pinyin);
+        line.append(button, ' ');
+      }
+      return line;
+    }));
+    if (moveFocus) {
+      heading.focus({ preventScroll: true });
+      heading.scrollIntoView({ block: 'start' });
+    }
+  }
+  root.replaceChildren(heading, el('p', { class: 'hint' }, 'Highlighted words are unfamiliar. Tap any word for its meaning.'),
+    top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
+  show(0);
 }
 
 for (const button of document.querySelectorAll('#mainTabs button')) {

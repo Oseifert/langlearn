@@ -15,3 +15,5 @@ Steps 2–4 use creator-provided Simplified Chinese captions. Each source starts
 | 4 | [Xiaogua Chinese episode and transcript](https://www.xiaoguachinese.com/watch?slug=sasas-vlog-finding-my-past-in-beijing-lower-intermediate) | 172 |
 
 Repeated vocabulary across steps retains the same card ID, so review progress and manual marks carry forward. A few episode-specific names were kept together during segmentation. Generated pronunciations and glosses are provisional where words have multiple readings or senses.
+
+The Reading view for steps 1–4 references existing vocabulary entries in subtitle order. It uses the same segmentation and counts as coverage, with non-Han punctuation and text retained for readability. Definitions and familiarity come from the movie vocabulary and local review profile.

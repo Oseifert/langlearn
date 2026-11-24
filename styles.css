@@ -210,3 +210,16 @@ button.movie-word-content{cursor:pointer}
 .movie-undo{flex:none;background:none;border:0;color:var(--accent);font:inherit;font-size:.8rem;cursor:pointer;padding:.5rem 0}
 .movie-undo:disabled{visibility:hidden}
 .btn[hidden]{display:none}
+
+/* Pinyin transcript reader */
+.reading-pages{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.6rem;margin:.8rem 0;color:var(--muted);font-size:.85rem}
+.reading-pages .btn{padding:.55rem;font-size:.88rem}
+.reading-passage{border:1px solid var(--line);background:var(--panel);border-radius:.9rem;padding:.45rem .8rem}
+.reading-passage p{margin:.65rem 0;line-height:1.75}
+.reading-word{display:inline;background:none;border:0;border-radius:.25rem;color:inherit;font:inherit;padding:.1rem .13rem;cursor:pointer}
+.reading-word.unfamiliar{background:#3e3425;color:#fde68a;text-decoration:underline dotted;text-underline-offset:.2em}
+.reading-word:hover,.reading-word:focus-visible{outline:1px solid var(--accent)}
+.reading-definition{position:fixed;inset:auto;margin:0;max-width:min(20rem,calc(100vw - 16px));padding:.7rem .8rem;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:.75rem;box-shadow:0 .4rem 1.2rem #0007}
+.reading-definition:popover-open{display:flex;align-items:flex-start;gap:.8rem}
+.reading-definition .icon-btn{flex:none;width:1.7rem;height:1.7rem}
+#view h3[tabindex="-1"]{scroll-margin-top:5rem}
