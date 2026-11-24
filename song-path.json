@@ -2461,5 +2461,761 @@
         ]
       ]
     }
+  },
+  {
+    "id": "fir-lydia",
+    "title": "Lydia",
+    "artist": "F.I.R.",
+    "video": "https://www.youtube.com/watch?v=ZOHsd6Zk7DM",
+    "words": [
+      {
+        "id": "mv_0851681d6802b6",
+        "hanzi": "走",
+        "pinyin": "zǒu",
+        "meaning": "to leave; to go away",
+        "count": 9
+      },
+      {
+        "id": "mv_5630b886f9cd31",
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "meaning": "you (informal)",
+        "count": 8
+      },
+      {
+        "id": "mv_577cfff2988c00",
+        "hanzi": "会",
+        "pinyin": "huì",
+        "meaning": "can; will; know how to",
+        "count": 8
+      },
+      {
+        "id": "mv_a5933e2a9e71d8",
+        "hanzi": "了",
+        "pinyin": "le",
+        "meaning": "completed action or change particle",
+        "count": 7
+      },
+      {
+        "id": "mv_0746bd624955e2",
+        "hanzi": "的",
+        "pinyin": "de",
+        "meaning": "possessive or descriptive particle",
+        "count": 6
+      },
+      {
+        "id": "mv_e31b569a0f1d9f",
+        "hanzi": "他",
+        "pinyin": "tā",
+        "meaning": "he; him",
+        "count": 6
+      },
+      {
+        "id": "mv_14d722bad90695",
+        "hanzi": "留下",
+        "pinyin": "liúxià",
+        "meaning": "to leave behind",
+        "count": 6
+      },
+      {
+        "id": "mv_8fa7401e9077e3",
+        "hanzi": "不",
+        "pinyin": "bù",
+        "meaning": "not",
+        "count": 4
+      },
+      {
+        "id": "mv_cd7881eb96b762",
+        "hanzi": "彩虹",
+        "pinyin": "cǎihóng",
+        "meaning": "rainbow",
+        "count": 4
+      },
+      {
+        "id": "mv_a8e17b96e3fb45",
+        "hanzi": "泪光",
+        "pinyin": "lèiguāng",
+        "meaning": "the glimmer of tears",
+        "count": 4
+      },
+      {
+        "id": "mv_6a29aaad666124",
+        "hanzi": "总",
+        "pinyin": "zǒng",
+        "meaning": "always",
+        "count": 4
+      },
+      {
+        "id": "mv_7b8ef4b58a3377",
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "meaning": "to love",
+        "count": 4
+      },
+      {
+        "id": "mv_7fd3df7ebc7835",
+        "hanzi": "看见",
+        "pinyin": "kànjiàn",
+        "meaning": "to see; to catch sight of",
+        "count": 3
+      },
+      {
+        "id": "mv_35d40b6e6f6747",
+        "hanzi": "带",
+        "pinyin": "dài",
+        "meaning": "to carry; to take along",
+        "count": 3
+      },
+      {
+        "id": "mv_b0619031953f5e",
+        "hanzi": "天堂",
+        "pinyin": "tiāntáng",
+        "meaning": "heaven; paradise",
+        "count": 3
+      },
+      {
+        "id": "mv_ea59d886094d0e",
+        "hanzi": "风干",
+        "pinyin": "fēnggān",
+        "meaning": "to air-dry; to dry in the wind",
+        "count": 3
+      },
+      {
+        "id": "mv_7b55d5a1d45c0c",
+        "hanzi": "后",
+        "pinyin": "hòu",
+        "meaning": "after; afterward",
+        "count": 3
+      },
+      {
+        "id": "mv_79176103e6df6b",
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "meaning": "able, that's OK, that's fine",
+        "count": 3
+      },
+      {
+        "id": "mv_b3ba7814f41ec6",
+        "hanzi": "把",
+        "pinyin": "bǎ",
+        "meaning": "particle bringing the object before the verb",
+        "count": 3
+      },
+      {
+        "id": "mv_6da733a0b357f4",
+        "hanzi": "梦",
+        "pinyin": "mèng",
+        "meaning": "dream",
+        "count": 3
+      },
+      {
+        "id": "mv_fbd5b75066a6dc",
+        "hanzi": "有",
+        "pinyin": "yǒu",
+        "meaning": "to have, to exist",
+        "count": 3
+      },
+      {
+        "id": "mv_f7b2a6ee68ec1a",
+        "hanzi": "个",
+        "pinyin": "ge",
+        "meaning": "general measure word",
+        "count": 3
+      },
+      {
+        "id": "mv_afb1bef4443136",
+        "hanzi": "地方",
+        "pinyin": "dìfang",
+        "meaning": "place",
+        "count": 3
+      },
+      {
+        "id": "mv_25d23b92b2259e",
+        "hanzi": "等待",
+        "pinyin": "děngdài",
+        "meaning": "to wait / await",
+        "count": 3
+      },
+      {
+        "id": "mv_f033534715bcfe",
+        "hanzi": "飞翔",
+        "pinyin": "fēixiáng",
+        "meaning": "to fly; to soar",
+        "count": 3
+      },
+      {
+        "id": "mv_eedf7e8df75262",
+        "hanzi": "感受",
+        "pinyin": "gǎnshòu",
+        "meaning": "to feel; to experience",
+        "count": 3
+      },
+      {
+        "id": "mv_a0c45ee31309a4",
+        "hanzi": "悲伤",
+        "pinyin": "bēishāng",
+        "meaning": "sorrow; to be sad",
+        "count": 2
+      },
+      {
+        "id": "mv_8cf9befb0d444d",
+        "hanzi": "迷离",
+        "pinyin": "mílí",
+        "meaning": "dazed; unfocused",
+        "count": 1
+      },
+      {
+        "id": "mv_3aa142437f65fd",
+        "hanzi": "眼眶",
+        "pinyin": "yǎnkuàng",
+        "meaning": "eye socket; rims of the eyes",
+        "count": 1
+      },
+      {
+        "id": "mv_2714e3d01c0017",
+        "hanzi": "为何",
+        "pinyin": "wèihé",
+        "meaning": "why; for what reason",
+        "count": 1
+      },
+      {
+        "id": "mv_8fa470d6f292f4",
+        "hanzi": "流浪",
+        "pinyin": "liúlàng",
+        "meaning": "to wander",
+        "count": 1
+      },
+      {
+        "id": "mv_25bb52080cddba",
+        "hanzi": "心碎",
+        "pinyin": "xīnsuì",
+        "meaning": "heartbroken",
+        "count": 1
+      },
+      {
+        "id": "mv_b247c3e6783b29",
+        "hanzi": "海洋",
+        "pinyin": "hǎiyáng",
+        "meaning": "ocean",
+        "count": 1
+      },
+      {
+        "id": "mv_41eba472b4f4e4",
+        "hanzi": "受",
+        "pinyin": "shòu",
+        "meaning": "to suffer; to experience",
+        "count": 1
+      },
+      {
+        "id": "mv_19a8803c06ad38",
+        "hanzi": "伤",
+        "pinyin": "shāng",
+        "meaning": "injury; hurt",
+        "count": 1
+      },
+      {
+        "id": "mv_1af13e06ce4562",
+        "hanzi": "连",
+        "pinyin": "lián",
+        "meaning": "even",
+        "count": 1
+      },
+      {
+        "id": "mv_cdd57ddef6ed3d",
+        "hanzi": "微笑",
+        "pinyin": "wēixiào",
+        "meaning": "to smile; a smile",
+        "count": 1
+      },
+      {
+        "id": "mv_d51dd8d130ce46",
+        "hanzi": "都",
+        "pinyin": "dōu",
+        "meaning": "all; both",
+        "count": 1
+      },
+      {
+        "id": "mv_ed3eff91207c2b",
+        "hanzi": "彷徨",
+        "pinyin": "pánghuáng",
+        "meaning": "to waver; to feel lost",
+        "count": 1
+      },
+      {
+        "id": "mv_ff5ed5f9170267",
+        "hanzi": "女郎",
+        "pinyin": "nǚláng",
+        "meaning": "young woman",
+        "count": 1
+      },
+      {
+        "id": "mv_b7a385ec00d6bb",
+        "hanzi": "为",
+        "pinyin": "wèi",
+        "meaning": "for; on behalf of",
+        "count": 1
+      },
+      {
+        "id": "mv_f0ef38a88390fa",
+        "hanzi": "谁",
+        "pinyin": "shuí",
+        "meaning": "who",
+        "count": 1
+      },
+      {
+        "id": "mv_fca82746e870f8",
+        "hanzi": "而",
+        "pinyin": "ér",
+        "meaning": "and; linking particle",
+        "count": 1
+      },
+      {
+        "id": "mv_07b810f63692ed",
+        "hanzi": "唱",
+        "pinyin": "chàng",
+        "meaning": "to sing",
+        "count": 1
+      },
+      {
+        "id": "mv_2697ec1b7b37dd",
+        "hanzi": "雾",
+        "pinyin": "wù",
+        "meaning": "fog",
+        "count": 1
+      },
+      {
+        "id": "mv_2ea617b5cf8380",
+        "hanzi": "云",
+        "pinyin": "yún",
+        "meaning": "cloud",
+        "count": 1
+      },
+      {
+        "id": "mv_89da31469ce67e",
+        "hanzi": "太阳",
+        "pinyin": "tàiyáng",
+        "meaning": "the sun",
+        "count": 1
+      },
+      {
+        "id": "mv_046d77c62412e8",
+        "hanzi": "龟裂",
+        "pinyin": "jūnliè",
+        "meaning": "to crack; to become fissured",
+        "count": 1
+      },
+      {
+        "id": "mv_656b916e94fefb",
+        "hanzi": "大地",
+        "pinyin": "dàdì",
+        "meaning": "the earth; the land",
+        "count": 1
+      },
+      {
+        "id": "mv_6e708ba759df87",
+        "hanzi": "重复",
+        "pinyin": "chóngfù",
+        "meaning": "to repeat",
+        "count": 1
+      },
+      {
+        "id": "mv_cceb350d8ed576",
+        "hanzi": "着",
+        "pinyin": "zhe",
+        "meaning": "particle marking an ongoing action",
+        "count": 1
+      },
+      {
+        "id": "mv_41d5e0b8c423b4",
+        "hanzi": "幸福",
+        "pinyin": "xìngfú",
+        "meaning": "happiness; to be happy",
+        "count": 1
+      },
+      {
+        "id": "mv_686b703f41f3d5",
+        "hanzi": "在",
+        "pinyin": "zài",
+        "meaning": "to be at; at, in",
+        "count": 1
+      },
+      {
+        "id": "mv_9e65436e3beaca",
+        "hanzi": "远方",
+        "pinyin": "yuǎnfāng",
+        "meaning": "a distant place; far away",
+        "count": 1
+      },
+      {
+        "id": "mv_b4217093bce306",
+        "hanzi": "开",
+        "pinyin": "kāi",
+        "meaning": "to open",
+        "count": 1
+      },
+      {
+        "id": "mv_d274eee8a17506",
+        "hanzi": "一",
+        "pinyin": "yī",
+        "meaning": "one",
+        "count": 1
+      },
+      {
+        "id": "mv_511ae2ec186ffe",
+        "hanzi": "扇",
+        "pinyin": "shàn",
+        "meaning": "measure word for windows and doors",
+        "count": 1
+      },
+      {
+        "id": "mv_1a3d1ffd196cc0",
+        "hanzi": "窗",
+        "pinyin": "chuāng",
+        "meaning": "window",
+        "count": 1
+      },
+      {
+        "id": "mv_29ef534a48972c",
+        "hanzi": "许下",
+        "pinyin": "xǔxià",
+        "meaning": "to make a promise or wish",
+        "count": 1
+      },
+      {
+        "id": "mv_f4edc69750d259",
+        "hanzi": "愿望",
+        "pinyin": "yuànwàng",
+        "meaning": "wish; desire",
+        "count": 1
+      },
+      {
+        "id": "mv_4b14e94ca1fdc7",
+        "hanzi": "恨",
+        "pinyin": "hèn",
+        "meaning": "hate; to hate",
+        "count": 1
+      },
+      {
+        "id": "mv_7a842b7833a419",
+        "hanzi": "原谅",
+        "pinyin": "yuánliàng",
+        "meaning": "to forgive; forgiveness",
+        "count": 1
+      },
+      {
+        "id": "mv_b894a8c9982dc0",
+        "hanzi": "生命",
+        "pinyin": "shēngmìng",
+        "meaning": "life",
+        "count": 1
+      },
+      {
+        "id": "mv_c70ef50a35f1ca",
+        "hanzi": "不会",
+        "pinyin": "búhuì",
+        "meaning": "cannot; will not",
+        "count": 1
+      },
+      {
+        "id": "mv_462f338ef88d70",
+        "hanzi": "只",
+        "pinyin": "zhǐ",
+        "meaning": "only; just",
+        "count": 1
+      },
+      {
+        "id": "mv_db05eeb4ce3568",
+        "hanzi": "充满",
+        "pinyin": "chōngmǎn",
+        "meaning": "to be filled with",
+        "count": 1
+      }
+    ],
+    "reading": {
+      "wordIds": [
+        "mv_0851681d6802b6",
+        "mv_5630b886f9cd31",
+        "mv_577cfff2988c00",
+        "mv_a5933e2a9e71d8",
+        "mv_0746bd624955e2",
+        "mv_e31b569a0f1d9f",
+        "mv_14d722bad90695",
+        "mv_8fa7401e9077e3",
+        "mv_cd7881eb96b762",
+        "mv_a8e17b96e3fb45",
+        "mv_6a29aaad666124",
+        "mv_7b8ef4b58a3377",
+        "mv_7fd3df7ebc7835",
+        "mv_35d40b6e6f6747",
+        "mv_b0619031953f5e",
+        "mv_ea59d886094d0e",
+        "mv_7b55d5a1d45c0c",
+        "mv_79176103e6df6b",
+        "mv_b3ba7814f41ec6",
+        "mv_6da733a0b357f4",
+        "mv_fbd5b75066a6dc",
+        "mv_f7b2a6ee68ec1a",
+        "mv_afb1bef4443136",
+        "mv_25d23b92b2259e",
+        "mv_f033534715bcfe",
+        "mv_eedf7e8df75262",
+        "mv_a0c45ee31309a4",
+        "mv_8cf9befb0d444d",
+        "mv_3aa142437f65fd",
+        "mv_2714e3d01c0017",
+        "mv_8fa470d6f292f4",
+        "mv_25bb52080cddba",
+        "mv_b247c3e6783b29",
+        "mv_41eba472b4f4e4",
+        "mv_19a8803c06ad38",
+        "mv_1af13e06ce4562",
+        "mv_cdd57ddef6ed3d",
+        "mv_d51dd8d130ce46",
+        "mv_ed3eff91207c2b",
+        "mv_ff5ed5f9170267",
+        "mv_b7a385ec00d6bb",
+        "mv_f0ef38a88390fa",
+        "mv_fca82746e870f8",
+        "mv_07b810f63692ed",
+        "mv_2697ec1b7b37dd",
+        "mv_2ea617b5cf8380",
+        "mv_89da31469ce67e",
+        "mv_046d77c62412e8",
+        "mv_656b916e94fefb",
+        "mv_6e708ba759df87",
+        "mv_cceb350d8ed576",
+        "mv_41d5e0b8c423b4",
+        "mv_686b703f41f3d5",
+        "mv_9e65436e3beaca",
+        "mv_b4217093bce306",
+        "mv_d274eee8a17506",
+        "mv_511ae2ec186ffe",
+        "mv_1a3d1ffd196cc0",
+        "mv_29ef534a48972c",
+        "mv_f4edc69750d259",
+        "mv_4b14e94ca1fdc7",
+        "mv_7a842b7833a419",
+        "mv_b894a8c9982dc0",
+        "mv_c70ef50a35f1ca",
+        "mv_462f338ef88d70",
+        "mv_db05eeb4ce3568"
+      ],
+      "lines": [
+        [
+          "Lydia",
+          27,
+          4,
+          28
+        ],
+        [
+          29,
+          30,
+          ",",
+          31,
+          4,
+          32
+        ],
+        [],
+        [
+          33,
+          3,
+          34,
+          ",",
+          35,
+          36,
+          37,
+          38
+        ],
+        [
+          "Gypsy",
+          39,
+          ",",
+          40,
+          41,
+          42,
+          43
+        ],
+        [],
+        [
+          1,
+          2,
+          12,
+          44,
+          ",",
+          12,
+          45,
+          ",",
+          12,
+          46
+        ],
+        [
+          47,
+          4,
+          48,
+          49,
+          50,
+          26
+        ],
+        [],
+        [
+          5,
+          0,
+          3,
+          13,
+          7,
+          0,
+          1,
+          4,
+          14,
+          ",",
+          15,
+          16,
+          2,
+          6,
+          8,
+          9
+        ],
+        [
+          5,
+          0,
+          3,
+          1,
+          17,
+          18,
+          19,
+          6,
+          ",",
+          10,
+          2,
+          20,
+          21,
+          22,
+          ",",
+          23,
+          11,
+          24
+        ],
+        [],
+        [
+          "Lydia",
+          51,
+          7,
+          52,
+          53
+        ],
+        [
+          54,
+          55,
+          56,
+          57,
+          ",",
+          58,
+          59
+        ],
+        [],
+        [
+          1,
+          2,
+          25,
+          11,
+          ",",
+          25,
+          60,
+          ",",
+          25,
+          61
+        ],
+        [
+          62,
+          10,
+          63,
+          64,
+          65,
+          26
+        ],
+        [],
+        [
+          5,
+          0,
+          3,
+          13,
+          7,
+          0,
+          1,
+          4,
+          14,
+          ",",
+          15,
+          16,
+          2,
+          6,
+          8,
+          9
+        ],
+        [
+          5,
+          0,
+          3,
+          1,
+          17,
+          18,
+          19,
+          6,
+          ",",
+          10,
+          2,
+          20,
+          21,
+          22,
+          ",",
+          23,
+          11,
+          24
+        ],
+        [],
+        [
+          5,
+          0,
+          3,
+          13,
+          7,
+          0,
+          1,
+          4,
+          14,
+          ",",
+          15,
+          16,
+          2,
+          6,
+          8,
+          9
+        ],
+        [
+          5,
+          0,
+          3,
+          1,
+          17,
+          18,
+          19,
+          6,
+          ",",
+          10,
+          2,
+          20,
+          21,
+          22,
+          ",",
+          23,
+          11,
+          24
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    }
   }
 ]

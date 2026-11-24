@@ -6,7 +6,7 @@ let moviePathPromise;
 let songPathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=101', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=102', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -17,7 +17,7 @@ function loadMoviePath() {
 }
 
 function loadSongPath() {
-  songPathPromise ||= fetch('./song-path.json?v=101', { cache: 'no-cache' }).then(response => {
+  songPathPromise ||= fetch('./song-path.json?v=102', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the songs');
     return response.json();
   }).catch(error => {
@@ -311,7 +311,7 @@ async function renderMovieReading(root, title, words, startStudy) {
   let data = isSong ? title.reading : null;
   try {
     if (!data) {
-      const response = await fetch(`./reading/${title.step}.json?v=101`, { cache: 'no-cache' });
+      const response = await fetch(`./reading/${title.step}.json?v=102`, { cache: 'no-cache' });
       if (!response.ok) throw new Error('Transcript unavailable');
       data = await response.json();
     }
