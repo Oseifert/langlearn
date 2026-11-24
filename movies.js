@@ -6,7 +6,7 @@ let moviePathPromise;
 let songPathPromise;
 
 function loadMoviePath() {
-  moviePathPromise ||= fetch('./movie-path.json?v=104', { cache: 'no-cache' }).then(response => {
+  moviePathPromise ||= fetch('./movie-path.json?v=105', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the watchlist');
     return response.json();
   }).catch(error => {
@@ -17,7 +17,7 @@ function loadMoviePath() {
 }
 
 function loadSongPath() {
-  songPathPromise ||= fetch('./song-path.json?v=104', { cache: 'no-cache' }).then(response => {
+  songPathPromise ||= fetch('./song-path.json?v=105', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('Could not load the songs');
     return response.json();
   }).catch(error => {
@@ -326,13 +326,41 @@ function renderMovieDetail(root, title, resolveWord) {
   show();
 }
 
+function captionTime(milliseconds) {
+  const seconds = Math.floor(milliseconds / 1000);
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor(seconds / 60) % 60;
+  const remainder = String(seconds % 60).padStart(2, '0');
+  return hours ? `${hours}:${String(minutes).padStart(2, '0')}:${remainder}` : `${minutes}:${remainder}`;
+}
+
+function captionDetails(cue, video) {
+  if (!cue) return null;
+  const [start, end, quoted] = cue;
+  let timestamp;
+  if (Number.isFinite(start)) {
+    const from = captionTime(start);
+    const to = captionTime(end);
+    const label = from === to ? from : `${from}–${to}`;
+    const url = video && new URL(video);
+    if (url?.hostname === 'www.youtube.com') {
+      url.searchParams.set('t', `${Math.floor(start / 1000)}s`);
+      timestamp = movieLink(url.href, label);
+      timestamp.setAttribute('aria-label', `Open YouTube at ${from}`);
+    } else {
+      timestamp = el('span', {}, label);
+    }
+  }
+  return el('div', { class: 'caption-details' }, timestamp, quoted ? el('span', {}, 'Contains quoted speech') : null);
+}
+
 async function renderMovieReading(root, title, words, startStudy) {
   root.replaceChildren(el('p', { class: 'hint', role: 'status' }, 'Loading transcript…'));
   const isSong = !!title.artist;
   let data = isSong ? title.reading : null;
   try {
     if (!data) {
-      const response = await fetch(`./reading/${title.step}.json?v=104`, { cache: 'no-cache' });
+      const response = await fetch(`./reading/${title.step}.json?v=105`, { cache: 'no-cache' });
       if (!response.ok) throw new Error('Transcript unavailable');
       data = await response.json();
     }
@@ -381,7 +409,7 @@ async function renderMovieReading(root, title, words, startStudy) {
           onclick: () => show(page + 1, true) }, 'Next'));
     }
     const start = page * linesPerPage;
-    passage.replaceChildren(...data.lines.slice(start, start + linesPerPage).map(tokens => {
+    passage.replaceChildren(...data.lines.slice(start, start + linesPerPage).map((tokens, offset) => {
       if (!tokens.length) return el('div', { class: 'lyric-break', 'aria-hidden': 'true' });
       const line = el('p', { lang: 'zh-Latn' });
       for (const token of tokens) {
@@ -395,7 +423,8 @@ async function renderMovieReading(root, title, words, startStudy) {
           type: 'button', onclick: () => showDefinition(button, word) }, word.pinyin);
         line.append(button, ' ');
       }
-      return line;
+      const details = captionDetails(data.cues?.[start + offset], title.video);
+      return details ? el('div', { class: 'caption-row' }, details, line) : line;
     }));
     if (moveFocus) {
       heading.focus({ preventScroll: true });
@@ -415,7 +444,12 @@ async function renderMovieReading(root, title, words, startStudy) {
         if (batch.length) startStudy(batch);
       } }, `Study ${studyCount} unfamiliar words`), passage);
   } else {
-    root.replaceChildren(heading, readingCoverage, progress, instructions, top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
+    const timingHelp = data.cues ? el('p', { class: 'hint' },
+      title.step === 1
+        ? 'Times appear where the transcript matches the video captions. Speaker names are unavailable.'
+        : 'Times come from the subtitle track. Speaker names are unavailable.') : null;
+    root.replaceChildren(heading, readingCoverage, progress, instructions, ...(timingHelp ? [timingHelp] : []),
+      top, passage, bottom, definition, movieLink(title.transcriptSource, 'Transcript source'));
   }
   show(0);
   return () => {

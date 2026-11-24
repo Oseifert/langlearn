@@ -232,3 +232,8 @@ button.movie-word-content{cursor:pointer}
 #view h3[tabindex="-1"]{scroll-margin-top:5rem}
 .lyric-break{height:.85rem}
 .song-study{margin-bottom:.9rem}
+.caption-row{padding:.5rem 0;border-bottom:1px solid var(--line)}
+.caption-row:last-child{border-bottom:0}
+.caption-row p{margin:.15rem 0 0}
+.caption-details{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem;color:var(--muted);font-size:.75rem;font-variant-numeric:tabular-nums}
+.caption-details .movie-link{margin:0;text-decoration:underline;text-underline-offset:.15em}
