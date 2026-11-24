@@ -396,6 +396,7 @@ async function render() {
   // ＋ upload button only makes sense on the home screen.
   $('#uploadBtn').hidden = view !== 'home';
   updateAutoplayBtn(params?.movie ? 'movie' : view);
+  if (view === 'songs' || view === 'song') return renderSongs(root, params?.id);
   if (view === 'movies' || view === 'movie') return renderMovies(root, params?.step);
   if (view === 'home') return renderHome(root);
   if (view === 'deck') return renderDeck(root, params.deckId);
@@ -452,7 +453,7 @@ async function renderSettings(root) {
 }
 
 // ---- Home: deck list ----
-const BUILD = 'v99 · movie reading';
+const BUILD = 'v100 · song learning';
 
 // Sort key for home-screen deck ordering. Prefer an explicit createdAt; for
 // weekly decks (id wk_YYYY_NN) with a missing/odd createdAt, derive an ISO date
@@ -1007,7 +1008,7 @@ async function renderPractice(root, params) {
       _currentAudioCard = null; // Chinese not shown yet on this face
     } else {
       // Face-down 中→EN prompt: NO emoji — it would give away the English answer.
-      card.append(el('div', { class: 'front' }, c.front));
+      card.append(el('div', { class: 'front' }, params.studyWords?.get(c.id)?.pinyin || c.front));
       // Audio is safe here — hearing the Mandarin is the point of the prompt.
       if (!params.movie) {
         card.append(audioBtn(c));
@@ -1025,18 +1026,18 @@ async function renderPractice(root, params) {
     stage.append(el('div', { class: 'progress-row' }, el('span', {}, `${i + 1} / ${queue.length}`), el('span', {}, dirLabel)));
     const card = el('div', { class: 'card' });
     if (dir === 'en2zh') {
-      card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, c.meaning));
+      card.append(el('div', { class: 'meaning', style: 'font-size:1.35rem' }, params.studyWords?.get(c.id)?.meaning || c.meaning));
       card.append(el('div', { class: 'divider' }));
-      card.append(el('div', { class: 'front' }, frontText(c)));
+      card.append(el('div', { class: 'front' }, params.studyWords?.get(c.id)?.pinyin || frontText(c)));
       card.append(audioBtn(c));
       // EN→中: Chinese revealed now — auto-play the answer if enabled.
       _currentAudioCard = c;
       maybeAutoplay(c);
     } else {
-      card.append(el('div', { class: 'front' }, frontText(c)));
+      card.append(el('div', { class: 'front' }, params.studyWords?.get(c.id)?.pinyin || frontText(c)));
       if (!params.movie) card.append(audioBtn(c));
       card.append(el('div', { class: 'divider' }));
-      card.append(el('div', { class: 'meaning' }, c.meaning));
+      card.append(el('div', { class: 'meaning' }, params.studyWords?.get(c.id)?.meaning || c.meaning));
       // 中→EN: Chinese already played on the front face; don't replay.
       _currentAudioCard = c;
     }
